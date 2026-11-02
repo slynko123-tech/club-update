@@ -159,8 +159,11 @@ function App() {
 
   const handleGameAction = async (ip: string, appId: string | null, action: 'install_or_update' | 'uninstall' | 'clear_workshop' | 'cancel_all' | 'update_agent' | 'check_game') => {
     if (!ip) return alert('У этого ПК нет IP');
-    
-    if (action === 'uninstall' && !window.confirm("Вы уверены, что хотите УДАЛИТЬ эту игру?")) return;
+
+    if (action === 'uninstall') {
+      const gameName = allGames.find(g => g.appId === appId)?.name || 'эту игру';
+      if (!window.confirm(`Вы уверены, что хотите УДАЛИТЬ ${gameName}?\n\nИгра будет полностью удалена с компьютера.`)) return;
+    }
     if (action === 'clear_workshop' && !window.confirm("Вы уверены, что хотите ОЧИСТИТЬ МАСТЕРСКУЮ на этом ПК?")) return;
     if (action === 'cancel_all' && !window.confirm("Вы уверены, что хотите ОТМЕНИТЬ ВСЕ ТЕКУЩИЕ ЗАДАЧИ на этом ПК?")) return;
     if (action === 'update_agent' && !window.confirm("Обновить агента на этом ПК? (ПК перезагружать не нужно)")) return;
@@ -177,12 +180,21 @@ function App() {
     }, 8000);
 
     try {
-      await fetch('/api/command', {
+      const response = await fetch('/api/command', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ ip: ip, action: action, appId: appId, customAuth: getAuthPayload() })
       });
-    } catch (e) { alert('Ошибка при отправке'); }
+
+      if (!response.ok) {
+        throw new Error('Ошибка сервера');
+      }
+
+      console.log(`✅ Команда ${action} отправлена на ${ip}`);
+    } catch (e) {
+      console.error('Ошибка при отправке команды:', e);
+      alert('Ошибка при отправке команды');
+    }
   };
 
   const getModalGamesList = () => {
@@ -203,15 +215,22 @@ function App() {
   const renderGameProgress = (gameName: string) => {
       if (!activePc || !activePc.update) return null;
       const statusStr = activePc.update;
+
+      // Проверяем, идёт ли процесс с этой игрой
       if (statusStr.includes(gameName) && (statusStr.includes('⏳') || statusStr.includes('🗑️') || statusStr.includes('🔄'))) {
           const percentMatch = statusStr.match(/(\d+)%/);
           let displayStr = statusStr.replace('⏳ ', '').replace('🗑️ ', '').replace('🔄 ', '');
           let percent = percentMatch ? parseInt(percentMatch[1]) : 0;
+
+          // Определяем тип процесса для правильного цвета
+          const isDeleting = statusStr.includes('🗑️') || statusStr.toLowerCase().includes('удален');
+          const barColor = isDeleting ? 'bg-red-500' : 'bg-club-accent';
+
           return (
               <div className="flex flex-col w-48 items-end justify-center">
-                  <div className="text-xs text-club-accent mb-1 font-bold animate-pulse">{displayStr}</div>
+                  <div className={`text-xs ${isDeleting ? 'text-red-400' : 'text-club-accent'} mb-1 font-bold animate-pulse`}>{displayStr}</div>
                   <div className="w-full bg-gray-800 rounded-full h-1.5 overflow-hidden">
-                      <div className={`bg-club-accent h-1.5 rounded-full transition-all duration-500 ${percent === 0 ? 'animate-pulse w-full opacity-50' : ''}`} style={{ width: percent > 0 ? `${percent}%` : '100%' }}></div>
+                      <div className={`${barColor} h-1.5 rounded-full transition-all duration-500 ${percent === 0 ? 'animate-pulse w-full opacity-50' : ''}`} style={{ width: percent > 0 ? `${percent}%` : '100%' }}></div>
                   </div>
               </div>
           );
@@ -237,7 +256,7 @@ function App() {
   return (
     <div className="min-h-screen bg-club-bg text-white font-sans relative flex flex-col">
       
-      <div className="flex items-center justify-between px-6 py-2 bg-black border-b border-club-panel select-none" style={{ WebkitAppRegion: 'drag' } as React.CSSProperties}>
+      <div className="flex items-center justify-between px-6 py-2 bg-black border-b border-club-panel select-none sticky top-0 z-50" style={{ WebkitAppRegion: 'drag' } as React.CSSProperties}>
         <div className="flex items-center gap-3">
           <img src="/logo.png" alt="Logo" className="h-7 w-auto" />
           <h1 className="text-club-accent text-lg font-bold tracking-wider">CLUB UPDATE</h1>
@@ -252,7 +271,7 @@ function App() {
       </div>
 
       <div className="p-8 flex-1 overflow-auto">
-        <header className="flex flex-wrap justify-between items-center gap-4 mb-8 border-b border-club-panel pb-4">
+        <header className="flex flex-wrap justify-between items-center gap-4 mb-8 border-b border-club-panel pb-4 bg-club-bg sticky top-0 z-40 -mx-8 px-8">
           <div className="flex items-center gap-4">
             <div className="flex items-center gap-2">
               <span className="text-gray-400 text-sm">Клуб:</span>
@@ -459,16 +478,18 @@ function App() {
                                   // НЕ УСТАНОВЛЕНА -> УСТАНОВИТЬ
                                   <button onClick={() => handleGameAction(activePc.ip, game.appId, 'install_or_update')} className="py-1.5 px-4 rounded font-bold text-sm transition-all duration-200 cursor-pointer bg-club-accent hover:brightness-110 text-black shadow-[0_0_10px_rgba(255,212,0,0.2)] hover:shadow-[0_0_15px_rgba(255,212,0,0.5)] active:scale-95">Установить</button>
                               ) : updateStatus === '🔄 Есть обновление' ? (
-                                  // ЕСТЬ ОБНОВЛЕНИЕ -> ОБНОВИТЬ
+                                  // ЕСТЬ ОБНОВЛЕНИЕ -> ОБНОВИТЬ + УДАЛИТЬ
                                   <div className="flex gap-2">
-                                      <button onClick={() => handleGameAction(activePc.ip, game.appId, 'uninstall')} className="py-1.5 px-4 rounded font-bold text-sm transition-all duration-200 cursor-pointer bg-red-500/10 text-red-500 border border-red-500/30 hover:bg-red-500 hover:text-white hover:border-red-500 active:scale-95">Удалить</button>
-                                      <button onClick={() => handleGameAction(activePc.ip, game.appId, 'install_or_update')} className="py-1.5 px-4 rounded font-bold text-sm transition-all duration-200 cursor-pointer bg-club-accent hover:brightness-110 text-black shadow-[0_0_10px_rgba(255,212,0,0.2)] hover:shadow-[0_0_15px_rgba(255,212,0,0.5)] active:scale-95">Обновить</button>
+                                      <button onClick={(e) => { e.stopPropagation(); handleGameAction(activePc.ip, game.appId, 'uninstall'); }} className="py-1.5 px-4 rounded font-bold text-sm transition-all duration-200 cursor-pointer bg-red-500/10 text-red-500 border border-red-500/30 hover:bg-red-500 hover:text-white hover:border-red-500 active:scale-95">Удалить</button>
+                                      <button onClick={(e) => { e.stopPropagation(); handleGameAction(activePc.ip, game.appId, 'install_or_update'); }} className="py-1.5 px-4 rounded font-bold text-sm transition-all duration-200 cursor-pointer bg-club-accent hover:brightness-110 text-black shadow-[0_0_10px_rgba(255,212,0,0.2)] hover:shadow-[0_0_15px_rgba(255,212,0,0.5)] active:scale-95">Обновить</button>
                                   </div>
                               ) : (
-                                  // АКТУАЛЬНА ИЛИ НЕ ПРОВЕРЕНА -> ПРОВЕРИТЬ
+                                  // УСТАНОВЛЕНА -> ВСЕГДА ПОКАЗЫВАЕМ УДАЛИТЬ + ПРОВЕРИТЬ
                                   <div className="flex items-center gap-2">
-                                      {updateStatus === '✅ Актуален' && <span className="text-xs text-green-500 font-bold mr-1">Актуален</span>}
-                                      <button onClick={() => handleGameAction(activePc.ip, game.appId, 'check_game')} className="py-1.5 px-4 rounded font-bold text-sm transition-all duration-200 cursor-pointer bg-gray-700 hover:bg-gray-600 text-white active:scale-95">Проверить</button>
+                                      {updateStatus === '✅ Актуален' && <span className="text-xs text-green-500 font-bold">✅ Актуален</span>}
+                                      {updateStatus === '❓ Ошибка' && <span className="text-xs text-red-500 font-bold">❓ Ошибка</span>}
+                                      <button onClick={(e) => { e.stopPropagation(); handleGameAction(activePc.ip, game.appId, 'uninstall'); }} className="py-1.5 px-4 rounded font-bold text-sm transition-all duration-200 cursor-pointer bg-red-500/10 text-red-500 border border-red-500/30 hover:bg-red-500 hover:text-white hover:border-red-500 active:scale-95">Удалить</button>
+                                      <button onClick={(e) => { e.stopPropagation(); handleGameAction(activePc.ip, game.appId, 'check_game'); }} className="py-1.5 px-4 rounded font-bold text-sm transition-all duration-200 cursor-pointer bg-gray-700 hover:bg-gray-600 text-white active:scale-95">Проверить</button>
                                   </div>
                               )}
                             </div>
