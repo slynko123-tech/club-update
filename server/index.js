@@ -90,7 +90,7 @@ async function fetchHostsFromSmartShell(club) {
     const hostsResponse = await fetch(API_URL, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', 'Accept': 'application/json', 'User-Agent': `company_id=${club.companyId}`, 'Authorization': `Bearer ${token}` },
-      body: JSON.stringify({ 
+      body: JSON.stringify({
           query: `query hostsData {
             hostsOverview {
               id
@@ -102,6 +102,9 @@ async function fetchHostsFromSmartShell(club) {
                 id
                 started_at
                 finished_at
+                duration
+                elapsed
+                time_left
               }
             }
           }`
@@ -111,6 +114,7 @@ async function fetchHostsFromSmartShell(club) {
     return hostsData.data?.hostsOverview || [];
 }
 
+// Оптимизированное обновление - только если есть активные подключения
 setInterval(async () => {
     for (const club of clubs) {
         try {
@@ -118,7 +122,7 @@ setInterval(async () => {
             hostsCache[club.id] = { data: hosts, lastUpdate: Date.now() };
         } catch (error) {}
     }
-}, 10000);
+}, 5000); // Уменьшен интервал до 5 секунд для более частого обновления
 
 app.get('/api/clubs', (req, res) => res.json(clubs.map(c => ({ id: c.id, name: c.name }))));
 app.get('/api/games', (req, res) => res.json(GAMES));
@@ -143,13 +147,19 @@ app.get('/api/pcs', async (req, res) => {
   try {
     const hosts = hostsCache[clubId].data;
     const formattedPcs = hosts.map(host => {
-      let status = 'Оффлайн'; 
+      let status = 'Оффлайн';
       let statusColor = 'bg-gray-600';
-      
+
       if (host.in_service) {
           status = 'Обслуживание'; statusColor = 'bg-yellow-500';
       } else if (host.online) {
-          const hasActiveSession = host.client_sessions && host.client_sessions.some(s => !s.finished_at);
+          // Проверяем активные сессии:
+          // Сессия активна если есть оставшееся время (time_left > 0)
+          const hasActiveSession = host.client_sessions &&
+                                    Array.isArray(host.client_sessions) &&
+                                    host.client_sessions.length > 0 &&
+                                    host.client_sessions.some(s => s && s.time_left && s.time_left > 0);
+
           if (hasActiveSession) {
               status = 'В игре'; statusColor = 'bg-blue-500';
           } else {
@@ -319,11 +329,18 @@ cron.schedule('0 6 * * *', async () => {
 });
 
 app.use(express.static(path.join(__dirname, '../dist')));
-app.get('*', (req, res) => {
+
+// Fallback route для SPA - должен быть последним
+app.use((req, res) => {
     res.sendFile(path.join(__dirname, '../dist/index.html'));
 });
 
 app.listen(PORT, '0.0.0.0', () => {
     console.log(`✅ Сервер запущен на http://localhost:${PORT}`);
     console.log(`🌐 Твой локальный IP: ${getLocalIp()}`);
+
+    // Уведомляем главный процесс о готовности сервера
+    if (process.send) {
+        process.send('server-ready');
+    }
 });

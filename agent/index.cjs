@@ -5,7 +5,7 @@ const fs = require('fs');
 
 // 👇 НАСТРОЙКИ ЯНДЕКС.ДИСКА
 const YANDEX_TOKEN = 'y0__wgBEISkm6wFGNuWAyDC7vTLGWU0F0dbBxnmvFEVZmDGsnI2nRqG';
-const AGENT_VERSION = '1.0.8'; // 👈 Версия агента
+const AGENT_VERSION = '1.0.9'; // 👈 Версия агента
 
 // 👇 ЛОГИ
 let agentLogs = [];
@@ -53,6 +53,8 @@ let cachedInstalledGames = [];
 let cachedWorkshopSize = '—';
 let lastCacheUpdate = 0;
 let lastWorkshopCalc = 0;
+let gameStatusCache = {}; // ← Кэш статусов игр
+let lastGameStatusCheck = {}; // ← Время последней проверки каждой игры
 
 if (fs.existsSync(configPath)) {
     try {
@@ -201,7 +203,8 @@ function getDirSize(directoryPath) {
 }
 
 function getWorkshopSize() {
-    if (Date.now() - lastWorkshopCalc < 60000) return cachedWorkshopSize; 
+    // Увеличен кэш с 60 до 300 секунд (5 минут)
+    if (Date.now() - lastWorkshopCalc < 300000) return cachedWorkshopSize;
     let totalBytes = 0;
     try {
         const libraries = getSteamLibraries();
@@ -269,23 +272,40 @@ function getLocalBuildId(appId) {
     return null;
 }
 
-// 👇 ФУНКЦИЯ ПРОВЕРКИ СТАТУСА ИГРЫ
+// 👇 ФУНКЦИЯ ПРОВЕРКИ СТАТУСА ИГРЫ (С КЭШИРОВАНИЕМ)
 function checkGameStatus(appId) {
+    // Проверяем кэш (10 минут)
+    const cacheKey = appId;
+    const now = Date.now();
+    if (gameStatusCache[cacheKey] && lastGameStatusCheck[cacheKey] && (now - lastGameStatusCheck[cacheKey] < 600000)) {
+        console.log(`✅ Используем кэшированный статус для App ${appId}`);
+        return gameStatusCache[cacheKey];
+    }
+
     const local = getLocalBuildId(appId);
-    if (!local) return { status: '❌ Не установлена', dir: null };
+    if (!local) {
+        const result = { status: '❌ Не установлена', dir: null };
+        gameStatusCache[cacheKey] = result;
+        lastGameStatusCheck[cacheKey] = now;
+        return result;
+    }
     try {
         const command = `"${steamCmdPath}" +login anonymous +app_info_print ${appId} +quit`;
         const stdout = execSync(command, { timeout: 30000 }).toString();
         const remoteMatch = stdout.match(/"buildid"\s+"(\d+)"/);
         if (remoteMatch && remoteMatch[1]) {
-            if (local.buildId === remoteMatch[1]) {
-                return { status: '✅ Актуален', dir: local.libraryDir };
-            } else {
-                return { status: '🔄 Есть обновление', dir: local.libraryDir };
-            }
+            const result = local.buildId === remoteMatch[1]
+                ? { status: '✅ Актуален', dir: local.libraryDir }
+                : { status: '🔄 Есть обновление', dir: local.libraryDir };
+            gameStatusCache[cacheKey] = result;
+            lastGameStatusCheck[cacheKey] = now;
+            return result;
         }
     } catch (e) { console.error(e); }
-    return { status: '❓ Ошибка', dir: local.libraryDir };
+    const result = { status: '❓ Ошибка', dir: local.libraryDir };
+    gameStatusCache[cacheKey] = result;
+    lastGameStatusCheck[cacheKey] = now;
+    return result;
 }
 
 // 👇 ФУНКЦИЯ МАССОВОЙ ПРОВЕРКИ
@@ -744,7 +764,7 @@ async function mainLoop() {
         await checkCommands(ips);
     } catch (error) {}
     isReporting = false;
-    setTimeout(mainLoop, 3000); 
+    setTimeout(mainLoop, 5000); // ← Увеличено с 3000 до 5000 мс
 }
 
 console.log(`🤖 Агент запущен (v${AGENT_VERSION}). Слушаю сервер: ${SERVER_URL}`);

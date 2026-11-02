@@ -28,6 +28,10 @@ function App() {
 
   const [pendingActions, setPendingActions] = useState<{ [key: string]: boolean }>({});
 
+  // 👇 НОВОЕ: Changelog
+  const [showChangelog, setShowChangelog] = useState(false);
+  const [changelog, setChangelog] = useState<any>(null);
+
   const closeWindow = () => { (window as any).electronAPI?.closeWindow(); };
   const minimizeWindow = () => { (window as any).electronAPI?.minimizeWindow(); };
   const maximizeWindow = () => { (window as any).electronAPI?.maximizeWindow(); };
@@ -35,13 +39,14 @@ function App() {
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       if (e.key === 'Escape') {
+        if (showChangelog) return; // 👈 НЕ ЗАКРЫВАЕМ CHANGELOG ПО ESC
         if (activePc) setActivePc(null);
         if (showHistory) setShowHistory(false);
       }
     };
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [activePc, showHistory]);
+  }, [activePc, showHistory, showChangelog]);
 
   useEffect(() => {
     if (activeTab === 'logs') logsEndRef.current?.scrollIntoView({ behavior: 'smooth' });
@@ -83,7 +88,25 @@ function App() {
 
     fetch('/api/version')
       .then(res => res.json())
-      .then(data => setAdminVersion(data.version))
+      .then(data => {
+        setAdminVersion(data.version);
+
+        // 👇 ПРОВЕРЯЕМ CHANGELOG
+        const lastSeenVersion = localStorage.getItem('lastSeenVersion');
+        if (lastSeenVersion !== data.version) {
+          // Загружаем changelog
+          fetch('/CHANGELOG.json')
+            .then(res => res.json())
+            .then(changelogData => {
+              if (changelogData[data.version]) {
+                setChangelog(changelogData[data.version]);
+                setShowChangelog(true);
+                localStorage.setItem('lastSeenVersion', data.version);
+              }
+            })
+            .catch(() => {});
+        }
+      })
       .catch(() => {});
   }, []);
 
@@ -522,6 +545,56 @@ function App() {
                   )}
                 </div>
                 <button onClick={() => setActivePc(null)} className="bg-gray-700 hover:bg-gray-600 text-white py-2 px-6 rounded transition-all duration-200 active:scale-95 cursor-pointer">Закрыть</button>
+              </div>
+            </div>
+          </div>
+        )}
+
+        {showChangelog && changelog && (
+          <div className="fixed inset-0 bg-black/90 flex items-center justify-center z-50">
+            <div className="bg-club-panel w-[700px] rounded-xl border border-club-accent shadow-2xl overflow-hidden flex flex-col animate-[slideIn_0.3s_ease-out]">
+              <div className="flex justify-between items-center p-6 border-b border-gray-700 bg-gradient-to-r from-club-accent/10 to-transparent">
+                <div>
+                  <h2 className="text-2xl font-bold text-club-accent flex items-center gap-3">
+                    🎉 Обновление {adminVersion}
+                  </h2>
+                  <p className="text-sm text-gray-400 mt-1">{changelog.date} • {changelog.title}</p>
+                </div>
+                <button onClick={() => setShowChangelog(false)} className="text-gray-400 hover:text-red-500 text-3xl leading-none transition-colors cursor-pointer" title="Закрыть">&times;</button>
+              </div>
+
+              <div className="p-6 overflow-y-auto max-h-[70vh]">
+                <div className="space-y-4">
+                  {changelog.changes.map((change: any, index: number) => {
+                    const icons: any = {
+                      'fix': '🐛',
+                      'feature': '✨',
+                      'improvement': '🚀',
+                      'security': '🔒'
+                    };
+                    const colors: any = {
+                      'fix': 'border-red-500/30 bg-red-500/5',
+                      'feature': 'border-green-500/30 bg-green-500/5',
+                      'improvement': 'border-blue-500/30 bg-blue-500/5',
+                      'security': 'border-yellow-500/30 bg-yellow-500/5'
+                    };
+                    return (
+                      <div key={index} className={`border rounded-lg p-4 ${colors[change.type] || 'border-gray-700'}`}>
+                        <div className="flex items-start gap-3">
+                          <span className="text-2xl">{icons[change.type] || '📝'}</span>
+                          <div className="flex-1">
+                            <h3 className="font-bold text-white mb-1">{change.title}</h3>
+                            <p className="text-sm text-gray-400 leading-relaxed">{change.description}</p>
+                          </div>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+
+              <div className="p-4 border-t border-gray-700 bg-[#222] flex justify-end">
+                <button onClick={() => setShowChangelog(false)} className="bg-club-accent hover:brightness-110 text-black font-bold py-2 px-8 rounded transition-all duration-200 active:scale-95 cursor-pointer">Понятно</button>
               </div>
             </div>
           </div>

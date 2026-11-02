@@ -1,7 +1,7 @@
 {
   "name": "club-update",
   "private": true,
-  "version": "1.0.8",
+  "version": "1.0.9",
   "main": "main.cjs",
   "scripts": {
     "dev": "vite",
@@ -23,13 +23,13 @@
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.19",
     "electron": "^31.0.0",
     "electron-builder": "^26.0.10",
-    "typescript": "^5.2.2",
-    "vite": "^5.3.1",
-    "tailwindcss": "^3.4.4",
     "postcss": "^8.4.38",
-    "autoprefixer": "^10.4.19"
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.1"
   },
   "build": {
     "appId": "com.clubupdate.admin",
@@ -55,5 +55,10 @@
       "target": "nsis",
       "icon": "build/icon.ico"
     }
+  },
+  "allowScripts": {
+    "esbuild@0.21.5": true,
+    "electron-winstaller@5.4.0": true,
+    "electron@31.0.0": true
   }
 }
