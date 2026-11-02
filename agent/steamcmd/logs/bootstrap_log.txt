@@ -1,0 +1,677 @@
+
+
+[2026-10-30 12:47:49] Startup - updater built Dec  2 2013 18:43:44
+[2026-10-30 12:47:49] Checking for update on startup
+[2026-10-30 12:47:49] Checking for available update...
+[2026-10-30 12:47:49] Download failed: http error 0
+[2026-10-30 12:47:50] Package file steamcmd_public_all.zip.ea97f8fd711e4ae492274da96e83bf31eb804528 missing or incorrect size
+[2026-10-30 12:47:50] Package file steamcmd_bins_win32.zip.7ae579f513787b332395a86b4515b400c2f57eaa missing or incorrect size
+[2026-10-30 12:47:50] Package file steamcmd_steamservice_win32.zip.27fe69fc971de8c9fe785daa7a934921369d725b missing or incorrect size
+[2026-10-30 12:47:50] Package file steamcmd_steamerrorreporter_win32.zip.e8bd4e7243ba4a8745195d2435b4ed2a9a7d8aa2 missing or incorrect size
+[2026-10-30 12:47:50] Package file steamcmd_siteserverui_win32.zip.4760659039c6d35313324e11ff600d519924b220 missing or incorrect size
+[2026-10-30 12:47:50] Package file steamcmd_win32.zip.ae4a6f47ec93a6d7c6216d3a0638060ffd31dc62 missing or incorrect size
+[2026-10-30 12:47:50] Downloading update (0 of 43,472 KB)...
+[2026-10-30 12:47:51] Error: Download of package (steamcmd_win32) failed after 0 bytes (0).
+[2026-10-30 12:47:51] Error: Download of package (steamcmd_siteserverui_win32) failed after 0 bytes (0).
+[2026-10-30 12:47:51] Error: Download of package (steamcmd_steamerrorreporter_win32) failed after 0 bytes (0).
+[2026-10-30 12:47:51] Error: Download of package (steamcmd_steamservice_win32) failed after 0 bytes (0).
+[2026-10-30 12:47:51] Error: Download of package (steamcmd_bins_win32) failed after 0 bytes (0).
+[2026-10-30 12:47:51] Error: Download of package (steamcmd_public_all) failed after 0 bytes (0).
+[2026-10-30 12:47:51] Package file steamcmd_public_all.zip.ea97f8fd711e4ae492274da96e83bf31eb804528 missing or incorrect size
+[2026-10-30 12:47:51] Package file steamcmd_bins_win32.zip.7ae579f513787b332395a86b4515b400c2f57eaa missing or incorrect size
+[2026-10-30 12:47:51] Package file steamcmd_steamservice_win32.zip.27fe69fc971de8c9fe785daa7a934921369d725b missing or incorrect size
+[2026-10-30 12:47:51] Package file steamcmd_steamerrorreporter_win32.zip.e8bd4e7243ba4a8745195d2435b4ed2a9a7d8aa2 missing or incorrect size
+[2026-10-30 12:47:51] Package file steamcmd_siteserverui_win32.zip.4760659039c6d35313324e11ff600d519924b220 missing or incorrect size
+[2026-10-30 12:47:51] Package file steamcmd_win32.zip.ae4a6f47ec93a6d7c6216d3a0638060ffd31dc62 missing or incorrect size
+[2026-10-30 12:47:51] Downloading update (57 of 43,472 KB)...
+[2026-10-30 12:47:51] Downloading update (299 of 43,472 KB)...
+[2026-10-30 12:47:51] Downloading update (4,119 of 43,472 KB)...
+[2026-10-30 12:47:52] Downloading update (12,928 of 43,472 KB)...
+[2026-10-30 12:47:52] Downloading update (21,926 of 43,472 KB)...
+[2026-10-30 12:47:52] Downloading update (30,443 of 43,472 KB)...
+[2026-10-30 12:47:52] Downloading update (39,112 of 43,472 KB)...
+[2026-10-30 12:47:53] Downloading update (42,923 of 43,472 KB)...
+[2026-10-30 12:47:53] Downloading update (43,472 of 43,472 KB)...
+[2026-10-30 12:47:53] Download Complete.
+[2026-10-30 12:47:53] uninstalled manifest found in C:\Users\Comp9\Desktop\club-update\agent\steamcmd\package\steam_cmd_win32 (1).
+[2026-10-30 12:47:53] Found pending update
+[2026-10-30 12:47:53] Applying update...
+[2026-10-30 12:47:53] Extracting package...
+[2026-10-30 12:47:54] Installing update...
+[2026-10-30 12:47:55] Committing NTFS transaction (0 non-transactional backup files)
+[2026-10-30 12:47:55] Cleaning up...
+[2026-10-30 12:47:55] Update complete, launching...
+[2026-10-30 12:47:55] Shutdown
+
+
+[2026-10-30 12:48:39] Startup - updater built Oct 21 2026 14:10:58
+[2026-10-30 12:48:39] Startup - Steam Client launched with: "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamcmd.exe"   <+36 truncated>
+[2026-10-30 12:48:39] Windows 10.0.26200.0, 0, 2, 256, 1, 48 
+[2026-10-30 12:48:39] Failed to load cached hosts file (File 'update_hosts_cached.vdf' not found), using defaults
+[2026-10-30 12:48:39] Using the following download hosts for Public, Realm steamglobal
+[2026-10-30 12:48:39] 1. https://client-update.steamstatic.com, /, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2026-10-30 12:48:39] Checking for update on startup
+[2026-10-30 12:48:39] Проверка на наличие обновлений...
+[2026-10-30 12:48:39] Downloading manifest: https://client-update.steamstatic.com/steam_cmd_win64
+[2026-10-30 12:48:39] Manifest download: send request
+[2026-10-30 12:48:39] Manifest download: waiting for download to finish
+[2026-10-30 12:48:40] Manifest download: finished
+[2026-10-30 12:48:40] Download skipped: /steam_cmd_win64 version 1792617903, installed version 1792617903, existing pending version 0
+[2026-10-30 12:48:40] Nothing to do
+[2026-10-30 12:48:40] Проверка установки...
+[2026-10-30 12:48:40] Verifying all executable checksums
+[2026-10-30 12:48:40] Verification complete
+[2026-10-30 12:48:49] Shutdown
+
+
+[2026-10-30 12:48:54] Startup - updater built Oct 21 2026 14:10:58
+[2026-10-30 12:48:54] Startup - Steam Client launched with: "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamcmd.exe"   <+36 truncated>
+[2026-10-30 12:48:54] Windows 10.0.26200.0, 0, 2, 256, 1, 48 
+[2026-10-30 12:48:54] Failed to load cached hosts file (File 'update_hosts_cached.vdf' not found), using defaults
+[2026-10-30 12:48:54] Using the following download hosts for Public, Realm steamglobal
+[2026-10-30 12:48:54] 1. https://client-update.steamstatic.com, /, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2026-10-30 12:48:54] Checking for update on startup
+[2026-10-30 12:48:54] Проверка на наличие обновлений...
+[2026-10-30 12:48:54] Downloading manifest: https://client-update.steamstatic.com/steam_cmd_win64
+[2026-10-30 12:48:54] Manifest download: send request
+[2026-10-30 12:48:54] Manifest download: waiting for download to finish
+[2026-10-30 12:48:55] Manifest download: finished
+[2026-10-30 12:48:55] Download skipped: /steam_cmd_win64 version 1792617903, installed version 1792617903, existing pending version 0
+[2026-10-30 12:48:55] Nothing to do
+[2026-10-30 12:48:55] Проверка установки...
+[2026-10-30 12:48:55] Verifying all executable checksums
+[2026-10-30 12:48:55] Verification complete
+[2026-10-30 12:49:00] Shutdown
+
+
+[2026-10-30 12:49:09] Startup - updater built Oct 21 2026 14:10:58
+[2026-10-30 12:49:09] Startup - Steam Client launched with: "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamcmd.exe"   <+36 truncated>
+[2026-10-30 12:49:09] Windows 10.0.26200.0, 0, 2, 256, 1, 48 
+[2026-10-30 12:49:09] Failed to load cached hosts file (File 'update_hosts_cached.vdf' not found), using defaults
+[2026-10-30 12:49:09] Using the following download hosts for Public, Realm steamglobal
+[2026-10-30 12:49:09] 1. https://client-update.steamstatic.com, /, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2026-10-30 12:49:09] Checking for update on startup
+[2026-10-30 12:49:09] Проверка на наличие обновлений...
+[2026-10-30 12:49:09] Downloading manifest: https://client-update.steamstatic.com/steam_cmd_win64
+[2026-10-30 12:49:09] Manifest download: send request
+[2026-10-30 12:49:09] Manifest download: waiting for download to finish
+[2026-10-30 12:49:10] Manifest download: finished
+[2026-10-30 12:49:10] Download skipped: /steam_cmd_win64 version 1792617903, installed version 1792617903, existing pending version 0
+[2026-10-30 12:49:10] Nothing to do
+[2026-10-30 12:49:10] Проверка установки...
+[2026-10-30 12:49:10] Verifying all executable checksums
+[2026-10-30 12:49:10] Verification complete
+[2026-10-30 12:49:16] Shutdown
+
+
+[2026-10-30 12:49:24] Startup - updater built Oct 21 2026 14:10:58
+[2026-10-30 12:49:24] Startup - Steam Client launched with: "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamcmd.exe"   <+36 truncated>
+[2026-10-30 12:49:24] Windows 10.0.26200.0, 0, 2, 256, 1, 48 
+[2026-10-30 12:49:24] Failed to load cached hosts file (File 'update_hosts_cached.vdf' not found), using defaults
+[2026-10-30 12:49:24] Using the following download hosts for Public, Realm steamglobal
+[2026-10-30 12:49:24] 1. https://client-update.steamstatic.com, /, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2026-10-30 12:49:24] Checking for update on startup
+[2026-10-30 12:49:24] Проверка на наличие обновлений...
+[2026-10-30 12:49:24] Downloading manifest: https://client-update.steamstatic.com/steam_cmd_win64
+[2026-10-30 12:49:24] Manifest download: send request
+[2026-10-30 12:49:24] Manifest download: waiting for download to finish
+[2026-10-30 12:49:25] Manifest download: finished
+[2026-10-30 12:49:25] Download skipped: /steam_cmd_win64 version 1792617903, installed version 1792617903, existing pending version 0
+[2026-10-30 12:49:25] Nothing to do
+[2026-10-30 12:49:25] Проверка установки...
+[2026-10-30 12:49:25] Verifying all executable checksums
+[2026-10-30 12:49:25] Verification complete
+[2026-10-30 12:49:30] Shutdown
+
+
+[2026-10-30 12:49:39] Startup - updater built Oct 21 2026 14:10:58
+[2026-10-30 12:49:39] Startup - Steam Client launched with: "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamcmd.exe"   <+36 truncated>
+[2026-10-30 12:49:39] Windows 10.0.26200.0, 0, 2, 256, 1, 48 
+[2026-10-30 12:49:39] Failed to load cached hosts file (File 'update_hosts_cached.vdf' not found), using defaults
+[2026-10-30 12:49:39] Using the following download hosts for Public, Realm steamglobal
+[2026-10-30 12:49:39] 1. https://client-update.steamstatic.com, /, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2026-10-30 12:49:39] Checking for update on startup
+[2026-10-30 12:49:39] Проверка на наличие обновлений...
+[2026-10-30 12:49:39] Downloading manifest: https://client-update.steamstatic.com/steam_cmd_win64
+[2026-10-30 12:49:39] Manifest download: send request
+[2026-10-30 12:49:39] Manifest download: waiting for download to finish
+[2026-10-30 12:49:40] Manifest download: finished
+[2026-10-30 12:49:40] Download skipped: /steam_cmd_win64 version 1792617903, installed version 1792617903, existing pending version 0
+[2026-10-30 12:49:40] Nothing to do
+[2026-10-30 12:49:40] Проверка установки...
+[2026-10-30 12:49:40] Verifying all executable checksums
+[2026-10-30 12:49:40] Verification complete
+[2026-10-30 12:49:44] Shutdown
+
+
+[2026-10-30 12:49:54] Startup - updater built Oct 21 2026 14:10:58
+[2026-10-30 12:49:54] Startup - Steam Client launched with: "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamcmd.exe"   <+36 truncated>
+[2026-10-30 12:49:54] Windows 10.0.26200.0, 0, 2, 256, 1, 48 
+[2026-10-30 12:49:54] Failed to load cached hosts file (File 'update_hosts_cached.vdf' not found), using defaults
+[2026-10-30 12:49:54] Using the following download hosts for Public, Realm steamglobal
+[2026-10-30 12:49:54] 1. https://client-update.steamstatic.com, /, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2026-10-30 12:49:54] Checking for update on startup
+[2026-10-30 12:49:54] Проверка на наличие обновлений...
+[2026-10-30 12:49:54] Downloading manifest: https://client-update.steamstatic.com/steam_cmd_win64
+[2026-10-30 12:49:54] Manifest download: send request
+[2026-10-30 12:49:54] Manifest download: waiting for download to finish
+[2026-10-30 12:49:55] Manifest download: finished
+[2026-10-30 12:49:55] Download skipped: /steam_cmd_win64 version 1792617903, installed version 1792617903, existing pending version 0
+[2026-10-30 12:49:55] Nothing to do
+[2026-10-30 12:49:55] Проверка установки...
+[2026-10-30 12:49:55] Verifying all executable checksums
+[2026-10-30 12:49:55] Verification complete
+[2026-10-30 12:50:00] Shutdown
+
+
+[2026-10-30 12:50:02] Startup - updater built Oct 21 2026 14:10:58
+[2026-10-30 12:50:02] Startup - Steam Client launched with: "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamcmd.exe" 
+[2026-10-30 12:50:02] Windows 10.0.26200.0, 0, 2, 256, 1, 48 
+[2026-10-30 12:50:02] Failed to load cached hosts file (File 'update_hosts_cached.vdf' not found), using defaults
+[2026-10-30 12:50:02] Using the following download hosts for Public, Realm steamglobal
+[2026-10-30 12:50:02] 1. https://client-update.steamstatic.com, /, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2026-10-30 12:50:02] Checking for update on startup
+[2026-10-30 12:50:02] Проверка на наличие обновлений...
+[2026-10-30 12:50:02] Downloading manifest: https://client-update.steamstatic.com/steam_cmd_win64
+[2026-10-30 12:50:03] Manifest download: send request
+[2026-10-30 12:50:03] Manifest download: waiting for download to finish
+[2026-10-30 12:50:04] Manifest download: finished
+[2026-10-30 12:50:04] Download skipped: /steam_cmd_win64 version 1792617903, installed version 1792617903, existing pending version 0
+[2026-10-30 12:50:04] Nothing to do
+[2026-10-30 12:50:04] Проверка установки...
+[2026-10-30 12:50:04] Verifying all executable checksums
+[2026-10-30 12:50:04] Verification complete
+
+
+[2026-10-30 13:13:53] Startup - updater built Oct 21 2026 14:10:58
+[2026-10-30 13:13:53] Startup - Steam Client launched with: "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamcmd.exe"   <+42 truncated>
+[2026-10-30 13:13:53] Windows 10.0.26200.0, 0, 2, 256, 1, 48 
+[2026-10-30 13:13:53] Using the following download hosts for Public, Realm steamglobal
+[2026-10-30 13:13:53] 1. https://client-update.fastly.steamstatic.com, /, Realm 'steamglobal', weight was 900, source = 'update_hosts_cached.vdf'
+[2026-10-30 13:13:53] 2. https://client-update.akamai.steamstatic.com, /, Realm 'steamglobal', weight was 400, source = 'update_hosts_cached.vdf'
+[2026-10-30 13:13:53] 3. https://client-update.steamstatic.com, /, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2026-10-30 13:13:53] Checking for update on startup
+[2026-10-30 13:13:53] Проверка на наличие обновлений...
+[2026-10-30 13:13:53] Downloading manifest: https://client-update.fastly.steamstatic.com/steam_cmd_win64
+[2026-10-30 13:13:53] Manifest download: send request
+[2026-10-30 13:13:53] Manifest download: waiting for download to finish
+[2026-10-30 13:13:54] Manifest download: finished
+[2026-10-30 13:13:54] Download skipped: /steam_cmd_win64 version 1792617903, installed version 1792617903, existing pending version 0
+[2026-10-30 13:13:54] Nothing to do
+[2026-10-30 13:13:54] Проверка установки...
+[2026-10-30 13:13:54] Verifying all executable checksums
+[2026-10-30 13:13:54] Verification complete
+[2026-10-30 13:13:59] Shutdown
+
+
+[2026-10-30 13:14:02] Startup - updater built Oct 21 2026 14:10:58
+[2026-10-30 13:14:02] Startup - Steam Client launched with: "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamcmd.exe" 
+[2026-10-30 13:14:02] Windows 10.0.26200.0, 0, 2, 256, 1, 48 
+[2026-10-30 13:14:02] Using the following download hosts for Public, Realm steamglobal
+[2026-10-30 13:14:02] 1. https://client-update.fastly.steamstatic.com, /, Realm 'steamglobal', weight was 900, source = 'update_hosts_cached.vdf'
+[2026-10-30 13:14:02] 2. https://client-update.akamai.steamstatic.com, /, Realm 'steamglobal', weight was 400, source = 'update_hosts_cached.vdf'
+[2026-10-30 13:14:02] 3. https://client-update.steamstatic.com, /, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2026-10-30 13:14:02] Checking for update on startup
+[2026-10-30 13:14:02] Проверка на наличие обновлений...
+[2026-10-30 13:14:02] Downloading manifest: https://client-update.fastly.steamstatic.com/steam_cmd_win64
+[2026-10-30 13:14:02] Manifest download: send request
+[2026-10-30 13:14:02] Manifest download: waiting for download to finish
+[2026-10-30 13:14:03] Manifest download: finished
+[2026-10-30 13:14:03] Download skipped: /steam_cmd_win64 version 1792617903, installed version 1792617903, existing pending version 0
+[2026-10-30 13:14:03] Nothing to do
+[2026-10-30 13:14:03] Проверка установки...
+[2026-10-30 13:14:03] Verifying all executable checksums
+[2026-10-30 13:14:03] Verification complete
+
+
+[2026-10-30 13:41:59] Startup - updater built Oct 21 2026 14:10:58
+[2026-10-30 13:41:59] Startup - Steam Client launched with: "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamcmd.exe"   <+42 truncated>
+[2026-10-30 13:41:59] Windows 10.0.26200.0, 0, 2, 256, 1, 48 
+[2026-10-30 13:41:59] Using the following download hosts for Public, Realm steamglobal
+[2026-10-30 13:41:59] 1. https://client-update.fastly.steamstatic.com, /, Realm 'steamglobal', weight was 900, source = 'update_hosts_cached.vdf'
+[2026-10-30 13:41:59] 2. https://client-update.akamai.steamstatic.com, /, Realm 'steamglobal', weight was 400, source = 'update_hosts_cached.vdf'
+[2026-10-30 13:41:59] 3. https://client-update.steamstatic.com, /, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2026-10-30 13:41:59] Checking for update on startup
+[2026-10-30 13:41:59] Проверка на наличие обновлений...
+[2026-10-30 13:41:59] Downloading manifest: https://client-update.fastly.steamstatic.com/steam_cmd_win64
+[2026-10-30 13:41:59] Manifest download: send request
+[2026-10-30 13:42:00] Manifest download: waiting for download to finish
+[2026-10-30 13:42:01] Manifest download: finished
+[2026-10-30 13:42:01] Download skipped: /steam_cmd_win64 version 1792617903, installed version 1792617903, existing pending version 0
+[2026-10-30 13:42:01] Nothing to do
+[2026-10-30 13:42:01] Проверка установки...
+[2026-10-30 13:42:01] Verifying all executable checksums
+[2026-10-30 13:42:01] Verification complete
+[2026-10-30 13:42:06] Shutdown
+
+
+[2026-10-30 13:42:07] Startup - updater built Oct 21 2026 14:10:58
+[2026-10-30 13:42:07] Startup - Steam Client launched with: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamcmd.exe +force_install_dir "c:\program files (x86)\steam"  <+59 truncated>
+[2026-10-30 13:42:07] Windows 10.0.26200.0, 0, 2, 256, 1, 48 
+[2026-10-30 13:42:07] Using the following download hosts for Public, Realm steamglobal
+[2026-10-30 13:42:07] 1. https://client-update.akamai.steamstatic.com, /, Realm 'steamglobal', weight was 400, source = 'update_hosts_cached.vdf'
+[2026-10-30 13:42:07] 2. https://client-update.fastly.steamstatic.com, /, Realm 'steamglobal', weight was 900, source = 'update_hosts_cached.vdf'
+[2026-10-30 13:42:07] 3. https://client-update.steamstatic.com, /, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2026-10-30 13:42:07] Checking for update on startup
+[2026-10-30 13:42:07] Проверка на наличие обновлений...
+[2026-10-30 13:42:07] Downloading manifest: https://client-update.akamai.steamstatic.com/steam_cmd_win64
+[2026-10-30 13:42:07] Manifest download: send request
+[2026-10-30 13:42:07] Manifest download: waiting for download to finish
+[2026-10-30 13:42:09] Manifest download: finished
+[2026-10-30 13:42:09] Download skipped: /steam_cmd_win64 version 1792617903, installed version 1792617903, existing pending version 0
+[2026-10-30 13:42:09] Nothing to do
+[2026-10-30 13:42:09] Проверка установки...
+[2026-10-30 13:42:09] Verifying all executable checksums
+[2026-10-30 13:42:09] Verification complete
+[2026-10-30 14:13:28] Shutdown
+
+
+[2026-10-30 15:20:12] Startup - updater built Oct 21 2026 14:10:58
+[2026-10-30 15:20:12] Startup - Steam Client launched with: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamcmd.exe +force_install_dir D:\SteamCMD_Library  <+37 truncated>
+[2026-10-30 15:20:12] Windows 10.0.26200.0, 0, 2, 256, 1, 48 
+[2026-10-30 15:20:12] Using the following download hosts for Public, Realm steamglobal
+[2026-10-30 15:20:12] 1. https://client-update.fastly.steamstatic.com, /, Realm 'steamglobal', weight was 900, source = 'update_hosts_cached.vdf'
+[2026-10-30 15:20:12] 2. https://client-update.akamai.steamstatic.com, /, Realm 'steamglobal', weight was 400, source = 'update_hosts_cached.vdf'
+[2026-10-30 15:20:12] 3. https://client-update.steamstatic.com, /, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2026-10-30 15:20:12] Checking for update on startup
+[2026-10-30 15:20:12] Проверка на наличие обновлений...
+[2026-10-30 15:20:12] Downloading manifest: https://client-update.fastly.steamstatic.com/steam_cmd_win64
+[2026-10-30 15:20:12] Manifest download: send request
+[2026-10-30 15:20:12] Manifest download: waiting for download to finish
+[2026-10-30 15:20:14] Manifest download: finished
+[2026-10-30 15:20:14] Download skipped: /steam_cmd_win64 version 1792617903, installed version 1792617903, existing pending version 0
+[2026-10-30 15:20:14] Nothing to do
+[2026-10-30 15:20:14] Проверка установки...
+[2026-10-30 15:20:14] Verifying all executable checksums
+[2026-10-30 15:20:14] Verification complete
+[2026-10-30 15:20:21] Shutdown
+
+
+[2026-10-30 15:21:02] Startup - updater built Oct 21 2026 14:10:58
+[2026-10-30 15:21:02] Startup - Steam Client launched with: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamcmd.exe +force_install_dir D:\SteamCMD_Library  <+37 truncated>
+[2026-10-30 15:21:02] Windows 10.0.26200.0, 0, 2, 256, 1, 48 
+[2026-10-30 15:21:02] Using the following download hosts for Public, Realm steamglobal
+[2026-10-30 15:21:02] 1. https://client-update.fastly.steamstatic.com, /, Realm 'steamglobal', weight was 900, source = 'update_hosts_cached.vdf'
+[2026-10-30 15:21:02] 2. https://client-update.akamai.steamstatic.com, /, Realm 'steamglobal', weight was 400, source = 'update_hosts_cached.vdf'
+[2026-10-30 15:21:02] 3. https://client-update.steamstatic.com, /, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2026-10-30 15:21:02] Checking for update on startup
+[2026-10-30 15:21:02] Проверка на наличие обновлений...
+[2026-10-30 15:21:02] Downloading manifest: https://client-update.fastly.steamstatic.com/steam_cmd_win64
+[2026-10-30 15:21:02] Manifest download: send request
+[2026-10-30 15:21:02] Manifest download: waiting for download to finish
+[2026-10-30 15:21:03] Manifest download: finished
+[2026-10-30 15:21:03] Download skipped: /steam_cmd_win64 version 1792617903, installed version 1792617903, existing pending version 0
+[2026-10-30 15:21:03] Nothing to do
+[2026-10-30 15:21:03] Проверка установки...
+[2026-10-30 15:21:03] Verifying all executable checksums
+[2026-10-30 15:21:03] Verification complete
+[2026-10-30 15:21:09] Shutdown
+
+
+[2026-10-30 15:24:22] Startup - updater built Oct 21 2026 14:10:58
+[2026-10-30 15:24:22] Startup - Steam Client launched with: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamcmd.exe +force_install_dir D:\SteamLibrary  <+38 truncated>
+[2026-10-30 15:24:22] Windows 10.0.26200.0, 0, 2, 256, 1, 48 
+[2026-10-30 15:24:22] Using the following download hosts for Public, Realm steamglobal
+[2026-10-30 15:24:22] 1. https://client-update.akamai.steamstatic.com, /, Realm 'steamglobal', weight was 400, source = 'update_hosts_cached.vdf'
+[2026-10-30 15:24:22] 2. https://client-update.fastly.steamstatic.com, /, Realm 'steamglobal', weight was 900, source = 'update_hosts_cached.vdf'
+[2026-10-30 15:24:22] 3. https://client-update.steamstatic.com, /, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2026-10-30 15:24:22] Checking for update on startup
+[2026-10-30 15:24:22] Проверка на наличие обновлений...
+[2026-10-30 15:24:22] Downloading manifest: https://client-update.akamai.steamstatic.com/steam_cmd_win64
+[2026-10-30 15:24:22] Manifest download: send request
+[2026-10-30 15:24:22] Manifest download: waiting for download to finish
+[2026-10-30 15:24:24] Manifest download: finished
+[2026-10-30 15:24:24] Download skipped: /steam_cmd_win64 version 1792617903, installed version 1792617903, existing pending version 0
+[2026-10-30 15:24:24] Nothing to do
+[2026-10-30 15:24:24] Проверка установки...
+[2026-10-30 15:24:24] Verifying all executable checksums
+[2026-10-30 15:24:24] Verification complete
+[2026-10-30 15:24:30] Shutdown
+
+
+[2026-10-30 15:24:42] Startup - updater built Oct 21 2026 14:10:58
+[2026-10-30 15:24:42] Startup - Steam Client launched with: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamcmd.exe +force_install_dir D:\SteamCMD_Library  <+37 truncated>
+[2026-10-30 15:24:42] Windows 10.0.26200.0, 0, 2, 256, 1, 48 
+[2026-10-30 15:24:42] Using the following download hosts for Public, Realm steamglobal
+[2026-10-30 15:24:42] 1. https://client-update.akamai.steamstatic.com, /, Realm 'steamglobal', weight was 400, source = 'update_hosts_cached.vdf'
+[2026-10-30 15:24:42] 2. https://client-update.fastly.steamstatic.com, /, Realm 'steamglobal', weight was 900, source = 'update_hosts_cached.vdf'
+[2026-10-30 15:24:42] 3. https://client-update.steamstatic.com, /, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2026-10-30 15:24:42] Checking for update on startup
+[2026-10-30 15:24:42] Проверка на наличие обновлений...
+[2026-10-30 15:24:42] Downloading manifest: https://client-update.akamai.steamstatic.com/steam_cmd_win64
+[2026-10-30 15:24:42] Manifest download: send request
+[2026-10-30 15:24:43] Manifest download: waiting for download to finish
+[2026-10-30 15:24:44] Manifest download: finished
+[2026-10-30 15:24:44] Download skipped: /steam_cmd_win64 version 1792617903, installed version 1792617903, existing pending version 0
+[2026-10-30 15:24:44] Nothing to do
+[2026-10-30 15:24:44] Проверка установки...
+[2026-10-30 15:24:44] Verifying all executable checksums
+[2026-10-30 15:24:44] Verification complete
+[2026-10-30 15:24:49] Shutdown
+
+
+[2026-10-30 15:25:42] Startup - updater built Oct 21 2026 14:10:58
+[2026-10-30 15:25:42] Startup - Steam Client launched with: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamcmd.exe +force_install_dir D:\SteamCMD_Library  <+41 truncated>
+[2026-10-30 15:25:42] Windows 10.0.26200.0, 0, 2, 256, 1, 48 
+[2026-10-30 15:25:42] Using the following download hosts for Public, Realm steamglobal
+[2026-10-30 15:25:42] 1. https://client-update.akamai.steamstatic.com, /, Realm 'steamglobal', weight was 400, source = 'update_hosts_cached.vdf'
+[2026-10-30 15:25:42] 2. https://client-update.fastly.steamstatic.com, /, Realm 'steamglobal', weight was 900, source = 'update_hosts_cached.vdf'
+[2026-10-30 15:25:42] 3. https://client-update.steamstatic.com, /, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2026-10-30 15:25:42] Checking for update on startup
+[2026-10-30 15:25:42] Проверка на наличие обновлений...
+[2026-10-30 15:25:42] Downloading manifest: https://client-update.akamai.steamstatic.com/steam_cmd_win64
+[2026-10-30 15:25:42] Manifest download: send request
+[2026-10-30 15:25:43] Manifest download: waiting for download to finish
+[2026-10-30 15:25:44] Manifest download: finished
+[2026-10-30 15:25:44] Download skipped: /steam_cmd_win64 version 1792617903, installed version 1792617903, existing pending version 0
+[2026-10-30 15:25:44] Nothing to do
+[2026-10-30 15:25:44] Проверка установки...
+[2026-10-30 15:25:44] Verifying all executable checksums
+[2026-10-30 15:25:44] Verification complete
+[2026-10-30 15:25:50] Shutdown
+
+
+[2026-10-30 15:28:43] Startup - updater built Oct 21 2026 14:10:58
+[2026-10-30 15:28:43] Startup - Steam Client launched with: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamcmd.exe +force_install_dir D:\SteamCMD_Library  <+41 truncated>
+[2026-10-30 15:28:43] Windows 10.0.26200.0, 0, 2, 256, 1, 48 
+[2026-10-30 15:28:43] Using the following download hosts for Public, Realm steamglobal
+[2026-10-30 15:28:43] 1. https://client-update.fastly.steamstatic.com, /, Realm 'steamglobal', weight was 900, source = 'update_hosts_cached.vdf'
+[2026-10-30 15:28:43] 2. https://client-update.akamai.steamstatic.com, /, Realm 'steamglobal', weight was 400, source = 'update_hosts_cached.vdf'
+[2026-10-30 15:28:43] 3. https://client-update.steamstatic.com, /, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2026-10-30 15:28:43] Checking for update on startup
+[2026-10-30 15:28:43] Проверка на наличие обновлений...
+[2026-10-30 15:28:43] Downloading manifest: https://client-update.fastly.steamstatic.com/steam_cmd_win64
+[2026-10-30 15:28:43] Manifest download: send request
+[2026-10-30 15:28:43] Manifest download: waiting for download to finish
+[2026-10-30 15:28:44] Manifest download: finished
+[2026-10-30 15:28:44] Download skipped: /steam_cmd_win64 version 1792617903, installed version 1792617903, existing pending version 0
+[2026-10-30 15:28:44] Nothing to do
+[2026-10-30 15:28:44] Проверка установки...
+[2026-10-30 15:28:44] Verifying all executable checksums
+[2026-10-30 15:28:44] Verification complete
+[2026-10-30 15:28:50] Shutdown
+
+
+[2026-10-30 15:34:05] Startup - updater built Oct 21 2026 14:10:58
+[2026-10-30 15:34:05] Startup - Steam Client launched with: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamcmd.exe +force_install_dir D:\SteamCMD_Library  <+62 truncated>
+[2026-10-30 15:34:05] Windows 10.0.26200.0, 0, 2, 256, 1, 48 
+[2026-10-30 15:34:05] Using the following download hosts for Public, Realm steamglobal
+[2026-10-30 15:34:05] 1. https://client-update.fastly.steamstatic.com, /, Realm 'steamglobal', weight was 900, source = 'update_hosts_cached.vdf'
+[2026-10-30 15:34:05] 2. https://client-update.akamai.steamstatic.com, /, Realm 'steamglobal', weight was 400, source = 'update_hosts_cached.vdf'
+[2026-10-30 15:34:05] 3. https://client-update.steamstatic.com, /, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2026-10-30 15:34:05] Checking for update on startup
+[2026-10-30 15:34:05] Проверка на наличие обновлений...
+[2026-10-30 15:34:05] Downloading manifest: https://client-update.fastly.steamstatic.com/steam_cmd_win64
+[2026-10-30 15:34:05] Manifest download: send request
+[2026-10-30 15:34:05] Manifest download: waiting for download to finish
+[2026-10-30 15:34:06] Manifest download: finished
+[2026-10-30 15:34:06] Download skipped: /steam_cmd_win64 version 1792617903, installed version 1792617903, existing pending version 0
+[2026-10-30 15:34:06] Nothing to do
+[2026-10-30 15:34:06] Проверка установки...
+[2026-10-30 15:34:06] Verifying all executable checksums
+[2026-10-30 15:34:06] Verification complete
+
+
+[2026-10-30 15:38:57] Startup - updater built Oct 21 2026 14:10:58
+[2026-10-30 15:38:57] Startup - Steam Client launched with: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamcmd.exe +force_install_dir D:\SteamCMD_Library  <+41 truncated>
+[2026-10-30 15:38:57] Windows 10.0.26200.0, 0, 2, 256, 1, 48 
+[2026-10-30 15:38:57] Using the following download hosts for Public, Realm steamglobal
+[2026-10-30 15:38:57] 1. https://client-update.fastly.steamstatic.com, /, Realm 'steamglobal', weight was 900, source = 'update_hosts_cached.vdf'
+[2026-10-30 15:38:57] 2. https://client-update.akamai.steamstatic.com, /, Realm 'steamglobal', weight was 400, source = 'update_hosts_cached.vdf'
+[2026-10-30 15:38:57] 3. https://client-update.steamstatic.com, /, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2026-10-30 15:38:57] Checking for update on startup
+[2026-10-30 15:38:57] Проверка на наличие обновлений...
+[2026-10-30 15:38:57] Downloading manifest: https://client-update.fastly.steamstatic.com/steam_cmd_win64
+[2026-10-30 15:38:57] Manifest download: send request
+[2026-10-30 15:38:57] Manifest download: waiting for download to finish
+[2026-10-30 15:38:58] Manifest download: finished
+[2026-10-30 15:38:58] Download skipped: /steam_cmd_win64 version 1792617903, installed version 1792617903, existing pending version 0
+[2026-10-30 15:38:58] Nothing to do
+[2026-10-30 15:38:58] Проверка установки...
+[2026-10-30 15:38:58] Verifying all executable checksums
+[2026-10-30 15:38:58] Verification complete
+[2026-10-30 15:39:09] Shutdown
+
+
+[2026-10-30 15:44:27] Startup - updater built Oct 21 2026 14:10:58
+[2026-10-30 15:44:27] Startup - Steam Client launched with: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamcmd.exe +force_install_dir D:\SteamCMD_Library  <+41 truncated>
+[2026-10-30 15:44:27] Windows 10.0.26200.0, 0, 2, 256, 1, 48 
+[2026-10-30 15:44:27] Using the following download hosts for Public, Realm steamglobal
+[2026-10-30 15:44:27] 1. https://client-update.fastly.steamstatic.com, /, Realm 'steamglobal', weight was 900, source = 'update_hosts_cached.vdf'
+[2026-10-30 15:44:27] 2. https://client-update.akamai.steamstatic.com, /, Realm 'steamglobal', weight was 400, source = 'update_hosts_cached.vdf'
+[2026-10-30 15:44:27] 3. https://client-update.steamstatic.com, /, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2026-10-30 15:44:27] Checking for update on startup
+[2026-10-30 15:44:27] Проверка на наличие обновлений...
+[2026-10-30 15:44:27] Downloading manifest: https://client-update.fastly.steamstatic.com/steam_cmd_win64
+[2026-10-30 15:44:27] Manifest download: send request
+[2026-10-30 15:44:28] Manifest download: waiting for download to finish
+[2026-10-30 15:44:29] Manifest download: finished
+[2026-10-30 15:44:29] Download skipped: /steam_cmd_win64 version 1792617903, installed version 1792617903, existing pending version 0
+[2026-10-30 15:44:29] Nothing to do
+[2026-10-30 15:44:29] Проверка установки...
+[2026-10-30 15:44:29] Verifying all executable checksums
+[2026-10-30 15:44:29] Verification complete
+[2026-10-30 15:44:35] Shutdown
+
+
+[2026-10-30 15:48:18] Startup - updater built Oct 21 2026 14:10:58
+[2026-10-30 15:48:18] Startup - Steam Client launched with: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamcmd.exe +force_install_dir D:\SteamCMD_Library  <+62 truncated>
+[2026-10-30 15:48:18] Windows 10.0.26200.0, 0, 2, 256, 1, 48 
+[2026-10-30 15:48:18] Using the following download hosts for Public, Realm steamglobal
+[2026-10-30 15:48:18] 1. https://client-update.fastly.steamstatic.com, /, Realm 'steamglobal', weight was 900, source = 'update_hosts_cached.vdf'
+[2026-10-30 15:48:18] 2. https://client-update.akamai.steamstatic.com, /, Realm 'steamglobal', weight was 400, source = 'update_hosts_cached.vdf'
+[2026-10-30 15:48:18] 3. https://client-update.steamstatic.com, /, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2026-10-30 15:48:18] Checking for update on startup
+[2026-10-30 15:48:18] Проверка на наличие обновлений...
+[2026-10-30 15:48:18] Downloading manifest: https://client-update.fastly.steamstatic.com/steam_cmd_win64
+[2026-10-30 15:48:18] Manifest download: send request
+[2026-10-30 15:48:18] Manifest download: waiting for download to finish
+[2026-10-30 15:48:20] Manifest download: finished
+[2026-10-30 15:48:20] Download skipped: /steam_cmd_win64 version 1792617903, installed version 1792617903, existing pending version 0
+[2026-10-30 15:48:20] Nothing to do
+[2026-10-30 15:48:20] Проверка установки...
+[2026-10-30 15:48:20] Verifying all executable checksums
+[2026-10-30 15:48:20] Verification complete
+
+
+[2026-10-30 15:50:43] Startup - updater built Oct 21 2026 14:10:58
+[2026-10-30 15:50:43] Startup - Steam Client launched with: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamcmd.exe +force_install_dir D:\SteamCMD_Library  <+62 truncated>
+[2026-10-30 15:50:43] Windows 10.0.26200.0, 0, 2, 256, 1, 48 
+[2026-10-30 15:50:43] Using the following download hosts for Public, Realm steamglobal
+[2026-10-30 15:50:43] 1. https://client-update.akamai.steamstatic.com, /, Realm 'steamglobal', weight was 400, source = 'update_hosts_cached.vdf'
+[2026-10-30 15:50:43] 2. https://client-update.fastly.steamstatic.com, /, Realm 'steamglobal', weight was 900, source = 'update_hosts_cached.vdf'
+[2026-10-30 15:50:43] 3. https://client-update.steamstatic.com, /, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2026-10-30 15:50:43] Checking for update on startup
+[2026-10-30 15:50:43] Проверка на наличие обновлений...
+[2026-10-30 15:50:43] Downloading manifest: https://client-update.akamai.steamstatic.com/steam_cmd_win64
+[2026-10-30 15:50:43] Manifest download: send request
+[2026-10-30 15:50:43] Manifest download: waiting for download to finish
+[2026-10-30 15:50:44] Manifest download: finished
+[2026-10-30 15:50:44] Download skipped: /steam_cmd_win64 version 1792617903, installed version 1792617903, existing pending version 0
+[2026-10-30 15:50:44] Nothing to do
+[2026-10-30 15:50:44] Проверка установки...
+[2026-10-30 15:50:44] Verifying all executable checksums
+[2026-10-30 15:50:45] Verification complete
+
+
+[2026-10-30 15:54:10] Startup - updater built Oct 21 2026 14:10:58
+[2026-10-30 15:54:10] Startup - Steam Client launched with: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamcmd.exe +force_install_dir D:\SteamCMD_Library  <+62 truncated>
+[2026-10-30 15:54:10] Windows 10.0.26200.0, 0, 2, 256, 1, 48 
+[2026-10-30 15:54:10] Using the following download hosts for Public, Realm steamglobal
+[2026-10-30 15:54:10] 1. https://client-update.akamai.steamstatic.com, /, Realm 'steamglobal', weight was 400, source = 'update_hosts_cached.vdf'
+[2026-10-30 15:54:10] 2. https://client-update.fastly.steamstatic.com, /, Realm 'steamglobal', weight was 900, source = 'update_hosts_cached.vdf'
+[2026-10-30 15:54:10] 3. https://client-update.steamstatic.com, /, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2026-10-30 15:54:10] Checking for update on startup
+[2026-10-30 15:54:10] Проверка на наличие обновлений...
+[2026-10-30 15:54:10] Downloading manifest: https://client-update.akamai.steamstatic.com/steam_cmd_win64
+[2026-10-30 15:54:11] Manifest download: send request
+[2026-10-30 15:54:11] Manifest download: waiting for download to finish
+[2026-10-30 15:54:12] Manifest download: finished
+[2026-10-30 15:54:12] Download skipped: /steam_cmd_win64 version 1792617903, installed version 1792617903, existing pending version 0
+[2026-10-30 15:54:12] Nothing to do
+[2026-10-30 15:54:12] Проверка установки...
+[2026-10-30 15:54:12] Verifying all executable checksums
+[2026-10-30 15:54:12] Verification complete
+
+
+[2026-10-30 16:04:07] Startup - updater built Oct 21 2026 14:10:58
+[2026-10-30 16:04:07] Startup - Steam Client launched with: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamcmd.exe +force_install_dir D:\SteamCMD_Library  <+62 truncated>
+[2026-10-30 16:04:07] Windows 10.0.26200.0, 0, 2, 256, 1, 48 
+[2026-10-30 16:04:07] Using the following download hosts for Public, Realm steamglobal
+[2026-10-30 16:04:07] 1. https://client-update.fastly.steamstatic.com, /, Realm 'steamglobal', weight was 900, source = 'update_hosts_cached.vdf'
+[2026-10-30 16:04:07] 2. https://client-update.akamai.steamstatic.com, /, Realm 'steamglobal', weight was 400, source = 'update_hosts_cached.vdf'
+[2026-10-30 16:04:07] 3. https://client-update.steamstatic.com, /, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2026-10-30 16:04:07] Checking for update on startup
+[2026-10-30 16:04:07] Проверка на наличие обновлений...
+[2026-10-30 16:04:07] Downloading manifest: https://client-update.fastly.steamstatic.com/steam_cmd_win64
+[2026-10-30 16:04:07] Manifest download: send request
+[2026-10-30 16:04:07] Manifest download: waiting for download to finish
+[2026-10-30 16:04:08] Manifest download: finished
+[2026-10-30 16:04:08] Download skipped: /steam_cmd_win64 version 1792617903, installed version 1792617903, existing pending version 0
+[2026-10-30 16:04:08] Nothing to do
+[2026-10-30 16:04:08] Проверка установки...
+[2026-10-30 16:04:08] Verifying all executable checksums
+[2026-10-30 16:04:08] Verification complete
+
+
+[2026-10-30 16:09:55] Startup - updater built Oct 21 2026 14:10:58
+[2026-10-30 16:09:55] Startup - Steam Client launched with: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamcmd.exe +force_install_dir D:\SteamCMD_Library  <+62 truncated>
+[2026-10-30 16:09:55] Windows 10.0.26200.0, 0, 2, 256, 1, 48 
+[2026-10-30 16:09:55] Using the following download hosts for Public, Realm steamglobal
+[2026-10-30 16:09:55] 1. https://client-update.fastly.steamstatic.com, /, Realm 'steamglobal', weight was 900, source = 'update_hosts_cached.vdf'
+[2026-10-30 16:09:55] 2. https://client-update.akamai.steamstatic.com, /, Realm 'steamglobal', weight was 400, source = 'update_hosts_cached.vdf'
+[2026-10-30 16:09:55] 3. https://client-update.steamstatic.com, /, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2026-10-30 16:09:55] Checking for update on startup
+[2026-10-30 16:09:55] Проверка на наличие обновлений...
+[2026-10-30 16:09:55] Downloading manifest: https://client-update.fastly.steamstatic.com/steam_cmd_win64
+[2026-10-30 16:09:55] Manifest download: send request
+[2026-10-30 16:09:56] Manifest download: waiting for download to finish
+[2026-10-30 16:09:57] Manifest download: finished
+[2026-10-30 16:09:57] Download skipped: /steam_cmd_win64 version 1792617903, installed version 1792617903, existing pending version 0
+[2026-10-30 16:09:57] Nothing to do
+[2026-10-30 16:09:57] Проверка установки...
+[2026-10-30 16:09:57] Verifying all executable checksums
+[2026-10-30 16:09:57] Verification complete
+
+
+[2026-10-30 16:15:00] Startup - updater built Oct 21 2026 14:10:58
+[2026-10-30 16:15:00] Startup - Steam Client launched with: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamcmd.exe +force_install_dir D:\SteamCMD_Library  <+58 truncated>
+[2026-10-30 16:15:00] Windows 10.0.26200.0, 0, 2, 256, 1, 48 
+[2026-10-30 16:15:00] Using the following download hosts for Public, Realm steamglobal
+[2026-10-30 16:15:00] 1. https://client-update.fastly.steamstatic.com, /, Realm 'steamglobal', weight was 900, source = 'update_hosts_cached.vdf'
+[2026-10-30 16:15:00] 2. https://client-update.akamai.steamstatic.com, /, Realm 'steamglobal', weight was 400, source = 'update_hosts_cached.vdf'
+[2026-10-30 16:15:00] 3. https://client-update.steamstatic.com, /, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2026-10-30 16:15:00] Checking for update on startup
+[2026-10-30 16:15:00] Проверка на наличие обновлений...
+[2026-10-30 16:15:00] Downloading manifest: https://client-update.fastly.steamstatic.com/steam_cmd_win64
+[2026-10-30 16:15:01] Manifest download: send request
+[2026-10-30 16:15:01] Manifest download: waiting for download to finish
+[2026-10-30 16:15:02] Manifest download: finished
+[2026-10-30 16:15:02] Download skipped: /steam_cmd_win64 version 1792617903, installed version 1792617903, existing pending version 0
+[2026-10-30 16:15:02] Nothing to do
+[2026-10-30 16:15:02] Проверка установки...
+[2026-10-30 16:15:02] Verifying all executable checksums
+[2026-10-30 16:15:02] Verification complete
+[2026-10-30 16:15:50] Shutdown
+
+
+[2026-10-30 16:17:02] Startup - updater built Oct 21 2026 14:10:58
+[2026-10-30 16:17:02] Startup - Steam Client launched with: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamcmd.exe +force_install_dir D:\SteamCMD_Library  <+62 truncated>
+[2026-10-30 16:17:02] Windows 10.0.26200.0, 0, 2, 256, 1, 48 
+[2026-10-30 16:17:02] Using the following download hosts for Public, Realm steamglobal
+[2026-10-30 16:17:02] 1. https://client-update.akamai.steamstatic.com, /, Realm 'steamglobal', weight was 400, source = 'update_hosts_cached.vdf'
+[2026-10-30 16:17:02] 2. https://client-update.fastly.steamstatic.com, /, Realm 'steamglobal', weight was 900, source = 'update_hosts_cached.vdf'
+[2026-10-30 16:17:02] 3. https://client-update.steamstatic.com, /, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2026-10-30 16:17:02] Checking for update on startup
+[2026-10-30 16:17:02] Проверка на наличие обновлений...
+[2026-10-30 16:17:02] Downloading manifest: https://client-update.akamai.steamstatic.com/steam_cmd_win64
+[2026-10-30 16:17:02] Manifest download: send request
+[2026-10-30 16:17:02] Manifest download: waiting for download to finish
+[2026-10-30 16:17:03] Manifest download: finished
+[2026-10-30 16:17:03] Download skipped: /steam_cmd_win64 version 1792617903, installed version 1792617903, existing pending version 0
+[2026-10-30 16:17:03] Nothing to do
+[2026-10-30 16:17:03] Проверка установки...
+[2026-10-30 16:17:03] Verifying all executable checksums
+[2026-10-30 16:17:03] Verification complete
+
+
+[2026-10-30 16:24:49] Startup - updater built Oct 21 2026 14:10:58
+[2026-10-30 16:24:49] Startup - Steam Client launched with: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamcmd.exe +force_install_dir D:\SteamCMD_Library  <+62 truncated>
+[2026-10-30 16:24:49] Windows 10.0.26200.0, 0, 2, 256, 1, 48 
+[2026-10-30 16:24:49] Using the following download hosts for Public, Realm steamglobal
+[2026-10-30 16:24:49] 1. https://client-update.fastly.steamstatic.com, /, Realm 'steamglobal', weight was 900, source = 'update_hosts_cached.vdf'
+[2026-10-30 16:24:49] 2. https://client-update.akamai.steamstatic.com, /, Realm 'steamglobal', weight was 400, source = 'update_hosts_cached.vdf'
+[2026-10-30 16:24:49] 3. https://client-update.steamstatic.com, /, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2026-10-30 16:24:49] Checking for update on startup
+[2026-10-30 16:24:49] Проверка на наличие обновлений...
+[2026-10-30 16:24:49] Downloading manifest: https://client-update.fastly.steamstatic.com/steam_cmd_win64
+[2026-10-30 16:24:49] Manifest download: send request
+[2026-10-30 16:24:49] Manifest download: waiting for download to finish
+[2026-10-30 16:24:50] Manifest download: finished
+[2026-10-30 16:24:50] Download skipped: /steam_cmd_win64 version 1792617903, installed version 1792617903, existing pending version 0
+[2026-10-30 16:24:50] Nothing to do
+[2026-10-30 16:24:50] Проверка установки...
+[2026-10-30 16:24:50] Verifying all executable checksums
+[2026-10-30 16:24:50] Verification complete
+
+
+[2026-10-30 16:42:08] Startup - updater built Oct 21 2026 14:10:58
+[2026-10-30 16:42:08] Startup - Steam Client launched with: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamcmd.exe +force_install_dir D:\SteamCMD_Library  <+62 truncated>
+[2026-10-30 16:42:08] Windows 10.0.26200.0, 0, 2, 256, 1, 48 
+[2026-10-30 16:42:08] Using the following download hosts for Public, Realm steamglobal
+[2026-10-30 16:42:08] 1. https://client-update.fastly.steamstatic.com, /, Realm 'steamglobal', weight was 900, source = 'update_hosts_cached.vdf'
+[2026-10-30 16:42:08] 2. https://client-update.akamai.steamstatic.com, /, Realm 'steamglobal', weight was 400, source = 'update_hosts_cached.vdf'
+[2026-10-30 16:42:08] 3. https://client-update.steamstatic.com, /, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2026-10-30 16:42:08] Checking for update on startup
+[2026-10-30 16:42:08] Проверка на наличие обновлений...
+[2026-10-30 16:42:08] Downloading manifest: https://client-update.fastly.steamstatic.com/steam_cmd_win64
+[2026-10-30 16:42:08] Manifest download: send request
+[2026-10-30 16:42:08] Manifest download: waiting for download to finish
+[2026-10-30 16:42:09] Manifest download: finished
+[2026-10-30 16:42:09] Download skipped: /steam_cmd_win64 version 1792617903, installed version 1792617903, existing pending version 0
+[2026-10-30 16:42:09] Nothing to do
+[2026-10-30 16:42:09] Проверка установки...
+[2026-10-30 16:42:09] Verifying all executable checksums
+[2026-10-30 16:42:09] Verification complete
+
+
+[2026-10-30 16:57:47] Startup - updater built Oct 21 2026 14:10:58
+[2026-10-30 16:57:47] Startup - Steam Client launched with: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamcmd.exe +force_install_dir D:\SteamCMD_Library  <+62 truncated>
+[2026-10-30 16:57:47] Windows 10.0.26200.0, 0, 2, 256, 1, 48 
+[2026-10-30 16:57:47] Using the following download hosts for Public, Realm steamglobal
+[2026-10-30 16:57:47] 1. https://client-update.fastly.steamstatic.com, /, Realm 'steamglobal', weight was 900, source = 'update_hosts_cached.vdf'
+[2026-10-30 16:57:47] 2. https://client-update.akamai.steamstatic.com, /, Realm 'steamglobal', weight was 400, source = 'update_hosts_cached.vdf'
+[2026-10-30 16:57:47] 3. https://client-update.steamstatic.com, /, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2026-10-30 16:57:47] Checking for update on startup
+[2026-10-30 16:57:47] Проверка на наличие обновлений...
+[2026-10-30 16:57:47] Downloading manifest: https://client-update.fastly.steamstatic.com/steam_cmd_win64
+[2026-10-30 16:57:47] Manifest download: send request
+[2026-10-30 16:57:47] Manifest download: waiting for download to finish
+[2026-10-30 16:57:48] Manifest download: finished
+[2026-10-30 16:57:48] Download skipped: /steam_cmd_win64 version 1792617903, installed version 1792617903, existing pending version 0
+[2026-10-30 16:57:48] Nothing to do
+[2026-10-30 16:57:48] Проверка установки...
+[2026-10-30 16:57:48] Verifying all executable checksums
+[2026-10-30 16:57:48] Verification complete
+[2026-10-30 17:06:28] Shutdown
+
+
+[2026-10-30 17:06:33] Startup - updater built Oct 21 2026 14:10:58
+[2026-10-30 17:06:33] Startup - Steam Client launched with: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamcmd.exe +force_install_dir D:\SteamCMD_Library  <+58 truncated>
+[2026-10-30 17:06:33] Windows 10.0.26200.0, 0, 2, 256, 1, 48 
+[2026-10-30 17:06:34] Using the following download hosts for Public, Realm steamglobal
+[2026-10-30 17:06:34] 1. https://client-update.fastly.steamstatic.com, /, Realm 'steamglobal', weight was 900, source = 'update_hosts_cached.vdf'
+[2026-10-30 17:06:34] 2. https://client-update.akamai.steamstatic.com, /, Realm 'steamglobal', weight was 400, source = 'update_hosts_cached.vdf'
+[2026-10-30 17:06:34] 3. https://client-update.steamstatic.com, /, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2026-10-30 17:06:34] Checking for update on startup
+[2026-10-30 17:06:34] Проверка на наличие обновлений...
+[2026-10-30 17:06:34] Downloading manifest: https://client-update.fastly.steamstatic.com/steam_cmd_win64
+[2026-10-30 17:06:34] Manifest download: send request
+[2026-10-30 17:06:34] Manifest download: waiting for download to finish
+[2026-10-30 17:06:35] Manifest download: finished
+[2026-10-30 17:06:35] Download skipped: /steam_cmd_win64 version 1792617903, installed version 1792617903, existing pending version 0
+[2026-10-30 17:06:35] Nothing to do
+[2026-10-30 17:06:35] Проверка установки...
+[2026-10-30 17:06:35] Verifying all executable checksums
+[2026-10-30 17:06:35] Verification complete
+[2026-10-30 17:06:42] Shutdown

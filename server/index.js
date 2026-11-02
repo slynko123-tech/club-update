@@ -1,0 +1,329 @@
+const express = require('express');
+const cors = require('cors');
+const cron = require('node-cron');
+const dgram = require('dgram');
+const os = require('os');
+const path = require('path');
+const packageJson = require('../package.json');
+
+const app = express();
+const PORT = 3000;
+const UDP_PORT = 41234;
+
+app.use(cors());
+app.use(express.json());
+
+function getLocalIp() {
+    const interfaces = os.networkInterfaces();
+    for (const name of Object.keys(interfaces)) {
+        for (const iface of interfaces[name]) {
+            if (iface.family === 'IPv4' && !iface.internal) return iface.address;
+        }
+    }
+    return '127.0.0.1';
+}
+
+const udpServer = dgram.createSocket('udp4');
+udpServer.on('message', (msg, rinfo) => {
+    if (msg.toString() === 'DISCOVER_CLUB_UPDATE_SERVER') {
+        const ip = getLocalIp();
+        const response = JSON.stringify({ ip: ip, port: PORT });
+        udpServer.send(response, rinfo.port, rinfo.address);
+    }
+});
+udpServer.bind(UDP_PORT);
+
+const clubs = [
+  { id: 'club1', name: 'Староминская', companyId: '2165', phone: '79615203076', password: 'DeeMas1k!' },
+  { id: 'club2', name: 'Каневская', companyId: '2166', phone: '79615203076', password: 'DeeMas1k!' },
+  { id: 'club3', name: 'Ейск', companyId: '2168', phone: '79615203076', password: 'DeeMas1k!' },
+  { id: 'club4', name: 'Ленинградская', companyId: '2169', phone: '79615203076', password: 'DeeMas1k!' },
+  { id: 'club5', name: 'Кущевская', companyId: '2484', phone: '79615203076', password: 'DeeMas1k!' },
+  { id: 'club6', name: 'Приморско-Ахтарск', companyId: '2914', phone: '79615203076', password: 'DeeMas1k!' },
+  { id: 'club7', name: 'Красных Партизан', companyId: '3134', phone: '79615203076', password: 'DeeMas1k!' },
+  { id: 'club8', name: 'Усть-Лабиск', companyId: '3928', phone: '79615203076', password: 'DeeMas1k!' },
+  { id: 'club9', name: 'Репина', companyId: '5073', phone: '79615203076', password: 'DeeMas1k!' },
+  { id: 'club10', name: 'Беличенко', companyId: '6038', phone: '79615203076', password: 'DeeMas1k!' },
+  { id: 'club11', name: 'Красная', companyId: '7053', phone: '79615203076', password: 'DeeMas1k!' },
+];
+
+const GAMES = [
+  { appId: '730', name: 'CS 2' },
+  { appId: '570', name: 'DOTA 2' },
+  { appId: '252490', name: 'RUST' },
+  { appId: '578080', name: 'PUBG' },
+  { appId: '10', name: 'CS 1.6' },
+  { appId: '240', name: 'CS Source' },
+  { appId: '236390', name: 'War Thunder' },
+  { appId: '1422450', name: 'Deadlock' },
+  { appId: '271590', name: 'GTA V' },
+  { appId: '1407200', name: 'World of Tanks' },
+  { appId: '444200', name: 'World of Tanks Blitz' }
+];
+
+const agentsData = {}; 
+const commandsQueue = {}; 
+const API_URL = 'https://billing.smartshell.gg/api/graphql';
+const tokensCache = {}; 
+const hostsCache = {}; 
+
+const taskHistory = [];
+const lastSteamStatuses = {}; 
+
+async function getValidToken(club) {
+    const now = Date.now();
+    if (tokensCache[club.id] && tokensCache[club.id].expiresAt > now) return tokensCache[club.id].token;
+    const loginResponse = await fetch(API_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json', 'User-Agent': `company_id=${club.companyId}` },
+      body: JSON.stringify({ query: `mutation login { login(input: { login: "${club.phone}", password: "${club.password}", company_id: ${club.companyId} }) { access_token } }` })
+    });
+    const loginData = await loginResponse.json();
+    if (loginData.errors || !loginData.data?.login?.access_token) throw new Error(`Ошибка авторизации для ${club.name}`);
+    const token = loginData.data.login.access_token;
+    tokensCache[club.id] = { token: token, expiresAt: now + (55 * 60 * 1000) };
+    return token;
+}
+
+async function fetchHostsFromSmartShell(club) {
+    const token = await getValidToken(club);
+    const hostsResponse = await fetch(API_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json', 'User-Agent': `company_id=${club.companyId}`, 'Authorization': `Bearer ${token}` },
+      body: JSON.stringify({ 
+          query: `query hostsData {
+            hostsOverview {
+              id
+              alias
+              online
+              in_service
+              ip_addr
+              client_sessions {
+                id
+                started_at
+                finished_at
+              }
+            }
+          }`
+      })
+    });
+    const hostsData = await hostsResponse.json();
+    return hostsData.data?.hostsOverview || [];
+}
+
+setInterval(async () => {
+    for (const club of clubs) {
+        try {
+            const hosts = await fetchHostsFromSmartShell(club);
+            hostsCache[club.id] = { data: hosts, lastUpdate: Date.now() };
+        } catch (error) {}
+    }
+}, 10000);
+
+app.get('/api/clubs', (req, res) => res.json(clubs.map(c => ({ id: c.id, name: c.name }))));
+app.get('/api/games', (req, res) => res.json(GAMES));
+app.get('/api/history', (req, res) => res.json(taskHistory));
+
+app.get('/api/version', (req, res) => {
+    res.json({ version: packageJson.version });
+});
+
+app.get('/api/pcs', async (req, res) => {
+  const clubId = req.query.clubId;
+  const club = clubs.find(c => c.id === clubId);
+  if (!club) return res.status(404).json({ error: 'Клуб не найден' });
+
+  if (!hostsCache[clubId]) {
+      try {
+          const hosts = await fetchHostsFromSmartShell(club);
+          hostsCache[clubId] = { data: hosts, lastUpdate: Date.now() };
+      } catch (e) { return res.status(500).json({ error: 'Ошибка SmartShell' }); }
+  }
+
+  try {
+    const hosts = hostsCache[clubId].data;
+    const formattedPcs = hosts.map(host => {
+      let status = 'Оффлайн'; 
+      let statusColor = 'bg-gray-600';
+      
+      if (host.in_service) {
+          status = 'Обслуживание'; statusColor = 'bg-yellow-500';
+      } else if (host.online) {
+          const hasActiveSession = host.client_sessions && host.client_sessions.some(s => !s.finished_at);
+          if (hasActiveSession) {
+              status = 'В игре'; statusColor = 'bg-blue-500';
+          } else {
+              status = 'Свободен'; statusColor = 'bg-green-500';
+          }
+      }
+
+      const pcName = host.alias || `ПК-${host.id}`;
+      let diskDataFromAgent = '—'; let steamDataFromAgent = 'Проверить'; 
+      let installedGamesData = []; 
+      let agentQueue = [];
+      let agentLogs = [];
+      let workshopSize = '—';
+      let agentVersion = '—'; 
+      let gameUpdateStatus = {}; // 👈 СЮДА ПРИНИМАЕМ
+      
+      if (host.ip_addr && agentsData[host.ip_addr]) {
+          diskDataFromAgent = agentsData[host.ip_addr].disks;
+          steamDataFromAgent = agentsData[host.ip_addr].steam;
+          installedGamesData = agentsData[host.ip_addr].installedApps || [];
+          agentQueue = agentsData[host.ip_addr].queue || [];
+          agentLogs = agentsData[host.ip_addr].logs || [];
+          workshopSize = agentsData[host.ip_addr].workshopSize || '—';
+          agentVersion = agentsData[host.ip_addr].agentVersion || '—'; 
+          gameUpdateStatus = agentsData[host.ip_addr].gameUpdateStatus || {}; // 👈 И ОТПРАВЛЯЕМ
+      }
+      return { 
+        id: pcName, status, statusColor, disk: diskDataFromAgent, 
+        update: steamDataFromAgent, ip: host.ip_addr,
+        installedGamesData: installedGamesData,
+        queue: agentQueue, 
+        logs: agentLogs,
+        workshopSize: workshopSize,
+        agentVersion: agentVersion, 
+        gameUpdateStatus: gameUpdateStatus, // 👈
+        updateColor: steamDataFromAgent.includes('✅') ? 'text-green-500' : (steamDataFromAgent.includes('⏳') || steamDataFromAgent.includes('🗑️') || steamDataFromAgent.includes('🔄') ? 'text-yellow-500' : 'text-club-accent')
+      };
+    });
+    res.json(formattedPcs);
+  } catch (error) { res.status(500).json({ error: 'Ошибка сервера' }); }
+});
+
+app.post('/api/agent/report', (req, res) => {
+  const { ips, disksInfo, steamStatus, installedApps, queue, activeGame, logs, workshopSize, agentVersion, gameUpdateStatus } = req.body; 
+  if (ips && Array.isArray(ips)) {
+    const ip = ips[0];
+    
+    if (steamStatus && steamStatus !== lastSteamStatuses[ip]) {
+        if ((steamStatus.includes('✅') || steamStatus.includes('❌')) && !steamStatus.includes('Готов')) {
+            let pcName = ip;
+            for (const clubId in hostsCache) {
+                const host = hostsCache[clubId].data.find(h => h.ip_addr === ip);
+                if (host) { pcName = host.alias || `ПК-${host.id}`; break; }
+            }
+            taskHistory.unshift({
+                id: Date.now(),
+                time: new Date().toLocaleTimeString('ru-RU', { hour: '2-digit', minute: '2-digit' }),
+                pc: pcName,
+                action: steamStatus.replace('✅ ', '').replace('❌ ', ''),
+                status: steamStatus.includes('✅') ? 'success' : 'error'
+            });
+            if (taskHistory.length > 100) taskHistory.pop();
+        }
+        lastSteamStatuses[ip] = steamStatus;
+    }
+
+    ips.forEach(ip => { 
+        agentsData[ip] = { disks: disksInfo, steam: steamStatus, installedApps: installedApps || [], queue: queue || [], activeGame: activeGame || null, logs: logs || [], workshopSize: workshopSize || '—', agentVersion: agentVersion || '—', gameUpdateStatus: gameUpdateStatus || {} }; 
+    });
+  }
+  res.json({ success: true });
+});
+
+app.post('/api/command', (req, res) => {
+    const { ip, action, appId, customAuth } = req.body;
+    if (!ip || !action) return res.status(400).json({ error: 'Нужен IP и действие' });
+    let gameName = '';
+    if (appId) {
+        const game = GAMES.find(g => g.appId === appId);
+        gameName = game ? game.name : `App ${appId}`;
+    }
+    if (!commandsQueue[ip]) commandsQueue[ip] = [];
+    commandsQueue[ip].push({ action, appId, gameName, customAuth });
+    res.json({ success: true });
+});
+
+app.post('/api/update_all_free', async (req, res) => {
+    const { clubId, games, customAuth } = req.body;
+    const club = clubs.find(c => c.id === clubId);
+    if (!club) return res.status(404).json({ error: 'Клуб не найден' });
+    try {
+        const hosts = hostsCache[clubId]?.data || [];
+        let updatedCount = 0;
+        hosts.forEach(host => {
+            const hasActiveSession = host.client_sessions && host.client_sessions.some(s => !s.finished_at);
+            if (host.online && !host.in_service && host.ip_addr && !hasActiveSession) {
+                if (!commandsQueue[host.ip_addr]) commandsQueue[host.ip_addr] = [];
+                commandsQueue[host.ip_addr].push({ action: 'update_all', games: games || GAMES, customAuth });
+                updatedCount++;
+            }
+        });
+        res.json({ success: true, count: updatedCount });
+    } catch (error) { res.status(500).json({ error: 'Ошибка' }); }
+});
+
+app.post('/api/clear_workshop_all_free', async (req, res) => {
+    const { clubId } = req.body;
+    const club = clubs.find(c => c.id === clubId);
+    if (!club) return res.status(404).json({ error: 'Клуб не найден' });
+    try {
+        const hosts = hostsCache[clubId]?.data || [];
+        let clearedCount = 0;
+        hosts.forEach(host => {
+            const hasActiveSession = host.client_sessions && host.client_sessions.some(s => !s.finished_at);
+            if (host.online && !host.in_service && host.ip_addr && !hasActiveSession) {
+                if (!commandsQueue[host.ip_addr]) commandsQueue[host.ip_addr] = [];
+                commandsQueue[host.ip_addr].push({ action: 'clear_workshop' });
+                clearedCount++;
+            }
+        });
+        res.json({ success: true, count: clearedCount });
+    } catch (error) { res.status(500).json({ error: 'Ошибка' }); }
+});
+
+app.post('/api/update_agents_all', async (req, res) => {
+    const { clubId } = req.body;
+    const club = clubs.find(c => c.id === clubId);
+    if (!club) return res.status(404).json({ error: 'Клуб не найден' });
+    try {
+        const hosts = hostsCache[clubId]?.data || [];
+        let count = 0;
+        hosts.forEach(host => {
+            if (host.online && host.ip_addr) {
+                if (!commandsQueue[host.ip_addr]) commandsQueue[host.ip_addr] = [];
+                commandsQueue[host.ip_addr].push({ action: 'update_agent' });
+                count++;
+            }
+        });
+        res.json({ success: true, count });
+    } catch (error) { res.status(500).json({ error: 'Ошибка' }); }
+});
+
+app.get('/api/command/:ip', (req, res) => {
+    const ip = req.params.ip;
+    if (commandsQueue[ip] && commandsQueue[ip].length > 0) {
+        const commands = [...commandsQueue[ip]];
+        commandsQueue[ip] = []; 
+        res.json({ commands: commands });
+    } else {
+        res.json({ commands: [] });
+    }
+});
+
+cron.schedule('0 6 * * *', async () => {
+    for (const club of clubs) {
+        try {
+            const hosts = hostsCache[club.id]?.data || [];
+            hosts.forEach(host => {
+                const hasActiveSession = host.client_sessions && host.client_sessions.some(s => !s.finished_at);
+                if (host.online && !host.in_service && host.ip_addr && !hasActiveSession) {
+                    if (!commandsQueue[host.ip_addr]) commandsQueue[host.ip_addr] = [];
+                    commandsQueue[host.ip_addr].push({ action: 'update_all', games: GAMES });
+                }
+            });
+        } catch (error) {}
+    }
+});
+
+app.use(express.static(path.join(__dirname, '../dist')));
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, '../dist/index.html'));
+});
+
+app.listen(PORT, '0.0.0.0', () => {
+    console.log(`✅ Сервер запущен на http://localhost:${PORT}`);
+    console.log(`🌐 Твой локальный IP: ${getLocalIp()}`);
+});

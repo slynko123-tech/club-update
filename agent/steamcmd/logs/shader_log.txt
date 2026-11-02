@@ -1,0 +1,128 @@
+
+
+[2026-10-30 12:48:03] Client version: 1792617903
+[2026-10-30 12:48:03] Shader manager disabled due to running as steamcmd
+
+
+[2026-10-30 12:48:40] Client version: 1792617903
+[2026-10-30 12:48:40] Shader manager disabled due to running as steamcmd
+
+
+[2026-10-30 12:48:55] Client version: 1792617903
+[2026-10-30 12:48:55] Shader manager disabled due to running as steamcmd
+
+
+[2026-10-30 12:49:11] Client version: 1792617903
+[2026-10-30 12:49:11] Shader manager disabled due to running as steamcmd
+
+
+[2026-10-30 12:49:25] Client version: 1792617903
+[2026-10-30 12:49:25] Shader manager disabled due to running as steamcmd
+
+
+[2026-10-30 12:49:40] Client version: 1792617903
+[2026-10-30 12:49:40] Shader manager disabled due to running as steamcmd
+
+
+[2026-10-30 12:49:56] Client version: 1792617903
+[2026-10-30 12:49:56] Shader manager disabled due to running as steamcmd
+
+
+[2026-10-30 12:50:04] Client version: 1792617903
+[2026-10-30 12:50:04] Shader manager disabled due to running as steamcmd
+
+
+[2026-10-30 13:13:54] Client version: 1792617903
+[2026-10-30 13:13:54] Shader manager disabled due to running as steamcmd
+
+
+[2026-10-30 13:14:03] Client version: 1792617903
+[2026-10-30 13:14:03] Shader manager disabled due to running as steamcmd
+
+
+[2026-10-30 13:42:01] Client version: 1792617903
+[2026-10-30 13:42:01] Shader manager disabled due to running as steamcmd
+
+
+[2026-10-30 13:42:09] Client version: 1792617903
+[2026-10-30 13:42:09] Shader manager disabled due to running as steamcmd
+
+
+[2026-10-30 15:20:14] Client version: 1792617903
+[2026-10-30 15:20:14] Shader manager disabled due to running as steamcmd
+
+
+[2026-10-30 15:21:03] Client version: 1792617903
+[2026-10-30 15:21:03] Shader manager disabled due to running as steamcmd
+
+
+[2026-10-30 15:24:24] Client version: 1792617903
+[2026-10-30 15:24:24] Shader manager disabled due to running as steamcmd
+
+
+[2026-10-30 15:24:44] Client version: 1792617903
+[2026-10-30 15:24:44] Shader manager disabled due to running as steamcmd
+
+
+[2026-10-30 15:25:44] Client version: 1792617903
+[2026-10-30 15:25:44] Shader manager disabled due to running as steamcmd
+
+
+[2026-10-30 15:28:44] Client version: 1792617903
+[2026-10-30 15:28:44] Shader manager disabled due to running as steamcmd
+
+
+[2026-10-30 15:34:06] Client version: 1792617903
+[2026-10-30 15:34:06] Shader manager disabled due to running as steamcmd
+
+
+[2026-10-30 15:38:59] Client version: 1792617903
+[2026-10-30 15:38:59] Shader manager disabled due to running as steamcmd
+
+
+[2026-10-30 15:44:29] Client version: 1792617903
+[2026-10-30 15:44:29] Shader manager disabled due to running as steamcmd
+
+
+[2026-10-30 15:48:20] Client version: 1792617903
+[2026-10-30 15:48:20] Shader manager disabled due to running as steamcmd
+
+
+[2026-10-30 15:50:45] Client version: 1792617903
+[2026-10-30 15:50:45] Shader manager disabled due to running as steamcmd
+
+
+[2026-10-30 15:54:13] Client version: 1792617903
+[2026-10-30 15:54:13] Shader manager disabled due to running as steamcmd
+
+
+[2026-10-30 16:04:09] Client version: 1792617903
+[2026-10-30 16:04:09] Shader manager disabled due to running as steamcmd
+
+
+[2026-10-30 16:09:57] Client version: 1792617903
+[2026-10-30 16:09:57] Shader manager disabled due to running as steamcmd
+
+
+[2026-10-30 16:15:02] Client version: 1792617903
+[2026-10-30 16:15:02] Shader manager disabled due to running as steamcmd
+
+
+[2026-10-30 16:17:03] Client version: 1792617903
+[2026-10-30 16:17:03] Shader manager disabled due to running as steamcmd
+
+
+[2026-10-30 16:24:50] Client version: 1792617903
+[2026-10-30 16:24:50] Shader manager disabled due to running as steamcmd
+
+
+[2026-10-30 16:42:09] Client version: 1792617903
+[2026-10-30 16:42:09] Shader manager disabled due to running as steamcmd
+
+
+[2026-10-30 16:57:48] Client version: 1792617903
+[2026-10-30 16:57:48] Shader manager disabled due to running as steamcmd
+
+
+[2026-10-30 17:06:35] Client version: 1792617903
+[2026-10-30 17:06:35] Shader manager disabled due to running as steamcmd

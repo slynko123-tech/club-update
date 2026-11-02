@@ -1,0 +1,96 @@
+
+
+[2026-10-30 13:20:01] Client version: 1792617903
+[2026-10-30 13:20:01] Disabling compatibility layer.
+
+
+[2026-10-30 13:24:52] Client version: 1792617903
+[2026-10-30 13:24:52] Disabling compatibility layer.
+
+
+[2026-10-30 13:31:01] Client version: 1792617903
+[2026-10-30 13:31:01] Disabling compatibility layer.
+
+
+[2026-10-30 13:42:09] Client version: 1792617903
+[2026-10-30 13:42:09] Disabling compatibility layer.
+
+
+[2026-10-30 15:20:14] Client version: 1792617903
+[2026-10-30 15:20:14] Disabling compatibility layer.
+
+
+[2026-10-30 15:21:03] Client version: 1792617903
+[2026-10-30 15:21:03] Disabling compatibility layer.
+
+
+[2026-10-30 15:24:24] Client version: 1792617903
+[2026-10-30 15:24:24] Disabling compatibility layer.
+
+
+[2026-10-30 15:24:44] Client version: 1792617903
+[2026-10-30 15:24:44] Disabling compatibility layer.
+
+
+[2026-10-30 15:25:44] Client version: 1792617903
+[2026-10-30 15:25:44] Disabling compatibility layer.
+
+
+[2026-10-30 15:28:44] Client version: 1792617903
+[2026-10-30 15:28:44] Disabling compatibility layer.
+
+
+[2026-10-30 15:34:06] Client version: 1792617903
+[2026-10-30 15:34:06] Disabling compatibility layer.
+
+
+[2026-10-30 15:38:59] Client version: 1792617903
+[2026-10-30 15:38:59] Disabling compatibility layer.
+
+
+[2026-10-30 15:44:29] Client version: 1792617903
+[2026-10-30 15:44:29] Disabling compatibility layer.
+
+
+[2026-10-30 15:48:20] Client version: 1792617903
+[2026-10-30 15:48:20] Disabling compatibility layer.
+
+
+[2026-10-30 15:50:45] Client version: 1792617903
+[2026-10-30 15:50:45] Disabling compatibility layer.
+
+
+[2026-10-30 15:54:13] Client version: 1792617903
+[2026-10-30 15:54:13] Disabling compatibility layer.
+
+
+[2026-10-30 16:04:09] Client version: 1792617903
+[2026-10-30 16:04:09] Disabling compatibility layer.
+
+
+[2026-10-30 16:09:57] Client version: 1792617903
+[2026-10-30 16:09:57] Disabling compatibility layer.
+
+
+[2026-10-30 16:15:02] Client version: 1792617903
+[2026-10-30 16:15:02] Disabling compatibility layer.
+
+
+[2026-10-30 16:17:03] Client version: 1792617903
+[2026-10-30 16:17:03] Disabling compatibility layer.
+
+
+[2026-10-30 16:24:50] Client version: 1792617903
+[2026-10-30 16:24:50] Disabling compatibility layer.
+
+
+[2026-10-30 16:42:09] Client version: 1792617903
+[2026-10-30 16:42:09] Disabling compatibility layer.
+
+
+[2026-10-30 16:57:49] Client version: 1792617903
+[2026-10-30 16:57:49] Disabling compatibility layer.
+
+
+[2026-10-30 17:06:35] Client version: 1792617903
+[2026-10-30 17:06:35] Disabling compatibility layer.

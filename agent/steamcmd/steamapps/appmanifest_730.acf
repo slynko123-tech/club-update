@@ -1,0 +1,39 @@
+"AppState"
+{
+	"appid"		"730"
+	"Universe"		"1"
+	"LauncherPath"		"C:\\Users\\Comp9\\Desktop\\club-update\\agent\\steamcmd\\steamcmd.exe"
+	"name"		"Counter-Strike 2"
+	"StateFlags"		"514"
+	"installdir"		"Counter-Strike Global Offensive"
+	"LastUpdated"		"0"
+	"LastPlayed"		"0"
+	"SizeOnDisk"		"0"
+	"StagingSize"		"0"
+	"buildid"		"0"
+	"LastOwner"		"76561199145408396"
+	"DownloadType"		"1"
+	"UpdateResult"		"12"
+	"BytesToDownload"		"61670891408"
+	"BytesDownloaded"		"0"
+	"BytesToStage"		"74093348268"
+	"BytesStaged"		"0"
+	"TargetBuildID"		"26281801"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+	}
+	"SharedDepots"
+	{
+		"228988"		"228980"
+		"228990"		"228980"
+	}
+	"UserConfig"
+	{
+	}
+	"MountedConfig"
+	{
+	}
+}

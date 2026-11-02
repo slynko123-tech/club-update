@@ -1,0 +1,51 @@
+"UserRoamingConfigStore"
+{
+	"Software"
+	{
+		"valve"
+		{
+			"steam"
+			{
+				"SurveyDate"		"2026-03-01"
+				"SurveyDateVersion"		"-9007646834384407584"
+				"StartMenuShortcutCheck"		"1"
+				"DesktopShortcutCheck"		"1"
+				"apps"
+				{
+					"730"
+					{
+						"cloudenabled"		"0"
+					}
+				}
+			}
+		}
+	}
+	"JSClientStorage"
+	{
+		"spotlight.review.700330"
+		{
+			"rgPromptDismissals"		"1"
+			"bWasAskedToRevise"		"0"
+		}
+		"timeline_intro"
+		{
+			"rtSeen"		"0"
+			"rtLinkDismissed"		"1720534272"
+		}
+		"spotlight.review.578080"
+		{
+			"rgPromptDismissals"		"3"
+			"bWasAskedToRevise"		"0"
+		}
+		"spotlight.review.271590"
+		{
+			"rgPromptDismissals"		"3"
+			"bWasAskedToRevise"		"0"
+		}
+		"spotlight.review.730"
+		{
+			"rgPromptDismissals"		"4"
+			"bWasAskedToRevise"		"0"
+		}
+	}
+}

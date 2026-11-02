@@ -1,0 +1,1621 @@
+
+
+[2026-10-30 12:48:10] Client version: 1792617903
+[2026-10-30 12:48:10] Load failed: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf.
+[2026-10-30 12:48:10] Load failed: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\libraryfolders.vdf.
+[2026-10-30 12:48:10] Steam library folders configuration will be reset.
+[2026-10-30 12:48:10] No install folder configuration files found.
+[2026-10-30 12:48:10] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 12:48:10] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 12:48:47] Client version: 1792617903
+[2026-10-30 12:48:47] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 12:48:47] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 12:48:47] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 12:48:59] Client version: 1792617903
+[2026-10-30 12:48:59] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 12:48:59] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 12:48:59] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 12:49:15] Client version: 1792617903
+[2026-10-30 12:49:15] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 12:49:15] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 12:49:15] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 12:49:29] Client version: 1792617903
+[2026-10-30 12:49:29] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 12:49:29] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 12:49:29] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 12:49:43] Client version: 1792617903
+[2026-10-30 12:49:43] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 12:49:43] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 12:49:43] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 12:49:59] Client version: 1792617903
+[2026-10-30 12:49:59] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 12:49:59] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 12:49:59] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 12:50:14] Client version: 1792617903
+[2026-10-30 12:50:14] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 12:50:14] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 12:50:14] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 12:50:30] Client version: 1792617903
+[2026-10-30 12:50:30] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 12:50:30] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 12:50:30] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 12:50:44] Client version: 1792617903
+[2026-10-30 12:50:44] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 12:50:44] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 12:50:44] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 12:50:59] Client version: 1792617903
+[2026-10-30 12:50:59] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 12:50:59] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 12:50:59] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 12:51:14] Client version: 1792617903
+[2026-10-30 12:51:14] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 12:51:14] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 12:51:14] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 12:51:29] Client version: 1792617903
+[2026-10-30 12:51:29] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 12:51:29] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 12:51:29] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 12:51:45] Client version: 1792617903
+[2026-10-30 12:51:45] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 12:51:45] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 12:51:45] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 12:52:00] Client version: 1792617903
+[2026-10-30 12:52:00] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 12:52:00] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 12:52:00] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 12:52:12] Client version: 1792617903
+[2026-10-30 12:52:12] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 12:52:12] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 12:52:12] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 12:52:35] Client version: 1792617903
+[2026-10-30 12:52:35] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 12:52:35] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 12:52:35] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 12:52:48] Client version: 1792617903
+[2026-10-30 12:52:48] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 12:52:48] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 12:52:48] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 12:53:03] Client version: 1792617903
+[2026-10-30 12:53:03] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 12:53:03] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 12:53:03] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 12:53:18] Client version: 1792617903
+[2026-10-30 12:53:18] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 12:53:18] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 12:53:18] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 12:53:33] Client version: 1792617903
+[2026-10-30 12:53:33] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 12:53:33] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 12:53:33] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 12:53:49] Client version: 1792617903
+[2026-10-30 12:53:49] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 12:53:49] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 12:53:49] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 12:54:03] Client version: 1792617903
+[2026-10-30 12:54:03] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 12:54:03] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 12:54:03] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 12:54:17] Client version: 1792617903
+[2026-10-30 12:54:17] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 12:54:17] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 12:54:17] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 12:54:33] Client version: 1792617903
+[2026-10-30 12:54:33] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 12:54:33] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 12:54:33] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 12:54:48] Client version: 1792617903
+[2026-10-30 12:54:48] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 12:54:48] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 12:54:48] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 12:55:03] Client version: 1792617903
+[2026-10-30 12:55:03] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 12:55:03] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 12:55:03] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 12:55:19] Client version: 1792617903
+[2026-10-30 12:55:19] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 12:55:19] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 12:55:19] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 12:56:53] Client version: 1792617903
+[2026-10-30 12:56:53] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 12:56:53] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 12:56:53] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 12:57:10] Client version: 1792617903
+[2026-10-30 12:57:10] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 12:57:10] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 12:57:10] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 12:57:20] Client version: 1792617903
+[2026-10-30 12:57:20] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 12:57:20] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 12:57:20] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 12:57:30] Client version: 1792617903
+[2026-10-30 12:57:30] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 12:57:30] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 12:57:30] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 12:57:41] Client version: 1792617903
+[2026-10-30 12:57:41] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 12:57:41] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 12:57:41] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 12:57:49] Client version: 1792617903
+[2026-10-30 12:57:49] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 12:57:49] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 12:57:49] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 12:58:00] Client version: 1792617903
+[2026-10-30 12:58:00] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 12:58:00] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 12:58:00] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 12:58:10] Client version: 1792617903
+[2026-10-30 12:58:10] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 12:58:10] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 12:58:10] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 12:58:20] Client version: 1792617903
+[2026-10-30 12:58:20] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 12:58:20] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 12:58:20] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 12:58:30] Client version: 1792617903
+[2026-10-30 12:58:30] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 12:58:30] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 12:58:30] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 12:58:40] Client version: 1792617903
+[2026-10-30 12:58:40] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 12:58:40] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 12:58:40] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 12:58:50] Client version: 1792617903
+[2026-10-30 12:58:50] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 12:58:50] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 12:58:50] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 12:59:00] Client version: 1792617903
+[2026-10-30 12:59:00] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 12:59:00] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 12:59:00] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 12:59:11] Client version: 1792617903
+[2026-10-30 12:59:11] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 12:59:11] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 12:59:11] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 12:59:20] Client version: 1792617903
+[2026-10-30 12:59:20] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 12:59:20] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 12:59:20] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 12:59:30] Client version: 1792617903
+[2026-10-30 12:59:30] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 12:59:30] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 12:59:30] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 12:59:40] Client version: 1792617903
+[2026-10-30 12:59:40] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 12:59:40] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 12:59:40] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 12:59:50] Client version: 1792617903
+[2026-10-30 12:59:50] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 12:59:50] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 12:59:50] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 13:00:00] Client version: 1792617903
+[2026-10-30 13:00:00] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 13:00:00] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 13:00:00] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 13:00:09] Client version: 1792617903
+[2026-10-30 13:00:09] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 13:00:09] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 13:00:09] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 13:00:20] Client version: 1792617903
+[2026-10-30 13:00:20] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 13:00:20] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 13:00:20] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 13:00:30] Client version: 1792617903
+[2026-10-30 13:00:30] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 13:00:30] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 13:00:30] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 13:00:39] Client version: 1792617903
+[2026-10-30 13:00:39] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 13:00:39] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 13:00:39] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 13:00:50] Client version: 1792617903
+[2026-10-30 13:00:50] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 13:00:50] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 13:00:50] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 13:01:00] Client version: 1792617903
+[2026-10-30 13:01:00] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 13:01:00] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 13:01:00] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 13:01:10] Client version: 1792617903
+[2026-10-30 13:01:10] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 13:01:10] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 13:01:10] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 13:01:20] Client version: 1792617903
+[2026-10-30 13:01:20] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 13:01:20] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 13:01:20] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 13:01:31] Client version: 1792617903
+[2026-10-30 13:01:31] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 13:01:31] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 13:01:31] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 13:01:40] Client version: 1792617903
+[2026-10-30 13:01:40] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 13:01:40] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 13:01:40] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 13:01:51] Client version: 1792617903
+[2026-10-30 13:01:51] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 13:01:51] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 13:01:51] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 13:02:00] Client version: 1792617903
+[2026-10-30 13:02:00] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 13:02:00] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 13:02:00] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 13:03:33] Client version: 1792617903
+[2026-10-30 13:03:33] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 13:03:33] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 13:03:33] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 13:03:49] Client version: 1792617903
+[2026-10-30 13:03:49] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 13:03:49] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 13:03:49] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 13:03:57] Client version: 1792617903
+[2026-10-30 13:03:57] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 13:03:57] Loaded 0 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 13:03:57] Triggered async write of Steam library folders configuration (1 libraries).
+[2026-10-30 13:04:04] AppID 730 state changed : Update Required,
+[2026-10-30 13:04:04] AppID 228980 state changed : Update Required,Shared Only,
+[2026-10-30 13:04:04] AppID 228980 state changed : Update Required,
+[2026-10-30 13:04:04] Dependency added: parent 228980, child 730, depot 228988
+[2026-10-30 13:04:04] Dependency added: parent 228980, child 730, depot 228990
+[2026-10-30 13:04:04] AppID 730 scheduler update : Priority First, not played for 12 seconds, update disabled for 0 seconds
+[2026-10-30 13:04:04] AppID 730 state changed : Update Required,Update Queued,
+[2026-10-30 13:04:04] AppID 730 scheduler update : Priority First, not played for 12 seconds, update disabled for 0 seconds
+[2026-10-30 13:04:04] AppID 730 state changed : Update Required,Update Queued,Update Running,
+[2026-10-30 13:04:04] AppID 228980 state changed : Update Required,Update Running,
+[2026-10-30 13:04:04] AppID 730 App update changed : Running Update,
+[2026-10-30 13:04:04] AppID 730 App update changed : Running Update,Reconfiguring,
+[2026-10-30 13:04:06] Got 32 download sources and 0 caching proxies via ContentServerDirectoryService::BYieldingGetServersForSteamPipe (CellID 14 / Launcher 3)
+[2026-10-30 13:04:06] Moving to source priority class '8'
+[2026-10-30 13:04:06] Created download interface of type 'SteamCache' (7) to host cache6-par1.steamcontent.com (cache6-par1.steamcontent.com)
+[2026-10-30 13:04:06] Created download interface of type 'SteamCache' (7) to host cache5-par1.steamcontent.com (cache5-par1.steamcontent.com)
+[2026-10-30 13:04:06] Created download interface of type 'SteamCache' (7) to host cache1-par1.steamcontent.com (cache1-par1.steamcontent.com)
+[2026-10-30 13:04:06] Created download interface of type 'SteamCache' (7) to host cache7-par1.steamcontent.com (cache7-par1.steamcontent.com)
+[2026-10-30 13:04:06] Created download interface of type 'SteamCache' (7) to host cache3-par1.steamcontent.com (cache3-par1.steamcontent.com)
+[2026-10-30 13:04:06] Created download interface of type 'SteamCache' (7) to host cache4-par1.steamcontent.com (cache4-par1.steamcontent.com)
+[2026-10-30 13:04:06] Created download interface of type 'SteamCache' (7) to host cache8-par1.steamcontent.com (cache8-par1.steamcontent.com)
+[2026-10-30 13:04:06] Created download interface of type 'SteamCache' (7) to host cache2-par1.steamcontent.com (cache2-par1.steamcontent.com)
+[2026-10-30 13:04:06] HTTP/2 available
+[2026-10-30 13:04:06] Created ipv4-only http client
+[2026-10-30 13:04:08] HTTPS (SteamCache,102) - cache6-par1.steamcontent.com (185.25.182.37:443 / 185.25.182.37:443, host: cache6-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 13:04:08] HTTP/2 (SteamCache,102) - cache6-par1.steamcontent.com (185.25.182.37:443 / 185.25.182.37:443, host: cache6-par1.steamcontent.com): cache6-par1.steamcontent.com/depot/228988/manifest/6645201662696499616/5/18390388522592762610 - manifest request received 200 (OK) HTTP response
+[2026-10-30 13:04:08] HTTP/2 (SteamCache,102) - cache6-par1.steamcontent.com (185.25.182.37:443 / 185.25.182.37:443, host: cache6-par1.steamcontent.com): cache6-par1.steamcontent.com/depot/228990/manifest/1829726630299308803/5/9810084476137941509 - manifest request received 200 (OK) HTTP response
+[2026-10-30 13:04:12] HTTPS (SteamCache,235) - cache8-par1.steamcontent.com (185.25.182.40:443 / 185.25.182.40:443, host: cache8-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 13:04:12] HTTP/2 (SteamCache,235) - cache8-par1.steamcontent.com (185.25.182.40:443 / 185.25.182.40:443, host: cache8-par1.steamcontent.com): cache8-par1.steamcontent.com/depot/732/manifest/7263089472237994766/5/7318373930853957739 - manifest request received 200 (OK) HTTP response
+[2026-10-30 13:04:12] HTTP/2 (SteamCache,235) - cache8-par1.steamcontent.com (185.25.182.40:443 / 185.25.182.40:443, host: cache8-par1.steamcontent.com): cache8-par1.steamcontent.com/depot/731/manifest/6136897076417766099/5/9368812941453676891 - manifest request received 200 (OK) HTTP response
+[2026-10-30 13:04:12] HTTPS (SteamCache,108) - cache4-par1.steamcontent.com (185.25.182.36:443 / 185.25.182.36:443, host: cache4-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 13:04:12] HTTP/2 (SteamCache,108) - cache4-par1.steamcontent.com (185.25.182.36:443 / 185.25.182.36:443, host: cache4-par1.steamcontent.com): cache4-par1.steamcontent.com/depot/735/manifest/4345444102999343217/5/1916794916822849011 - manifest request received 200 (OK) HTTP response
+[2026-10-30 13:04:13] HTTP/2 (SteamCache,108) - cache4-par1.steamcontent.com (185.25.182.36:443 / 185.25.182.36:443, host: cache4-par1.steamcontent.com): cache4-par1.steamcontent.com/depot/2347770/manifest/8833146750479675564/5/12006556679981429360 - manifest request received 200 (OK) HTTP response
+[2026-10-30 13:04:13] HTTP/2 (SteamCache,235) - cache8-par1.steamcontent.com (185.25.182.40:443 / 185.25.182.40:443, host: cache8-par1.steamcontent.com): cache8-par1.steamcontent.com/depot/2347774/manifest/6845003340509320862/5/15743723142523859777 - manifest request received 200 (OK) HTTP response
+[2026-10-30 13:04:14] HTTPS (SteamCache,105) - cache1-par1.steamcontent.com (185.25.182.3:443 / 185.25.182.3:443, host: cache1-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 13:04:14] HTTP/2 (SteamCache,105) - cache1-par1.steamcontent.com (185.25.182.3:443 / 185.25.182.3:443, host: cache1-par1.steamcontent.com): cache1-par1.steamcontent.com/depot/2347771/manifest/5218696177408015009/5/18210889916794559814 - manifest request received 200 (OK) HTTP response
+[2026-10-30 13:04:14] AppID 730 App update changed : Running Update,
+[2026-10-30 13:04:14] AppID 730 App update changed : Running Update,Verifying Installed,
+[2026-10-30 13:04:14] AppID 730 App update changed : Running Update,
+[2026-10-30 13:04:14] AppID 730 App update changed : Running Update,Preallocating,
+[2026-10-30 13:04:14] AppID 228980 preallocated 86 files (117 MB) 
+[2026-10-30 13:04:14] AppID 730 update canceled : Failed to preallocate (Not enough disk space) "60.60 GB"
+[2026-10-30 13:04:14] AppID 730 App update changed : Running Update,Preallocating,Stopping,
+[2026-10-30 13:04:14] AppID 730 preallocated 0 files (0 MB) 
+[2026-10-30 13:04:14] AppID 730 App update changed : Running Update,Stopping,
+[2026-10-30 13:04:14] AppID 730 App update changed : None
+[2026-10-30 13:04:14] AppID 228980 state changed : Update Required, (Not enough disk space)
+[2026-10-30 13:04:14] AppID 730 state changed : Update Required,Update Queued, (Not enough disk space)
+[2026-10-30 13:04:14] AppID 730 state changed : Update Required,Update Paused,
+[2026-10-30 13:04:14] AppID 730 scheduler finished : removed from schedule (result Not enough disk space, state 0x202) 
+[2026-10-30 13:04:14] AppID 730 scheduler update : Priority First, not played for 22 seconds, update disabled for 0 seconds
+[2026-10-30 13:04:14] AppID 730 state changed : Update Required,Update Queued,
+[2026-10-30 13:04:15] AppID 730 state changed : Update Required,Update Queued,Update Running,
+[2026-10-30 13:04:15] AppID 228980 state changed : Update Required,Update Running,
+[2026-10-30 13:04:15] AppID 730 App update changed : Running Update,
+[2026-10-30 13:04:15] AppID 730 App update changed : Running Update,Reconfiguring,
+[2026-10-30 13:04:15] AppID 730 App update changed : Running Update,
+[2026-10-30 13:04:15] AppID 730 App update changed : Running Update,Verifying Installed,
+[2026-10-30 13:04:15] AppID 730 App update changed : Running Update,
+[2026-10-30 13:04:15] AppID 730 App update changed : Running Update,Preallocating,
+[2026-10-30 13:04:15] AppID 228980 preallocated 0 files (0 MB) 
+[2026-10-30 13:04:15] AppID 730 update canceled : Failed to preallocate (Not enough disk space) "60.60 GB"
+[2026-10-30 13:04:15] AppID 730 App update changed : Running Update,Preallocating,Stopping,
+[2026-10-30 13:04:15] AppID 730 preallocated 0 files (0 MB) 
+[2026-10-30 13:04:15] AppID 730 App update changed : Running Update,Stopping,
+[2026-10-30 13:04:15] AppID 730 App update changed : None
+[2026-10-30 13:04:15] AppID 228980 state changed : Update Required, (Not enough disk space)
+[2026-10-30 13:04:15] AppID 730 state changed : Update Required,Update Queued, (Not enough disk space)
+[2026-10-30 13:04:15] AppID 730 state changed : Update Required,Update Paused,
+[2026-10-30 13:04:15] AppID 730 scheduler finished : removed from schedule (result Not enough disk space, state 0x202) 
+[2026-10-30 13:05:07] HTTP (SteamCache,106) - cache2-par1.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: cache2-par1.steamcontent.com): Connection has been idle for '61' seconds, closing
+[2026-10-30 13:05:07] HTTP (SteamCache,106) - cache2-par1.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: cache2-par1.steamcontent.com): Closing connection
+[2026-10-30 13:05:07] HTTP (SteamCache,107) - cache3-par1.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: cache3-par1.steamcontent.com): Connection has been idle for '61' seconds, closing
+[2026-10-30 13:05:07] HTTP (SteamCache,107) - cache3-par1.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: cache3-par1.steamcontent.com): Closing connection
+[2026-10-30 13:05:07] HTTP (SteamCache,234) - cache7-par1.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: cache7-par1.steamcontent.com): Connection has been idle for '61' seconds, closing
+[2026-10-30 13:05:07] HTTP (SteamCache,234) - cache7-par1.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: cache7-par1.steamcontent.com): Closing connection
+[2026-10-30 13:05:07] HTTP (SteamCache,101) - cache5-par1.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: cache5-par1.steamcontent.com): Connection has been idle for '61' seconds, closing
+[2026-10-30 13:05:07] HTTP (SteamCache,101) - cache5-par1.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: cache5-par1.steamcontent.com): Closing connection
+[2026-10-30 13:05:09] HTTP/2 (SteamCache,102) - cache6-par1.steamcontent.com (185.25.182.37:443 / 185.25.182.37:443, host: cache6-par1.steamcontent.com): Connection has been idle for '61' seconds, closing
+[2026-10-30 13:05:09] HTTP/2 (SteamCache,102) - cache6-par1.steamcontent.com (185.25.182.37:443 / 185.25.182.37:443, host: cache6-par1.steamcontent.com): Closing connection
+[2026-10-30 13:05:14] HTTP/2 (SteamCache,108) - cache4-par1.steamcontent.com (185.25.182.36:443 / 185.25.182.36:443, host: cache4-par1.steamcontent.com): Connection has been idle for '61' seconds, closing
+[2026-10-30 13:05:14] HTTP/2 (SteamCache,108) - cache4-par1.steamcontent.com (185.25.182.36:443 / 185.25.182.36:443, host: cache4-par1.steamcontent.com): Closing connection
+[2026-10-30 13:05:14] HTTP/2 (SteamCache,235) - cache8-par1.steamcontent.com (185.25.182.40:443 / 185.25.182.40:443, host: cache8-par1.steamcontent.com): Connection has been idle for '61' seconds, closing
+[2026-10-30 13:05:14] HTTP/2 (SteamCache,235) - cache8-par1.steamcontent.com (185.25.182.40:443 / 185.25.182.40:443, host: cache8-par1.steamcontent.com): Closing connection
+[2026-10-30 13:05:15] HTTP/2 (SteamCache,105) - cache1-par1.steamcontent.com (185.25.182.3:443 / 185.25.182.3:443, host: cache1-par1.steamcontent.com): Connection has been idle for '61' seconds, closing
+[2026-10-30 13:05:15] HTTP/2 (SteamCache,105) - cache1-par1.steamcontent.com (185.25.182.3:443 / 185.25.182.3:443, host: cache1-par1.steamcontent.com): Closing connection
+
+
+[2026-10-30 13:06:22] Client version: 1792617903
+[2026-10-30 13:06:22] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 13:06:22] Loaded 2 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 13:06:22] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 13:08:23] Client version: 1792617903
+[2026-10-30 13:08:23] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 13:08:23] Loaded 2 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 13:08:23] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 13:08:26] Client version: 1792617903
+[2026-10-30 13:08:26] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 13:08:26] Loaded 2 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 13:08:26] Triggered async write of Steam library folders configuration (1 libraries).
+[2026-10-30 13:08:33] AppID 730 scheduler update : Priority First, not played for 1469399 seconds, update disabled for 0 seconds
+[2026-10-30 13:08:33] AppID 730 state changed : Update Required,Update Queued,
+[2026-10-30 13:08:34] AppID 730 state changed : Update Required,Update Queued,Update Running,
+[2026-10-30 13:08:34] AppID 228980 state changed : Update Required,Update Running,
+[2026-10-30 13:08:34] AppID 730 App update changed : Running Update,
+[2026-10-30 13:08:34] AppID 730 App update changed : Running Update,Reconfiguring,
+[2026-10-30 13:08:34] AppID 730 App update changed : Running Update,
+[2026-10-30 13:08:34] AppID 730 App update changed : Running Update,Verifying Installed,
+[2026-10-30 13:08:34] AppID 730 App update changed : Running Update,
+[2026-10-30 13:08:34] AppID 730 App update changed : Running Update,Preallocating,
+[2026-10-30 13:08:34] AppID 228980 preallocated 0 files (0 MB) 
+[2026-10-30 13:08:34] AppID 730 update canceled : Failed to preallocate (Not enough disk space) "60.60 GB"
+[2026-10-30 13:08:34] AppID 730 App update changed : Running Update,Preallocating,Stopping,
+[2026-10-30 13:08:34] AppID 730 preallocated 0 files (0 MB) 
+[2026-10-30 13:08:34] AppID 730 App update changed : Running Update,Stopping,
+[2026-10-30 13:08:34] AppID 730 App update changed : None
+[2026-10-30 13:08:34] AppID 228980 state changed : Update Required, (Not enough disk space)
+[2026-10-30 13:08:34] AppID 730 state changed : Update Required,Update Queued, (Not enough disk space)
+[2026-10-30 13:08:34] AppID 730 state changed : Update Required,Update Paused,
+[2026-10-30 13:08:34] AppID 730 scheduler finished : removed from schedule (result Not enough disk space, state 0x202) 
+[2026-10-30 13:08:36] AppID 730 scheduler update : Priority First, not played for 1469402 seconds, update disabled for 0 seconds
+[2026-10-30 13:08:36] AppID 730 state changed : Update Required,Update Queued,
+[2026-10-30 13:08:36] AppID 730 state changed : Update Required,Update Queued,Update Running,
+[2026-10-30 13:08:36] AppID 228980 state changed : Update Required,Update Running,
+[2026-10-30 13:08:36] AppID 730 App update changed : Running Update,
+[2026-10-30 13:08:36] AppID 730 App update changed : Running Update,Reconfiguring,
+[2026-10-30 13:08:36] AppID 730 App update changed : Running Update,
+[2026-10-30 13:08:36] AppID 730 App update changed : Running Update,Verifying Installed,
+[2026-10-30 13:08:36] AppID 730 App update changed : Running Update,
+[2026-10-30 13:08:36] AppID 730 App update changed : Running Update,Preallocating,
+[2026-10-30 13:08:36] AppID 228980 preallocated 0 files (0 MB) 
+[2026-10-30 13:08:36] AppID 730 update canceled : Failed to preallocate (Not enough disk space) "60.60 GB"
+[2026-10-30 13:08:36] AppID 730 App update changed : Running Update,Preallocating,Stopping,
+[2026-10-30 13:08:36] AppID 730 preallocated 0 files (0 MB) 
+[2026-10-30 13:08:36] AppID 730 App update changed : Running Update,Stopping,
+[2026-10-30 13:08:36] AppID 730 App update changed : None
+[2026-10-30 13:08:36] AppID 228980 state changed : Update Required, (Not enough disk space)
+[2026-10-30 13:08:36] AppID 730 state changed : Update Required,Update Queued, (Not enough disk space)
+[2026-10-30 13:08:36] AppID 730 state changed : Update Required,Update Paused,
+[2026-10-30 13:08:36] AppID 730 scheduler finished : removed from schedule (result Not enough disk space, state 0x202) 
+
+
+[2026-10-30 13:10:43] Client version: 1792617903
+[2026-10-30 13:10:43] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 13:10:43] Loaded 2 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 13:10:43] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 13:10:51] Client version: 1792617903
+[2026-10-30 13:10:51] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 13:10:51] Loaded 2 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 13:10:51] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 13:11:08] Client version: 1792617903
+[2026-10-30 13:11:08] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 13:11:08] Loaded 2 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 13:11:08] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 13:11:12] Client version: 1792617903
+[2026-10-30 13:11:12] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 13:11:12] Loaded 2 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 13:11:12] Triggered async write of Steam library folders configuration (1 libraries).
+[2026-10-30 13:11:18] AppID 730 scheduler update : Priority First, not played for 1469564 seconds, update disabled for 0 seconds
+[2026-10-30 13:11:18] AppID 730 state changed : Update Required,Update Queued,
+[2026-10-30 13:11:18] AppID 730 state changed : Update Required,Update Queued,Update Running,
+[2026-10-30 13:11:18] AppID 228980 state changed : Update Required,Update Running,
+[2026-10-30 13:11:18] AppID 730 App update changed : Running Update,
+[2026-10-30 13:11:18] AppID 730 App update changed : Running Update,Reconfiguring,
+[2026-10-30 13:11:18] AppID 730 App update changed : Running Update,
+[2026-10-30 13:11:18] AppID 730 App update changed : Running Update,Verifying Installed,
+[2026-10-30 13:11:18] AppID 730 App update changed : Running Update,
+[2026-10-30 13:11:18] AppID 730 App update changed : Running Update,Preallocating,
+[2026-10-30 13:11:18] AppID 228980 preallocated 0 files (0 MB) 
+[2026-10-30 13:11:18] AppID 730 update canceled : Failed to preallocate (Not enough disk space) "60.60 GB"
+[2026-10-30 13:11:18] AppID 730 App update changed : Running Update,Preallocating,Stopping,
+[2026-10-30 13:11:18] AppID 730 preallocated 0 files (0 MB) 
+[2026-10-30 13:11:18] AppID 730 App update changed : Running Update,Stopping,
+[2026-10-30 13:11:18] AppID 730 App update changed : None
+[2026-10-30 13:11:18] AppID 228980 state changed : Update Required, (Not enough disk space)
+[2026-10-30 13:11:18] AppID 730 state changed : Update Required,Update Queued, (Not enough disk space)
+[2026-10-30 13:11:18] AppID 730 state changed : Update Required,Update Paused,
+[2026-10-30 13:11:18] AppID 730 scheduler finished : removed from schedule (result Not enough disk space, state 0x202) 
+[2026-10-30 13:11:20] AppID 730 scheduler update : Priority First, not played for 1469566 seconds, update disabled for 0 seconds
+[2026-10-30 13:11:20] AppID 730 state changed : Update Required,Update Queued,
+[2026-10-30 13:11:20] AppID 730 state changed : Update Required,Update Queued,Update Running,
+[2026-10-30 13:11:20] AppID 228980 state changed : Update Required,Update Running,
+[2026-10-30 13:11:20] AppID 730 App update changed : Running Update,
+[2026-10-30 13:11:20] AppID 730 App update changed : Running Update,Reconfiguring,
+[2026-10-30 13:11:20] AppID 730 App update changed : Running Update,
+[2026-10-30 13:11:20] AppID 730 App update changed : Running Update,Verifying Installed,
+[2026-10-30 13:11:20] AppID 730 App update changed : Running Update,
+[2026-10-30 13:11:20] AppID 730 App update changed : Running Update,Preallocating,
+[2026-10-30 13:11:20] AppID 228980 preallocated 0 files (0 MB) 
+[2026-10-30 13:11:20] AppID 730 update canceled : Failed to preallocate (Not enough disk space) "60.60 GB"
+[2026-10-30 13:11:20] AppID 730 App update changed : Running Update,Preallocating,Stopping,
+[2026-10-30 13:11:20] AppID 730 preallocated 0 files (0 MB) 
+[2026-10-30 13:11:20] AppID 730 App update changed : Running Update,Stopping,
+[2026-10-30 13:11:20] AppID 730 App update changed : None
+[2026-10-30 13:11:20] AppID 228980 state changed : Update Required, (Not enough disk space)
+[2026-10-30 13:11:20] AppID 730 state changed : Update Required,Update Queued, (Not enough disk space)
+[2026-10-30 13:11:20] AppID 730 state changed : Update Required,Update Paused,
+[2026-10-30 13:11:20] AppID 730 scheduler finished : removed from schedule (result Not enough disk space, state 0x202) 
+
+
+[2026-10-30 13:13:26] Client version: 1792617903
+[2026-10-30 13:13:26] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 13:13:26] Loaded 2 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 13:13:26] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 13:13:38] Client version: 1792617903
+[2026-10-30 13:13:38] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 13:13:38] Loaded 2 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 13:13:38] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 13:13:48] Client version: 1792617903
+[2026-10-30 13:13:48] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 13:13:48] Loaded 2 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 13:13:48] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 13:13:58] Client version: 1792617903
+[2026-10-30 13:13:58] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 13:13:58] Loaded 2 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 13:13:58] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 13:14:08] Client version: 1792617903
+[2026-10-30 13:14:08] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 13:14:08] Loaded 2 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 13:14:08] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 13:14:18] Client version: 1792617903
+[2026-10-30 13:14:18] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 13:14:18] Loaded 2 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 13:14:18] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 13:14:21] Client version: 1792617903
+[2026-10-30 13:14:21] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 13:14:21] Loaded 2 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 13:14:21] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 13:33:23] Current download rate: 285.823 Mbps
+[2026-10-30 13:34:24] Current download rate: 227.427 Mbps
+[2026-10-30 13:35:25] Current download rate: 251.656 Mbps
+[2026-10-30 13:36:12] Got 33 download sources and 0 caching proxies via ContentServerDirectoryService::BYieldingGetServersForSteamPipe (CellID 14 / Launcher 3)
+[2026-10-30 13:36:26] Current download rate: 191.075 Mbps
+
+
+[2026-10-30 13:42:05] Client version: 1792617903
+[2026-10-30 13:42:05] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-10-30 13:42:05] Loaded 2 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-10-30 13:42:05] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 13:42:09] Client version: 1792617903
+[2026-10-30 13:42:09] Loaded 22 apps from install folder "c:\program files (x86)\steam\steamapps\appmanifest_*.acf".
+[2026-10-30 13:42:09] Triggered async write of Steam library folders configuration (1 libraries).
+[2026-10-30 13:42:16] AppID 730 scheduler update : Priority First, not played for 1471422 seconds, update disabled for 0 seconds
+[2026-10-30 13:42:16] AppID 730 state changed : Update Required,Fully Installed,Update Queued,Files Missing,Update Started,
+[2026-10-30 13:42:16] AppID 730 state changed : Update Required,Fully Installed,Update Queued,Files Missing,Update Running,Update Started,
+[2026-10-30 13:42:16] AppID 228980 state changed : Update Required,Fully Installed,Files Missing,Update Running,Update Started,
+[2026-10-30 13:42:16] AppID 730 App update changed : Running Update,
+[2026-10-30 13:42:16] AppID 730 App update changed : Running Update,Reconfiguring,
+[2026-10-30 13:42:16] AppID 730 App update changed : Running Update,
+[2026-10-30 13:42:16] Validation: read 194 files missing and 0 files corrupt for AppID 730
+[2026-10-30 13:42:16] Validation: read 3188 files missing and 0 files corrupt for AppID 730
+[2026-10-30 13:42:16] AppID 730 App update changed : Running Update,Preallocating,
+[2026-10-30 13:42:16] AppID 228980 preallocated 0 files (0 MB) 
+[2026-10-30 13:42:16] AppID 730 preallocated 0 files (0 MB) 
+[2026-10-30 13:42:16] AppID 730 App update changed : Running Update,
+[2026-10-30 13:42:16] AppID 228980 update started : download 148178464/148178464, store 0/0, reuse 0/0, delta 0/0, stage 157818239/157818239 
+[2026-10-30 13:42:16] AppID 730 update started : download 0/61547821472, store 0/0, reuse 0/0, delta 0/0, stage 0/73961204544 (Single File Mode)
+[2026-10-30 13:42:16] AppID 730 App update changed : Running Update,Staging,
+[2026-10-30 13:42:16] AppID 730 App update changed : Running Update,
+[2026-10-30 13:42:16] AppID 730 App update changed : Running Update,Staging,
+[2026-10-30 13:42:16] AppID 730 App update changed : Running Update,
+[2026-10-30 13:42:16] AppID 730 App update changed : Running Update,Downloading,Staging,
+[2026-10-30 13:42:17] Got 32 download sources and 0 caching proxies via ContentServerDirectoryService::BYieldingGetServersForSteamPipe (CellID 14 / Launcher 3)
+[2026-10-30 13:42:17] Moving to source priority class '8'
+[2026-10-30 13:42:17] Created download interface of type 'SteamCache' (7) to host cache3-par1.steamcontent.com (cache3-par1.steamcontent.com)
+[2026-10-30 13:42:17] Created download interface of type 'SteamCache' (7) to host cache7-par1.steamcontent.com (cache7-par1.steamcontent.com)
+[2026-10-30 13:42:17] Created download interface of type 'SteamCache' (7) to host cache8-par1.steamcontent.com (cache8-par1.steamcontent.com)
+[2026-10-30 13:42:17] Created download interface of type 'SteamCache' (7) to host cache4-par1.steamcontent.com (cache4-par1.steamcontent.com)
+[2026-10-30 13:42:17] Created download interface of type 'SteamCache' (7) to host cache6-par1.steamcontent.com (cache6-par1.steamcontent.com)
+[2026-10-30 13:42:17] Created download interface of type 'SteamCache' (7) to host cache1-par1.steamcontent.com (cache1-par1.steamcontent.com)
+[2026-10-30 13:42:17] Created download interface of type 'SteamCache' (7) to host cache5-par1.steamcontent.com (cache5-par1.steamcontent.com)
+[2026-10-30 13:42:17] Created download interface of type 'SteamCache' (7) to host cache2-par1.steamcontent.com (cache2-par1.steamcontent.com)
+[2026-10-30 13:42:17] Downloading 1 chunks for depot 735 (4345444102999343217)
+[2026-10-30 13:42:18] HTTP/2 available
+[2026-10-30 13:42:18] Created ipv4-only http client
+[2026-10-30 13:42:19] HTTPS (SteamCache,102) - cache6-par1.steamcontent.com (185.25.182.37:443 / 185.25.182.37:443, host: cache6-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 13:42:19] Downloading 65074 chunks for depot 2347770 (8833146750479675564)
+[2026-10-30 13:42:20] HTTPS (SteamCache,235) - cache8-par1.steamcontent.com (185.25.182.40:443 / 185.25.182.40:443, host: cache8-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 13:42:20] HTTPS (SteamCache,234) - cache7-par1.steamcontent.com (185.25.182.7:443 / 185.25.182.7:443, host: cache7-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 13:42:20] HTTPS (SteamCache,108) - cache4-par1.steamcontent.com (185.25.182.36:443 / 185.25.182.36:443, host: cache4-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 13:42:20] HTTPS (SteamCache,101) - cache5-par1.steamcontent.com (185.25.182.5:443 / 185.25.182.5:443, host: cache5-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 13:42:20] HTTPS (SteamCache,107) - cache3-par1.steamcontent.com (185.25.182.4:443 / 185.25.182.4:443, host: cache3-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 13:42:20] HTTPS (SteamCache,106) - cache2-par1.steamcontent.com (185.25.182.35:443 / 185.25.182.35:443, host: cache2-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 13:42:21] HTTPS (SteamCache,105) - cache1-par1.steamcontent.com (185.25.182.3:443 / 185.25.182.3:443, host: cache1-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 13:42:31] Increasing target number of download connections to 9 (rate was 0.000, now 217.368)
+[2026-10-30 13:42:43] Increasing target number of download connections to 10 (rate was 217.368, now 273.449)
+[2026-10-30 13:43:32] Current download rate: 289.419 Mbps
+[2026-10-30 13:44:32] Current download rate: 289.575 Mbps
+[2026-10-30 13:45:33] Current download rate: 284.597 Mbps
+[2026-10-30 13:46:34] Current download rate: 195.719 Mbps
+[2026-10-30 13:47:18] Got 33 download sources and 0 caching proxies via ContentServerDirectoryService::BYieldingGetServersForSteamPipe (CellID 14 / Launcher 3)
+[2026-10-30 13:47:34] Current download rate: 291.014 Mbps
+[2026-10-30 13:47:49] stats: (SteamCache, 102) cache6-par1.steamcontent.com: 1546760800 Bytes, 331 sec (37.40 Mbps). 2079 Hits / 0 Misses (100 %, 100 % bytes), score 0.8905
+[2026-10-30 13:47:49] stats: (Invalid, 0) : 11216098960 Bytes, 331 sec (270.94 Mbps). 15289 Hits / 0 Misses (100 %, 100 % bytes), score 0.0000
+[2026-10-30 13:47:49] stats: (SteamCache, 107) cache3-par1.steamcontent.com: 1385329872 Bytes, 330 sec (33.61 Mbps). 1914 Hits / 0 Misses (100 %, 100 % bytes), score 0.8886
+[2026-10-30 13:47:49] stats: (SteamCache, 105) cache1-par1.steamcontent.com: 1421794224 Bytes, 330 sec (34.47 Mbps). 1933 Hits / 0 Misses (100 %, 100 % bytes), score 0.8917
+[2026-10-30 13:47:49] stats: (SteamCache, 108) cache4-par1.steamcontent.com: 1324929552 Bytes, 330 sec (32.11 Mbps). 1827 Hits / 0 Misses (100 %, 100 % bytes), score 0.8917
+[2026-10-30 13:47:49] stats: (SteamCache, 101) cache5-par1.steamcontent.com: 1511574672 Bytes, 330 sec (36.65 Mbps). 2044 Hits / 0 Misses (100 %, 100 % bytes), score 0.8903
+[2026-10-30 13:47:49] stats: (SteamCache, 106) cache2-par1.steamcontent.com: 1306124784 Bytes, 330 sec (31.66 Mbps). 1783 Hits / 0 Misses (100 %, 100 % bytes), score 0.8950
+[2026-10-30 13:47:49] stats: (SteamCache, 234) cache7-par1.steamcontent.com: 1434853760 Bytes, 330 sec (34.78 Mbps). 1927 Hits / 0 Misses (100 %, 100 % bytes), score 0.8868
+[2026-10-30 13:47:49] stats: (SteamCache, 235) cache8-par1.steamcontent.com: 1284731296 Bytes, 330 sec (31.14 Mbps). 1782 Hits / 0 Misses (100 %, 100 % bytes), score 0.8866
+[2026-10-30 13:48:35] Current download rate: 281.651 Mbps
+[2026-10-30 13:49:36] Current download rate: 288.788 Mbps
+[2026-10-30 13:50:37] Current download rate: 290.812 Mbps
+[2026-10-30 13:51:38] Current download rate: 267.035 Mbps
+[2026-10-30 13:52:39] Current download rate: 292.328 Mbps
+[2026-10-30 13:52:47] Got 32 download sources and 0 caching proxies via ContentServerDirectoryService::BYieldingGetServersForSteamPipe (CellID 14 / Launcher 3)
+[2026-10-30 13:53:19] stats: (SteamCache, 102) cache6-par1.steamcontent.com: 1745720528 Bytes, 330 sec (42.27 Mbps). 4068 Hits / 0 Misses (100 %, 100 % bytes), score 0.8885
+[2026-10-30 13:53:19] stats: (Invalid, 0) : 11832586880 Bytes, 330 sec (286.58 Mbps). 28791 Hits / 0 Misses (100 %, 100 % bytes), score 0.0000
+[2026-10-30 13:53:19] stats: (SteamCache, 107) cache3-par1.steamcontent.com: 1522217344 Bytes, 331 sec (36.84 Mbps). 3655 Hits / 0 Misses (100 %, 100 % bytes), score 0.8896
+[2026-10-30 13:53:19] stats: (SteamCache, 105) cache1-par1.steamcontent.com: 1336649744 Bytes, 330 sec (32.39 Mbps). 3446 Hits / 0 Misses (100 %, 100 % bytes), score 0.8926
+[2026-10-30 13:53:19] stats: (SteamCache, 108) cache4-par1.steamcontent.com: 1381531136 Bytes, 330 sec (33.46 Mbps). 3398 Hits / 0 Misses (100 %, 100 % bytes), score 0.8873
+[2026-10-30 13:53:19] stats: (SteamCache, 101) cache5-par1.steamcontent.com: 1522929360 Bytes, 330 sec (36.90 Mbps). 3794 Hits / 0 Misses (100 %, 100 % bytes), score 0.8873
+[2026-10-30 13:53:19] stats: (SteamCache, 106) cache2-par1.steamcontent.com: 1473475056 Bytes, 330 sec (35.72 Mbps). 3454 Hits / 0 Misses (100 %, 100 % bytes), score 0.8882
+[2026-10-30 13:53:19] stats: (SteamCache, 234) cache7-par1.steamcontent.com: 1401215216 Bytes, 330 sec (33.94 Mbps). 3535 Hits / 0 Misses (100 %, 100 % bytes), score 0.8881
+[2026-10-30 13:53:19] stats: (SteamCache, 235) cache8-par1.steamcontent.com: 1448848496 Bytes, 330 sec (35.10 Mbps). 3441 Hits / 0 Misses (100 %, 100 % bytes), score 0.8869
+[2026-10-30 13:53:39] Current download rate: 278.934 Mbps
+[2026-10-30 13:54:40] Current download rate: 287.558 Mbps
+[2026-10-30 13:55:41] Current download rate: 283.193 Mbps
+[2026-10-30 13:56:42] Current download rate: 277.539 Mbps
+[2026-10-30 13:57:43] Current download rate: 288.384 Mbps
+[2026-10-30 13:58:18] Got 33 download sources and 0 caching proxies via ContentServerDirectoryService::BYieldingGetServersForSteamPipe (CellID 14 / Launcher 3)
+[2026-10-30 13:58:44] Current download rate: 292.262 Mbps
+[2026-10-30 13:58:50] stats: (SteamCache, 102) cache6-par1.steamcontent.com: 1534182912 Bytes, 330 sec (37.15 Mbps). 5837 Hits / 0 Misses (100 %, 100 % bytes), score 0.8896
+[2026-10-30 13:58:50] stats: (Invalid, 0) : 11859049424 Bytes, 330 sec (287.20 Mbps). 42512 Hits / 0 Misses (100 %, 100 % bytes), score 0.0000
+[2026-10-30 13:58:50] stats: (SteamCache, 107) cache3-par1.steamcontent.com: 1433668064 Bytes, 330 sec (34.71 Mbps). 5302 Hits / 0 Misses (100 %, 100 % bytes), score 0.8886
+[2026-10-30 13:58:50] stats: (SteamCache, 105) cache1-par1.steamcontent.com: 1389445488 Bytes, 331 sec (33.62 Mbps). 5061 Hits / 0 Misses (100 %, 100 % bytes), score 0.8905
+[2026-10-30 13:58:50] stats: (SteamCache, 108) cache4-par1.steamcontent.com: 1623198000 Bytes, 330 sec (39.38 Mbps). 5271 Hits / 0 Misses (100 %, 100 % bytes), score 0.8901
+[2026-10-30 13:58:50] stats: (SteamCache, 101) cache5-par1.steamcontent.com: 1386853424 Bytes, 331 sec (33.56 Mbps). 5414 Hits / 0 Misses (100 %, 100 % bytes), score 0.8912
+[2026-10-30 13:58:50] stats: (SteamCache, 106) cache2-par1.steamcontent.com: 1450834912 Bytes, 331 sec (35.11 Mbps). 5126 Hits / 0 Misses (100 %, 100 % bytes), score 0.8918
+[2026-10-30 13:58:50] stats: (SteamCache, 234) cache7-par1.steamcontent.com: 1564228432 Bytes, 330 sec (37.88 Mbps). 5356 Hits / 0 Misses (100 %, 100 % bytes), score 0.8894
+[2026-10-30 13:58:50] stats: (SteamCache, 235) cache8-par1.steamcontent.com: 1476638192 Bytes, 330 sec (35.77 Mbps). 5145 Hits / 0 Misses (100 %, 100 % bytes), score 0.8875
+[2026-10-30 13:59:44] Current download rate: 293.690 Mbps
+[2026-10-30 14:00:45] Current download rate: 282.631 Mbps
+[2026-10-30 14:01:46] Current download rate: 294.142 Mbps
+[2026-10-30 14:02:47] Current download rate: 291.159 Mbps
+[2026-10-30 14:03:48] Current download rate: 289.236 Mbps
+[2026-10-30 14:03:48] Got 32 download sources and 0 caching proxies via ContentServerDirectoryService::BYieldingGetServersForSteamPipe (CellID 14 / Launcher 3)
+[2026-10-30 14:04:20] stats: (SteamCache, 102) cache6-par1.steamcontent.com: 1533920448 Bytes, 330 sec (37.15 Mbps). 7484 Hits / 0 Misses (100 %, 100 % bytes), score 0.8882
+[2026-10-30 14:04:20] stats: (Invalid, 0) : 11923521760 Bytes, 330 sec (288.76 Mbps). 55640 Hits / 0 Misses (100 %, 100 % bytes), score 0.0000
+[2026-10-30 14:04:20] stats: (SteamCache, 107) cache3-par1.steamcontent.com: 1377878032 Bytes, 330 sec (33.37 Mbps). 6825 Hits / 0 Misses (100 %, 100 % bytes), score 0.8850
+[2026-10-30 14:04:20] stats: (SteamCache, 105) cache1-par1.steamcontent.com: 1549345536 Bytes, 330 sec (37.53 Mbps). 6791 Hits / 0 Misses (100 %, 100 % bytes), score 0.8907
+[2026-10-30 14:04:20] stats: (SteamCache, 108) cache4-par1.steamcontent.com: 1575337712 Bytes, 331 sec (38.10 Mbps). 6990 Hits / 0 Misses (100 %, 100 % bytes), score 0.8887
+[2026-10-30 14:04:20] stats: (SteamCache, 101) cache5-par1.steamcontent.com: 1447419552 Bytes, 330 sec (35.07 Mbps). 6990 Hits / 0 Misses (100 %, 100 % bytes), score 0.8869
+[2026-10-30 14:04:20] stats: (SteamCache, 106) cache2-par1.steamcontent.com: 1615863760 Bytes, 330 sec (39.15 Mbps). 6931 Hits / 0 Misses (100 %, 100 % bytes), score 0.8887
+[2026-10-30 14:04:20] stats: (SteamCache, 234) cache7-par1.steamcontent.com: 1319929520 Bytes, 330 sec (31.98 Mbps). 6813 Hits / 0 Misses (100 %, 100 % bytes), score 0.8896
+[2026-10-30 14:04:20] stats: (SteamCache, 235) cache8-par1.steamcontent.com: 1503827200 Bytes, 331 sec (36.39 Mbps). 6816 Hits / 0 Misses (100 %, 100 % bytes), score 0.8928
+[2026-10-30 14:04:49] Current download rate: 288.799 Mbps
+[2026-10-30 14:05:49] Current download rate: 289.462 Mbps
+[2026-10-30 14:06:50] Current download rate: 294.386 Mbps
+[2026-10-30 14:07:51] Current download rate: 276.461 Mbps
+[2026-10-30 14:08:24] Downloading 7219 chunks for depot 2347771 (5218696177408015009)
+[2026-10-30 14:08:52] Current download rate: 290.733 Mbps
+[2026-10-30 14:09:19] Got 33 download sources and 0 caching proxies via ContentServerDirectoryService::BYieldingGetServersForSteamPipe (CellID 14 / Launcher 3)
+[2026-10-30 14:09:51] stats: (SteamCache, 102) cache6-par1.steamcontent.com: 1556370112 Bytes, 330 sec (37.69 Mbps). 9355 Hits / 0 Misses (100 %, 100 % bytes), score 0.8332
+[2026-10-30 14:09:51] stats: (Invalid, 0) : 11854799744 Bytes, 330 sec (287.16 Mbps). 69677 Hits / 0 Misses (100 %, 100 % bytes), score 0.0000
+[2026-10-30 14:09:51] stats: (SteamCache, 107) cache3-par1.steamcontent.com: 1515807536 Bytes, 328 sec (36.96 Mbps). 8595 Hits / 0 Misses (100 %, 100 % bytes), score 0.8876
+[2026-10-30 14:09:51] stats: (SteamCache, 105) cache1-par1.steamcontent.com: 1383284736 Bytes, 328 sec (33.71 Mbps). 8423 Hits / 0 Misses (100 %, 100 % bytes), score 0.8875
+[2026-10-30 14:09:51] stats: (SteamCache, 108) cache4-par1.steamcontent.com: 1536469680 Bytes, 329 sec (37.36 Mbps). 8787 Hits / 0 Misses (100 %, 100 % bytes), score 0.8776
+[2026-10-30 14:09:51] stats: (SteamCache, 101) cache5-par1.steamcontent.com: 1450663296 Bytes, 328 sec (35.39 Mbps). 8717 Hits / 0 Misses (100 %, 100 % bytes), score 0.8839
+[2026-10-30 14:09:51] stats: (SteamCache, 106) cache2-par1.steamcontent.com: 1586532432 Bytes, 328 sec (38.71 Mbps). 8831 Hits / 0 Misses (100 %, 100 % bytes), score 0.8876
+[2026-10-30 14:09:51] stats: (SteamCache, 234) cache7-par1.steamcontent.com: 1357607328 Bytes, 329 sec (33.05 Mbps). 8415 Hits / 0 Misses (100 %, 100 % bytes), score 0.8888
+[2026-10-30 14:09:51] stats: (SteamCache, 235) cache8-par1.steamcontent.com: 1468064624 Bytes, 327 sec (35.93 Mbps). 8554 Hits / 0 Misses (100 %, 100 % bytes), score 0.8920
+[2026-10-30 14:09:53] Current download rate: 283.022 Mbps
+[2026-10-30 14:10:44] Downloading 1125 chunks for depot 2347774 (6845003340509320862)
+[2026-10-30 14:10:53] Current download rate: 283.766 Mbps
+[2026-10-30 14:11:12] AppID 730 App update changed : Running Update,
+[2026-10-30 14:11:12] AppID 730 App update changed : Running Update,Verifying Staged,
+[2026-10-30 14:11:13] Verified 150 MB in 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd', clean bytes tally is now 150 MB
+[2026-10-30 14:11:13] Triggered async write of Steam library folders configuration (1 libraries).
+[2026-10-30 14:11:54] Current download rate: 0.000 Mbps
+[2026-10-30 14:12:10] HTTP/2 (SteamCache,107) - cache3-par1.steamcontent.com (185.25.182.4:443 / 185.25.182.4:443, host: cache3-par1.steamcontent.com): Connection has been idle for '61' seconds, closing
+[2026-10-30 14:12:10] HTTP/2 (SteamCache,107) - cache3-par1.steamcontent.com (185.25.182.4:443 / 185.25.182.4:443, host: cache3-par1.steamcontent.com): Closing connection
+[2026-10-30 14:12:11] HTTP/2 (SteamCache,101) - cache5-par1.steamcontent.com (185.25.182.5:443 / 185.25.182.5:443, host: cache5-par1.steamcontent.com): Connection has been idle for '61' seconds, closing
+[2026-10-30 14:12:11] HTTP/2 (SteamCache,101) - cache5-par1.steamcontent.com (185.25.182.5:443 / 185.25.182.5:443, host: cache5-par1.steamcontent.com): Closing connection
+[2026-10-30 14:12:11] HTTP/2 (SteamCache,105) - cache1-par1.steamcontent.com (185.25.182.3:443 / 185.25.182.3:443, host: cache1-par1.steamcontent.com): Connection has been idle for '61' seconds, closing
+[2026-10-30 14:12:11] HTTP/2 (SteamCache,105) - cache1-par1.steamcontent.com (185.25.182.3:443 / 185.25.182.3:443, host: cache1-par1.steamcontent.com): Closing connection
+[2026-10-30 14:12:11] HTTP/2 (SteamCache,102) - cache6-par1.steamcontent.com (185.25.182.37:443 / 185.25.182.37:443, host: cache6-par1.steamcontent.com): Connection has been idle for '61' seconds, closing
+[2026-10-30 14:12:11] HTTP/2 (SteamCache,102) - cache6-par1.steamcontent.com (185.25.182.37:443 / 185.25.182.37:443, host: cache6-par1.steamcontent.com): Closing connection
+[2026-10-30 14:12:11] HTTP/2 (SteamCache,106) - cache2-par1.steamcontent.com (185.25.182.35:443 / 185.25.182.35:443, host: cache2-par1.steamcontent.com): Connection has been idle for '61' seconds, closing
+[2026-10-30 14:12:11] HTTP/2 (SteamCache,106) - cache2-par1.steamcontent.com (185.25.182.35:443 / 185.25.182.35:443, host: cache2-par1.steamcontent.com): Closing connection
+[2026-10-30 14:12:12] HTTP/2 (SteamCache,234) - cache7-par1.steamcontent.com (185.25.182.7:443 / 185.25.182.7:443, host: cache7-par1.steamcontent.com): Connection has been idle for '61' seconds, closing
+[2026-10-30 14:12:12] HTTP/2 (SteamCache,234) - cache7-par1.steamcontent.com (185.25.182.7:443 / 185.25.182.7:443, host: cache7-par1.steamcontent.com): Closing connection
+[2026-10-30 14:12:12] HTTP/2 (SteamCache,108) - cache4-par1.steamcontent.com (185.25.182.36:443 / 185.25.182.36:443, host: cache4-par1.steamcontent.com): Connection has been idle for '61' seconds, closing
+[2026-10-30 14:12:12] HTTP/2 (SteamCache,108) - cache4-par1.steamcontent.com (185.25.182.36:443 / 185.25.182.36:443, host: cache4-par1.steamcontent.com): Closing connection
+[2026-10-30 14:12:13] HTTP/2 (SteamCache,235) - cache8-par1.steamcontent.com (185.25.182.40:443 / 185.25.182.40:443, host: cache8-par1.steamcontent.com): Connection has been idle for '61' seconds, closing
+[2026-10-30 14:12:13] HTTP/2 (SteamCache,235) - cache8-par1.steamcontent.com (185.25.182.40:443 / 185.25.182.40:443, host: cache8-par1.steamcontent.com): Closing connection
+[2026-10-30 14:12:19] Got 33 download sources and 0 caching proxies via ContentServerDirectoryService::BYieldingGetServersForSteamPipe (CellID 14 / Launcher 3)
+[2026-10-30 14:12:49] Got 32 download sources and 0 caching proxies via ContentServerDirectoryService::BYieldingGetServersForSteamPipe (CellID 14 / Launcher 3)
+[2026-10-30 14:13:19] Got 32 download sources and 0 caching proxies via ContentServerDirectoryService::BYieldingGetServersForSteamPipe (CellID 14 / Launcher 3)
+[2026-10-30 14:13:26] Verified 70534 MB in 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd', clean bytes tally is now 70685 MB
+[2026-10-30 14:13:26] Triggered async write of Steam library folders configuration (1 libraries).
+[2026-10-30 14:13:26] AppID 730 App update changed : Running Update,
+[2026-10-30 14:13:26] AppID 730 App update changed : Running Update,Committing,
+[2026-10-30 14:13:26] AppID 228980 starting commit from "c:\program files (x86)\steam\steamapps\downloading\228980" to "c:\program files (x86)\steam" : 168 updated, 0 moved, 26 deleted files
+[2026-10-30 14:13:26] AppID 228980 state changed : Fully Installed,Update Running,
+[2026-10-30 14:13:26] AppID 228980 finished update, 3 mounted depots (BuildID 24098430) : 228988 (6645201662696499616),228989 (5753583882400741046),228990 (1829726630299308803),
+[2026-10-30 14:13:26] AppID 730 starting commit from "c:\program files (x86)\steam\steamapps\downloading\730" to "c:\program files (x86)\steam" : 3188 updated, 0 moved, 0 deleted files
+[2026-10-30 14:13:28] AppID 730 state changed : Fully Installed,Update Queued,Update Running,
+[2026-10-30 14:13:28] AppID 730 finished update, 9 mounted depots (BuildID 26281801) : 732 (7263089472237994766),731 (6136897076417766099),735 (4345444102999343217),736 (6128890264644109552),737 (5108083542687880765),738 (9184369516841151210),2347770 (8833146750479675564),2347771 (5218696177408015009),2347774 (6845003340509320862),
+[2026-10-30 14:13:28] AppID 730 App update changed : Running Update,
+[2026-10-30 14:13:28] AppID 730 App update changed : None
+[2026-10-30 14:13:28] AppID 228980 state changed : Fully Installed,
+[2026-10-30 14:13:28] AppID 730 state changed : Fully Installed,Update Queued,
+[2026-10-30 14:13:28] AppID 730 state changed : Fully Installed,
+[2026-10-30 14:13:28] AppID 730 scheduler finished : removed from schedule (result No Error, state 0xc) 
+
+
+[2026-10-30 15:20:19] Client version: 1792617903
+[2026-10-30 15:20:19] Loaded 0 apps from install folder "d:\steamcmd_library\steamapps\appmanifest_*.acf".
+[2026-10-30 15:20:19] Triggered async write of Steam library folders configuration (1 libraries).
+[2026-10-30 15:20:21] Failed installing AppID 10 (No subscription)
+
+
+[2026-10-30 15:21:07] Client version: 1792617903
+[2026-10-30 15:21:07] Loaded 0 apps from install folder "d:\steamcmd_library\steamapps\appmanifest_*.acf".
+[2026-10-30 15:21:07] Triggered async write of Steam library folders configuration (1 libraries).
+[2026-10-30 15:21:09] Failed installing AppID 10 (No subscription)
+
+
+[2026-10-30 15:24:28] Client version: 1792617903
+[2026-10-30 15:24:28] Loaded 7 apps from install folder "d:\steamlibrary\steamapps\appmanifest_*.acf".
+[2026-10-30 15:24:28] AppID 228980 state changed : Update Required,Shared Only,
+[2026-10-30 15:24:28] AppID 228980 state changed : Update Required,
+[2026-10-30 15:24:28] Triggered async write of Steam library folders configuration (1 libraries).
+[2026-10-30 15:24:30] Dependency removed: parent 228980, child 570, depot 228983
+[2026-10-30 15:24:30] Dependency removed: parent 228980, child 570, depot 228989
+[2026-10-30 15:24:30] Dependency removed: parent 228980, child 570, depot 228990
+
+
+[2026-10-30 15:24:47] Client version: 1792617903
+[2026-10-30 15:24:47] Loaded 0 apps from install folder "d:\steamcmd_library\steamapps\appmanifest_*.acf".
+[2026-10-30 15:24:47] Triggered async write of Steam library folders configuration (1 libraries).
+[2026-10-30 15:24:49] Failed installing AppID 10 (No subscription)
+
+
+[2026-10-30 15:25:48] Client version: 1792617903
+[2026-10-30 15:25:48] Loaded 0 apps from install folder "d:\steamcmd_library\steamapps\appmanifest_*.acf".
+[2026-10-30 15:25:48] Triggered async write of Steam library folders configuration (1 libraries).
+[2026-10-30 15:25:50] Failed installing AppID 236390 (No subscription)
+
+
+[2026-10-30 15:28:48] Client version: 1792617903
+[2026-10-30 15:28:48] Loaded 0 apps from install folder "d:\steamcmd_library\steamapps\appmanifest_*.acf".
+[2026-10-30 15:28:48] Triggered async write of Steam library folders configuration (1 libraries).
+[2026-10-30 15:28:50] Failed installing AppID 236390 (No subscription)
+
+
+[2026-10-30 15:34:11] Client version: 1792617903
+[2026-10-30 15:34:11] Loaded 0 apps from install folder "d:\steamcmd_library\steamapps\appmanifest_*.acf".
+[2026-10-30 15:34:11] Triggered async write of Steam library folders configuration (1 libraries).
+[2026-10-30 15:34:17] AppID 236390 state changed : Update Required,
+[2026-10-30 15:34:17] AppID 228980 state changed : Update Required,Shared Only,
+[2026-10-30 15:34:17] AppID 228980 state changed : Update Required,
+[2026-10-30 15:34:17] Dependency added: parent 228980, child 236390, depot 228989
+[2026-10-30 15:34:17] Dependency added: parent 228980, child 236390, depot 228990
+[2026-10-30 15:34:17] AppID 236390 scheduler update : Priority First, not played for 12 seconds, update disabled for 0 seconds
+[2026-10-30 15:34:17] AppID 236390 state changed : Update Required,Update Queued,
+[2026-10-30 15:34:17] AppID 236390 scheduler update : Priority First, not played for 12 seconds, update disabled for 0 seconds
+[2026-10-30 15:34:17] AppID 236390 state changed : Update Required,Update Queued,Update Running,
+[2026-10-30 15:34:17] AppID 228980 state changed : Update Required,Update Running,
+[2026-10-30 15:34:17] AppID 236390 App update changed : Running Update,
+[2026-10-30 15:34:17] AppID 236390 App update changed : Running Update,Reconfiguring,
+[2026-10-30 15:34:19] Got 32 download sources and 0 caching proxies via ContentServerDirectoryService::BYieldingGetServersForSteamPipe (CellID 14 / Launcher 3)
+[2026-10-30 15:34:19] Moving to source priority class '8'
+[2026-10-30 15:34:19] Created download interface of type 'SteamCache' (7) to host cache3-par1.steamcontent.com (cache3-par1.steamcontent.com)
+[2026-10-30 15:34:19] Created download interface of type 'SteamCache' (7) to host cache8-par1.steamcontent.com (cache8-par1.steamcontent.com)
+[2026-10-30 15:34:19] Created download interface of type 'SteamCache' (7) to host cache7-par1.steamcontent.com (cache7-par1.steamcontent.com)
+[2026-10-30 15:34:19] Created download interface of type 'SteamCache' (7) to host cache2-par1.steamcontent.com (cache2-par1.steamcontent.com)
+[2026-10-30 15:34:19] Created download interface of type 'SteamCache' (7) to host cache5-par1.steamcontent.com (cache5-par1.steamcontent.com)
+[2026-10-30 15:34:19] Created download interface of type 'SteamCache' (7) to host cache4-par1.steamcontent.com (cache4-par1.steamcontent.com)
+[2026-10-30 15:34:19] Created download interface of type 'SteamCache' (7) to host cache6-par1.steamcontent.com (cache6-par1.steamcontent.com)
+[2026-10-30 15:34:19] Created download interface of type 'SteamCache' (7) to host cache1-par1.steamcontent.com (cache1-par1.steamcontent.com)
+[2026-10-30 15:34:19] HTTP/2 available
+[2026-10-30 15:34:19] Created ipv4-only http client
+[2026-10-30 15:34:20] HTTPS (SteamCache,107) - cache3-par1.steamcontent.com (185.25.182.4:443 / 185.25.182.4:443, host: cache3-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 15:34:20] HTTP/2 (SteamCache,107) - cache3-par1.steamcontent.com (185.25.182.4:443 / 185.25.182.4:443, host: cache3-par1.steamcontent.com): cache3-par1.steamcontent.com/depot/236394/manifest/3839604526498621503/5/17167559555810038630 - manifest request received 200 (OK) HTTP response
+[2026-10-30 15:34:21] HTTP/2 (SteamCache,107) - cache3-par1.steamcontent.com (185.25.182.4:443 / 185.25.182.4:443, host: cache3-par1.steamcontent.com): cache3-par1.steamcontent.com/depot/236391/manifest/7461589110099034279/5/3848928539932546833 - manifest request received 200 (OK) HTTP response
+[2026-10-30 15:34:21] AppID 236390 App update changed : Running Update,
+[2026-10-30 15:34:21] AppID 236390 App update changed : Running Update,Verifying Installed,
+[2026-10-30 15:34:21] AppID 236390 App update changed : Running Update,
+[2026-10-30 15:34:21] AppID 236390 App update changed : Running Update,Preallocating,
+[2026-10-30 15:34:21] AppID 228980 preallocated 86 files (114 MB) 
+[2026-10-30 15:34:24] AppID 236390 preallocated 9183 files (88803 MB) 
+[2026-10-30 15:34:24] AppID 236390 App update changed : Running Update,
+[2026-10-30 15:34:24] AppID 228980 update started : download 0/125766608, store 0/0, reuse 0/0, delta 0/0, stage 0/128606066 
+[2026-10-30 15:34:24] AppID 228980 state changed : Update Required,Update Running,Update Started,
+[2026-10-30 15:34:24] AppID 236390 update started : download 0/90099536832, store 0/0, reuse 0/0, delta 0/0, stage 0/93167608073 
+[2026-10-30 15:34:24] AppID 236390 state changed : Update Required,Update Queued,Update Running,Update Started,
+[2026-10-30 15:34:24] AppID 236390 App update changed : Running Update,Downloading,Staging,
+[2026-10-30 15:34:24] Downloading 28 chunks for depot 228989 (5753583882400741046)
+[2026-10-30 15:34:26] HTTPS (SteamCache,102) - cache6-par1.steamcontent.com (185.25.182.37:443 / 185.25.182.37:443, host: cache6-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 15:34:26] HTTPS (SteamCache,105) - cache1-par1.steamcontent.com (185.25.182.3:443 / 185.25.182.3:443, host: cache1-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 15:34:26] HTTPS (SteamCache,106) - cache2-par1.steamcontent.com (185.25.182.35:443 / 185.25.182.35:443, host: cache2-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 15:34:26] HTTPS (SteamCache,101) - cache5-par1.steamcontent.com (185.25.182.5:443 / 185.25.182.5:443, host: cache5-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 15:34:26] HTTPS (SteamCache,235) - cache8-par1.steamcontent.com (185.25.182.40:443 / 185.25.182.40:443, host: cache8-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 15:34:26] HTTPS (SteamCache,234) - cache7-par1.steamcontent.com (185.25.182.7:443 / 185.25.182.7:443, host: cache7-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 15:34:26] HTTPS (SteamCache,108) - cache4-par1.steamcontent.com (185.25.182.36:443 / 185.25.182.36:443, host: cache4-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 15:34:27] Downloading 203 chunks for depot 228990 (1829726630299308803)
+[2026-10-30 15:34:31] AppID 236390 App update changed : Running Update,
+[2026-10-30 15:34:31] AppID 236390 App update changed : Running Update,Downloading,Staging,
+[2026-10-30 15:34:31] Downloading 2216 chunks for depot 236394 (3839604526498621503)
+[2026-10-30 15:34:32] Increasing target number of download connections to 9 (rate was 0.000, now 106.332)
+[2026-10-30 15:34:44] Increasing target number of download connections to 10 (rate was 106.332, now 238.757)
+[2026-10-30 15:35:11] Downloading 94763 chunks for depot 236391 (7461589110099034279)
+[2026-10-30 15:35:33] Current download rate: 284.739 Mbps
+[2026-10-30 15:35:35] Increasing target number of download connections to 11 (rate was 238.757, now 287.973)
+[2026-10-30 15:36:34] Current download rate: 290.169 Mbps
+[2026-10-30 15:37:35] Current download rate: 289.380 Mbps
+
+
+[2026-10-30 15:39:03] Client version: 1792617903
+[2026-10-30 15:39:03] Loaded 2 apps from install folder "d:\steamcmd_library\steamapps\appmanifest_*.acf".
+[2026-10-30 15:39:03] Triggered async write of Steam library folders configuration (1 libraries).
+[2026-10-30 15:39:04] Dependency removed: parent 228980, child 236390, depot 228989
+[2026-10-30 15:39:04] Dependency removed: parent 228980, child 236390, depot 228990
+[2026-10-30 15:39:04] AppID 236390 scheduler update : Priority First, not played for 1793363944 seconds, update disabled for 0 seconds
+[2026-10-30 15:39:04] AppID 236390 state changed : Update Required,Update Queued,Update Started,
+[2026-10-30 15:39:05] AppID 236390 state changed : Update Required,Update Queued,Update Running,Update Started,
+[2026-10-30 15:39:05] AppID 236390 App update changed : Running Update,
+[2026-10-30 15:39:05] AppID 236390 App update changed : Running Update,Reconfiguring,
+[2026-10-30 15:39:05] AppID 236390 App update changed : Running Update,
+[2026-10-30 15:39:05] AppID 236390 has no changes, 0 active:  0 target: 
+[2026-10-30 15:39:05] AppID 236390 App update changed : Running Update,Staging,
+[2026-10-30 15:39:05] AppID 236390 App update changed : Running Update,
+[2026-10-30 15:39:05] AppID 236390 App update changed : Running Update,Committing,
+[2026-10-30 15:39:05] AppID 236390 starting commit from "d:\steamcmd_library\steamapps\downloading\236390" to "d:\steamcmd_library" : 0 updated, 0 moved, 0 deleted files
+[2026-10-30 15:39:07] AppID 236390 state changed : Fully Installed,Update Queued,Update Running,
+[2026-10-30 15:39:07] AppID 236390 finished update, 0 mounted depots (BuildID 26292308) : 
+[2026-10-30 15:39:07] AppID 236390 App update changed : Running Update,
+[2026-10-30 15:39:07] AppID 236390 App update changed : None
+[2026-10-30 15:39:07] AppID 236390 state changed : Fully Installed,Update Queued,
+[2026-10-30 15:39:07] AppID 236390 state changed : Fully Installed,
+[2026-10-30 15:39:07] AppID 236390 scheduler finished : removed from schedule (result No Error, state 0xc) 
+
+
+[2026-10-30 15:44:33] Client version: 1792617903
+[2026-10-30 15:44:33] Loaded 2 apps from install folder "d:\steamcmd_library\steamapps\appmanifest_*.acf".
+[2026-10-30 15:44:33] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-10-30 15:48:20] Client version: 1792617903
+[2026-10-30 15:48:20] Loaded 2 apps from install folder "d:\steamcmd_library\steamapps\appmanifest_*.acf".
+[2026-10-30 15:48:20] Triggered async write of Steam library folders configuration (1 libraries).
+[2026-10-30 15:48:27] Dependency added: parent 228980, child 236390, depot 228989
+[2026-10-30 15:48:27] Dependency added: parent 228980, child 236390, depot 228990
+[2026-10-30 15:48:27] AppID 236390 state changed : Update Required,Fully Installed,
+[2026-10-30 15:48:27] AppID 236390 config changed : added depots 236394,236391
+[2026-10-30 15:48:27] AppID 236390 scheduler update : Priority First, not played for 1129588 seconds, update disabled for 0 seconds
+[2026-10-30 15:48:27] AppID 236390 state changed : Update Required,Fully Installed,Update Queued,
+[2026-10-30 15:48:27] AppID 236390 state changed : Update Required,Fully Installed,Update Queued,Update Running,
+[2026-10-30 15:48:27] AppID 228980 state changed : Update Required,Update Running,Update Started,
+[2026-10-30 15:48:27] AppID 236390 App update changed : Running Update,
+[2026-10-30 15:48:27] AppID 236390 App update changed : Running Update,Reconfiguring,
+[2026-10-30 15:48:28] Got 32 download sources and 0 caching proxies via ContentServerDirectoryService::BYieldingGetServersForSteamPipe (CellID 14 / Launcher 3)
+[2026-10-30 15:48:28] Moving to source priority class '8'
+[2026-10-30 15:48:28] Created download interface of type 'SteamCache' (7) to host cache3-par1.steamcontent.com (cache3-par1.steamcontent.com)
+[2026-10-30 15:48:28] Created download interface of type 'SteamCache' (7) to host cache7-par1.steamcontent.com (cache7-par1.steamcontent.com)
+[2026-10-30 15:48:28] Created download interface of type 'SteamCache' (7) to host cache2-par1.steamcontent.com (cache2-par1.steamcontent.com)
+[2026-10-30 15:48:28] Created download interface of type 'SteamCache' (7) to host cache8-par1.steamcontent.com (cache8-par1.steamcontent.com)
+[2026-10-30 15:48:28] Created download interface of type 'SteamCache' (7) to host cache5-par1.steamcontent.com (cache5-par1.steamcontent.com)
+[2026-10-30 15:48:28] Created download interface of type 'SteamCache' (7) to host cache6-par1.steamcontent.com (cache6-par1.steamcontent.com)
+[2026-10-30 15:48:28] Created download interface of type 'SteamCache' (7) to host cache1-par1.steamcontent.com (cache1-par1.steamcontent.com)
+[2026-10-30 15:48:28] Created download interface of type 'SteamCache' (7) to host cache4-par1.steamcontent.com (cache4-par1.steamcontent.com)
+[2026-10-30 15:48:28] HTTP/2 available
+[2026-10-30 15:48:28] Created ipv4-only http client
+[2026-10-30 15:48:29] HTTPS (SteamCache,107) - cache3-par1.steamcontent.com (185.25.182.4:443 / 185.25.182.4:443, host: cache3-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 15:48:29] HTTP/2 (SteamCache,107) - cache3-par1.steamcontent.com (185.25.182.4:443 / 185.25.182.4:443, host: cache3-par1.steamcontent.com): cache3-par1.steamcontent.com/depot/236394/manifest/3839604526498621503/5/11753782614822715389 - manifest request received 200 (OK) HTTP response
+[2026-10-30 15:48:29] HTTPS (SteamCache,235) - cache8-par1.steamcontent.com (185.25.182.40:443 / 185.25.182.40:443, host: cache8-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 15:48:29] HTTP/2 (SteamCache,235) - cache8-par1.steamcontent.com (185.25.182.40:443 / 185.25.182.40:443, host: cache8-par1.steamcontent.com): cache8-par1.steamcontent.com/depot/236391/manifest/7461589110099034279/5/8321076705759305661 - manifest request received 200 (OK) HTTP response
+[2026-10-30 15:48:30] AppID 236390 App update changed : Running Update,
+[2026-10-30 15:48:30] AppID 236390 App update changed : Running Update,Verifying Installed,
+[2026-10-30 15:48:30] AppID 236390 App update changed : Running Update,
+[2026-10-30 15:48:30] AppID 236390 App update changed : Running Update,Preallocating,
+[2026-10-30 15:48:30] AppID 228980 preallocated 0 files (0 MB) 
+[2026-10-30 15:48:32] AppID 236390 preallocated 9183 files (88803 MB) 
+[2026-10-30 15:48:32] AppID 236390 App update changed : Running Update,
+[2026-10-30 15:48:32] AppID 228980 update started : download 125766608/125766608, store 0/0, reuse 0/0, delta 0/0, stage 128606066/128606066 
+[2026-10-30 15:48:32] AppID 236390 update started : download 0/90099536832, store 0/0, reuse 0/0, delta 0/0, stage 0/93167608073 
+[2026-10-30 15:48:32] AppID 236390 state changed : Update Required,Fully Installed,Update Queued,Update Running,Update Started,
+[2026-10-30 15:48:32] AppID 236390 App update changed : Running Update,Staging,
+[2026-10-30 15:48:32] AppID 236390 App update changed : Running Update,
+[2026-10-30 15:48:32] AppID 236390 App update changed : Running Update,Downloading,Staging,
+[2026-10-30 15:48:32] Downloading 2216 chunks for depot 236394 (3839604526498621503)
+[2026-10-30 15:48:33] HTTPS (SteamCache,105) - cache1-par1.steamcontent.com (185.25.182.3:443 / 185.25.182.3:443, host: cache1-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 15:48:33] HTTPS (SteamCache,108) - cache4-par1.steamcontent.com (185.25.182.36:443 / 185.25.182.36:443, host: cache4-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 15:48:33] HTTPS (SteamCache,106) - cache2-par1.steamcontent.com (185.25.182.35:443 / 185.25.182.35:443, host: cache2-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 15:48:33] HTTPS (SteamCache,101) - cache5-par1.steamcontent.com (185.25.182.5:443 / 185.25.182.5:443, host: cache5-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 15:48:33] HTTPS (SteamCache,102) - cache6-par1.steamcontent.com (185.25.182.37:443 / 185.25.182.37:443, host: cache6-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 15:48:34] HTTPS (SteamCache,234) - cache7-par1.steamcontent.com (185.25.182.7:443 / 185.25.182.7:443, host: cache7-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 15:48:41] Increasing target number of download connections to 9 (rate was 0.000, now 174.964)
+[2026-10-30 15:48:53] Increasing target number of download connections to 10 (rate was 174.964, now 257.807)
+[2026-10-30 15:49:12] Downloading 94763 chunks for depot 236391 (7461589110099034279)
+
+
+[2026-10-30 15:50:45] Client version: 1792617903
+[2026-10-30 15:50:45] Loaded 2 apps from install folder "d:\steamcmd_library\steamapps\appmanifest_*.acf".
+[2026-10-30 15:50:45] Triggered async write of Steam library folders configuration (1 libraries).
+[2026-10-30 15:50:52] AppID 236390 scheduler update : Priority First, not played for 1129733 seconds, update disabled for 0 seconds
+[2026-10-30 15:50:52] AppID 236390 state changed : Update Required,Fully Installed,Update Queued,Update Started,
+[2026-10-30 15:50:52] AppID 236390 state changed : Update Required,Fully Installed,Update Queued,Update Running,Update Started,
+[2026-10-30 15:50:52] AppID 228980 state changed : Update Required,Update Running,Update Started,
+[2026-10-30 15:50:52] AppID 236390 App update changed : Running Update,
+[2026-10-30 15:50:52] AppID 236390 App update changed : Running Update,Reconfiguring,
+[2026-10-30 15:50:52] AppID 236390 App update changed : Running Update,
+[2026-10-30 15:50:52] Incomplete loading d:\steamcmd_library\steamapps\downloading\state_236390_236394.patch: missing sentinel
+[2026-10-30 15:50:52] Incomplete loading d:\steamcmd_library\steamapps\downloading\state_236390_236391.patch: missing sentinel
+[2026-10-30 15:50:52] AppID 236390 App update changed : Running Update,Preallocating,
+[2026-10-30 15:50:52] AppID 228980 preallocated 0 files (0 MB) 
+[2026-10-30 15:50:52] AppID 236390 App update changed : Running Update,
+[2026-10-30 15:50:52] AppID 228980 update started : download 125766608/125766608, store 0/0, reuse 0/0, delta 0/0, stage 128606066/128606066 
+[2026-10-30 15:50:52] AppID 236390 update started : download 1681068064/90099536832, store 0/0, reuse 0/0, delta 0/0, stage 2611257575/93167608073 
+[2026-10-30 15:50:52] AppID 236390 App update changed : Running Update,Staging,
+[2026-10-30 15:50:52] AppID 236390 App update changed : Running Update,
+[2026-10-30 15:50:52] AppID 236390 App update changed : Running Update,Downloading,Staging,
+[2026-10-30 15:50:53] Got 32 download sources and 0 caching proxies via ContentServerDirectoryService::BYieldingGetServersForSteamPipe (CellID 14 / Launcher 3)
+[2026-10-30 15:50:53] Moving to source priority class '8'
+[2026-10-30 15:50:53] Created download interface of type 'SteamCache' (7) to host cache3-par1.steamcontent.com (cache3-par1.steamcontent.com)
+[2026-10-30 15:50:53] Created download interface of type 'SteamCache' (7) to host cache2-par1.steamcontent.com (cache2-par1.steamcontent.com)
+[2026-10-30 15:50:53] Created download interface of type 'SteamCache' (7) to host cache7-par1.steamcontent.com (cache7-par1.steamcontent.com)
+[2026-10-30 15:50:53] Created download interface of type 'SteamCache' (7) to host cache8-par1.steamcontent.com (cache8-par1.steamcontent.com)
+[2026-10-30 15:50:53] Created download interface of type 'SteamCache' (7) to host cache5-par1.steamcontent.com (cache5-par1.steamcontent.com)
+[2026-10-30 15:50:53] Created download interface of type 'SteamCache' (7) to host cache1-par1.steamcontent.com (cache1-par1.steamcontent.com)
+[2026-10-30 15:50:53] Created download interface of type 'SteamCache' (7) to host cache4-par1.steamcontent.com (cache4-par1.steamcontent.com)
+[2026-10-30 15:50:53] Downloading 58 chunks for depot 236394 (3839604526498621503)
+[2026-10-30 15:50:53] HTTP/2 available
+[2026-10-30 15:50:53] Created ipv4-only http client
+[2026-10-30 15:50:53] HTTPS (SteamCache,107) - cache3-par1.steamcontent.com (185.25.182.4:443 / 185.25.182.4:443, host: cache3-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 15:50:54] HTTPS (SteamCache,106) - cache2-par1.steamcontent.com (185.25.182.35:443 / 185.25.182.35:443, host: cache2-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 15:50:54] HTTPS (SteamCache,105) - cache1-par1.steamcontent.com (185.25.182.3:443 / 185.25.182.3:443, host: cache1-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 15:50:54] HTTPS (SteamCache,101) - cache5-par1.steamcontent.com (185.25.182.5:443 / 185.25.182.5:443, host: cache5-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 15:50:54] HTTPS (SteamCache,234) - cache7-par1.steamcontent.com (185.25.182.7:443 / 185.25.182.7:443, host: cache7-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 15:50:54] HTTPS (SteamCache,235) - cache8-par1.steamcontent.com (185.25.182.40:443 / 185.25.182.40:443, host: cache8-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 15:50:54] HTTPS (SteamCache,108) - cache4-par1.steamcontent.com (185.25.182.36:443 / 185.25.182.36:443, host: cache4-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 15:50:56] Created download interface of type 'SteamCache' (7) to host cache11-par1.steamcontent.com (cache11-par1.steamcontent.com)
+[2026-10-30 15:50:56] Downloading 94372 chunks for depot 236391 (7461589110099034279)
+[2026-10-30 15:50:57] HTTPS (SteamCache,446) - cache11-par1.steamcontent.com (185.25.182.11:443 / 185.25.182.11:443, host: cache11-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 15:51:06] Increasing target number of download connections to 9 (rate was 0.000, now 227.437)
+[2026-10-30 15:51:06] Created download interface of type 'SteamCache' (7) to host cache12-par1.steamcontent.com (cache12-par1.steamcontent.com)
+[2026-10-30 15:51:07] HTTPS (SteamCache,447) - cache12-par1.steamcontent.com (185.25.182.42:443 / 185.25.182.42:443, host: cache12-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 15:51:18] Increasing target number of download connections to 10 (rate was 227.437, now 274.151)
+[2026-10-30 15:51:18] Created download interface of type 'SteamCache' (7) to host cache10-par1.steamcontent.com (cache10-par1.steamcontent.com)
+[2026-10-30 15:51:20] HTTPS (SteamCache,399) - cache10-par1.steamcontent.com (185.25.182.10:443 / 185.25.182.10:443, host: cache10-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 15:52:07] Current download rate: 290.887 Mbps
+
+
+[2026-10-30 15:54:13] Client version: 1792617903
+[2026-10-30 15:54:13] Loaded 2 apps from install folder "d:\steamcmd_library\steamapps\appmanifest_*.acf".
+[2026-10-30 15:54:13] Triggered async write of Steam library folders configuration (1 libraries).
+[2026-10-30 15:54:19] AppID 236390 scheduler update : Priority First, not played for 1129940 seconds, update disabled for 0 seconds
+[2026-10-30 15:54:19] AppID 236390 state changed : Update Required,Fully Installed,Update Queued,Update Started,
+[2026-10-30 15:54:19] AppID 236390 state changed : Update Required,Fully Installed,Update Queued,Update Running,Update Started,
+[2026-10-30 15:54:19] AppID 228980 state changed : Update Required,Update Running,Update Started,
+[2026-10-30 15:54:19] AppID 236390 App update changed : Running Update,
+[2026-10-30 15:54:19] AppID 236390 App update changed : Running Update,Reconfiguring,
+[2026-10-30 15:54:19] AppID 236390 App update changed : Running Update,
+[2026-10-30 15:54:19] Incomplete loading d:\steamcmd_library\steamapps\downloading\state_236390_236394.patch: missing sentinel
+[2026-10-30 15:54:19] Incomplete loading d:\steamcmd_library\steamapps\downloading\state_236390_236391.patch: missing sentinel
+[2026-10-30 15:54:19] AppID 236390 App update changed : Running Update,Preallocating,
+[2026-10-30 15:54:19] AppID 228980 preallocated 0 files (0 MB) 
+[2026-10-30 15:54:19] AppID 236390 App update changed : Running Update,
+[2026-10-30 15:54:19] AppID 228980 update started : download 125766608/125766608, store 0/0, reuse 0/0, delta 0/0, stage 128606066/128606066 
+[2026-10-30 15:54:19] AppID 236390 update started : download 5096770432/90099536832, store 0/0, reuse 0/0, delta 0/0, stage 6049196172/93167608073 
+[2026-10-30 15:54:19] AppID 236390 App update changed : Running Update,Staging,
+[2026-10-30 15:54:19] AppID 236390 App update changed : Running Update,
+[2026-10-30 15:54:19] AppID 236390 App update changed : Running Update,Downloading,Staging,
+[2026-10-30 15:54:20] Got 32 download sources and 0 caching proxies via ContentServerDirectoryService::BYieldingGetServersForSteamPipe (CellID 14 / Launcher 3)
+[2026-10-30 15:54:20] Moving to source priority class '8'
+[2026-10-30 15:54:20] Created download interface of type 'SteamCache' (7) to host cache3-par1.steamcontent.com (cache3-par1.steamcontent.com)
+[2026-10-30 15:54:20] Created download interface of type 'SteamCache' (7) to host cache7-par1.steamcontent.com (cache7-par1.steamcontent.com)
+[2026-10-30 15:54:20] Created download interface of type 'SteamCache' (7) to host cache8-par1.steamcontent.com (cache8-par1.steamcontent.com)
+[2026-10-30 15:54:20] Created download interface of type 'SteamCache' (7) to host cache5-par1.steamcontent.com (cache5-par1.steamcontent.com)
+[2026-10-30 15:54:20] Created download interface of type 'SteamCache' (7) to host cache1-par1.steamcontent.com (cache1-par1.steamcontent.com)
+[2026-10-30 15:54:20] Created download interface of type 'SteamCache' (7) to host cache4-par1.steamcontent.com (cache4-par1.steamcontent.com)
+[2026-10-30 15:54:20] Created download interface of type 'SteamCache' (7) to host cache2-par1.steamcontent.com (cache2-par1.steamcontent.com)
+[2026-10-30 15:54:20] Downloading 58 chunks for depot 236394 (3839604526498621503)
+[2026-10-30 15:54:20] HTTP/2 available
+[2026-10-30 15:54:20] Created ipv4-only http client
+[2026-10-30 15:54:21] HTTPS (SteamCache,107) - cache3-par1.steamcontent.com (185.25.182.4:443 / 185.25.182.4:443, host: cache3-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 15:54:21] HTTPS (SteamCache,234) - cache7-par1.steamcontent.com (185.25.182.7:443 / 185.25.182.7:443, host: cache7-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 15:54:21] HTTPS (SteamCache,101) - cache5-par1.steamcontent.com (185.25.182.5:443 / 185.25.182.5:443, host: cache5-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 15:54:21] HTTPS (SteamCache,106) - cache2-par1.steamcontent.com (185.25.182.35:443 / 185.25.182.35:443, host: cache2-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 15:54:21] HTTPS (SteamCache,105) - cache1-par1.steamcontent.com (185.25.182.3:443 / 185.25.182.3:443, host: cache1-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 15:54:21] HTTPS (SteamCache,235) - cache8-par1.steamcontent.com (185.25.182.40:443 / 185.25.182.40:443, host: cache8-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 15:54:22] HTTPS (SteamCache,108) - cache4-par1.steamcontent.com (185.25.182.36:443 / 185.25.182.36:443, host: cache4-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 15:54:23] Created download interface of type 'SteamCache' (7) to host cache10-par1.steamcontent.com (cache10-par1.steamcontent.com)
+[2026-10-30 15:54:23] Downloading 90711 chunks for depot 236391 (7461589110099034279)
+[2026-10-30 15:54:24] HTTPS (SteamCache,399) - cache10-par1.steamcontent.com (185.25.182.10:443 / 185.25.182.10:443, host: cache10-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 15:54:33] Increasing target number of download connections to 9 (rate was 0.000, now 238.972)
+[2026-10-30 15:54:33] Created download interface of type 'SteamCache' (7) to host cache11-par1.steamcontent.com (cache11-par1.steamcontent.com)
+[2026-10-30 15:54:34] HTTPS (SteamCache,446) - cache11-par1.steamcontent.com (185.25.182.11:443 / 185.25.182.11:443, host: cache11-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 15:55:05] Increasing target number of download connections to 10 (rate was 238.972, now 287.519)
+[2026-10-30 15:55:05] Created download interface of type 'SteamCache' (7) to host cache12-par1.steamcontent.com (cache12-par1.steamcontent.com)
+[2026-10-30 15:55:08] HTTPS (SteamCache,447) - cache12-par1.steamcontent.com (185.25.182.42:443 / 185.25.182.42:443, host: cache12-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 15:55:34] Current download rate: 291.305 Mbps
+[2026-10-30 15:56:35] Current download rate: 291.884 Mbps
+[2026-10-30 15:57:36] Current download rate: 292.065 Mbps
+[2026-10-30 15:58:37] Current download rate: 282.116 Mbps
+[2026-10-30 15:59:20] Got 32 download sources and 0 caching proxies via ContentServerDirectoryService::BYieldingGetServersForSteamPipe (CellID 14 / Launcher 3)
+[2026-10-30 15:59:37] Current download rate: 292.417 Mbps
+[2026-10-30 15:59:51] stats: (SteamCache, 107) cache3-par1.steamcontent.com: 849985184 Bytes, 330 sec (20.59 Mbps). 890 Hits / 0 Misses (100 %, 100 % bytes), score 0.9162
+[2026-10-30 15:59:51] stats: (Invalid, 0) : 12023485104 Bytes, 331 sec (290.51 Mbps). 12278 Hits / 2 Misses (100 %, 100 % bytes), score 0.0000
+[2026-10-30 15:59:51] stats: (SteamCache, 101) cache5-par1.steamcontent.com: 1069566848 Bytes, 330 sec (25.91 Mbps). 1093 Hits / 0 Misses (100 %, 100 % bytes), score 0.9169
+[2026-10-30 15:59:51] stats: (SteamCache, 105) cache1-par1.steamcontent.com: 1107873520 Bytes, 331 sec (26.81 Mbps). 1139 Hits / 0 Misses (100 %, 100 % bytes), score 0.9125
+[2026-10-30 15:59:51] stats: (SteamCache, 106) cache2-par1.steamcontent.com: 1123731536 Bytes, 330 sec (27.23 Mbps). 1142 Hits / 2 Misses (100 %, 100 % bytes), score 0.9148
+[2026-10-30 15:59:51] stats: (SteamCache, 234) cache7-par1.steamcontent.com: 1395945408 Bytes, 330 sec (33.83 Mbps). 1416 Hits / 0 Misses (100 %, 100 % bytes), score 0.9057
+[2026-10-30 15:59:51] stats: (SteamCache, 235) cache8-par1.steamcontent.com: 1462705008 Bytes, 330 sec (35.45 Mbps). 1485 Hits / 0 Misses (100 %, 100 % bytes), score 0.9122
+[2026-10-30 15:59:51] stats: (SteamCache, 108) cache4-par1.steamcontent.com: 1687993744 Bytes, 330 sec (40.97 Mbps). 1713 Hits / 0 Misses (100 %, 100 % bytes), score 0.9148
+[2026-10-30 15:59:51] stats: (SteamCache, 399) cache10-par1.steamcontent.com: 1505758912 Bytes, 328 sec (36.71 Mbps). 1534 Hits / 0 Misses (100 %, 100 % bytes), score 0.9169
+[2026-10-30 15:59:51] stats: (SteamCache, 446) cache11-par1.steamcontent.com: 922878880 Bytes, 318 sec (23.20 Mbps). 947 Hits / 0 Misses (100 %, 100 % bytes), score 0.9144
+[2026-10-30 15:59:51] stats: (SteamCache, 447) cache12-par1.steamcontent.com: 897046064 Bytes, 286 sec (25.12 Mbps). 919 Hits / 0 Misses (100 %, 100 % bytes), score 0.9164
+[2026-10-30 16:00:38] Current download rate: 295.372 Mbps
+[2026-10-30 16:01:39] Current download rate: 289.168 Mbps
+
+
+[2026-10-30 16:04:09] Client version: 1792617903
+[2026-10-30 16:04:09] Loaded 2 apps from install folder "d:\steamcmd_library\steamapps\appmanifest_*.acf".
+[2026-10-30 16:04:09] Triggered async write of Steam library folders configuration (1 libraries).
+[2026-10-30 16:04:16] AppID 236390 scheduler update : Priority First, not played for 1130537 seconds, update disabled for 0 seconds
+[2026-10-30 16:04:16] AppID 236390 state changed : Update Required,Fully Installed,Update Queued,Update Started,
+[2026-10-30 16:04:16] AppID 236390 state changed : Update Required,Fully Installed,Update Queued,Update Running,Update Started,
+[2026-10-30 16:04:16] AppID 228980 state changed : Update Required,Update Running,Update Started,
+[2026-10-30 16:04:16] AppID 236390 App update changed : Running Update,
+[2026-10-30 16:04:16] AppID 236390 App update changed : Running Update,Reconfiguring,
+[2026-10-30 16:04:16] AppID 236390 App update changed : Running Update,
+[2026-10-30 16:04:16] Incomplete loading d:\steamcmd_library\steamapps\downloading\state_236390_236394.patch: missing sentinel
+[2026-10-30 16:04:16] Incomplete loading d:\steamcmd_library\steamapps\downloading\state_236390_236391.patch: missing sentinel
+[2026-10-30 16:04:16] AppID 236390 App update changed : Running Update,Preallocating,
+[2026-10-30 16:04:16] AppID 228980 preallocated 0 files (0 MB) 
+[2026-10-30 16:04:16] AppID 236390 App update changed : Running Update,
+[2026-10-30 16:04:16] AppID 228980 update started : download 125766608/125766608, store 0/0, reuse 0/0, delta 0/0, stage 128606066/128606066 
+[2026-10-30 16:04:16] AppID 236390 update started : download 21159728272/90099536832, store 0/0, reuse 0/0, delta 0/0, stage 22215399860/93167608073 
+[2026-10-30 16:04:16] AppID 236390 App update changed : Running Update,Staging,
+[2026-10-30 16:04:16] AppID 236390 App update changed : Running Update,
+[2026-10-30 16:04:16] AppID 236390 App update changed : Running Update,Downloading,Staging,
+[2026-10-30 16:04:17] Got 32 download sources and 0 caching proxies via ContentServerDirectoryService::BYieldingGetServersForSteamPipe (CellID 14 / Launcher 3)
+[2026-10-30 16:04:17] Moving to source priority class '8'
+[2026-10-30 16:04:17] Created download interface of type 'SteamCache' (7) to host cache7-par1.steamcontent.com (cache7-par1.steamcontent.com)
+[2026-10-30 16:04:17] Created download interface of type 'SteamCache' (7) to host cache8-par1.steamcontent.com (cache8-par1.steamcontent.com)
+[2026-10-30 16:04:17] Created download interface of type 'SteamCache' (7) to host cache2-par1.steamcontent.com (cache2-par1.steamcontent.com)
+[2026-10-30 16:04:17] Created download interface of type 'SteamCache' (7) to host cache5-par1.steamcontent.com (cache5-par1.steamcontent.com)
+[2026-10-30 16:04:17] Created download interface of type 'SteamCache' (7) to host cache1-par1.steamcontent.com (cache1-par1.steamcontent.com)
+[2026-10-30 16:04:17] Created download interface of type 'SteamCache' (7) to host cache4-par1.steamcontent.com (cache4-par1.steamcontent.com)
+[2026-10-30 16:04:17] Created download interface of type 'SteamCache' (7) to host cache3-par1.steamcontent.com (cache3-par1.steamcontent.com)
+[2026-10-30 16:04:17] Downloading 58 chunks for depot 236394 (3839604526498621503)
+[2026-10-30 16:04:17] HTTP/2 available
+[2026-10-30 16:04:17] Created ipv4-only http client
+[2026-10-30 16:04:18] HTTPS (SteamCache,106) - cache2-par1.steamcontent.com (185.25.182.35:443 / 185.25.182.35:443, host: cache2-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:04:18] HTTPS (SteamCache,101) - cache5-par1.steamcontent.com (185.25.182.5:443 / 185.25.182.5:443, host: cache5-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:04:18] HTTPS (SteamCache,105) - cache1-par1.steamcontent.com (185.25.182.3:443 / 185.25.182.3:443, host: cache1-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:04:18] HTTPS (SteamCache,234) - cache7-par1.steamcontent.com (185.25.182.7:443 / 185.25.182.7:443, host: cache7-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:04:18] HTTPS (SteamCache,107) - cache3-par1.steamcontent.com (185.25.182.4:443 / 185.25.182.4:443, host: cache3-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:04:18] HTTPS (SteamCache,235) - cache8-par1.steamcontent.com (185.25.182.40:443 / 185.25.182.40:443, host: cache8-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:04:19] HTTPS (SteamCache,108) - cache4-par1.steamcontent.com (185.25.182.36:443 / 185.25.182.36:443, host: cache4-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:04:20] Created download interface of type 'SteamCache' (7) to host cache11-par1.steamcontent.com (cache11-par1.steamcontent.com)
+[2026-10-30 16:04:20] Downloading 74462 chunks for depot 236391 (7461589110099034279)
+[2026-10-30 16:04:21] HTTPS (SteamCache,446) - cache11-par1.steamcontent.com (185.25.182.11:443 / 185.25.182.11:443, host: cache11-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:04:30] Increasing target number of download connections to 9 (rate was 0.000, now 242.896)
+[2026-10-30 16:04:30] Created download interface of type 'SteamCache' (7) to host cache10-par1.steamcontent.com (cache10-par1.steamcontent.com)
+[2026-10-30 16:04:31] HTTPS (SteamCache,399) - cache10-par1.steamcontent.com (185.25.182.10:443 / 185.25.182.10:443, host: cache10-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:05:31] Current download rate: 288.161 Mbps
+[2026-10-30 16:05:45] Increasing target number of download connections to 10 (rate was 242.896, now 291.981)
+[2026-10-30 16:05:45] Created download interface of type 'SteamCache' (7) to host cache12-par1.steamcontent.com (cache12-par1.steamcontent.com)
+[2026-10-30 16:05:46] HTTPS (SteamCache,447) - cache12-par1.steamcontent.com (185.25.182.42:443 / 185.25.182.42:443, host: cache12-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:06:32] Current download rate: 296.410 Mbps
+[2026-10-30 16:07:33] Current download rate: 288.809 Mbps
+[2026-10-30 16:08:34] Current download rate: 290.959 Mbps
+
+
+[2026-10-30 16:09:57] Client version: 1792617903
+[2026-10-30 16:09:57] Loaded 2 apps from install folder "d:\steamcmd_library\steamapps\appmanifest_*.acf".
+[2026-10-30 16:09:57] Triggered async write of Steam library folders configuration (1 libraries).
+[2026-10-30 16:10:04] AppID 236390 scheduler update : Priority First, not played for 1130885 seconds, update disabled for 0 seconds
+[2026-10-30 16:10:04] AppID 236390 state changed : Update Required,Fully Installed,Update Queued,Update Started,
+[2026-10-30 16:10:04] AppID 236390 state changed : Update Required,Fully Installed,Update Queued,Update Running,Update Started,
+[2026-10-30 16:10:04] AppID 228980 state changed : Update Required,Update Running,Update Started,
+[2026-10-30 16:10:04] AppID 236390 App update changed : Running Update,
+[2026-10-30 16:10:04] AppID 236390 App update changed : Running Update,Reconfiguring,
+[2026-10-30 16:10:04] AppID 236390 App update changed : Running Update,
+[2026-10-30 16:10:04] Incomplete loading d:\steamcmd_library\steamapps\downloading\state_236390_236394.patch: missing sentinel
+[2026-10-30 16:10:04] Incomplete loading d:\steamcmd_library\steamapps\downloading\state_236390_236391.patch: missing sentinel
+[2026-10-30 16:10:04] AppID 236390 App update changed : Running Update,Preallocating,
+[2026-10-30 16:10:04] AppID 228980 preallocated 0 files (0 MB) 
+[2026-10-30 16:10:04] AppID 236390 App update changed : Running Update,
+[2026-10-30 16:10:04] AppID 228980 update started : download 125766608/125766608, store 0/0, reuse 0/0, delta 0/0, stage 128606066/128606066 
+[2026-10-30 16:10:04] AppID 236390 update started : download 30972415488/90099536832, store 0/0, reuse 0/0, delta 0/0, stage 32040642317/93167608073 
+[2026-10-30 16:10:04] AppID 236390 App update changed : Running Update,Staging,
+[2026-10-30 16:10:04] AppID 236390 App update changed : Running Update,
+[2026-10-30 16:10:04] AppID 236390 App update changed : Running Update,Downloading,Staging,
+[2026-10-30 16:10:05] Got 33 download sources and 0 caching proxies via ContentServerDirectoryService::BYieldingGetServersForSteamPipe (CellID 14 / Launcher 3)
+[2026-10-30 16:10:05] Moving to source priority class '8'
+[2026-10-30 16:10:05] Created download interface of type 'SteamCache' (7) to host cache5-par1.steamcontent.com (cache5-par1.steamcontent.com)
+[2026-10-30 16:10:05] Created download interface of type 'SteamCache' (7) to host cache8-par1.steamcontent.com (cache8-par1.steamcontent.com)
+[2026-10-30 16:10:05] Created download interface of type 'SteamCache' (7) to host cache4-par1.steamcontent.com (cache4-par1.steamcontent.com)
+[2026-10-30 16:10:05] Created download interface of type 'SteamCache' (7) to host cache2-par1.steamcontent.com (cache2-par1.steamcontent.com)
+[2026-10-30 16:10:05] Created download interface of type 'SteamCache' (7) to host cache1-par1.steamcontent.com (cache1-par1.steamcontent.com)
+[2026-10-30 16:10:05] Created download interface of type 'SteamCache' (7) to host cache3-par1.steamcontent.com (cache3-par1.steamcontent.com)
+[2026-10-30 16:10:05] Created download interface of type 'SteamCache' (7) to host cache7-par1.steamcontent.com (cache7-par1.steamcontent.com)
+[2026-10-30 16:10:05] Downloading 58 chunks for depot 236394 (3839604526498621503)
+[2026-10-30 16:10:05] HTTP/2 available
+[2026-10-30 16:10:05] Created ipv4-only http client
+[2026-10-30 16:10:06] HTTPS (SteamCache,101) - cache5-par1.steamcontent.com (185.25.182.5:443 / 185.25.182.5:443, host: cache5-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:10:06] HTTPS (SteamCache,106) - cache2-par1.steamcontent.com (185.25.182.35:443 / 185.25.182.35:443, host: cache2-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:10:06] HTTPS (SteamCache,105) - cache1-par1.steamcontent.com (185.25.182.3:443 / 185.25.182.3:443, host: cache1-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:10:06] HTTPS (SteamCache,107) - cache3-par1.steamcontent.com (185.25.182.4:443 / 185.25.182.4:443, host: cache3-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:10:06] HTTPS (SteamCache,235) - cache8-par1.steamcontent.com (185.25.182.40:443 / 185.25.182.40:443, host: cache8-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:10:07] HTTPS (SteamCache,234) - cache7-par1.steamcontent.com (185.25.182.7:443 / 185.25.182.7:443, host: cache7-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:10:07] HTTPS (SteamCache,108) - cache4-par1.steamcontent.com (185.25.182.36:443 / 185.25.182.36:443, host: cache4-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:10:08] Moving to source priority class '8'
+[2026-10-30 16:10:08] Created download interface of type 'SteamCache' (7) to host cache11-par1.steamcontent.com (cache11-par1.steamcontent.com)
+[2026-10-30 16:10:08] Downloading 64611 chunks for depot 236391 (7461589110099034279)
+[2026-10-30 16:10:08] HTTPS (SteamCache,446) - cache11-par1.steamcontent.com (185.25.182.11:443 / 185.25.182.11:443, host: cache11-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:10:18] Increasing target number of download connections to 9 (rate was 0.000, now 250.834)
+[2026-10-30 16:10:18] Moving to source priority class '8'
+[2026-10-30 16:10:18] Created download interface of type 'SteamCache' (7) to host cache10-par1.steamcontent.com (cache10-par1.steamcontent.com)
+[2026-10-30 16:10:19] HTTPS (SteamCache,399) - cache10-par1.steamcontent.com (185.25.182.10:443 / 185.25.182.10:443, host: cache10-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:11:19] Current download rate: 296.051 Mbps
+[2026-10-30 16:12:20] Current download rate: 295.479 Mbps
+[2026-10-30 16:13:21] Current download rate: 295.751 Mbps
+[2026-10-30 16:14:22] Current download rate: 292.789 Mbps
+
+
+[2026-10-30 16:15:02] Client version: 1792617903
+[2026-10-30 16:15:02] Loaded 2 apps from install folder "d:\steamcmd_library\steamapps\appmanifest_*.acf".
+[2026-10-30 16:15:02] Triggered async write of Steam library folders configuration (1 libraries).
+[2026-10-30 16:15:09] AppID 10 state changed : Update Required,
+[2026-10-30 16:15:09] Dependency added: parent 228980, child 10, depot 228988
+[2026-10-30 16:15:09] AppID 70 state changed : Update Required,Shared Only,
+[2026-10-30 16:15:09] Dependency added: parent 70, child 10, depot 1
+[2026-10-30 16:15:09] Dependency added: parent 70, child 10, depot 3
+[2026-10-30 16:15:09] Dependency added: parent 70, child 10, depot 2
+[2026-10-30 16:15:09] AppID 10 scheduler update : Priority First, not played for 12 seconds, update disabled for 0 seconds
+[2026-10-30 16:15:09] AppID 10 state changed : Update Required,Update Queued,
+[2026-10-30 16:15:09] AppID 10 scheduler update : Priority First, not played for 12 seconds, update disabled for 0 seconds
+[2026-10-30 16:15:09] AppID 10 state changed : Update Required,Update Queued,Update Running,
+[2026-10-30 16:15:09] AppID 228980 state changed : Update Required,Update Running,Update Started,
+[2026-10-30 16:15:09] AppID 70 state changed : Update Required,Shared Only,Update Running,
+[2026-10-30 16:15:09] AppID 10 App update changed : Running Update,
+[2026-10-30 16:15:09] AppID 10 App update changed : Running Update,Reconfiguring,
+[2026-10-30 16:15:10] Got 33 download sources and 0 caching proxies via ContentServerDirectoryService::BYieldingGetServersForSteamPipe (CellID 14 / Launcher 3)
+[2026-10-30 16:15:10] Moving to source priority class '8'
+[2026-10-30 16:15:10] Created download interface of type 'SteamCache' (7) to host cache7-par1.steamcontent.com (cache7-par1.steamcontent.com)
+[2026-10-30 16:15:10] Created download interface of type 'SteamCache' (7) to host cache8-par1.steamcontent.com (cache8-par1.steamcontent.com)
+[2026-10-30 16:15:10] Created download interface of type 'SteamCache' (7) to host cache1-par1.steamcontent.com (cache1-par1.steamcontent.com)
+[2026-10-30 16:15:10] Created download interface of type 'SteamCache' (7) to host cache3-par1.steamcontent.com (cache3-par1.steamcontent.com)
+[2026-10-30 16:15:10] Created download interface of type 'SteamCache' (7) to host cache4-par1.steamcontent.com (cache4-par1.steamcontent.com)
+[2026-10-30 16:15:10] Created download interface of type 'SteamCache' (7) to host cache5-par1.steamcontent.com (cache5-par1.steamcontent.com)
+[2026-10-30 16:15:10] Created download interface of type 'SteamCache' (7) to host cache2-par1.steamcontent.com (cache2-par1.steamcontent.com)
+[2026-10-30 16:15:10] HTTP/2 available
+[2026-10-30 16:15:10] Created ipv4-only http client
+[2026-10-30 16:15:11] Created download interface of type 'SteamCache' (7) to host cache11-par1.steamcontent.com (cache11-par1.steamcontent.com)
+[2026-10-30 16:15:11] HTTPS (SteamCache,234) - cache7-par1.steamcontent.com (185.25.182.7:443 / 185.25.182.7:443, host: cache7-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:15:11] HTTP/2 (SteamCache,234) - cache7-par1.steamcontent.com (185.25.182.7:443 / 185.25.182.7:443, host: cache7-par1.steamcontent.com): cache7-par1.steamcontent.com/depot/1/manifest/2667117727132184734/5/13496632136116018045 - manifest request received 200 (OK) HTTP response
+[2026-10-30 16:15:12] HTTPS (SteamCache,446) - cache11-par1.steamcontent.com (185.25.182.11:443 / 185.25.182.11:443, host: cache11-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:15:12] HTTP/2 (SteamCache,446) - cache11-par1.steamcontent.com (185.25.182.11:443 / 185.25.182.11:443, host: cache11-par1.steamcontent.com): cache11-par1.steamcontent.com/depot/3/manifest/6081070194444336449/5/14328038053561246255 - manifest request received 200 (OK) HTTP response
+[2026-10-30 16:15:13] HTTPS (SteamCache,101) - cache5-par1.steamcontent.com (185.25.182.5:443 / 185.25.182.5:443, host: cache5-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:15:13] HTTP/2 (SteamCache,101) - cache5-par1.steamcontent.com (185.25.182.5:443 / 185.25.182.5:443, host: cache5-par1.steamcontent.com): cache5-par1.steamcontent.com/depot/2/manifest/724247850320422500/5/9528186685366557420 - manifest request received 200 (OK) HTTP response
+[2026-10-30 16:15:14] HTTP/2 (SteamCache,234) - cache7-par1.steamcontent.com (185.25.182.7:443 / 185.25.182.7:443, host: cache7-par1.steamcontent.com): cache7-par1.steamcontent.com/depot/11/manifest/3018093494972814332/5/9210049441586551622 - manifest request received 200 (OK) HTTP response
+[2026-10-30 16:15:15] HTTPS (SteamCache,108) - cache4-par1.steamcontent.com (185.25.182.36:443 / 185.25.182.36:443, host: cache4-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:15:15] HTTP/2 (SteamCache,108) - cache4-par1.steamcontent.com (185.25.182.36:443 / 185.25.182.36:443, host: cache4-par1.steamcontent.com): cache4-par1.steamcontent.com/depot/95/manifest/7685864384078520360/5/5783071674832747490 - manifest request received 200 (OK) HTTP response
+[2026-10-30 16:15:15] AppID 10 App update changed : Running Update,
+[2026-10-30 16:15:15] AppID 10 App update changed : Running Update,Verifying Installed,
+[2026-10-30 16:15:15] AppID 10 App update changed : Running Update,
+[2026-10-30 16:15:15] AppID 10 App update changed : Running Update,Preallocating,
+[2026-10-30 16:15:16] AppID 70 preallocated 246 files (403 MB) 
+[2026-10-30 16:15:16] AppID 228980 preallocated 2 files (27 MB) 
+[2026-10-30 16:15:16] AppID 10 preallocated 152 files (245 MB) 
+[2026-10-30 16:15:16] AppID 10 App update changed : Running Update,
+[2026-10-30 16:15:16] AppID 70 update started : download 0/284086896, store 0/0, reuse 0/0, delta 0/0, stage 0/564107850 
+[2026-10-30 16:15:16] AppID 70 state changed : Update Required,Shared Only,Update Running,Update Started,
+[2026-10-30 16:15:16] AppID 228980 update started : download 125766608/148178464, store 0/0, reuse 0/0, delta 0/0, stage 128606066/157818239 
+[2026-10-30 16:15:16] AppID 10 update started : download 0/164387024, store 0/0, reuse 0/0, delta 0/0, stage 0/318799907 
+[2026-10-30 16:15:16] AppID 10 state changed : Update Required,Update Queued,Update Running,Update Started,
+[2026-10-30 16:15:16] AppID 10 App update changed : Running Update,Downloading,Staging,
+[2026-10-30 16:15:16] Downloading 4341 chunks for depot 1 (2667117727132184734)
+[2026-10-30 16:15:17] HTTPS (SteamCache,106) - cache2-par1.steamcontent.com (185.25.182.35:443 / 185.25.182.35:443, host: cache2-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:15:17] HTTPS (SteamCache,105) - cache1-par1.steamcontent.com (185.25.182.3:443 / 185.25.182.3:443, host: cache1-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:15:17] HTTPS (SteamCache,107) - cache3-par1.steamcontent.com (185.25.182.4:443 / 185.25.182.4:443, host: cache3-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:15:17] HTTPS (SteamCache,235) - cache8-par1.steamcontent.com (185.25.182.40:443 / 185.25.182.40:443, host: cache8-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:15:23] Increasing target number of download connections to 9 (rate was 0.000, now 120.162)
+[2026-10-30 16:15:23] Created download interface of type 'SteamCache' (7) to host cache12-par1.steamcontent.com (cache12-par1.steamcontent.com)
+[2026-10-30 16:15:30] Downloading 89 chunks for depot 3 (6081070194444336449)
+[2026-10-30 16:15:30] Downloading 69 chunks for depot 2 (724247850320422500)
+[2026-10-30 16:15:32] AppID 10 App update changed : Running Update,
+[2026-10-30 16:15:32] AppID 10 App update changed : Running Update,Downloading,Staging,
+[2026-10-30 16:15:32] Downloading 26 chunks for depot 228988 (6645201662696499616)
+[2026-10-30 16:15:33] HTTPS (SteamCache,447) - cache12-par1.steamcontent.com (185.25.182.42:443 / 185.25.182.42:443, host: cache12-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:15:33] AppID 10 App update changed : Running Update,Staging,
+[2026-10-30 16:15:33] AppID 10 App update changed : Running Update,
+[2026-10-30 16:15:33] AppID 10 App update changed : Running Update,Downloading,Staging,
+[2026-10-30 16:15:33] Downloading 1249 chunks for depot 11 (3018093494972814332)
+[2026-10-30 16:15:39] Downloading 71 chunks for depot 95 (7685864384078520360)
+[2026-10-30 16:15:40] AppID 10 App update changed : Running Update,
+[2026-10-30 16:15:40] AppID 10 App update changed : Running Update,Verifying Staged,
+[2026-10-30 16:15:43] Verified 537 MB in 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd', clean bytes tally is now 537 MB
+[2026-10-30 16:15:43] Triggered async write of Steam library folders configuration (1 libraries).
+[2026-10-30 16:15:44] Verified 150 MB in 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd', clean bytes tally is now 688 MB
+[2026-10-30 16:15:44] Triggered async write of Steam library folders configuration (1 libraries).
+[2026-10-30 16:15:46] Verified 304 MB in 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd', clean bytes tally is now 992 MB
+[2026-10-30 16:15:46] Triggered async write of Steam library folders configuration (1 libraries).
+[2026-10-30 16:15:46] AppID 10 App update changed : Running Update,
+[2026-10-30 16:15:46] AppID 10 App update changed : Running Update,Committing,
+[2026-10-30 16:15:46] AppID 70 starting commit from "d:\steamcmd_library\steamapps\downloading\70" to "d:\steamcmd_library" : 4445 updated, 0 moved, 0 deleted files
+[2026-10-30 16:15:47] AppID 70 state changed : Fully Installed,Shared Only,Update Running,
+[2026-10-30 16:15:47] AppID 70 finished update, 3 mounted depots (BuildID 15961492) : 1 (2667117727132184734),3 (6081070194444336449),2 (724247850320422500),
+[2026-10-30 16:15:47] AppID 228980 starting commit from "d:\steamcmd_library\steamapps\downloading\228980" to "d:\steamcmd_library" : 171 updated, 0 moved, 0 deleted files
+[2026-10-30 16:15:47] AppID 228980 state changed : Fully Installed,Update Running,
+[2026-10-30 16:15:47] AppID 228980 finished update, 3 mounted depots (BuildID 24098430) : 228988 (6645201662696499616),228989 (5753583882400741046),228990 (1829726630299308803),
+[2026-10-30 16:15:47] AppID 10 starting commit from "d:\steamcmd_library\steamapps\downloading\10" to "d:\steamcmd_library" : 1299 updated, 0 moved, 0 deleted files
+[2026-10-30 16:15:48] AppID 10 state changed : Fully Installed,Update Queued,Update Running,
+[2026-10-30 16:15:48] AppID 10 finished update, 2 mounted depots (BuildID 12934623) : 11 (3018093494972814332),95 (7685864384078520360),
+[2026-10-30 16:15:48] AppID 10 App update changed : Running Update,
+[2026-10-30 16:15:48] AppID 10 App update changed : None
+[2026-10-30 16:15:48] AppID 70 state changed : Fully Installed,Shared Only,
+[2026-10-30 16:15:48] AppID 228980 state changed : Fully Installed,
+[2026-10-30 16:15:48] AppID 10 state changed : Fully Installed,Update Queued,
+[2026-10-30 16:15:48] AppID 10 state changed : Fully Installed,
+[2026-10-30 16:15:48] AppID 10 scheduler finished : removed from schedule (result No Error, state 0xc) 
+[2026-10-30 16:15:49] HTTP/2 (SteamCache,447) - cache12-par1.steamcontent.com (185.25.182.42:443 / 185.25.182.42:443, host: cache12-par1.steamcontent.com): Closing connection
+[2026-10-30 16:15:49] HTTP/2 (SteamCache,446) - cache11-par1.steamcontent.com (185.25.182.11:443 / 185.25.182.11:443, host: cache11-par1.steamcontent.com): Closing connection
+[2026-10-30 16:15:49] HTTP/2 (SteamCache,106) - cache2-par1.steamcontent.com (185.25.182.35:443 / 185.25.182.35:443, host: cache2-par1.steamcontent.com): Closing connection
+[2026-10-30 16:15:49] HTTP/2 (SteamCache,101) - cache5-par1.steamcontent.com (185.25.182.5:443 / 185.25.182.5:443, host: cache5-par1.steamcontent.com): Closing connection
+[2026-10-30 16:15:49] HTTP/2 (SteamCache,108) - cache4-par1.steamcontent.com (185.25.182.36:443 / 185.25.182.36:443, host: cache4-par1.steamcontent.com): Closing connection
+[2026-10-30 16:15:49] HTTP/2 (SteamCache,107) - cache3-par1.steamcontent.com (185.25.182.4:443 / 185.25.182.4:443, host: cache3-par1.steamcontent.com): Closing connection
+[2026-10-30 16:15:49] HTTP/2 (SteamCache,105) - cache1-par1.steamcontent.com (185.25.182.3:443 / 185.25.182.3:443, host: cache1-par1.steamcontent.com): Closing connection
+[2026-10-30 16:15:49] HTTP/2 (SteamCache,235) - cache8-par1.steamcontent.com (185.25.182.40:443 / 185.25.182.40:443, host: cache8-par1.steamcontent.com): Closing connection
+[2026-10-30 16:15:49] HTTP/2 (SteamCache,234) - cache7-par1.steamcontent.com (185.25.182.7:443 / 185.25.182.7:443, host: cache7-par1.steamcontent.com): Closing connection
+
+
+[2026-10-30 16:17:03] Client version: 1792617903
+[2026-10-30 16:17:03] Loaded 4 apps from install folder "d:\steamcmd_library\steamapps\appmanifest_*.acf".
+[2026-10-30 16:17:03] Triggered async write of Steam library folders configuration (1 libraries).
+[2026-10-30 16:17:10] AppID 236390 scheduler update : Priority First, not played for 1131311 seconds, update disabled for 0 seconds
+[2026-10-30 16:17:10] AppID 236390 state changed : Update Required,Fully Installed,Update Queued,Update Started,
+[2026-10-30 16:17:10] AppID 236390 state changed : Update Required,Fully Installed,Update Queued,Update Running,Update Started,
+[2026-10-30 16:17:10] AppID 236390 App update changed : Running Update,
+[2026-10-30 16:17:10] AppID 236390 App update changed : Running Update,Reconfiguring,
+[2026-10-30 16:17:10] AppID 236390 App update changed : Running Update,
+[2026-10-30 16:17:10] Incomplete loading d:\steamcmd_library\steamapps\downloading\state_236390_236394.patch: missing sentinel
+[2026-10-30 16:17:10] Incomplete loading d:\steamcmd_library\steamapps\downloading\state_236390_236391.patch: missing sentinel
+[2026-10-30 16:17:10] AppID 236390 update started : download 41452644112/90099536832, store 0/0, reuse 0/0, delta 0/0, stage 42629974471/93167608073 
+[2026-10-30 16:17:10] AppID 236390 App update changed : Running Update,Downloading,Staging,
+[2026-10-30 16:17:11] Got 32 download sources and 0 caching proxies via ContentServerDirectoryService::BYieldingGetServersForSteamPipe (CellID 14 / Launcher 3)
+[2026-10-30 16:17:11] Moving to source priority class '8'
+[2026-10-30 16:17:11] Created download interface of type 'SteamCache' (7) to host cache7-par1.steamcontent.com (cache7-par1.steamcontent.com)
+[2026-10-30 16:17:11] Created download interface of type 'SteamCache' (7) to host cache8-par1.steamcontent.com (cache8-par1.steamcontent.com)
+[2026-10-30 16:17:11] Created download interface of type 'SteamCache' (7) to host cache3-par1.steamcontent.com (cache3-par1.steamcontent.com)
+[2026-10-30 16:17:11] Created download interface of type 'SteamCache' (7) to host cache4-par1.steamcontent.com (cache4-par1.steamcontent.com)
+[2026-10-30 16:17:11] Created download interface of type 'SteamCache' (7) to host cache1-par1.steamcontent.com (cache1-par1.steamcontent.com)
+[2026-10-30 16:17:11] Created download interface of type 'SteamCache' (7) to host cache2-par1.steamcontent.com (cache2-par1.steamcontent.com)
+[2026-10-30 16:17:11] Created download interface of type 'SteamCache' (7) to host cache5-par1.steamcontent.com (cache5-par1.steamcontent.com)
+[2026-10-30 16:17:11] Downloading 58 chunks for depot 236394 (3839604526498621503)
+[2026-10-30 16:17:11] HTTP/2 available
+[2026-10-30 16:17:11] Created ipv4-only http client
+[2026-10-30 16:17:12] HTTPS (SteamCache,107) - cache3-par1.steamcontent.com (185.25.182.4:443 / 185.25.182.4:443, host: cache3-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:17:12] HTTPS (SteamCache,234) - cache7-par1.steamcontent.com (185.25.182.7:443 / 185.25.182.7:443, host: cache7-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:17:12] HTTPS (SteamCache,101) - cache5-par1.steamcontent.com (185.25.182.5:443 / 185.25.182.5:443, host: cache5-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:17:12] HTTPS (SteamCache,105) - cache1-par1.steamcontent.com (185.25.182.3:443 / 185.25.182.3:443, host: cache1-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:17:12] HTTPS (SteamCache,106) - cache2-par1.steamcontent.com (185.25.182.35:443 / 185.25.182.35:443, host: cache2-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:17:13] HTTPS (SteamCache,235) - cache8-par1.steamcontent.com (185.25.182.40:443 / 185.25.182.40:443, host: cache8-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:17:13] HTTPS (SteamCache,108) - cache4-par1.steamcontent.com (185.25.182.36:443 / 185.25.182.36:443, host: cache4-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:17:14] Created download interface of type 'SteamCache' (7) to host cache11-par1.steamcontent.com (cache11-par1.steamcontent.com)
+[2026-10-30 16:17:14] Downloading 53410 chunks for depot 236391 (7461589110099034279)
+[2026-10-30 16:17:15] HTTPS (SteamCache,446) - cache11-par1.steamcontent.com (185.25.182.11:443 / 185.25.182.11:443, host: cache11-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:17:24] Increasing target number of download connections to 9 (rate was 0.000, now 242.488)
+[2026-10-30 16:17:24] Created download interface of type 'SteamCache' (7) to host cache12-par1.steamcontent.com (cache12-par1.steamcontent.com)
+[2026-10-30 16:17:27] HTTPS (SteamCache,447) - cache12-par1.steamcontent.com (185.25.182.42:443 / 185.25.182.42:443, host: cache12-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:17:55] Increasing target number of download connections to 10 (rate was 242.488, now 292.081)
+[2026-10-30 16:17:55] Created download interface of type 'SteamCache' (7) to host cache10-par1.steamcontent.com (cache10-par1.steamcontent.com)
+[2026-10-30 16:17:56] HTTPS (SteamCache,399) - cache10-par1.steamcontent.com (185.25.182.10:443 / 185.25.182.10:443, host: cache10-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:18:25] Current download rate: 290.043 Mbps
+[2026-10-30 16:19:26] Current download rate: 197.696 Mbps
+[2026-10-30 16:20:01] ContentServerDirectoryService::BYieldingGetServersForSteamPipe failed (Transport Response Not Received / Result No Connection)
+[2026-10-30 16:20:01] Failed to get list of download sources
+[2026-10-30 16:20:11] ContentServerDirectoryService::BYieldingGetServersForSteamPipe failed (Transport Request Not Sent / Result No Connection)
+[2026-10-30 16:20:11] Failed to get list of download sources
+[2026-10-30 16:20:13] IPv6 Connectivity state has changed, downgrading to ipv4-only
+[2026-10-30 16:20:27] Current download rate: 89.526 Mbps
+[2026-10-30 16:21:28] Current download rate: 293.283 Mbps
+[2026-10-30 16:21:41] HTTP/2 (SteamCache,105) - cache1-par1.steamcontent.com (185.25.182.3:443 / 185.25.182.3:443, host: cache1-par1.steamcontent.com): Received 0 (Invalid) HTTP response for depot 236391
+[2026-10-30 16:21:41] HTTP/2 (SteamCache,105) - cache1-par1.steamcontent.com (185.25.182.3:443 / 185.25.182.3:443, host: cache1-par1.steamcontent.com): Closing connection
+[2026-10-30 16:21:41] HTTP/2 (SteamCache,105) - cache1-par1.steamcontent.com (185.25.182.3:443 / 185.25.182.3:443, host: cache1-par1.steamcontent.com): No Connection
+[2026-10-30 16:21:41] stats: (SteamCache, 105) cache1-par1.steamcontent.com: 448615280 Bytes, 130 sec (27.52 Mbps). 481 Hits / 0 Misses (100 %, 100 % bytes), score 0.9094
+[2026-10-30 16:21:41] Created download interface of type 'SteamCache' (7) to host cache9-ams1.steamcontent.com (cache9-ams1.steamcontent.com)
+[2026-10-30 16:21:43] HTTPS (SteamCache,400) - cache9-ams1.steamcontent.com (155.133.248.4:443 / 155.133.248.4:443, host: cache9-ams1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:22:12] Got 36 download sources and 0 caching proxies via ContentServerDirectoryService::BYieldingGetServersForSteamPipe (CellID 7 / Launcher 3)
+[2026-10-30 16:22:29] Current download rate: 284.214 Mbps
+[2026-10-30 16:22:43] stats: (SteamCache, 107) cache3-par1.steamcontent.com: 1180465728 Bytes, 271 sec (34.88 Mbps). 1275 Hits / 0 Misses (100 %, 100 % bytes), score 0.9130
+[2026-10-30 16:22:43] stats: (Invalid, 0) : 9662472432 Bytes, 331 sec (233.45 Mbps). 10457 Hits / 0 Misses (100 %, 100 % bytes), score 0.0000
+[2026-10-30 16:22:43] stats: (SteamCache, 105) cache1-par1.steamcontent.com: 448615280 Bytes, 130 sec (27.52 Mbps). 481 Hits / 0 Misses (100 %, 100 % bytes), score 0.9094
+[2026-10-30 16:22:43] stats: (SteamCache, 106) cache2-par1.steamcontent.com: 977096160 Bytes, 270 sec (28.91 Mbps). 1084 Hits / 0 Misses (100 %, 100 % bytes), score 0.9105
+[2026-10-30 16:22:43] stats: (SteamCache, 101) cache5-par1.steamcontent.com: 1093291632 Bytes, 270 sec (32.35 Mbps). 1218 Hits / 0 Misses (100 %, 100 % bytes), score 0.9141
+[2026-10-30 16:22:43] stats: (SteamCache, 234) cache7-par1.steamcontent.com: 1250053168 Bytes, 270 sec (37.10 Mbps). 1356 Hits / 0 Misses (100 %, 100 % bytes), score 0.9119
+[2026-10-30 16:22:43] stats: (SteamCache, 235) cache8-par1.steamcontent.com: 963187632 Bytes, 270 sec (28.50 Mbps). 1024 Hits / 0 Misses (100 %, 100 % bytes), score 0.9105
+[2026-10-30 16:22:43] stats: (SteamCache, 108) cache4-par1.steamcontent.com: 1008043760 Bytes, 269 sec (29.93 Mbps). 1077 Hits / 0 Misses (100 %, 100 % bytes), score 0.9169
+[2026-10-30 16:22:43] stats: (SteamCache, 446) cache11-par1.steamcontent.com: 911535152 Bytes, 269 sec (27.16 Mbps). 999 Hits / 0 Misses (100 %, 100 % bytes), score 0.9195
+[2026-10-30 16:22:43] stats: (SteamCache, 447) cache12-par1.steamcontent.com: 925495008 Bytes, 258 sec (28.72 Mbps). 996 Hits / 0 Misses (100 %, 100 % bytes), score 0.9091
+[2026-10-30 16:22:43] stats: (SteamCache, 399) cache10-par1.steamcontent.com: 752093072 Bytes, 227 sec (26.46 Mbps). 789 Hits / 0 Misses (100 %, 100 % bytes), score 0.9173
+[2026-10-30 16:22:43] stats: (SteamCache, 400) cache9-ams1.steamcontent.com: 152595840 Bytes, 62 sec (19.81 Mbps). 158 Hits / 0 Misses (100 %, 100 % bytes), score 0.8925
+
+
+[2026-10-30 16:24:50] Client version: 1792617903
+[2026-10-30 16:24:50] Loaded 4 apps from install folder "d:\steamcmd_library\steamapps\appmanifest_*.acf".
+[2026-10-30 16:24:50] Triggered async write of Steam library folders configuration (1 libraries).
+[2026-10-30 16:24:58] AppID 236390 scheduler update : Priority First, not played for 1131779 seconds, update disabled for 0 seconds
+[2026-10-30 16:24:58] AppID 236390 state changed : Update Required,Fully Installed,Update Queued,Update Started,
+[2026-10-30 16:24:58] AppID 236390 state changed : Update Required,Fully Installed,Update Queued,Update Running,Update Started,
+[2026-10-30 16:24:58] AppID 236390 App update changed : Running Update,
+[2026-10-30 16:24:58] AppID 236390 App update changed : Running Update,Reconfiguring,
+[2026-10-30 16:24:58] AppID 236390 App update changed : Running Update,
+[2026-10-30 16:24:58] Incomplete loading d:\steamcmd_library\steamapps\downloading\state_236390_236394.patch: missing sentinel
+[2026-10-30 16:24:58] Incomplete loading d:\steamcmd_library\steamapps\downloading\state_236390_236391.patch: missing sentinel
+[2026-10-30 16:24:58] AppID 236390 update started : download 51472641584/90099536832, store 0/0, reuse 0/0, delta 0/0, stage 52893805479/93167608073 
+[2026-10-30 16:24:58] AppID 236390 App update changed : Running Update,Downloading,Staging,
+[2026-10-30 16:24:59] Got 33 download sources and 0 caching proxies via ContentServerDirectoryService::BYieldingGetServersForSteamPipe (CellID 14 / Launcher 3)
+[2026-10-30 16:24:59] Moving to source priority class '8'
+[2026-10-30 16:24:59] Created download interface of type 'SteamCache' (7) to host cache8-par1.steamcontent.com (cache8-par1.steamcontent.com)
+[2026-10-30 16:24:59] Created download interface of type 'SteamCache' (7) to host cache7-par1.steamcontent.com (cache7-par1.steamcontent.com)
+[2026-10-30 16:24:59] Created download interface of type 'SteamCache' (7) to host cache3-par1.steamcontent.com (cache3-par1.steamcontent.com)
+[2026-10-30 16:24:59] Created download interface of type 'SteamCache' (7) to host cache4-par1.steamcontent.com (cache4-par1.steamcontent.com)
+[2026-10-30 16:24:59] Created download interface of type 'SteamCache' (7) to host cache5-par1.steamcontent.com (cache5-par1.steamcontent.com)
+[2026-10-30 16:24:59] Created download interface of type 'SteamCache' (7) to host cache1-par1.steamcontent.com (cache1-par1.steamcontent.com)
+[2026-10-30 16:24:59] Created download interface of type 'SteamCache' (7) to host cache2-par1.steamcontent.com (cache2-par1.steamcontent.com)
+[2026-10-30 16:24:59] Downloading 58 chunks for depot 236394 (3839604526498621503)
+[2026-10-30 16:24:59] HTTP/2 available
+[2026-10-30 16:24:59] Created ipv4-only http client
+[2026-10-30 16:25:00] HTTPS (SteamCache,101) - cache5-par1.steamcontent.com (185.25.182.5:443 / 185.25.182.5:443, host: cache5-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:25:00] HTTPS (SteamCache,107) - cache3-par1.steamcontent.com (185.25.182.4:443 / 185.25.182.4:443, host: cache3-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:25:00] HTTPS (SteamCache,105) - cache1-par1.steamcontent.com (185.25.182.3:443 / 185.25.182.3:443, host: cache1-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:25:00] HTTPS (SteamCache,106) - cache2-par1.steamcontent.com (185.25.182.35:443 / 185.25.182.35:443, host: cache2-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:25:00] HTTPS (SteamCache,235) - cache8-par1.steamcontent.com (185.25.182.40:443 / 185.25.182.40:443, host: cache8-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:25:00] HTTPS (SteamCache,234) - cache7-par1.steamcontent.com (185.25.182.7:443 / 185.25.182.7:443, host: cache7-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:25:01] HTTPS (SteamCache,108) - cache4-par1.steamcontent.com (185.25.182.36:443 / 185.25.182.36:443, host: cache4-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:25:02] Created download interface of type 'SteamCache' (7) to host cache11-par1.steamcontent.com (cache11-par1.steamcontent.com)
+[2026-10-30 16:25:02] Downloading 42608 chunks for depot 236391 (7461589110099034279)
+[2026-10-30 16:25:03] HTTPS (SteamCache,446) - cache11-par1.steamcontent.com (185.25.182.11:443 / 185.25.182.11:443, host: cache11-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:25:12] Increasing target number of download connections to 9 (rate was 0.000, now 236.538)
+[2026-10-30 16:25:12] Created download interface of type 'SteamCache' (7) to host cache12-par1.steamcontent.com (cache12-par1.steamcontent.com)
+[2026-10-30 16:25:13] HTTPS (SteamCache,447) - cache12-par1.steamcontent.com (185.25.182.42:443 / 185.25.182.42:443, host: cache12-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:25:30] Increasing target number of download connections to 10 (rate was 236.538, now 283.904)
+[2026-10-30 16:25:30] Created download interface of type 'SteamCache' (7) to host cache10-par1.steamcontent.com (cache10-par1.steamcontent.com)
+[2026-10-30 16:25:32] HTTPS (SteamCache,399) - cache10-par1.steamcontent.com (185.25.182.10:443 / 185.25.182.10:443, host: cache10-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:26:13] Current download rate: 290.392 Mbps
+[2026-10-30 16:27:14] Current download rate: 294.081 Mbps
+[2026-10-30 16:28:15] Current download rate: 282.620 Mbps
+[2026-10-30 16:29:16] Current download rate: 268.375 Mbps
+[2026-10-30 16:29:59] Got 33 download sources and 0 caching proxies via ContentServerDirectoryService::BYieldingGetServersForSteamPipe (CellID 14 / Launcher 3)
+[2026-10-30 16:30:16] Current download rate: 248.710 Mbps
+[2026-10-30 16:30:30] stats: (SteamCache, 107) cache3-par1.steamcontent.com: 1297575664 Bytes, 331 sec (31.37 Mbps). 1397 Hits / 0 Misses (100 %, 100 % bytes), score 0.9127
+[2026-10-30 16:30:30] stats: (Invalid, 0) : 11357942448 Bytes, 331 sec (274.36 Mbps). 12578 Hits / 0 Misses (100 %, 100 % bytes), score 0.0000
+[2026-10-30 16:30:30] stats: (SteamCache, 101) cache5-par1.steamcontent.com: 1530025072 Bytes, 331 sec (37.03 Mbps). 1702 Hits / 0 Misses (100 %, 100 % bytes), score 0.9123
+[2026-10-30 16:30:30] stats: (SteamCache, 105) cache1-par1.steamcontent.com: 1163856128 Bytes, 331 sec (28.14 Mbps). 1275 Hits / 0 Misses (100 %, 100 % bytes), score 0.9133
+[2026-10-30 16:30:30] stats: (SteamCache, 106) cache2-par1.steamcontent.com: 995073840 Bytes, 331 sec (24.06 Mbps). 1079 Hits / 0 Misses (100 %, 100 % bytes), score 0.9120
+[2026-10-30 16:30:30] stats: (SteamCache, 235) cache8-par1.steamcontent.com: 784481072 Bytes, 330 sec (19.00 Mbps). 872 Hits / 0 Misses (100 %, 100 % bytes), score 0.9113
+[2026-10-30 16:30:30] stats: (SteamCache, 234) cache7-par1.steamcontent.com: 892872848 Bytes, 331 sec (21.60 Mbps). 1013 Hits / 0 Misses (100 %, 100 % bytes), score 0.9064
+[2026-10-30 16:30:30] stats: (SteamCache, 108) cache4-par1.steamcontent.com: 947135472 Bytes, 330 sec (22.98 Mbps). 1053 Hits / 0 Misses (100 %, 100 % bytes), score 0.9092
+[2026-10-30 16:30:30] stats: (SteamCache, 446) cache11-par1.steamcontent.com: 1298438544 Bytes, 328 sec (31.62 Mbps). 1443 Hits / 0 Misses (100 %, 100 % bytes), score 0.9158
+[2026-10-30 16:30:30] stats: (SteamCache, 447) cache12-par1.steamcontent.com: 1290271088 Bytes, 318 sec (32.46 Mbps). 1434 Hits / 0 Misses (100 %, 100 % bytes), score 0.9181
+[2026-10-30 16:30:30] stats: (SteamCache, 399) cache10-par1.steamcontent.com: 1158212720 Bytes, 300 sec (30.91 Mbps). 1310 Hits / 0 Misses (100 %, 100 % bytes), score 0.9178
+[2026-10-30 16:31:17] Current download rate: 215.308 Mbps
+
+
+[2026-10-30 16:42:09] Client version: 1792617903
+[2026-10-30 16:42:09] Loaded 4 apps from install folder "d:\steamcmd_library\steamapps\appmanifest_*.acf".
+[2026-10-30 16:42:09] Triggered async write of Steam library folders configuration (1 libraries).
+[2026-10-30 16:42:17] AppID 236390 scheduler update : Priority First, not played for 1132818 seconds, update disabled for 0 seconds
+[2026-10-30 16:42:17] AppID 236390 state changed : Update Required,Fully Installed,Update Queued,Update Started,
+[2026-10-30 16:42:17] AppID 236390 state changed : Update Required,Fully Installed,Update Queued,Update Running,Update Started,
+[2026-10-30 16:42:17] AppID 236390 App update changed : Running Update,
+[2026-10-30 16:42:17] AppID 236390 App update changed : Running Update,Reconfiguring,
+[2026-10-30 16:42:17] AppID 236390 App update changed : Running Update,
+[2026-10-30 16:42:17] Incomplete loading d:\steamcmd_library\steamapps\downloading\state_236390_236394.patch: missing sentinel
+[2026-10-30 16:42:17] Incomplete loading d:\steamcmd_library\steamapps\downloading\state_236390_236391.patch: missing sentinel
+[2026-10-30 16:42:17] AppID 236390 update started : download 64295381168/90099536832, store 0/0, reuse 0/0, delta 0/0, stage 66216611763/93167608073 
+[2026-10-30 16:42:17] AppID 236390 App update changed : Running Update,Downloading,Staging,
+[2026-10-30 16:42:18] Got 33 download sources and 0 caching proxies via ContentServerDirectoryService::BYieldingGetServersForSteamPipe (CellID 14 / Launcher 3)
+[2026-10-30 16:42:18] Moving to source priority class '8'
+[2026-10-30 16:42:18] Created download interface of type 'SteamCache' (7) to host cache7-par1.steamcontent.com (cache7-par1.steamcontent.com)
+[2026-10-30 16:42:18] Created download interface of type 'SteamCache' (7) to host cache3-par1.steamcontent.com (cache3-par1.steamcontent.com)
+[2026-10-30 16:42:18] Created download interface of type 'SteamCache' (7) to host cache8-par1.steamcontent.com (cache8-par1.steamcontent.com)
+[2026-10-30 16:42:18] Created download interface of type 'SteamCache' (7) to host cache1-par1.steamcontent.com (cache1-par1.steamcontent.com)
+[2026-10-30 16:42:18] Created download interface of type 'SteamCache' (7) to host cache4-par1.steamcontent.com (cache4-par1.steamcontent.com)
+[2026-10-30 16:42:18] Created download interface of type 'SteamCache' (7) to host cache5-par1.steamcontent.com (cache5-par1.steamcontent.com)
+[2026-10-30 16:42:18] Created download interface of type 'SteamCache' (7) to host cache2-par1.steamcontent.com (cache2-par1.steamcontent.com)
+[2026-10-30 16:42:18] Downloading 58 chunks for depot 236394 (3839604526498621503)
+[2026-10-30 16:42:18] HTTP/2 available
+[2026-10-30 16:42:18] Created ipv4-only http client
+[2026-10-30 16:42:22] Moving to source priority class '8'
+[2026-10-30 16:42:22] Created download interface of type 'SteamCache' (7) to host cache11-par1.steamcontent.com (cache11-par1.steamcontent.com)
+[2026-10-30 16:42:22] Downloading 28352 chunks for depot 236391 (7461589110099034279)
+[2026-10-30 16:42:31] Increasing target number of download connections to 9 (rate was 0.000, now 221.777)
+[2026-10-30 16:42:31] Moving to source priority class '8'
+[2026-10-30 16:42:31] Created download interface of type 'SteamCache' (7) to host cache12-par1.steamcontent.com (cache12-par1.steamcontent.com)
+[2026-10-30 16:42:43] Increasing target number of download connections to 10 (rate was 221.777, now 275.870)
+[2026-10-30 16:42:43] Moving to source priority class '8'
+[2026-10-30 16:42:43] Created download interface of type 'SteamCache' (7) to host cache10-par1.steamcontent.com (cache10-par1.steamcontent.com)
+[2026-10-30 16:43:32] Current download rate: 298.072 Mbps
+[2026-10-30 16:44:33] Current download rate: 296.074 Mbps
+[2026-10-30 16:45:34] Current download rate: 295.918 Mbps
+[2026-10-30 16:46:35] Current download rate: 294.504 Mbps
+[2026-10-30 16:47:18] Got 33 download sources and 0 caching proxies via ContentServerDirectoryService::BYieldingGetServersForSteamPipe (CellID 14 / Launcher 3)
+[2026-10-30 16:47:36] Current download rate: 296.313 Mbps
+[2026-10-30 16:47:49] stats: (SteamCache, 107) cache3-par1.steamcontent.com: 1190818752 Bytes, 330 sec (28.85 Mbps). 1326 Hits / 0 Misses (100 %, 100 % bytes), score 0.9110
+[2026-10-30 16:47:49] stats: (Invalid, 0) : 12109097376 Bytes, 331 sec (292.52 Mbps). 13291 Hits / 0 Misses (100 %, 100 % bytes), score 0.0000
+[2026-10-30 16:47:49] stats: (SteamCache, 105) cache1-par1.steamcontent.com: 1266612304 Bytes, 330 sec (30.70 Mbps). 1391 Hits / 0 Misses (100 %, 100 % bytes), score 0.9140
+[2026-10-30 16:47:49] stats: (SteamCache, 101) cache5-par1.steamcontent.com: 1317923504 Bytes, 330 sec (31.91 Mbps). 1463 Hits / 0 Misses (100 %, 100 % bytes), score 0.9078
+[2026-10-30 16:47:49] stats: (SteamCache, 106) cache2-par1.steamcontent.com: 1323189568 Bytes, 329 sec (32.17 Mbps). 1456 Hits / 0 Misses (100 %, 100 % bytes), score 0.9148
+[2026-10-30 16:47:49] stats: (SteamCache, 234) cache7-par1.steamcontent.com: 1235492496 Bytes, 329 sec (30.06 Mbps). 1345 Hits / 0 Misses (100 %, 100 % bytes), score 0.9143
+[2026-10-30 16:47:49] stats: (SteamCache, 235) cache8-par1.steamcontent.com: 1171492960 Bytes, 329 sec (28.47 Mbps). 1285 Hits / 0 Misses (100 %, 100 % bytes), score 0.9132
+[2026-10-30 16:47:49] stats: (SteamCache, 108) cache4-par1.steamcontent.com: 1225356448 Bytes, 328 sec (29.85 Mbps). 1347 Hits / 0 Misses (100 %, 100 % bytes), score 0.9094
+[2026-10-30 16:47:49] stats: (SteamCache, 446) cache11-par1.steamcontent.com: 1171403024 Bytes, 328 sec (28.61 Mbps). 1284 Hits / 0 Misses (100 %, 100 % bytes), score 0.9170
+[2026-10-30 16:47:49] stats: (SteamCache, 447) cache12-par1.steamcontent.com: 1172881808 Bytes, 318 sec (29.51 Mbps). 1288 Hits / 0 Misses (100 %, 100 % bytes), score 0.9183
+[2026-10-30 16:47:49] stats: (SteamCache, 399) cache10-par1.steamcontent.com: 1033926512 Bytes, 306 sec (27.02 Mbps). 1106 Hits / 0 Misses (100 %, 100 % bytes), score 0.9150
+[2026-10-30 16:48:36] Current download rate: 294.768 Mbps
+
+
+[2026-10-30 16:57:49] Client version: 1792617903
+[2026-10-30 16:57:49] Loaded 4 apps from install folder "d:\steamcmd_library\steamapps\appmanifest_*.acf".
+[2026-10-30 16:57:49] Triggered async write of Steam library folders configuration (1 libraries).
+[2026-10-30 16:57:56] AppID 236390 scheduler update : Priority First, not played for 1133757 seconds, update disabled for 0 seconds
+[2026-10-30 16:57:56] AppID 236390 state changed : Update Required,Fully Installed,Update Queued,Update Started,
+[2026-10-30 16:57:56] AppID 236390 state changed : Update Required,Fully Installed,Update Queued,Update Running,Update Started,
+[2026-10-30 16:57:56] AppID 236390 App update changed : Running Update,
+[2026-10-30 16:57:56] AppID 236390 App update changed : Running Update,Reconfiguring,
+[2026-10-30 16:57:57] AppID 236390 App update changed : Running Update,
+[2026-10-30 16:57:57] Incomplete loading d:\steamcmd_library\steamapps\downloading\state_236390_236394.patch: missing sentinel
+[2026-10-30 16:57:57] Incomplete loading d:\steamcmd_library\steamapps\downloading\state_236390_236391.patch: missing sentinel
+[2026-10-30 16:57:57] AppID 236390 update started : download 79744642560/90099536832, store 0/0, reuse 0/0, delta 0/0, stage 82236635456/93167608073 
+[2026-10-30 16:57:57] AppID 236390 App update changed : Running Update,Downloading,Staging,
+[2026-10-30 16:57:57] Got 33 download sources and 0 caching proxies via ContentServerDirectoryService::BYieldingGetServersForSteamPipe (CellID 14 / Launcher 3)
+[2026-10-30 16:57:57] Moving to source priority class '8'
+[2026-10-30 16:57:57] Created download interface of type 'SteamCache' (7) to host cache7-par1.steamcontent.com (cache7-par1.steamcontent.com)
+[2026-10-30 16:57:57] Created download interface of type 'SteamCache' (7) to host cache3-par1.steamcontent.com (cache3-par1.steamcontent.com)
+[2026-10-30 16:57:57] Created download interface of type 'SteamCache' (7) to host cache4-par1.steamcontent.com (cache4-par1.steamcontent.com)
+[2026-10-30 16:57:57] Created download interface of type 'SteamCache' (7) to host cache1-par1.steamcontent.com (cache1-par1.steamcontent.com)
+[2026-10-30 16:57:57] Created download interface of type 'SteamCache' (7) to host cache5-par1.steamcontent.com (cache5-par1.steamcontent.com)
+[2026-10-30 16:57:57] Created download interface of type 'SteamCache' (7) to host cache2-par1.steamcontent.com (cache2-par1.steamcontent.com)
+[2026-10-30 16:57:57] Created download interface of type 'SteamCache' (7) to host cache8-par1.steamcontent.com (cache8-par1.steamcontent.com)
+[2026-10-30 16:57:57] Downloading 58 chunks for depot 236394 (3839604526498621503)
+[2026-10-30 16:57:57] HTTP/2 available
+[2026-10-30 16:57:57] Created ipv4-only http client
+[2026-10-30 16:57:58] HTTPS (SteamCache,107) - cache3-par1.steamcontent.com (185.25.182.4:443 / 185.25.182.4:443, host: cache3-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:57:59] HTTPS (SteamCache,105) - cache1-par1.steamcontent.com (185.25.182.3:443 / 185.25.182.3:443, host: cache1-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:57:59] HTTPS (SteamCache,101) - cache5-par1.steamcontent.com (185.25.182.5:443 / 185.25.182.5:443, host: cache5-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:57:59] HTTPS (SteamCache,106) - cache2-par1.steamcontent.com (185.25.182.35:443 / 185.25.182.35:443, host: cache2-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:57:59] HTTPS (SteamCache,235) - cache8-par1.steamcontent.com (185.25.182.40:443 / 185.25.182.40:443, host: cache8-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:57:59] HTTPS (SteamCache,108) - cache4-par1.steamcontent.com (185.25.182.36:443 / 185.25.182.36:443, host: cache4-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:57:59] HTTPS (SteamCache,234) - cache7-par1.steamcontent.com (185.25.182.7:443 / 185.25.182.7:443, host: cache7-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:58:01] Moving to source priority class '8'
+[2026-10-30 16:58:01] Created download interface of type 'SteamCache' (7) to host cache11-par1.steamcontent.com (cache11-par1.steamcontent.com)
+[2026-10-30 16:58:01] Downloading 11335 chunks for depot 236391 (7461589110099034279)
+[2026-10-30 16:58:02] HTTPS (SteamCache,446) - cache11-par1.steamcontent.com (185.25.182.11:443 / 185.25.182.11:443, host: cache11-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:58:11] Increasing target number of download connections to 9 (rate was 0.000, now 223.487)
+[2026-10-30 16:58:11] Moving to source priority class '8'
+[2026-10-30 16:58:11] Created download interface of type 'SteamCache' (7) to host cache10-par1.steamcontent.com (cache10-par1.steamcontent.com)
+[2026-10-30 16:58:11] HTTPS (SteamCache,399) - cache10-par1.steamcontent.com (185.25.182.10:443 / 185.25.182.10:443, host: cache10-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:58:23] Increasing target number of download connections to 10 (rate was 223.487, now 272.398)
+[2026-10-30 16:58:23] Moving to source priority class '8'
+[2026-10-30 16:58:23] Created download interface of type 'SteamCache' (7) to host cache12-par1.steamcontent.com (cache12-par1.steamcontent.com)
+[2026-10-30 16:58:24] HTTPS (SteamCache,447) - cache12-par1.steamcontent.com (185.25.182.42:443 / 185.25.182.42:443, host: cache12-par1.steamcontent.com): Negotiated HTTP/2
+[2026-10-30 16:59:11] Current download rate: 277.460 Mbps
+[2026-10-30 17:00:12] Current download rate: 222.593 Mbps
+[2026-10-30 17:01:13] Current download rate: 285.073 Mbps
+[2026-10-30 17:02:14] Current download rate: 278.203 Mbps
+[2026-10-30 17:02:58] Got 33 download sources and 0 caching proxies via ContentServerDirectoryService::BYieldingGetServersForSteamPipe (CellID 14 / Launcher 3)
+[2026-10-30 17:03:15] AppID 236390 App update changed : Running Update,
+[2026-10-30 17:03:15] AppID 236390 App update changed : Running Update,Verifying Staged,
+[2026-10-30 17:03:15] Current download rate: 242.952 Mbps
+[2026-10-30 17:03:29] stats: (SteamCache, 107) cache3-par1.steamcontent.com: 1147700336 Bytes, 314 sec (29.26 Mbps). 1285 Hits / 1 Misses (100 %, 100 % bytes), score 0.8945
+[2026-10-30 17:03:29] stats: (Invalid, 0) : 10354894272 Bytes, 317 sec (261.54 Mbps). 11206 Hits / 187 Misses (98 %, 98 % bytes), score 0.0000
+[2026-10-30 17:03:29] stats: (SteamCache, 105) cache1-par1.steamcontent.com: 927184544 Bytes, 313 sec (23.69 Mbps). 1026 Hits / 1 Misses (100 %, 100 % bytes), score 0.8696
+[2026-10-30 17:03:29] stats: (SteamCache, 101) cache5-par1.steamcontent.com: 996523152 Bytes, 314 sec (25.36 Mbps). 1095 Hits / 4 Misses (100 %, 100 % bytes), score 0.7965
+[2026-10-30 17:03:29] stats: (SteamCache, 106) cache2-par1.steamcontent.com: 997689216 Bytes, 314 sec (25.44 Mbps). 1120 Hits / 0 Misses (100 %, 100 % bytes), score 0.8849
+[2026-10-30 17:03:29] stats: (SteamCache, 234) cache7-par1.steamcontent.com: 1114161296 Bytes, 315 sec (28.29 Mbps). 1234 Hits / 0 Misses (100 %, 100 % bytes), score 0.8354
+[2026-10-30 17:03:29] stats: (SteamCache, 235) cache8-par1.steamcontent.com: 1028078176 Bytes, 315 sec (26.09 Mbps). 1131 Hits / 1 Misses (100 %, 100 % bytes), score 0.8770
+[2026-10-30 17:03:29] stats: (SteamCache, 108) cache4-par1.steamcontent.com: 1372767520 Bytes, 313 sec (35.06 Mbps). 1498 Hits / 2 Misses (100 %, 100 % bytes), score 0.8129
+[2026-10-30 17:03:29] stats: (SteamCache, 446) cache11-par1.steamcontent.com: 796817968 Bytes, 313 sec (20.40 Mbps). 761 Hits / 91 Misses (89 %, 89 % bytes), score 0.8336
+[2026-10-30 17:03:29] stats: (SteamCache, 399) cache10-par1.steamcontent.com: 1107010944 Bytes, 301 sec (29.41 Mbps). 1144 Hits / 53 Misses (96 %, 95 % bytes), score 0.7766
+[2026-10-30 17:03:29] stats: (SteamCache, 447) cache12-par1.steamcontent.com: 866961120 Bytes, 290 sec (23.95 Mbps). 912 Hits / 34 Misses (96 %, 96 % bytes), score 0.8209
+[2026-10-30 17:04:12] HTTP/2 (SteamCache,105) - cache1-par1.steamcontent.com (185.25.182.3:443 / 185.25.182.3:443, host: cache1-par1.steamcontent.com): Connection has been idle for '61' seconds, closing
+[2026-10-30 17:04:12] HTTP/2 (SteamCache,105) - cache1-par1.steamcontent.com (185.25.182.3:443 / 185.25.182.3:443, host: cache1-par1.steamcontent.com): Closing connection
+[2026-10-30 17:04:13] HTTP/2 (SteamCache,399) - cache10-par1.steamcontent.com (185.25.182.10:443 / 185.25.182.10:443, host: cache10-par1.steamcontent.com): Connection has been idle for '61' seconds, closing
+[2026-10-30 17:04:13] HTTP/2 (SteamCache,399) - cache10-par1.steamcontent.com (185.25.182.10:443 / 185.25.182.10:443, host: cache10-par1.steamcontent.com): Closing connection
+[2026-10-30 17:04:13] HTTP/2 (SteamCache,107) - cache3-par1.steamcontent.com (185.25.182.4:443 / 185.25.182.4:443, host: cache3-par1.steamcontent.com): Connection has been idle for '61' seconds, closing
+[2026-10-30 17:04:13] HTTP/2 (SteamCache,107) - cache3-par1.steamcontent.com (185.25.182.4:443 / 185.25.182.4:443, host: cache3-par1.steamcontent.com): Closing connection
+[2026-10-30 17:04:13] HTTP/2 (SteamCache,106) - cache2-par1.steamcontent.com (185.25.182.35:443 / 185.25.182.35:443, host: cache2-par1.steamcontent.com): Connection has been idle for '61' seconds, closing
+[2026-10-30 17:04:13] HTTP/2 (SteamCache,106) - cache2-par1.steamcontent.com (185.25.182.35:443 / 185.25.182.35:443, host: cache2-par1.steamcontent.com): Closing connection
+[2026-10-30 17:04:13] HTTP/2 (SteamCache,447) - cache12-par1.steamcontent.com (185.25.182.42:443 / 185.25.182.42:443, host: cache12-par1.steamcontent.com): Connection has been idle for '61' seconds, closing
+[2026-10-30 17:04:13] HTTP/2 (SteamCache,447) - cache12-par1.steamcontent.com (185.25.182.42:443 / 185.25.182.42:443, host: cache12-par1.steamcontent.com): Closing connection
+[2026-10-30 17:04:14] HTTP/2 (SteamCache,101) - cache5-par1.steamcontent.com (185.25.182.5:443 / 185.25.182.5:443, host: cache5-par1.steamcontent.com): Connection has been idle for '61' seconds, closing
+[2026-10-30 17:04:14] HTTP/2 (SteamCache,101) - cache5-par1.steamcontent.com (185.25.182.5:443 / 185.25.182.5:443, host: cache5-par1.steamcontent.com): Closing connection
+[2026-10-30 17:04:14] HTTP/2 (SteamCache,108) - cache4-par1.steamcontent.com (185.25.182.36:443 / 185.25.182.36:443, host: cache4-par1.steamcontent.com): Connection has been idle for '61' seconds, closing
+[2026-10-30 17:04:14] HTTP/2 (SteamCache,108) - cache4-par1.steamcontent.com (185.25.182.36:443 / 185.25.182.36:443, host: cache4-par1.steamcontent.com): Closing connection
+[2026-10-30 17:04:14] HTTP/2 (SteamCache,234) - cache7-par1.steamcontent.com (185.25.182.7:443 / 185.25.182.7:443, host: cache7-par1.steamcontent.com): Connection has been idle for '61' seconds, closing
+[2026-10-30 17:04:14] HTTP/2 (SteamCache,234) - cache7-par1.steamcontent.com (185.25.182.7:443 / 185.25.182.7:443, host: cache7-par1.steamcontent.com): Closing connection
+[2026-10-30 17:04:15] HTTP/2 (SteamCache,446) - cache11-par1.steamcontent.com (185.25.182.11:443 / 185.25.182.11:443, host: cache11-par1.steamcontent.com): Connection has been idle for '61' seconds, closing
+[2026-10-30 17:04:15] HTTP/2 (SteamCache,446) - cache11-par1.steamcontent.com (185.25.182.11:443 / 185.25.182.11:443, host: cache11-par1.steamcontent.com): Closing connection
+[2026-10-30 17:04:15] HTTP/2 (SteamCache,235) - cache8-par1.steamcontent.com (185.25.182.40:443 / 185.25.182.40:443, host: cache8-par1.steamcontent.com): Connection has been idle for '61' seconds, closing
+[2026-10-30 17:04:15] HTTP/2 (SteamCache,235) - cache8-par1.steamcontent.com (185.25.182.40:443 / 185.25.182.40:443, host: cache8-par1.steamcontent.com): Closing connection
+[2026-10-30 17:04:28] Got 33 download sources and 0 caching proxies via ContentServerDirectoryService::BYieldingGetServersForSteamPipe (CellID 14 / Launcher 3)
+[2026-10-30 17:04:58] Got 33 download sources and 0 caching proxies via ContentServerDirectoryService::BYieldingGetServersForSteamPipe (CellID 14 / Launcher 3)
+[2026-10-30 17:05:28] Got 33 download sources and 0 caching proxies via ContentServerDirectoryService::BYieldingGetServersForSteamPipe (CellID 14 / Launcher 3)
+[2026-10-30 17:05:57] Got 33 download sources and 0 caching proxies via ContentServerDirectoryService::BYieldingGetServersForSteamPipe (CellID 14 / Launcher 3)
+[2026-10-30 17:06:23] Verified 88851 MB in 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd', clean bytes tally is now 88851 MB
+[2026-10-30 17:06:23] Triggered async write of Steam library folders configuration (1 libraries).
+[2026-10-30 17:06:23] AppID 236390 App update changed : Running Update,
+[2026-10-30 17:06:23] AppID 236390 App update changed : Running Update,Committing,
+[2026-10-30 17:06:23] AppID 236390 starting commit from "d:\steamcmd_library\steamapps\downloading\236390" to "d:\steamcmd_library" : 10183 updated, 0 moved, 0 deleted files
+[2026-10-30 17:06:26] AppID 236390 state changed : Fully Installed,Update Queued,Update Running,
+[2026-10-30 17:06:26] AppID 236390 finished update, 2 mounted depots (BuildID 26292308) : 236394 (3839604526498621503),236391 (7461589110099034279),
+[2026-10-30 17:06:26] AppID 236390 App update changed : Running Update,
+[2026-10-30 17:06:26] AppID 236390 App update changed : None
+[2026-10-30 17:06:26] AppID 236390 state changed : Fully Installed,Update Queued,
+[2026-10-30 17:06:26] AppID 236390 state changed : Fully Installed,
+[2026-10-30 17:06:26] AppID 236390 scheduler finished : removed from schedule (result No Error, state 0xc) 
+
+
+[2026-10-30 17:06:35] Client version: 1792617903
+[2026-10-30 17:06:35] Loaded 4 apps from install folder "d:\steamcmd_library\steamapps\appmanifest_*.acf".
+[2026-10-30 17:06:35] Triggered async write of Steam library folders configuration (1 libraries).
