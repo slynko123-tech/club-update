@@ -5,6 +5,7 @@ const dgram = require('dgram');
 const os = require('os');
 const path = require('path');
 const packageJson = require('../package.json');
+const { getConfig, updateConfig, initConfig } = require('./config-manager');
 
 const app = express();
 const PORT = 3000;
@@ -12,6 +13,9 @@ const UDP_PORT = 41234;
 
 app.use(cors());
 app.use(express.json());
+
+// Инициализация конфига при запуске
+initConfig();
 
 function getLocalIp() {
     const interfaces = os.networkInterfaces();
@@ -72,16 +76,31 @@ const lastSteamStatuses = {};
 
 async function getValidToken(club) {
     const now = Date.now();
-    if (tokensCache[club.id] && tokensCache[club.id].expiresAt > now) return tokensCache[club.id].token;
+    const clubId = club.id || club;
+
+    if (tokensCache[clubId] && tokensCache[clubId].expiresAt > now) {
+        return tokensCache[clubId].token;
+    }
+
     const loginResponse = await fetch(API_URL, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json', 'User-Agent': `company_id=${club.companyId}` },
-      body: JSON.stringify({ query: `mutation login { login(input: { login: "${club.phone}", password: "${club.password}", company_id: ${club.companyId} }) { access_token } }` })
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json',
+            'User-Agent': `company_id=${club.companyId}`
+        },
+        body: JSON.stringify({
+            query: `mutation login { login(input: { login: "${club.phone}", password: "${club.password}", company_id: ${club.companyId} }) { access_token } }`
+        })
     });
+
     const loginData = await loginResponse.json();
-    if (loginData.errors || !loginData.data?.login?.access_token) throw new Error(`Ошибка авторизации для ${club.name}`);
+    if (loginData.errors || !loginData.data?.login?.access_token) {
+        throw new Error(`Ошибка авторизации для ${club.name || club.clubName}`);
+    }
+
     const token = loginData.data.login.access_token;
-    tokensCache[club.id] = { token: token, expiresAt: now + (55 * 60 * 1000) };
+    tokensCache[clubId] = { token: token, expiresAt: now + (55 * 60 * 1000) };
     return token;
 }
 
@@ -127,6 +146,67 @@ setInterval(async () => {
 app.get('/api/clubs', (req, res) => res.json(clubs.map(c => ({ id: c.id, name: c.name }))));
 app.get('/api/games', (req, res) => res.json(GAMES));
 app.get('/api/history', (req, res) => res.json(taskHistory));
+
+// 👇 НОВЫЕ API ДЛЯ НАСТРОЙКИ
+app.get('/api/config', (req, res) => {
+    const config = getConfig();
+    // Не отдаём пароль клиенту
+    res.json({
+        setupCompleted: config.setupCompleted,
+        club: config.club,
+        clubName: config.clubName,
+        companyId: config.credentials.companyId
+    });
+});
+
+app.post('/api/config/setup', async (req, res) => {
+    const { clubName, phone, password, companyId } = req.body;
+
+    if (!clubName || !phone || !password || !companyId) {
+        return res.status(400).json({ error: 'Все поля обязательны' });
+    }
+
+    try {
+        // Проверяем данные, пытаясь получить токен
+        const loginResponse = await fetch(API_URL, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json', 'Accept': 'application/json', 'User-Agent': `company_id=${companyId}` },
+            body: JSON.stringify({
+                query: `mutation login { login(input: { login: "${phone}", password: "${password}", company_id: ${companyId} }) { access_token } }`
+            })
+        });
+
+        const loginData = await loginResponse.json();
+
+        if (loginData.errors || !loginData.data?.login?.access_token) {
+            return res.status(401).json({ error: 'Неверные данные SmartShell. Проверьте телефон, пароль и ID компании.' });
+        }
+
+        // Сохраняем конфиг
+        const config = updateConfig({
+            setupCompleted: true,
+            club: `club_${companyId}`,
+            clubName: clubName,
+            credentials: {
+                phone,
+                password,
+                companyId
+            },
+            lastTokenRefresh: Date.now()
+        });
+
+        // Сохраняем токен в кеш
+        tokensCache[config.club] = {
+            token: loginData.data.login.access_token,
+            expiresAt: Date.now() + (55 * 60 * 1000)
+        };
+
+        res.json({ success: true, message: 'Настройка завершена успешно!' });
+    } catch (error) {
+        console.error('Ошибка настройки:', error);
+        res.status(500).json({ error: 'Ошибка подключения к SmartShell' });
+    }
+});
 
 app.get('/api/version', (req, res) => {
     res.json({ version: packageJson.version });

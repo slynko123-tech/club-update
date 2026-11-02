@@ -32,6 +32,47 @@ function App() {
   const [showChangelog, setShowChangelog] = useState(false);
   const [changelog, setChangelog] = useState<any>(null);
 
+  // 👇 НОВОЕ: Первичная настройка
+  const [showSetup, setShowSetup] = useState(false);
+  const [setupData, setSetupData] = useState({
+    clubName: '',
+    phone: '',
+    password: '',
+    companyId: ''
+  });
+  const [setupError, setSetupError] = useState('');
+  const [setupLoading, setSetupLoading] = useState(false);
+
+  const handleSetup = async () => {
+    setSetupError('');
+    setSetupLoading(true);
+
+    try {
+      const response = await fetch('/api/config/setup', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(setupData)
+      });
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        setSetupError(data.error || 'Ошибка настройки');
+        setSetupLoading(false);
+        return;
+      }
+
+      // Успех! Перезагружаем страницу
+      setTimeout(() => {
+        window.location.reload();
+      }, 500);
+
+    } catch (e) {
+      setSetupError('Ошибка подключения к серверу');
+      setSetupLoading(false);
+    }
+  };
+
   const closeWindow = () => { (window as any).electronAPI?.closeWindow(); };
   const minimizeWindow = () => { (window as any).electronAPI?.minimizeWindow(); };
   const maximizeWindow = () => { (window as any).electronAPI?.maximizeWindow(); };
@@ -72,40 +113,47 @@ function App() {
   };
 
   useEffect(() => {
-    fetch('/api/clubs')
+    // 👇 ПРОВЕРЯЕМ НАСТРОЙКУ ПРИ ЗАПУСКЕ
+    fetch('/api/config')
       .then(res => res.json())
       .then(data => {
-        setClubs(data);
-        if (data.length > 0) setSelectedClub(data[0].id);
-      });
-
-    fetch('/api/games')
-      .then(res => res.json())
-      .then(data => {
-        setAllGames(data);
-        setSelectedGames(data.map((g: any) => g.appId));
-      });
-
-    fetch('/api/version')
-      .then(res => res.json())
-      .then(data => {
-        setAdminVersion(data.version);
-
-        // 👇 ПРОВЕРЯЕМ CHANGELOG
-        const lastSeenVersion = localStorage.getItem('lastSeenVersion');
-        if (lastSeenVersion !== data.version) {
-          // Загружаем changelog
-          fetch('/CHANGELOG.json')
-            .then(res => res.json())
-            .then(changelogData => {
-              if (changelogData[data.version]) {
-                setChangelog(changelogData[data.version]);
-                setShowChangelog(true);
-                localStorage.setItem('lastSeenVersion', data.version);
-              }
-            })
-            .catch(() => {});
+        if (!data.setupCompleted) {
+          setShowSetup(true);
+          return;
         }
+
+        // Если настройка завершена, загружаем остальное
+        fetch('/api/clubs')
+          .then(res => res.json())
+          .then(clubsData => {
+            setClubs(clubsData);
+            if (clubsData.length > 0) setSelectedClub(clubsData[0].id);
+          });
+
+        fetch('/api/games')
+          .then(res => res.json())
+          .then(gamesData => {
+            setAllGames(gamesData);
+            setSelectedGames(gamesData.map((g: any) => g.appId));
+          });
+
+        fetch('/api/version')
+          .then(res => res.json())
+          .then(versionData => {
+            setAdminVersion(versionData.version);
+
+            // 👇 ЗАГРУЖАЕМ CHANGELOG ПРИ КАЖДОМ ЗАПУСКЕ
+            fetch('/CHANGELOG.json')
+              .then(res => res.json())
+              .then(changelogData => {
+                if (changelogData[versionData.version]) {
+                  setChangelog(changelogData[versionData.version]);
+                  setShowChangelog(true);
+                }
+              })
+              .catch(() => {});
+          })
+          .catch(() => {});
       })
       .catch(() => {});
   }, []);
@@ -283,9 +331,17 @@ function App() {
         <div className="flex items-center gap-3">
           <img src="/logo.png" alt="Logo" className="h-7 w-auto" />
           <h1 className="text-club-accent text-lg font-bold tracking-wider">CLUB UPDATE</h1>
-          <span className="text-[10px] text-gray-500 font-mono bg-gray-800 px-1.5 py-0.5 rounded border border-gray-700">v{adminVersion}</span>
+          <button
+            onClick={() => setShowChangelog(true)}
+            style={{ WebkitAppRegion: 'no-drag' } as React.CSSProperties}
+            className="text-[10px] text-gray-500 font-mono bg-gray-800 px-2 py-1 rounded border border-gray-700 hover:border-club-accent hover:text-club-accent transition-all cursor-pointer flex items-center gap-1.5"
+            title="Что нового в версии"
+          >
+            <span>v{adminVersion}</span>
+            <span className="text-xs">✨</span>
+          </button>
         </div>
-        
+
         <div className="flex items-center gap-1">
           <button onClick={minimizeWindow} style={{ WebkitAppRegion: 'no-drag' } as React.CSSProperties} className="w-10 h-7 flex items-center justify-center text-gray-400 hover:text-white hover:bg-gray-700 rounded transition-colors" title="Свернуть">─</button>
           <button onClick={maximizeWindow} style={{ WebkitAppRegion: 'no-drag' } as React.CSSProperties} className="w-10 h-7 flex items-center justify-center text-gray-400 hover:text-white hover:bg-gray-700 rounded transition-colors" title="Развернуть">□</button>
@@ -550,21 +606,138 @@ function App() {
           </div>
         )}
 
-        {showChangelog && changelog && (
-          <div className="fixed inset-0 bg-black/90 flex items-center justify-center z-50">
-            <div className="bg-club-panel w-[700px] rounded-xl border border-club-accent shadow-2xl overflow-hidden flex flex-col animate-[slideIn_0.3s_ease-out]">
-              <div className="flex justify-between items-center p-6 border-b border-gray-700 bg-gradient-to-r from-club-accent/10 to-transparent">
-                <div>
-                  <h2 className="text-2xl font-bold text-club-accent flex items-center gap-3">
-                    🎉 Обновление {adminVersion}
-                  </h2>
-                  <p className="text-sm text-gray-400 mt-1">{changelog.date} • {changelog.title}</p>
+        {/* ОКНО ПЕРВИЧНОЙ НАСТРОЙКИ */}
+        {showSetup && (
+          <div className="fixed inset-0 bg-black/95 backdrop-blur-sm flex items-center justify-center z-[200]">
+            <div className="bg-gradient-to-b from-club-panel to-[#1a1a1a] w-[600px] rounded-2xl border-2 border-club-accent/50 shadow-[0_0_50px_rgba(255,212,0,0.3)] overflow-hidden">
+
+              {/* HEADER */}
+              <div className="relative p-8 border-b border-club-accent/30 bg-gradient-to-r from-club-accent/20 via-club-accent/10 to-transparent">
+                <div className="absolute inset-0 opacity-20">
+                  <div className="absolute top-0 left-0 w-32 h-32 bg-club-accent rounded-full blur-3xl animate-pulse"></div>
+                  <div className="absolute bottom-0 right-0 w-40 h-40 bg-club-accent rounded-full blur-3xl animate-pulse delay-700"></div>
                 </div>
-                <button onClick={() => setShowChangelog(false)} className="text-gray-400 hover:text-red-500 text-3xl leading-none transition-colors cursor-pointer" title="Закрыть">&times;</button>
+
+                <div className="relative z-10 text-center">
+                  <div className="text-6xl mb-4 animate-bounce">👋</div>
+                  <h2 className="text-3xl font-black text-transparent bg-clip-text bg-gradient-to-r from-club-accent via-yellow-300 to-club-accent animate-gradient mb-2">
+                    Добро пожаловать!
+                  </h2>
+                  <p className="text-gray-300">Настроим подключение к SmartShell</p>
+                </div>
               </div>
 
-              <div className="p-6 overflow-y-auto max-h-[70vh]">
-                <div className="space-y-4">
+              {/* FORM */}
+              <div className="p-8 space-y-4">
+                <div>
+                  <label className="block text-sm font-bold text-gray-300 mb-2">Название вашего клуба</label>
+                  <input
+                    type="text"
+                    placeholder="Например: Киберклуб Гейминг"
+                    value={setupData.clubName}
+                    onChange={(e) => setSetupData({...setupData, clubName: e.target.value})}
+                    className="w-full bg-[#222] border border-gray-700 rounded-lg px-4 py-3 text-white outline-none focus:border-club-accent transition-colors"
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-sm font-bold text-gray-300 mb-2">Телефон (менеджера SmartShell)</label>
+                  <input
+                    type="tel"
+                    placeholder="79001234567"
+                    value={setupData.phone}
+                    onChange={(e) => setSetupData({...setupData, phone: e.target.value})}
+                    className="w-full bg-[#222] border border-gray-700 rounded-lg px-4 py-3 text-white outline-none focus:border-club-accent transition-colors"
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-sm font-bold text-gray-300 mb-2">Пароль от SmartShell</label>
+                  <input
+                    type="password"
+                    placeholder="••••••••"
+                    value={setupData.password}
+                    onChange={(e) => setSetupData({...setupData, password: e.target.value})}
+                    className="w-full bg-[#222] border border-gray-700 rounded-lg px-4 py-3 text-white outline-none focus:border-club-accent transition-colors"
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-sm font-bold text-gray-300 mb-2">ID компании (Company ID)</label>
+                  <input
+                    type="text"
+                    placeholder="2165"
+                    value={setupData.companyId}
+                    onChange={(e) => setSetupData({...setupData, companyId: e.target.value})}
+                    className="w-full bg-[#222] border border-gray-700 rounded-lg px-4 py-3 text-white outline-none focus:border-club-accent transition-colors"
+                  />
+                  <p className="text-xs text-gray-500 mt-1">Найдите в настройках SmartShell</p>
+                </div>
+
+                {setupError && (
+                  <div className="bg-red-500/10 border border-red-500/30 rounded-lg p-3 text-red-400 text-sm">
+                    ⚠️ {setupError}
+                  </div>
+                )}
+              </div>
+
+              {/* FOOTER */}
+              <div className="p-6 border-t border-club-accent/30 bg-gradient-to-r from-[#1a1a1a] to-[#222]">
+                <button
+                  onClick={handleSetup}
+                  disabled={setupLoading || !setupData.clubName || !setupData.phone || !setupData.password || !setupData.companyId}
+                  className="w-full bg-gradient-to-r from-club-accent to-yellow-400 hover:from-yellow-400 hover:to-club-accent text-black font-bold py-4 rounded-lg transition-all duration-300 active:scale-95 cursor-pointer shadow-[0_0_20px_rgba(255,212,0,0.4)] hover:shadow-[0_0_30px_rgba(255,212,0,0.6)] disabled:opacity-50 disabled:cursor-not-allowed transform hover:scale-105 disabled:hover:scale-100"
+                >
+                  {setupLoading ? '⏳ Проверяем данные...' : '🚀 Начать работу'}
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
+
+        {showChangelog && changelog && (
+          <div className="fixed inset-0 bg-black/95 backdrop-blur-sm flex items-center justify-center z-[100] animate-[fadeIn_0.3s_ease-out]">
+            <div className="bg-gradient-to-b from-club-panel to-[#1a1a1a] w-[750px] max-h-[90vh] rounded-2xl border-2 border-club-accent/50 shadow-[0_0_50px_rgba(255,212,0,0.3)] overflow-hidden flex flex-col animate-[slideUp_0.4s_ease-out]">
+
+              {/* HEADER */}
+              <div className="relative p-8 border-b border-club-accent/30 bg-gradient-to-r from-club-accent/20 via-club-accent/10 to-transparent overflow-hidden">
+                {/* Animated background particles */}
+                <div className="absolute inset-0 opacity-20">
+                  <div className="absolute top-0 left-0 w-32 h-32 bg-club-accent rounded-full blur-3xl animate-pulse"></div>
+                  <div className="absolute bottom-0 right-0 w-40 h-40 bg-club-accent rounded-full blur-3xl animate-pulse delay-700"></div>
+                </div>
+
+                <div className="relative z-10 flex justify-between items-start">
+                  <div className="flex-1">
+                    <div className="flex items-center gap-3 mb-2">
+                      <span className="text-5xl animate-bounce">🎉</span>
+                      <h2 className="text-3xl font-black text-transparent bg-clip-text bg-gradient-to-r from-club-accent via-yellow-300 to-club-accent animate-gradient">
+                        Что нового?
+                      </h2>
+                    </div>
+                    <div className="flex items-center gap-3 ml-1">
+                      <span className="text-2xl font-bold text-club-accent drop-shadow-[0_0_10px_rgba(255,212,0,0.5)]">
+                        Версия {adminVersion}
+                      </span>
+                      <span className="text-gray-500">•</span>
+                      <span className="text-sm text-gray-400 font-mono">{changelog.date}</span>
+                    </div>
+                    <p className="text-base text-gray-300 mt-2 ml-1 font-medium">{changelog.title}</p>
+                  </div>
+
+                  <button
+                    onClick={() => setShowChangelog(false)}
+                    className="text-gray-400 hover:text-red-500 hover:rotate-90 text-4xl leading-none transition-all duration-300 cursor-pointer hover:scale-110 active:scale-95 ml-4"
+                    title="Закрыть"
+                  >
+                    ✕
+                  </button>
+                </div>
+              </div>
+
+              {/* CONTENT */}
+              <div className="p-6 overflow-y-auto max-h-[55vh] custom-scrollbar">
+                <div className="space-y-3">
                   {changelog.changes.map((change: any, index: number) => {
                     const icons: any = {
                       'fix': '🐛',
@@ -573,18 +746,34 @@ function App() {
                       'security': '🔒'
                     };
                     const colors: any = {
-                      'fix': 'border-red-500/30 bg-red-500/5',
-                      'feature': 'border-green-500/30 bg-green-500/5',
-                      'improvement': 'border-blue-500/30 bg-blue-500/5',
-                      'security': 'border-yellow-500/30 bg-yellow-500/5'
+                      'fix': 'border-red-500/40 bg-gradient-to-r from-red-500/10 to-red-500/5 hover:from-red-500/15 hover:to-red-500/10',
+                      'feature': 'border-green-500/40 bg-gradient-to-r from-green-500/10 to-green-500/5 hover:from-green-500/15 hover:to-green-500/10',
+                      'improvement': 'border-blue-500/40 bg-gradient-to-r from-blue-500/10 to-blue-500/5 hover:from-blue-500/15 hover:to-blue-500/10',
+                      'security': 'border-yellow-500/40 bg-gradient-to-r from-yellow-500/10 to-yellow-500/5 hover:from-yellow-500/15 hover:to-yellow-500/10'
+                    };
+                    const textColors: any = {
+                      'fix': 'text-red-400',
+                      'feature': 'text-green-400',
+                      'improvement': 'text-blue-400',
+                      'security': 'text-yellow-400'
                     };
                     return (
-                      <div key={index} className={`border rounded-lg p-4 ${colors[change.type] || 'border-gray-700'}`}>
-                        <div className="flex items-start gap-3">
-                          <span className="text-2xl">{icons[change.type] || '📝'}</span>
+                      <div
+                        key={index}
+                        className={`border-l-4 rounded-lg p-4 transition-all duration-300 hover:scale-[1.02] hover:shadow-lg cursor-default ${colors[change.type] || 'border-gray-700'}`}
+                        style={{ animationDelay: `${index * 0.1}s` }}
+                      >
+                        <div className="flex items-start gap-4">
+                          <div className="text-3xl animate-bounce" style={{ animationDelay: `${index * 0.15}s`, animationDuration: '2s' }}>
+                            {icons[change.type] || '📝'}
+                          </div>
                           <div className="flex-1">
-                            <h3 className="font-bold text-white mb-1">{change.title}</h3>
-                            <p className="text-sm text-gray-400 leading-relaxed">{change.description}</p>
+                            <h3 className={`font-bold text-lg mb-2 ${textColors[change.type] || 'text-white'}`}>
+                              {change.title}
+                            </h3>
+                            <p className="text-sm text-gray-300 leading-relaxed">
+                              {change.description}
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -593,8 +782,18 @@ function App() {
                 </div>
               </div>
 
-              <div className="p-4 border-t border-gray-700 bg-[#222] flex justify-end">
-                <button onClick={() => setShowChangelog(false)} className="bg-club-accent hover:brightness-110 text-black font-bold py-2 px-8 rounded transition-all duration-200 active:scale-95 cursor-pointer">Понятно</button>
+              {/* FOOTER */}
+              <div className="p-6 border-t border-club-accent/30 bg-gradient-to-r from-[#1a1a1a] to-[#222] flex justify-between items-center">
+                <div className="text-xs text-gray-500 flex items-center gap-2">
+                  <span className="animate-pulse">💛</span>
+                  <span>Сделано с любовью командой DeeMas1k</span>
+                </div>
+                <button
+                  onClick={() => setShowChangelog(false)}
+                  className="bg-gradient-to-r from-club-accent to-yellow-400 hover:from-yellow-400 hover:to-club-accent text-black font-bold py-3 px-10 rounded-lg transition-all duration-300 active:scale-95 cursor-pointer shadow-[0_0_20px_rgba(255,212,0,0.4)] hover:shadow-[0_0_30px_rgba(255,212,0,0.6)] transform hover:scale-105"
+                >
+                  Понятно ✓
+                </button>
               </div>
             </div>
           </div>

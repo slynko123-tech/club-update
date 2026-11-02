@@ -1,0 +1,10 @@
+{
+  "setupCompleted": false,
+  "club": null,
+  "credentials": {
+    "phone": "",
+    "password": "",
+    "companyId": ""
+  },
+  "lastTokenRefresh": null
+}
