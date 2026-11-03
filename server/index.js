@@ -37,8 +37,6 @@ udpServer.on('message', (msg, rinfo) => {
 });
 udpServer.bind(UDP_PORT);
 
-// 👇 УБРАЛИ ЗАХАРДКОЖЕННЫЙ МАССИВ КЛУБОВ
-
 const GAMES = [
   { appId: '730', name: 'CS 2' },
   { appId: '570', name: 'DOTA 2' },
@@ -53,83 +51,128 @@ const GAMES = [
   { appId: '444200', name: 'World of Tanks Blitz' }
 ];
 
-const agentsData = {}; 
-const commandsQueue = {}; 
+const agentsData = {};
+const commandsQueue = {};
 const API_URL = 'https://billing.smartshell.gg/api/graphql';
-const tokensCache = {}; 
-const hostsCache = {}; 
+const tokensCache = {}; // Простой кеш токенов: { [clubId]: token }
+const hostsCache = {};
 
 const taskHistory = [];
-const lastSteamStatuses = {}; 
+const lastSteamStatuses = {};
 
-async function getValidToken(club) {
-    const now = Date.now();
-    const clubId = club.id || club;
-
-    if (tokensCache[clubId] && tokensCache[clubId].expiresAt > now) {
-        return tokensCache[clubId].token;
-    }
+// 👇 НОВОЕ: Функция для получения токена (с авторизацией при необходимости)
+async function loginToSmartShell(companyId, phone, password) {
+    console.log('🔐 Авторизация в SmartShell для компании:', companyId);
 
     const loginResponse = await fetch(API_URL, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
             'Accept': 'application/json',
-            'User-Agent': `company_id=${club.companyId}`
+            'User-Agent': `company_id=${companyId}`
         },
         body: JSON.stringify({
-            query: `mutation login { login(input: { login: "${club.phone}", password: "${club.password}", company_id: ${club.companyId} }) { access_token } }`
+            query: `mutation login { login(input: { login: "${phone}", password: "${password}", company_id: ${companyId} }) { access_token } }`
         })
     });
 
     const loginData = await loginResponse.json();
+
     if (loginData.errors || !loginData.data?.login?.access_token) {
-        throw new Error(`Ошибка авторизации для ${club.name || club.clubName}`);
+        throw new Error('Ошибка авторизации SmartShell');
     }
 
     const token = loginData.data.login.access_token;
-    tokensCache[clubId] = { token: token, expiresAt: now + (55 * 60 * 1000) };
+    console.log('✅ Токен получен успешно');
+
     return token;
 }
 
-async function fetchHostsFromSmartShell(club) {
-    const token = await getValidToken(club);
-    const hostsResponse = await fetch(API_URL, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json', 'Accept': 'application/json', 'User-Agent': `company_id=${club.companyId}`, 'Authorization': `Bearer ${token}` },
-      body: JSON.stringify({
-          query: `query hostsData {
-            hostsOverview {
-              id
-              alias
-              online
-              in_service
-              ip_addr
-              client_sessions {
+// 👇 НОВОЕ: Обертка для всех запросов к SmartShell API
+async function fetchFromSmartShell(query, clubData) {
+    const clubId = clubData.companyId;
+
+    // Если токена нет в кеше - получаем новый
+    if (!tokensCache[clubId]) {
+        const token = await loginToSmartShell(clubData.companyId, clubData.phone, clubData.password);
+        tokensCache[clubId] = token;
+    }
+
+    // Делаем запрос с текущим токеном
+    let response = await fetch(API_URL, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json',
+            'User-Agent': `company_id=${clubData.companyId}`,
+            'Authorization': `Bearer ${tokensCache[clubId]}`
+        },
+        body: JSON.stringify({ query })
+    });
+
+    let data = await response.json();
+
+    // Если получили ошибку авторизации - обновляем токен и повторяем запрос
+    if (data.errors && data.errors.some(err =>
+        err.message?.includes('Unauthenticated') ||
+        err.message?.includes('Unauthorized') ||
+        err.extensions?.category === 'authentication'
+    )) {
+        console.log('⚠️  Токен протух, получаем новый...');
+
+        // Получаем новый токен
+        const newToken = await loginToSmartShell(clubData.companyId, clubData.phone, clubData.password);
+        tokensCache[clubId] = newToken;
+
+        // Повторяем запрос с новым токеном
+        response = await fetch(API_URL, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Accept': 'application/json',
+                'User-Agent': `company_id=${clubData.companyId}`,
+                'Authorization': `Bearer ${tokensCache[clubId]}`
+            },
+            body: JSON.stringify({ query })
+        });
+
+        data = await response.json();
+    }
+
+    return data;
+}
+
+// 👇 ОБНОВЛЕННАЯ: Функция получения хостов через обертку
+async function fetchHostsFromSmartShell(clubData) {
+    const query = `query hostsData {
+        hostsOverview {
+            id
+            alias
+            online
+            in_service
+            ip_addr
+            client_sessions {
                 id
                 started_at
                 finished_at
                 duration
                 elapsed
                 time_left
-              }
             }
-          }`
-      })
-    });
-    const hostsData = await hostsResponse.json();
-    return hostsData.data?.hostsOverview || [];
+        }
+    }`;
+
+    const data = await fetchFromSmartShell(query, clubData);
+    return data.data?.hostsOverview || [];
 }
 
 // 👇 Обновление хостов каждые 10 секунд (только для настроенного клуба)
 setInterval(async () => {
     const config = getConfig();
-    if (!config.setupCompleted) return; // Если клуб не настроен — пропускаем
+    if (!config.setupCompleted) return;
 
     const clubId = config.credentials.companyId;
     const clubData = {
-        id: clubId,
-        name: config.clubName,
         companyId: config.credentials.companyId,
         phone: config.credentials.phone,
         password: config.credentials.password
@@ -141,50 +184,15 @@ setInterval(async () => {
     } catch (error) {
         console.error('❌ Ошибка обновления хостов:', error.message);
     }
-}, 10000); // 👈 10 секунд
+}, 10000);
 
-// 👇 НОВОЕ: Обновление токена раз в час
-setInterval(async () => {
-    const config = getConfig();
-    if (!config.setupCompleted) return;
-
-    const clubId = config.credentials.companyId;
-    const clubData = {
-        id: clubId,
-        companyId: config.credentials.companyId,
-        phone: config.credentials.phone,
-        password: config.credentials.password
-    };
-
-    try {
-        console.log('🔄 Обновление токена для клуба:', clubId);
-        const token = await getValidToken(clubData);
-        console.log('✅ Токен обновлен успешно');
-    } catch (error) {
-        console.error('❌ Ошибка обновления токена:', error.message);
-    }
-}, 3600000); // 👈 1 час (60 * 60 * 1000)
-
-app.get('/api/clubs', (req, res) => {
-    const config = getConfig();
-    if (!config.setupCompleted) {
-        return res.json([]);
-    }
-    return res.json([{
-        id: config.credentials.companyId,
-        name: config.clubName
-    }]);
-});
 app.get('/api/games', (req, res) => res.json(GAMES));
 app.get('/api/history', (req, res) => res.json(taskHistory));
 
-// 👇 НОВЫЕ API ДЛЯ НАСТРОЙКИ
 app.get('/api/config', (req, res) => {
     const config = getConfig();
-    // Не отдаём пароль клиенту
     res.json({
         setupCompleted: config.setupCompleted,
-        club: config.club,
         clubName: config.clubName,
         companyId: config.credentials.companyId
     });
@@ -201,66 +209,44 @@ app.post('/api/config/setup', async (req, res) => {
 
     try {
         // Проверяем данные, пытаясь получить токен
-        const loginResponse = await fetch(API_URL, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json', 'Accept': 'application/json', 'User-Agent': `company_id=${companyId}` },
-            body: JSON.stringify({
-                query: `mutation login { login(input: { login: "${phone}", password: "${password}", company_id: ${companyId} }) { access_token } }`
-            })
-        });
-
-        const loginData = await loginResponse.json();
-        console.log('📡 Ответ SmartShell:', loginData);
-
-        if (loginData.errors || !loginData.data?.login?.access_token) {
-            console.log('❌ Ошибка авторизации SmartShell:', loginData.errors);
-            return res.status(401).json({ error: 'Неверные данные SmartShell. Проверьте телефон, пароль и ID компании.' });
-        }
+        const token = await loginToSmartShell(companyId, phone, password);
 
         // Сохраняем конфиг
-        const config = updateConfig({
+        updateConfig({
             setupCompleted: true,
-            club: `club_${companyId}`,
             clubName: clubName,
             credentials: {
                 phone,
                 password,
                 companyId
-            },
-            lastTokenRefresh: Date.now()
+            }
         });
 
         // Сохраняем токен в кеш
-        tokensCache[config.club] = {
-            token: loginData.data.login.access_token,
-            expiresAt: Date.now() + (55 * 60 * 1000)
-        };
+        tokensCache[companyId] = token;
 
         res.json({ success: true, message: 'Настройка завершена успешно!' });
     } catch (error) {
-        console.error('Ошибка настройки:', error);
-        res.status(500).json({ error: 'Ошибка подключения к SmartShell' });
+        console.error('❌ Ошибка настройки:', error.message);
+        return res.status(401).json({ error: 'Неверные данные SmartShell. Проверьте телефон, пароль и ID компании.' });
     }
 });
 
-// 👇 НОВОЕ: Выход из клуба
 app.post('/api/config/logout', (req, res) => {
     console.log('🚪 Выход из клуба');
 
     const config = getConfig();
-    const clubId = config.club;
+    const clubId = config.credentials.companyId;
 
     // Очищаем конфиг
     updateConfig({
         setupCompleted: false,
-        club: '',
         clubName: '',
         credentials: {
             phone: '',
             password: '',
             companyId: ''
-        },
-        lastTokenRefresh: 0
+        }
     });
 
     // Очищаем кеш токенов и хостов
@@ -277,17 +263,14 @@ app.get('/api/version', (req, res) => {
 });
 
 app.get('/api/pcs', async (req, res) => {
-  // 👇 НОВАЯ ЛОГИКА: берем данные из конфига
   const config = getConfig();
 
   if (!config.setupCompleted) {
     return res.status(401).json({ error: 'Клуб не настроен. Введите данные в настройках.' });
   }
 
-  const clubId = config.club;
+  const clubId = config.credentials.companyId;
   const clubData = {
-    id: clubId,
-    name: config.clubName,
     companyId: config.credentials.companyId,
     phone: config.credentials.phone,
     password: config.credentials.password
@@ -312,8 +295,6 @@ app.get('/api/pcs', async (req, res) => {
       if (host.in_service) {
           status = 'Обслуживание'; statusColor = 'bg-yellow-500';
       } else if (host.online) {
-          // Проверяем активные сессии:
-          // Сессия активна если есть оставшееся время (time_left > 0)
           const hasActiveSession = host.client_sessions &&
                                     Array.isArray(host.client_sessions) &&
                                     host.client_sessions.length > 0 &&
@@ -365,10 +346,10 @@ app.get('/api/pcs', async (req, res) => {
 });
 
 app.post('/api/agent/report', (req, res) => {
-  const { ips, disksInfo, steamStatus, installedApps, queue, activeGame, logs, workshopSize, agentVersion, gameUpdateStatus } = req.body; 
+  const { ips, disksInfo, steamStatus, installedApps, queue, activeGame, logs, workshopSize, agentVersion, gameUpdateStatus } = req.body;
   if (ips && Array.isArray(ips)) {
     const ip = ips[0];
-    
+
     if (steamStatus && steamStatus !== lastSteamStatuses[ip]) {
         if ((steamStatus.includes('✅') || steamStatus.includes('❌')) && !steamStatus.includes('Готов')) {
             let pcName = ip;
@@ -388,8 +369,8 @@ app.post('/api/agent/report', (req, res) => {
         lastSteamStatuses[ip] = steamStatus;
     }
 
-    ips.forEach(ip => { 
-        agentsData[ip] = { disks: disksInfo, steam: steamStatus, installedApps: installedApps || [], queue: queue || [], activeGame: activeGame || null, logs: logs || [], workshopSize: workshopSize || '—', agentVersion: agentVersion || '—', gameUpdateStatus: gameUpdateStatus || {} }; 
+    ips.forEach(ip => {
+        agentsData[ip] = { disks: disksInfo, steam: steamStatus, installedApps: installedApps || [], queue: queue || [], activeGame: activeGame || null, logs: logs || [], workshopSize: workshopSize || '—', agentVersion: agentVersion || '—', gameUpdateStatus: gameUpdateStatus || {} };
     });
   }
   res.json({ success: true });
@@ -475,7 +456,7 @@ app.get('/api/command/:ip', (req, res) => {
     const ip = req.params.ip;
     if (commandsQueue[ip] && commandsQueue[ip].length > 0) {
         const commands = [...commandsQueue[ip]];
-        commandsQueue[ip] = []; 
+        commandsQueue[ip] = [];
         res.json({ commands: commands });
     } else {
         res.json({ commands: [] });
@@ -484,7 +465,7 @@ app.get('/api/command/:ip', (req, res) => {
 
 cron.schedule('0 6 * * *', async () => {
     const config = getConfig();
-    if (!config.setupCompleted) return; // Если клуб не настроен — пропускаем
+    if (!config.setupCompleted) return;
 
     const clubId = config.credentials.companyId;
     try {
@@ -503,7 +484,6 @@ cron.schedule('0 6 * * *', async () => {
 
 app.use(express.static(path.join(__dirname, '../dist')));
 
-// Fallback route для SPA - должен быть последним
 app.use((req, res) => {
     res.sendFile(path.join(__dirname, '../dist/index.html'));
 });
@@ -512,7 +492,6 @@ app.listen(PORT, '0.0.0.0', () => {
     console.log(`✅ Сервер запущен на http://localhost:${PORT}`);
     console.log(`🌐 Твой локальный IP: ${getLocalIp()}`);
 
-    // Уведомляем главный процесс о готовности сервера
     if (process.send) {
         process.send('server-ready');
     }

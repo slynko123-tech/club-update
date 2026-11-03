@@ -1,9 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 
 function App() {
-  const [clubs, setClubs] = useState<any[]>([]);
-  const [selectedClub, setSelectedClub] = useState<string>('');
-  const [clubName, setClubName] = useState<string>(''); // 👈 НОВОЕ: Название клуба
+  const [clubName, setClubName] = useState<string>('');
   const [pcs, setPcs] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
   const [adminVersion, setAdminVersion] = useState<string>('...');
@@ -29,12 +27,9 @@ function App() {
 
   const [pendingActions, setPendingActions] = useState<{ [key: string]: boolean }>({});
 
-  // 👇 НОВОЕ: Changelog
   const [showChangelog, setShowChangelog] = useState(false);
   const [changelog, setChangelog] = useState<any>(null);
-  const [isFirstLoad, setIsFirstLoad] = useState(true); // 👈 НОВОЕ: Флаг первой загрузки
 
-  // 👇 НОВОЕ: Первичная настройка
   const [showSetup, setShowSetup] = useState(false);
   const [setupData, setSetupData] = useState({
     clubName: '',
@@ -45,11 +40,9 @@ function App() {
   const [setupError, setSetupError] = useState('');
   const [setupLoading, setSetupLoading] = useState(false);
 
-  // 👇 НОВОЕ: Рефы для input'ов
-  const clubNameRef = useRef<HTMLInputElement>(null);
+  const companyIdRef = useRef<HTMLInputElement>(null);
   const phoneRef = useRef<HTMLInputElement>(null);
   const passwordRef = useRef<HTMLInputElement>(null);
-  const companyIdRef = useRef<HTMLInputElement>(null);
 
   const handleSetup = async () => {
     setSetupError('');
@@ -70,50 +63,44 @@ function App() {
         return;
       }
 
-      // Успех! Закрываем окно настройки и показываем changelog
+      // Успех! Закрываем форму, очищаем поля
       setShowSetup(false);
       setSetupLoading(false);
+      setSetupData({ clubName: '', phone: '', password: '', companyId: '' });
 
-      // Загружаем данные клуба и показываем changelog
+      // Загружаем данные
       setTimeout(() => {
         fetch('/api/config')
           .then(res => res.json())
           .then(configData => {
-            setSelectedClub(configData.club);
-            setClubName(configData.clubName); // 👈 НОВОЕ: Сохраняем название клуба
-
-            fetch('/api/games')
-              .then(res => res.json())
-              .then(gamesData => {
-                setAllGames(gamesData);
-                setSelectedGames(gamesData.map((g: any) => g.appId));
-              });
-
-            fetch('/api/version')
-              .then(res => res.json())
-              .then(versionData => {
-                setAdminVersion(versionData.version);
-
-                // Показываем changelog после успешного логина
-                fetch('/CHANGELOG.json')
-                  .then(res => res.json())
-                  .then(changelogData => {
-                    console.log('Changelog загружен:', changelogData);
-                    console.log('Версия:', versionData.version);
-                    console.log('Данные для версии:', changelogData[versionData.version]);
-                    if (changelogData[versionData.version]) {
-                      setChangelog(changelogData[versionData.version]);
-                      console.log('Устанавливаем showChangelog = true');
-                      setShowChangelog(true);
-                    } else {
-                      console.warn('Нет данных для версии:', versionData.version);
-                    }
-                  })
-                  .catch((err) => {
-                    console.error('Ошибка загрузки changelog:', err);
-                  });
-              });
+            setClubName(configData.clubName);
           });
+
+        fetch('/api/games')
+          .then(res => res.json())
+          .then(gamesData => {
+            setAllGames(gamesData);
+            setSelectedGames(gamesData.map((g: any) => g.appId));
+          });
+
+        fetch('/api/version')
+          .then(res => res.json())
+          .then(versionData => {
+            setAdminVersion(versionData.version);
+
+            // Показываем changelog после успешного логина
+            fetch('/CHANGELOG.json')
+              .then(res => res.json())
+              .then(changelogData => {
+                if (changelogData[versionData.version]) {
+                  setChangelog(changelogData[versionData.version]);
+                  setShowChangelog(true);
+                }
+              })
+              .catch(() => {});
+          });
+
+        fetchPcs();
       }, 300);
 
     } catch (e) {
@@ -122,29 +109,28 @@ function App() {
     }
   };
 
-  // 👇 НОВОЕ: Отправка формы по Enter
   const handleSetupKeyPress = (e: React.KeyboardEvent) => {
     if (e.key === 'Enter' && !setupLoading && setupData.clubName && setupData.phone && setupData.password && setupData.companyId) {
       handleSetup();
     }
   };
 
-  // 👇 НОВОЕ: Выход из клуба
   const handleLogout = async () => {
     if (!confirm('Вы уверены, что хотите выйти из клуба? Потребуется повторная настройка.')) return;
 
     try {
       await fetch('/api/config/logout', { method: 'POST' });
 
-      // Сбрасываем состояние
+      // Полная очистка всех состояний
       setShowSetup(true);
-      setSelectedClub('');
-      setClubName(''); // 👈 НОВОЕ: Сбрасываем название клуба
+      setClubName('');
       setPcs([]);
       setActivePc(null);
+      setShowHistory(false);
       setShowChangelog(false);
+      setPendingActions({});
+      setShowGameMenu(false);
 
-      // Фокусируем окно после небольшой задержки
       setTimeout(() => {
         if ((window as any).electronAPI?.focusWindow) {
           (window as any).electronAPI.focusWindow();
@@ -162,7 +148,7 @@ function App() {
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
       if (e.key === 'Escape') {
-        if (showChangelog) return; // 👈 НЕ ЗАКРЫВАЕМ CHANGELOG ПО ESC
+        if (showChangelog) return;
         if (activePc) setActivePc(null);
         if (showHistory) setShowHistory(false);
       }
@@ -175,11 +161,21 @@ function App() {
     if (activeTab === 'logs') logsEndRef.current?.scrollIntoView({ behavior: 'smooth' });
   }, [activePc?.logs, activeTab]);
 
-  const fetchPcs = (clubId: string) => {
+  const fetchPcs = () => {
+    // 👇 ФИКС: Глушилка - не делаем запрос, если открыта форма настройки
+    if (showSetup) return;
+
     fetch(`/api/pcs`)
-      .then(res => res.json())
+      .then(res => {
+          // 👇 ФИКС: Красивая обработка 401 - если нет авторизации, показываем форму
+          if (res.status === 401) {
+              setShowSetup(true);
+              return null; // Прерываем цепочку
+          }
+          return res.json();
+      })
       .then(data => {
-          if (Array.isArray(data)) {
+          if (data && Array.isArray(data)) {
               setPcs(data);
               if (activePc) {
                   const updated = data.find(p => p.id === activePc.id);
@@ -187,7 +183,7 @@ function App() {
               }
           }
       })
-      .catch(() => {});
+      .catch(() => {}); // Тихо игнорируем сетевые ошибки
   };
 
   const fetchHistory = () => {
@@ -195,7 +191,6 @@ function App() {
   };
 
   useEffect(() => {
-    // 👇 ПРОВЕРЯЕМ НАСТРОЙКУ ПРИ ЗАПУСКЕ
     fetch('/api/config')
       .then(res => res.json())
       .then(data => {
@@ -204,9 +199,7 @@ function App() {
           return;
         }
 
-        // 👇 Если настройка завершена, используем настроенный клуб
-        setSelectedClub(data.club);
-        setClubName(data.clubName); // 👈 НОВОЕ: Загружаем название клуба
+        setClubName(data.clubName);
 
         fetch('/api/games')
           .then(res => res.json())
@@ -220,16 +213,11 @@ function App() {
           .then(versionData => {
             setAdminVersion(versionData.version);
 
-            // 👇 ЗАГРУЖАЕМ CHANGELOG, НО НЕ ПОКАЗЫВАЕМ АВТОМАТИЧЕСКИ
             fetch('/CHANGELOG.json')
               .then(res => res.json())
               .then(changelogData => {
                 if (changelogData[versionData.version]) {
                   setChangelog(changelogData[versionData.version]);
-                  // ❌ НЕ ПОКАЗЫВАЕМ АВТОМАТИЧЕСКИ: setShowChangelog(true);
-                  // Changelog будет показан только:
-                  // 1. После успешного логина (в handleSetup)
-                  // 2. При клике на кнопку версии
                 }
               })
               .catch(() => {});
@@ -239,15 +227,17 @@ function App() {
       .catch(() => {});
   }, []);
 
+  // 👇 ИСПРАВЛЕНО: Остановка запросов при открытой форме настройки
   useEffect(() => {
-    if (!selectedClub) return;
+    if (showSetup) return; // 👈 Не делаем запросы, пока форма настройки открыта
+
     setLoading(true);
-    fetchPcs(selectedClub);
+    fetchPcs();
     setLoading(false);
 
-    const interval = setInterval(() => { fetchPcs(selectedClub); }, 2000); 
+    const interval = setInterval(() => { fetchPcs(); }, 2000);
     return () => clearInterval(interval);
-  }, [selectedClub, activePc?.id]); 
+  }, [showSetup, activePc?.id]);
 
   useEffect(() => {
       if (showHistory) {
@@ -268,13 +258,13 @@ function App() {
   };
 
   const handleUpdateAllFree = async () => {
-    if (!selectedClub || selectedGames.length === 0) return alert('Выберите игры');
+    if (selectedGames.length === 0) return alert('Выберите игры');
     try {
       const gamesToUpdate = allGames.filter(g => selectedGames.includes(g.appId));
       const response = await fetch('/api/update_all_free', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ clubId: selectedClub, games: gamesToUpdate, customAuth: null })
+        body: JSON.stringify({ games: gamesToUpdate, customAuth: null })
       });
       const data = await response.json();
       if (data.success) alert(`Команда на обновление отправлена на ${data.count} ПК!`);
@@ -282,13 +272,12 @@ function App() {
   };
 
   const handleClearWorkshopAll = async () => {
-    if (!selectedClub) return;
     if (!window.confirm("Вы уверены, что хотите ОЧИСТИТЬ МАСТЕРСКИЕ на всех свободных ПК?")) return;
     try {
       const response = await fetch('/api/clear_workshop_all_free', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ clubId: selectedClub })
+        body: JSON.stringify({})
       });
       const data = await response.json();
       if (data.success) alert(`Команда на очистку отправлена на ${data.count} ПК!`);
@@ -296,13 +285,12 @@ function App() {
   };
 
   const handleUpdateAgentsAll = async () => {
-    if (!selectedClub) return;
     if (!window.confirm("Отправить команду на обновление агента всем ПК в сети?")) return;
     try {
       const response = await fetch('/api/update_agents_all', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ clubId: selectedClub })
+        body: JSON.stringify({})
       });
       const data = await response.json();
       if (data.success) alert(`Команда на обновление агентов отправлена на ${data.count} ПК!`);
@@ -319,7 +307,6 @@ function App() {
     if (action === 'clear_workshop' && !window.confirm("Вы уверены, что хотите ОЧИСТИТЬ МАСТЕРСКУЮ на этом ПК?")) return;
     if (action === 'cancel_all' && !window.confirm("Вы уверены, что хотите ОТМЕНИТЬ ВСЕ ТЕКУЩИЕ ЗАДАЧИ на этом ПК?")) return;
     if (action === 'update_agent' && !window.confirm("Обновить агента на этом ПК? (ПК перезагружать не нужно)")) return;
-    // Подтверждение для проверки не нужно, это легкая операция
 
     const key = `${ip}_${appId || 'null'}_${action}`;
     setPendingActions(prev => ({ ...prev, [key]: true }));
@@ -368,13 +355,11 @@ function App() {
       if (!activePc || !activePc.update) return null;
       const statusStr = activePc.update;
 
-      // Проверяем, идёт ли процесс с этой игрой
       if (statusStr.includes(gameName) && (statusStr.includes('⏳') || statusStr.includes('🗑️') || statusStr.includes('🔄'))) {
           const percentMatch = statusStr.match(/(\d+)%/);
           let displayStr = statusStr.replace('⏳ ', '').replace('🗑️ ', '').replace('🔄 ', '');
           let percent = percentMatch ? parseInt(percentMatch[1]) : 0;
 
-          // Определяем тип процесса для правильного цвета
           const isDeleting = statusStr.includes('🗑️') || statusStr.toLowerCase().includes('удален');
           const barColor = isDeleting ? 'bg-red-500' : 'bg-club-accent';
 
@@ -405,58 +390,170 @@ function App() {
         return 0;
     });
 
+  // 👇 ИСПРАВЛЕНО: Полное разделение экранов через early return
+  // Если открыта форма настройки - показываем ТОЛЬКО её
+  if (showSetup) {
+    return (
+      <div className="min-h-screen bg-club-bg text-white font-sans relative flex flex-col">
+        {/* HEADER */}
+        <div
+          className="flex items-center justify-between px-6 py-2 bg-black border-b border-club-panel select-none sticky top-0 z-50"
+          style={{ WebkitAppRegion: 'no-drag' } as React.CSSProperties}
+        >
+          <div className="flex items-center gap-3">
+            <img src="/logo.png" alt="Logo" className="h-7 w-auto" />
+            <h1 className="text-club-accent text-lg font-bold tracking-wider">CLUB UPDATE</h1>
+          </div>
+
+          <div className="flex items-center gap-1">
+            <button onClick={minimizeWindow} style={{ WebkitAppRegion: 'no-drag' } as React.CSSProperties} className="w-10 h-7 flex items-center justify-center text-gray-400 hover:text-white hover:bg-gray-700 rounded transition-colors" title="Свернуть">─</button>
+            <button onClick={maximizeWindow} style={{ WebkitAppRegion: 'no-drag' } as React.CSSProperties} className="w-10 h-7 flex items-center justify-center text-gray-400 hover:text-white hover:bg-gray-700 rounded transition-colors" title="Развернуть">□</button>
+            <button onClick={closeWindow} style={{ WebkitAppRegion: 'no-drag' } as React.CSSProperties} className="w-10 h-7 flex items-center justify-center text-gray-400 hover:text-white hover:bg-red-600 rounded transition-colors" title="Закрыть">✕</button>
+          </div>
+        </div>
+
+        {/* ОКНО НАСТРОЙКИ */}
+        <div className="fixed inset-0 bg-gradient-to-br from-black via-gray-900 to-black flex items-center justify-center z-[99999] pt-14">
+          <div className="w-[500px] flex flex-col items-center">
+            <div className="mb-8 animate-[fadeIn_0.5s_ease-out]">
+              <img src="/logo.png" alt="Logo" className="h-24 w-auto drop-shadow-[0_0_30px_rgba(255,212,0,0.4)]" />
+            </div>
+
+            <h1 className="text-4xl font-black text-transparent bg-clip-text bg-gradient-to-r from-club-accent via-yellow-300 to-club-accent mb-2 animate-[fadeIn_0.7s_ease-out]">
+              Настройка клуба
+            </h1>
+            <p className="text-gray-400 mb-10 text-center animate-[fadeIn_0.9s_ease-out]">
+              Подключитесь к SmartShell для начала работы
+            </p>
+
+            <div className="w-full space-y-4 animate-[slideUp_0.8s_ease-out]">
+              <div>
+                <label className="block text-sm font-bold text-gray-300 mb-2">Название клуба</label>
+                <input
+                  type="text"
+                  placeholder="Например: Киберклуб Гейминг"
+                  value={setupData.clubName}
+                  onChange={(e) => setSetupData({...setupData, clubName: e.target.value})}
+                  onKeyDown={handleSetupKeyPress}
+                  className="w-full bg-gray-800/50 border-2 border-gray-700 rounded-lg px-4 py-3 text-white outline-none focus:border-club-accent transition-all backdrop-blur-sm"
+                  autoFocus
+                />
+              </div>
+
+              <div>
+                <label className="block text-sm font-bold text-gray-300 mb-2">Company ID</label>
+                <input
+                  ref={companyIdRef}
+                  type="text"
+                  placeholder="2165"
+                  value={setupData.companyId}
+                  onChange={(e) => setSetupData({...setupData, companyId: e.target.value})}
+                  onKeyDown={handleSetupKeyPress}
+                  className="w-full bg-gray-800/50 border-2 border-gray-700 rounded-lg px-4 py-3 text-white outline-none focus:border-club-accent transition-all backdrop-blur-sm"
+                />
+                <p className="text-xs text-gray-500 mt-1">Найдите в настройках SmartShell</p>
+              </div>
+
+              <div>
+                <label className="block text-sm font-bold text-gray-300 mb-2">Телефон (логин)</label>
+                <input
+                  ref={phoneRef}
+                  type="tel"
+                  placeholder="79001234567"
+                  value={setupData.phone}
+                  onChange={(e) => setSetupData({...setupData, phone: e.target.value})}
+                  onKeyDown={handleSetupKeyPress}
+                  className="w-full bg-gray-800/50 border-2 border-gray-700 rounded-lg px-4 py-3 text-white outline-none focus:border-club-accent transition-all backdrop-blur-sm"
+                />
+              </div>
+
+              <div>
+                <label className="block text-sm font-bold text-gray-300 mb-2">Пароль</label>
+                <input
+                  ref={passwordRef}
+                  type="password"
+                  placeholder="••••••••"
+                  value={setupData.password}
+                  onChange={(e) => setSetupData({...setupData, password: e.target.value})}
+                  onKeyDown={handleSetupKeyPress}
+                  className="w-full bg-gray-800/50 border-2 border-gray-700 rounded-lg px-4 py-3 text-white outline-none focus:border-club-accent transition-all backdrop-blur-sm"
+                />
+              </div>
+
+              {setupError && (
+                <div className="bg-red-500/10 border-2 border-red-500/30 rounded-lg p-3 text-red-400 text-sm animate-[shake_0.3s_ease-out]">
+                  ⚠️ {setupError}
+                </div>
+              )}
+
+              <button
+                onClick={handleSetup}
+                disabled={setupLoading || !setupData.clubName || !setupData.phone || !setupData.password || !setupData.companyId}
+                className="w-full bg-gradient-to-r from-club-accent to-yellow-400 hover:from-yellow-400 hover:to-club-accent text-black font-bold py-4 rounded-lg transition-all duration-300 active:scale-95 cursor-pointer shadow-[0_0_30px_rgba(255,212,0,0.4)] hover:shadow-[0_0_40px_rgba(255,212,0,0.6)] disabled:opacity-50 disabled:cursor-not-allowed transform hover:scale-105 disabled:hover:scale-100 mt-6"
+              >
+                {setupLoading ? (
+                  <span className="flex items-center justify-center gap-2">
+                    <span className="animate-spin">⏳</span>
+                    <span>Подключение...</span>
+                  </span>
+                ) : (
+                  <span className="flex items-center justify-center gap-2">
+                    <span>🚀</span>
+                    <span>Подключить</span>
+                  </span>
+                )}
+              </button>
+            </div>
+
+            <div className="mt-8 text-xs text-gray-600 animate-[fadeIn_1.1s_ease-out]">
+              powered by <span className="text-club-accent/50 font-bold">DeeMas1k</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  // 👇 Главный экран (показывается ТОЛЬКО когда showSetup === false)
   return (
     <div className="min-h-screen bg-club-bg text-white font-sans relative flex flex-col">
-
-      {/* HEADER С КНОПКАМИ УПРАВЛЕНИЯ ОКНОМ */}
+      {/* HEADER */}
       <div
         className="flex items-center justify-between px-6 py-2 bg-black border-b border-club-panel select-none sticky top-0 z-50"
-        style={{
-          WebkitAppRegion: (showSetup || showChangelog) ? 'no-drag' : 'drag'
-        } as React.CSSProperties}
+        style={{ WebkitAppRegion: showChangelog ? 'no-drag' : 'drag' } as React.CSSProperties}
       >
-        {!showSetup ? (
-          <div className="flex items-center gap-3">
-            <img src="/logo.png" alt="Logo" className="h-7 w-auto" />
-            <h1 className="text-club-accent text-lg font-bold tracking-wider">CLUB UPDATE</h1>
-            {clubName && (
-              <div className="flex items-center gap-2 px-3 py-1 bg-club-panel border border-gray-700 rounded">
-                <span className="text-xs text-gray-500">📍</span>
-                <span className="text-sm font-semibold text-white">{clubName}</span>
-              </div>
-            )}
-            <button
-              onClick={() => {
-                console.log('Кнопка версии нажата, showChangelog:', showChangelog, 'changelog:', changelog);
-                if (changelog) {
-                  setShowChangelog(true);
-                } else {
-                  console.warn('Changelog не загружен!');
-                }
-              }}
-              style={{ WebkitAppRegion: 'no-drag' } as React.CSSProperties}
-              className="text-[10px] text-gray-500 font-mono bg-gray-800 px-2 py-1 rounded border border-gray-700 hover:border-club-accent hover:text-club-accent transition-all cursor-pointer flex items-center gap-1.5"
-              title="Что нового в версии"
-            >
-              <span>v{adminVersion}</span>
-              <span className="text-xs">✨</span>
-            </button>
-            <button
-              onClick={handleLogout}
-              style={{ WebkitAppRegion: 'no-drag' } as React.CSSProperties}
-              className="text-[10px] text-gray-400 font-mono bg-gray-800 px-2 py-1 rounded border border-gray-700 hover:border-red-500 hover:text-red-400 transition-all cursor-pointer flex items-center gap-1.5"
-              title="Выйти из клуба"
-            >
-              <span>🚪</span>
-              <span>Выйти</span>
-            </button>
-          </div>
-        ) : (
-          <div className="flex items-center gap-3">
-            <img src="/logo.png" alt="Logo" className="h-7 w-auto" />
-            <h1 className="text-club-accent text-lg font-bold tracking-wider">CLUB UPDATE</h1>
-          </div>
-        )}
+        <div className="flex items-center gap-3">
+          <img src="/logo.png" alt="Logo" className="h-7 w-auto" />
+          <h1 className="text-club-accent text-lg font-bold tracking-wider">CLUB UPDATE</h1>
+          {clubName && (
+            <div className="flex items-center gap-2 px-3 py-1 bg-club-panel border border-gray-700 rounded">
+              <span className="text-xs text-gray-500">📍</span>
+              <span className="text-sm font-semibold text-white">{clubName}</span>
+            </div>
+          )}
+          <button
+            onClick={() => {
+              if (changelog) {
+                setShowChangelog(true);
+              }
+            }}
+            style={{ WebkitAppRegion: 'no-drag' } as React.CSSProperties}
+            className="text-[10px] text-gray-500 font-mono bg-gray-800 px-2 py-1 rounded border border-gray-700 hover:border-club-accent hover:text-club-accent transition-all cursor-pointer flex items-center gap-1.5"
+            title="Что нового в версии"
+          >
+            <span>v{adminVersion}</span>
+            <span className="text-xs">✨</span>
+          </button>
+          <button
+            onClick={handleLogout}
+            style={{ WebkitAppRegion: 'no-drag' } as React.CSSProperties}
+            className="text-[10px] text-gray-400 font-mono bg-gray-800 px-2 py-1 rounded border border-gray-700 hover:border-red-500 hover:text-red-400 transition-all cursor-pointer flex items-center gap-1.5"
+            title="Выйти из клуба"
+          >
+            <span>🚪</span>
+            <span>Выйти</span>
+          </button>
+        </div>
 
         <div className="flex items-center gap-1">
           <button onClick={minimizeWindow} style={{ WebkitAppRegion: 'no-drag' } as React.CSSProperties} className="w-10 h-7 flex items-center justify-center text-gray-400 hover:text-white hover:bg-gray-700 rounded transition-colors" title="Свернуть">─</button>
@@ -465,13 +562,10 @@ function App() {
         </div>
       </div>
 
-      {/* ОСНОВНОЙ КОНТЕНТ — ПОКАЗЫВАЕМ ТОЛЬКО ЕСЛИ НЕ В РЕЖИМЕ НАСТРОЙКИ */}
-      {!showSetup && (
+      {/* ОСНОВНОЙ КОНТЕНТ */}
       <div className="p-8 flex-1 overflow-auto">
         <header className="flex flex-wrap justify-between items-center gap-4 mb-8 border-b border-club-panel pb-4 bg-club-bg sticky top-0 z-40 -mx-8 px-8">
           <div className="flex items-center gap-4">
-            {/* 👇 УБРАЛИ ВЫБОР КЛУБА */}
-
             <input type="text" placeholder="Поиск по ПК..." value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} className="bg-club-panel text-white border border-gray-700 rounded px-3 py-1.5 text-sm outline-none focus:border-club-accent w-40" />
             <select value={sortBy} onChange={(e) => setSortBy(e.target.value)} className="bg-club-panel text-white border border-gray-700 rounded px-2 py-1.5 text-sm outline-none focus:border-club-accent cursor-pointer">
                 <option value="default">По умолчанию</option>
@@ -479,7 +573,7 @@ function App() {
                 <option value="needs_update">Требуют внимания</option>
             </select>
           </div>
-          
+
           <div className="flex gap-3 relative">
             <div className="bg-club-panel border border-gray-700 rounded px-3 py-2 flex flex-col gap-1 text-sm">
               <div className="flex items-center gap-2">
@@ -561,6 +655,7 @@ function App() {
           </div>
         )}
 
+        {/* МОДАЛЬНОЕ ОКНО ИСТОРИИ */}
         {showHistory && (
           <div className="fixed inset-0 bg-black/80 flex items-center justify-center z-50" onClick={() => setShowHistory(false)}>
             <div className="bg-club-panel w-[800px] rounded-xl border border-gray-700 shadow-2xl overflow-hidden flex flex-col" onClick={(e) => e.stopPropagation()}>
@@ -596,10 +691,11 @@ function App() {
           </div>
         )}
 
+        {/* МОДАЛЬНОЕ ОКНО УПРАВЛЕНИЯ ПК */}
         {activePc && (
           <div className="fixed inset-0 bg-black/80 flex items-center justify-center z-50" onClick={() => setActivePc(null)}>
             <div className="bg-club-panel w-[750px] rounded-xl border border-gray-700 shadow-2xl overflow-hidden flex flex-col" onClick={(e) => e.stopPropagation()}>
-              
+
               <div className="flex justify-between items-center p-4 border-b border-gray-700 bg-[#222]">
                 <h2 className="text-xl font-bold flex items-center gap-3 text-white">Управление: <span className="bg-black/50 border border-gray-600 text-club-accent px-4 py-1 rounded-full text-lg shadow-inner">{activePc.id}</span></h2>
                 <button onClick={() => setActivePc(null)} className="text-gray-400 hover:text-red-500 text-3xl leading-none transition-colors cursor-pointer" title="Закрыть (Esc)">&times;</button>
@@ -609,9 +705,9 @@ function App() {
                   <button onClick={() => setActiveTab('games')} className={`flex-1 py-3 font-bold text-sm transition-colors ${activeTab === 'games' ? 'text-club-accent border-b-2 border-club-accent bg-[#222]' : 'text-gray-400 hover:text-white'}`}>🎮 Игры и Очередь</button>
                   <button onClick={() => setActiveTab('logs')} className={`flex-1 py-3 font-bold text-sm transition-colors ${activeTab === 'logs' ? 'text-club-accent border-b-2 border-club-accent bg-[#222]' : 'text-gray-400 hover:text-white'}`}>🖥️ Консоль (Логи)</button>
               </div>
-              
+
               <div className="p-4 overflow-y-auto max-h-[65vh] bg-club-panel">
-                
+
                 {activeTab === 'games' && (
                   <>
                     <div className="mb-4 text-sm text-gray-400 flex items-center justify-between bg-[#1a1a1a] p-3 rounded-lg border border-gray-800">
@@ -637,19 +733,18 @@ function App() {
                             </ul>
                         </div>
                     )}
-                    
+
                     <div className="space-y-2">
                       {getModalGamesList().map((game: any) => {
                         const isInstalled = activePc.installedGamesData?.some((g: any) => g.appId === game.appId);
                         const isCurrentTask = activePc.update && activePc.update.includes(game.name) && (activePc.update.includes('⏳') || activePc.update.includes('🗑️') || activePc.update.includes('🔄'));
                         const isInQueue = activePc.queue && activePc.queue.includes(game.name) && !isCurrentTask;
-                        
+
                         const isPendingUninstall = pendingActions[`${activePc.ip}_${game.appId}_uninstall`];
                         const isPendingInstall = pendingActions[`${activePc.ip}_${game.appId}_install_or_update`];
                         const isPendingCheck = pendingActions[`${activePc.ip}_${game.appId}_check_game`];
                         const isAnyPending = isPendingUninstall || isPendingInstall || isPendingCheck;
 
-                        // 👇 ПОЛУЧАЕМ СТАТУС ИГРЫ
                         const updateStatus = activePc.gameUpdateStatus?.[game.appId];
 
                         return (
@@ -658,7 +753,7 @@ function App() {
                               <span className="font-bold truncate">{game.name}</span>
                               <span className={`text-xs ${isInstalled ? 'text-green-500' : 'text-gray-500'}`}>{isInstalled ? 'Установлена' : 'Не установлена'}</span>
                             </div>
-                            
+
                             <div className="flex justify-end w-1/2">
                               {isCurrentTask ? (
                                   renderGameProgress(game.name)
@@ -667,16 +762,13 @@ function App() {
                               ) : isAnyPending ? (
                                   <span className="inline-flex items-center gap-1.5 px-4 py-1.5 rounded-full font-bold text-sm bg-gray-500/10 text-gray-400 border border-gray-500/30 animate-pulse">⏳ Отправка...</span>
                               ) : !isInstalled ? (
-                                  // НЕ УСТАНОВЛЕНА -> УСТАНОВИТЬ
                                   <button onClick={() => handleGameAction(activePc.ip, game.appId, 'install_or_update')} className="py-1.5 px-4 rounded font-bold text-sm transition-all duration-200 cursor-pointer bg-club-accent hover:brightness-110 text-black shadow-[0_0_10px_rgba(255,212,0,0.2)] hover:shadow-[0_0_15px_rgba(255,212,0,0.5)] active:scale-95">Установить</button>
                               ) : updateStatus === '🔄 Есть обновление' ? (
-                                  // ЕСТЬ ОБНОВЛЕНИЕ -> ОБНОВИТЬ + УДАЛИТЬ
                                   <div className="flex gap-2">
                                       <button onClick={(e) => { e.stopPropagation(); handleGameAction(activePc.ip, game.appId, 'uninstall'); }} className="py-1.5 px-4 rounded font-bold text-sm transition-all duration-200 cursor-pointer bg-red-500/10 text-red-500 border border-red-500/30 hover:bg-red-500 hover:text-white hover:border-red-500 active:scale-95">Удалить</button>
                                       <button onClick={(e) => { e.stopPropagation(); handleGameAction(activePc.ip, game.appId, 'install_or_update'); }} className="py-1.5 px-4 rounded font-bold text-sm transition-all duration-200 cursor-pointer bg-club-accent hover:brightness-110 text-black shadow-[0_0_10px_rgba(255,212,0,0.2)] hover:shadow-[0_0_15px_rgba(255,212,0,0.5)] active:scale-95">Обновить</button>
                                   </div>
                               ) : (
-                                  // УСТАНОВЛЕНА -> ВСЕГДА ПОКАЗЫВАЕМ УДАЛИТЬ + ПРОВЕРИТЬ
                                   <div className="flex items-center gap-2">
                                       {updateStatus === '✅ Актуален' && <span className="text-xs text-green-500 font-bold">✅ Актуален</span>}
                                       {updateStatus === '❓ Ошибка' && <span className="text-xs text-red-500 font-bold">❓ Ошибка</span>}
@@ -704,7 +796,7 @@ function App() {
                 )}
 
               </div>
-              
+
               <div className="p-4 border-t border-gray-700 bg-[#222] flex justify-between items-center">
                 <div className="flex gap-2">
                   <button onClick={() => handleGameAction(activePc.ip, null, 'clear_workshop')} className="bg-red-500/10 hover:bg-red-500 text-red-500 hover:text-white border border-red-500/30 py-2 px-6 rounded transition-all duration-200 active:scale-95 cursor-pointer font-bold text-sm">🗑️ Очистить Мастерскую</button>
@@ -719,180 +811,10 @@ function App() {
           </div>
         )}
 
-
           <div className="fixed bottom-4 right-6 text-gray-600 text-xs tracking-wider pointer-events-none select-none">
             powered by <span className="text-club-accent/50 font-bold hover:text-club-accent transition-colors">DeeMas1k</span>
           </div>
         </div>
-      )}
-
-      {/* МОДАЛЬНЫЕ ОКНА ВНЕ КОНТЕЙНЕРА С OVERFLOW-AUTO */}
-
-      {/* ОКНО ПЕРВИЧНОЙ НАСТРОЙКИ */}
-      {showSetup && (
-        <div
-          className="fixed inset-0 bg-black/95 backdrop-blur-sm flex items-center justify-center z-[99999]"
-          onClick={(e) => {
-            // Закрываем только если кликнули на затемнённый фон (не на модальное окно)
-            if (e.target === e.currentTarget) {
-              // Ничего не делаем — окно настройки нельзя закрыть кликом на фон
-            }
-          }}
-        >
-          <div
-            className="bg-gradient-to-b from-club-panel to-[#1a1a1a] w-[600px] rounded-2xl border-2 border-club-accent/50 shadow-[0_0_50px_rgba(255,212,0,0.3)] overflow-hidden"
-            onClick={(e) => {
-              // Останавливаем всплытие, чтобы клик по модальному окну не попал на оверлей
-              e.stopPropagation();
-            }}
-          >
-
-            {/* HEADER */}
-            <div className="relative p-8 border-b border-club-accent/30 bg-gradient-to-r from-club-accent/20 via-club-accent/10 to-transparent">
-              <div className="absolute inset-0 opacity-20">
-                <div className="absolute top-0 left-0 w-32 h-32 bg-club-accent rounded-full blur-3xl animate-pulse"></div>
-                <div className="absolute bottom-0 right-0 w-40 h-40 bg-club-accent rounded-full blur-3xl animate-pulse delay-700"></div>
-              </div>
-
-              <div className="relative z-10 text-center">
-                <div className="text-6xl mb-4 animate-bounce">👋</div>
-                <h2 className="text-3xl font-black text-transparent bg-clip-text bg-gradient-to-r from-club-accent via-yellow-300 to-club-accent animate-gradient mb-2">
-                  Добро пожаловать!
-                </h2>
-                <p className="text-gray-300">Настроим подключение к SmartShell</p>
-              </div>
-            </div>
-
-            {/* FORM */}
-            <div className="p-8 space-y-4">
-              <div>
-                <label className="block text-sm font-bold text-gray-300 mb-2">Название вашего клуба</label>
-                <input
-                  ref={clubNameRef}
-                  type="text"
-                  placeholder="Например: Киберклуб Гейминг"
-                  value={setupData.clubName}
-                  onChange={(e) => setSetupData({...setupData, clubName: e.target.value})}
-                  onKeyPress={handleSetupKeyPress}
-                  onMouseDown={(e) => {
-                    console.log('Input mousedown, попытка фокуса...');
-                    // Используем нативный DOM API с задержкой
-                    setTimeout(() => {
-                      if (clubNameRef.current) {
-                        clubNameRef.current.focus();
-                        console.log('Фокус установлен на:', document.activeElement);
-                      }
-                    }, 0);
-                  }}
-                  style={{
-                    WebkitAppRegion: 'no-drag',
-                    pointerEvents: 'auto',
-                    cursor: 'text'
-                  } as React.CSSProperties}
-                  className="w-full bg-[#222] border border-gray-700 rounded-lg px-4 py-3 text-white outline-none focus:border-club-accent transition-colors"
-                  autoFocus
-                />
-              </div>
-
-              <div>
-                <label className="block text-sm font-bold text-gray-300 mb-2">Телефон (менеджера SmartShell)</label>
-                <input
-                  ref={phoneRef}
-                  type="tel"
-                  placeholder="79001234567"
-                  value={setupData.phone}
-                  onChange={(e) => setSetupData({...setupData, phone: e.target.value})}
-                  onKeyPress={handleSetupKeyPress}
-                  onMouseDown={() => {
-                    setTimeout(() => {
-                      if (phoneRef.current) {
-                        phoneRef.current.focus();
-                        console.log('Фокус на телефоне, activeElement:', document.activeElement);
-                      }
-                    }, 0);
-                  }}
-                  style={{
-                    WebkitAppRegion: 'no-drag',
-                    pointerEvents: 'auto',
-                    cursor: 'text'
-                  } as React.CSSProperties}
-                  className="w-full bg-[#222] border border-gray-700 rounded-lg px-4 py-3 text-white outline-none focus:border-club-accent transition-colors"
-                />
-              </div>
-
-              <div>
-                <label className="block text-sm font-bold text-gray-300 mb-2">Пароль от SmartShell</label>
-                <input
-                  ref={passwordRef}
-                  type="password"
-                  placeholder="••••••••"
-                  value={setupData.password}
-                  onChange={(e) => setSetupData({...setupData, password: e.target.value})}
-                  onKeyPress={handleSetupKeyPress}
-                  onMouseDown={() => {
-                    setTimeout(() => {
-                      if (passwordRef.current) {
-                        passwordRef.current.focus();
-                        console.log('Фокус на пароле, activeElement:', document.activeElement);
-                      }
-                    }, 0);
-                  }}
-                  style={{
-                    WebkitAppRegion: 'no-drag',
-                    pointerEvents: 'auto',
-                    cursor: 'text'
-                  } as React.CSSProperties}
-                  className="w-full bg-[#222] border border-gray-700 rounded-lg px-4 py-3 text-white outline-none focus:border-club-accent transition-colors"
-                />
-              </div>
-
-              <div>
-                <label className="block text-sm font-bold text-gray-300 mb-2">ID компании (Company ID)</label>
-                <input
-                  ref={companyIdRef}
-                  type="text"
-                  placeholder="2165"
-                  value={setupData.companyId}
-                  onChange={(e) => setSetupData({...setupData, companyId: e.target.value})}
-                  onKeyPress={handleSetupKeyPress}
-                  onMouseDown={() => {
-                    setTimeout(() => {
-                      if (companyIdRef.current) {
-                        companyIdRef.current.focus();
-                        console.log('Фокус на Company ID, activeElement:', document.activeElement);
-                      }
-                    }, 0);
-                  }}
-                  style={{
-                    WebkitAppRegion: 'no-drag',
-                    pointerEvents: 'auto',
-                    cursor: 'text'
-                  } as React.CSSProperties}
-                  className="w-full bg-[#222] border border-gray-700 rounded-lg px-4 py-3 text-white outline-none focus:border-club-accent transition-colors"
-                />
-                <p className="text-xs text-gray-500 mt-1">Найдите в настройках SmartShell</p>
-              </div>
-
-              {setupError && (
-                <div className="bg-red-500/10 border border-red-500/30 rounded-lg p-3 text-red-400 text-sm">
-                  ⚠️ {setupError}
-                </div>
-              )}
-            </div>
-
-            {/* FOOTER */}
-            <div className="p-6 border-t border-club-accent/30 bg-gradient-to-r from-[#1a1a1a] to-[#222]">
-              <button
-                onClick={handleSetup}
-                disabled={setupLoading || !setupData.clubName || !setupData.phone || !setupData.password || !setupData.companyId}
-                className="w-full bg-gradient-to-r from-club-accent to-yellow-400 hover:from-yellow-400 hover:to-club-accent text-black font-bold py-4 rounded-lg transition-all duration-300 active:scale-95 cursor-pointer shadow-[0_0_20px_rgba(255,212,0,0.4)] hover:shadow-[0_0_30px_rgba(255,212,0,0.6)] disabled:opacity-50 disabled:cursor-not-allowed transform hover:scale-105 disabled:hover:scale-100"
-              >
-                {setupLoading ? '⏳ Проверяем данные...' : '🚀 Начать работу'}
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
 
       {/* ОКНО CHANGELOG */}
       {showChangelog && changelog && (
@@ -904,7 +826,6 @@ function App() {
             className="bg-gradient-to-b from-club-panel to-[#1a1a1a] w-[750px] max-h-[90vh] rounded-2xl border-2 border-club-accent/50 shadow-[0_0_50px_rgba(255,212,0,0.3)] overflow-hidden flex flex-col animate-[slideUp_0.4s_ease-out]"
             onClick={(e) => e.stopPropagation()}
           >
-            {/* HEADER */}
             <div className="relative p-8 border-b border-club-accent/30 bg-gradient-to-r from-club-accent/20 via-club-accent/10 to-transparent overflow-hidden">
               <div className="absolute inset-0 opacity-20">
                 <div className="absolute top-0 left-0 w-32 h-32 bg-club-accent rounded-full blur-3xl animate-pulse"></div>
@@ -931,7 +852,6 @@ function App() {
               </div>
             </div>
 
-            {/* BODY */}
             <div className="flex-1 overflow-y-auto p-8 space-y-6">
               <div className="text-xl font-bold text-white mb-4 flex items-center gap-2">
                 <span className="text-2xl">📝</span>
@@ -939,14 +859,14 @@ function App() {
               </div>
 
               {changelog.changes && changelog.changes.map((change: any, index: number) => {
-                const colors = {
+                const colors: Record<string, string> = {
                   feature: 'border-green-500 bg-green-500/5',
                   fix: 'border-red-500 bg-red-500/5',
                   improvement: 'border-blue-500 bg-blue-500/5',
                   breaking: 'border-orange-500 bg-orange-500/5',
                 };
 
-                const icons = {
+                const icons: Record<string, string> = {
                   feature: '✨',
                   fix: '🐛',
                   improvement: '⚡',
@@ -978,7 +898,6 @@ function App() {
               })}
             </div>
 
-            {/* FOOTER */}
             <div className="p-6 border-t border-club-accent/30 bg-gradient-to-r from-[#1a1a1a] to-[#222] flex justify-between items-center">
               <div className="text-xs text-gray-500 flex items-center gap-2">
                 <span className="animate-pulse">💛</span>
