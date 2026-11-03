@@ -595,3 +595,184 @@
 [2026-10-30 17:06:42] [AppID 228980] Requesting updated subscription list
 [2026-10-30 17:06:42] [AppID 228980] Subscribed items did not change. Number of items: 0 (cache update time: 1793369190)
 [2026-10-30 17:06:42] [AppID 10] Requesting updated subscription list
+
+
+[2026-11-02 20:01:45] Client version: 1792617903
+[2026-11-02 20:01:45] Loading workshop items for 2 installed apps for user [a:1:2236421286]:
+[2026-11-02 20:01:45] [AppID 228980] Loaded workshop items in "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\workshop" (0 installed, 0 needed)
+[2026-11-02 20:01:45] [AppID 730] Loaded workshop items in "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\workshop" (0 installed, 1 needed)
+[2026-11-02 20:01:46] [AppID 730] Item change feed returned Access Denied (revision 0, cursor 1793354521)
+[2026-11-02 20:01:46] [AppID 730] Updating workshop item details failed with Access Denied
+
+
+[2026-11-02 20:01:51] Client version: 1792617903
+[2026-11-02 20:01:51] Loading workshop items for 2 installed apps for user [a:1:3997251616]:
+[2026-11-02 20:01:51] [AppID 228980] Loaded workshop items in "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\workshop" (0 installed, 0 needed)
+[2026-11-02 20:01:51] [AppID 730] Loaded workshop items in "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\workshop" (0 installed, 1 needed)
+[2026-11-02 20:01:53] [AppID 730] Item change feed returned Access Denied (revision 0, cursor 1793354521)
+[2026-11-02 20:01:53] [AppID 730] Updating workshop item details failed with Access Denied
+
+
+[2026-11-02 20:01:57] Client version: 1792617903
+[2026-11-02 20:01:57] Loading workshop items for 7 installed apps for user [U:1:1188050218]:
+[2026-11-02 20:01:57] [AppID 3764200] Loaded workshop items in "d:\steamlibrary\steamapps\workshop" (0 installed, 0 needed)
+[2026-11-02 20:01:57] [AppID 629520] Loaded workshop items in "d:\steamlibrary\steamapps\workshop" (0 installed, 0 needed)
+[2026-11-02 20:01:57] [AppID 578080] Loaded workshop items in "d:\steamlibrary\steamapps\workshop" (0 installed, 0 needed)
+[2026-11-02 20:01:57] [AppID 252490] Loaded workshop items in "d:\steamlibrary\steamapps\workshop" (0 installed, 0 needed)
+[2026-11-02 20:01:57] [AppID 228980] Loaded workshop items in "d:\steamlibrary\steamapps\workshop" (0 installed, 0 needed)
+[2026-11-02 20:01:57] [AppID 730] Loaded workshop items in "d:\steamlibrary\steamapps\workshop" (0 installed, 0 needed)
+[2026-11-02 20:01:57] [AppID 570] Loaded workshop items in "d:\steamlibrary\steamapps\workshop" (41 installed, 41 needed)
+[2026-11-02 20:02:02] [AppID 570] Item change feed returned Ignored (revision 0, cursor 1793603224)
+[2026-11-02 20:02:02] [AppID 570] Item info for 41 item(s) (full list): revision 0, 0 update(s), 0 private, update time 1793636039
+[2026-11-02 20:02:04] [AppID 578080] Requesting updated subscription list
+[2026-11-02 20:02:04] [AppID 578080] Subscribed items did not change. Number of items: 0 (cache update time: 1793638909)
+[2026-11-02 20:02:04] [AppID 252490] Requesting updated subscription list
+[2026-11-02 20:02:04] [AppID 240] Loaded workshop items in "d:\steamlibrary\steamapps\workshop" (0 installed, 0 needed)
+[2026-11-02 20:02:05] [AppID 252490] Subscribed items did not change. Number of items: 0 (cache update time: 1793638909)
+[2026-11-02 20:02:05] [AppID 228980] Requesting updated subscription list
+[2026-11-02 20:02:05] [AppID 228980] Subscribed items did not change. Number of items: 0 (cache update time: 1793638909)
+[2026-11-02 20:02:05] [AppID 730] Requesting updated subscription list
+[2026-11-02 20:02:05] [AppID 730] Subscribed items did not change. Number of items: 0 (cache update time: 1793638910)
+[2026-11-02 20:02:05] [AppID 570] Requesting updated subscription list
+[2026-11-02 20:02:05] [AppID 570] Subscribed items changed. Number of items: 33 (update time: 1793638910)
+[2026-11-02 20:02:05] [AppID 570] Detected workshop change : added subscribed item 2870583068
+[2026-11-02 20:02:05] [AppID 570] Detected workshop change : added subscribed item 3009150577
+[2026-11-02 20:02:05] [AppID 570] Detected workshop change : added subscribed item 2451819995
+[2026-11-02 20:02:05] [AppID 570] Detected workshop change : added subscribed item 2362848746
+[2026-11-02 20:02:05] [AppID 570] Detected workshop change : added subscribed item 1637224199
+[2026-11-02 20:02:05] [AppID 570] Detected workshop change : added subscribed item 865885455
+[2026-11-02 20:02:05] [AppID 570] Detected workshop change : added subscribed item 610233076
+[2026-11-02 20:02:05] [AppID 570] Detected workshop change : added subscribed item 887724113
+[2026-11-02 20:02:05] [AppID 570] Detected workshop change : added subscribed item 185941589
+[2026-11-02 20:02:05] [AppID 570] Detected workshop change : added subscribed item 1660091381
+[2026-11-02 20:02:05] [AppID 570] Detected workshop change : added subscribed item 2449607358
+[2026-11-02 20:02:05] [AppID 570] Detected workshop change : added subscribed item 142534162
+[2026-11-02 20:02:05] [AppID 570] Detected workshop change : added subscribed item 2211781813
+[2026-11-02 20:02:05] [AppID 570] Detected workshop change : added subscribed item 2555035456
+[2026-11-02 20:02:05] [AppID 570] Detected workshop change : added subscribed item 520767979
+[2026-11-02 20:02:05] [AppID 570] Detected workshop change : added subscribed item 2594962449
+[2026-11-02 20:02:05] [AppID 570] Detected workshop change : added subscribed item 2472697939
+[2026-11-02 20:02:05] [AppID 570] Detected workshop change : added subscribed item 1188844410
+[2026-11-02 20:02:05] [AppID 570] Detected workshop change : added subscribed item 1268254110
+[2026-11-02 20:02:05] [AppID 570] Detected workshop change : added subscribed item 253955800
+[2026-11-02 20:02:05] [AppID 570] Detected workshop change : added subscribed item 2152119626
+[2026-11-02 20:02:05] [AppID 570] Detected workshop change : added subscribed item 267514478
+[2026-11-02 20:02:05] [AppID 570] Detected workshop change : added subscribed item 1920881070
+[2026-11-02 20:02:05] [AppID 570] Detected workshop change : added subscribed item 1187824354
+[2026-11-02 20:02:05] [AppID 570] Detected workshop change : added subscribed item 143015225
+[2026-11-02 20:02:05] [AppID 570] Detected workshop change : added subscribed item 2070451398
+[2026-11-02 20:02:05] [AppID 570] Detected workshop change : added subscribed item 181047292
+[2026-11-02 20:02:05] [AppID 570] Detected workshop change : added subscribed item 2270127291
+[2026-11-02 20:02:05] [AppID 570] Detected workshop change : added subscribed item 1359095371
+[2026-11-02 20:02:05] [AppID 570] Detected workshop change : added subscribed item 1188641778
+[2026-11-02 20:02:05] [AppID 570] Detected workshop change : added subscribed item 2303492708
+[2026-11-02 20:02:05] [AppID 570] Detected workshop change : added subscribed item 2762978158
+[2026-11-02 20:02:05] [AppID 570] Detected workshop change : added subscribed item 1631464666
+[2026-11-02 20:02:05] [AppID 240] Requesting updated subscription list
+[2026-11-02 20:02:06] [AppID 240] Subscribed items did not change. Number of items: 0 (cache update time: 1793638910)
+
+
+[2026-11-02 20:08:33] Client version: 1792617903
+[2026-11-02 20:08:33] Loading workshop items for 2 installed apps for user [a:1:3388458173]:
+[2026-11-02 20:08:33] [AppID 228980] Loaded workshop items in "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\workshop" (0 installed, 0 needed)
+[2026-11-02 20:08:33] [AppID 730] Loaded workshop items in "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\workshop" (0 installed, 1 needed)
+[2026-11-02 20:08:34] [AppID 730] Updating workshop item details failed with Failure
+
+
+[2026-11-02 20:08:38] Client version: 1792617903
+[2026-11-02 20:08:38] Loading workshop items for 2 installed apps for user [a:1:3342311841]:
+[2026-11-02 20:08:38] [AppID 228980] Loaded workshop items in "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\workshop" (0 installed, 0 needed)
+[2026-11-02 20:08:38] [AppID 730] Loaded workshop items in "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\workshop" (0 installed, 1 needed)
+[2026-11-02 20:08:39] [AppID 730] Updating workshop item details failed with Failure
+
+
+[2026-11-02 20:08:40] Client version: 1792617903
+[2026-11-02 20:08:40] Loading workshop items for 2 installed apps for user [a:1:2057536796]:
+[2026-11-02 20:08:40] [AppID 228980] Loaded workshop items in "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\workshop" (0 installed, 0 needed)
+[2026-11-02 20:08:40] [AppID 730] Loaded workshop items in "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\workshop" (0 installed, 1 needed)
+[2026-11-02 20:08:41] [AppID 730] Updating workshop item details failed with Failure
+
+
+[2026-11-02 20:08:44] Client version: 1792617903
+[2026-11-02 20:08:44] Loading workshop items for 2 installed apps for user [a:1:2635976779]:
+[2026-11-02 20:08:44] [AppID 228980] Loaded workshop items in "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\workshop" (0 installed, 0 needed)
+[2026-11-02 20:08:44] [AppID 730] Loaded workshop items in "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\workshop" (0 installed, 1 needed)
+[2026-11-02 20:08:45] [AppID 730] Updating workshop item details failed with Failure
+
+
+[2026-11-02 20:08:45] Client version: 1792617903
+[2026-11-02 20:08:45] Loading workshop items for 2 installed apps for user [a:1:2083068070]:
+[2026-11-02 20:08:45] [AppID 228980] Loaded workshop items in "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\workshop" (0 installed, 0 needed)
+[2026-11-02 20:08:45] [AppID 730] Loaded workshop items in "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\workshop" (0 installed, 1 needed)
+[2026-11-02 20:08:47] [AppID 730] Updating workshop item details failed with Failure
+
+
+[2026-11-02 20:08:49] Client version: 1792617903
+[2026-11-02 20:08:49] Loading workshop items for 2 installed apps for user [a:1:2712714446]:
+[2026-11-02 20:08:49] [AppID 228980] Loaded workshop items in "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\workshop" (0 installed, 0 needed)
+[2026-11-02 20:08:49] [AppID 730] Loaded workshop items in "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\workshop" (0 installed, 1 needed)
+[2026-11-02 20:08:50] [AppID 730] Updating workshop item details failed with Failure
+
+
+[2026-11-02 20:49:11] Client version: 1792617903
+[2026-11-02 20:49:11] Loading workshop items for 8 installed apps for user [U:1:1188050218]:
+[2026-11-02 20:49:11] [AppID 3764200] Loaded workshop items in "d:\steamlibrary\steamapps\workshop" (0 installed, 0 needed)
+[2026-11-02 20:49:11] [AppID 629520] Loaded workshop items in "d:\steamlibrary\steamapps\workshop" (0 installed, 0 needed)
+[2026-11-02 20:49:11] [AppID 578080] Loaded workshop items in "d:\steamlibrary\steamapps\workshop" (0 installed, 0 needed)
+[2026-11-02 20:49:11] [AppID 252490] Loaded workshop items in "d:\steamlibrary\steamapps\workshop" (0 installed, 0 needed)
+[2026-11-02 20:49:11] [AppID 228980] Loaded workshop items in "d:\steamlibrary\steamapps\workshop" (0 installed, 0 needed)
+[2026-11-02 20:49:11] [AppID 730] Loaded workshop items in "d:\steamlibrary\steamapps\workshop" (0 installed, 0 needed)
+[2026-11-02 20:49:11] [AppID 570] Loaded workshop items in "d:\steamlibrary\steamapps\workshop" (0 installed, 0 needed)
+[2026-11-02 20:49:11] [AppID 240] Loaded workshop items in "d:\steamlibrary\steamapps\workshop" (0 installed, 0 needed)
+[2026-11-02 20:49:16] [AppID 578080] Requesting updated subscription list
+[2026-11-02 20:49:17] [AppID 578080] Subscribed items did not change. Number of items: 0 (cache update time: 1793641741)
+[2026-11-02 20:49:17] [AppID 252490] Requesting updated subscription list
+[2026-11-02 20:49:17] [AppID 252490] Subscribed items did not change. Number of items: 0 (cache update time: 1793641742)
+[2026-11-02 20:49:17] [AppID 228980] Requesting updated subscription list
+[2026-11-02 20:49:17] [AppID 228980] Subscribed items did not change. Number of items: 0 (cache update time: 1793641742)
+[2026-11-02 20:49:17] [AppID 730] Requesting updated subscription list
+[2026-11-02 20:49:18] [AppID 730] Subscribed items did not change. Number of items: 0 (cache update time: 1793641742)
+[2026-11-02 20:49:18] [AppID 570] Requesting updated subscription list
+[2026-11-02 20:49:18] [AppID 570] Subscribed items did not change. Number of items: 33 (cache update time: 1793641743)
+[2026-11-02 20:49:18] [AppID 240] Requesting updated subscription list
+[2026-11-02 20:49:18] [AppID 240] Subscribed items did not change. Number of items: 0 (cache update time: 1793641743)
+[2026-11-02 20:49:19] [AppID 10] Loaded workshop items in "d:\steamlibrary\steamapps\workshop" (0 installed, 0 needed)
+[2026-11-02 20:49:19] [AppID 578080] Skipping subscription list update. Last updated less than a day ago ( 1793641741 < 1793641744 ).
+[2026-11-02 20:49:19] [AppID 252490] Skipping subscription list update. Last updated less than a day ago ( 1793641742 < 1793641744 ).
+[2026-11-02 20:49:19] [AppID 228980] Skipping subscription list update. Last updated less than a day ago ( 1793641742 < 1793641744 ).
+[2026-11-02 20:49:19] [AppID 730] Skipping subscription list update. Last updated less than a day ago ( 1793641742 < 1793641744 ).
+[2026-11-02 20:49:19] [AppID 570] Skipping subscription list update. Last updated less than a day ago ( 1793641743 < 1793641744 ).
+[2026-11-02 20:49:19] [AppID 240] Skipping subscription list update. Last updated less than a day ago ( 1793641743 < 1793641744 ).
+[2026-11-02 20:49:19] [AppID 10] Requesting updated subscription list
+[2026-11-02 20:49:19] [AppID 10] Subscribed items did not change. Number of items: 0 (cache update time: 1793641744)
+
+
+[2026-11-02 20:51:03] Client version: 1792617903
+[2026-11-02 20:51:03] Loading workshop items for 2 installed apps for user [a:1:2396312810]:
+[2026-11-02 20:51:03] [AppID 228980] Loaded workshop items in "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\workshop" (0 installed, 0 needed)
+[2026-11-02 20:51:03] [AppID 730] Loaded workshop items in "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\workshop" (0 installed, 1 needed)
+[2026-11-02 20:51:04] [AppID 730] Updating workshop item details failed with Failure
+
+
+[2026-11-02 20:51:08] Client version: 1792617903
+[2026-11-02 20:51:08] Loading workshop items for 2 installed apps for user [a:1:2380893356]:
+[2026-11-02 20:51:08] [AppID 228980] Loaded workshop items in "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\workshop" (0 installed, 0 needed)
+[2026-11-02 20:51:08] [AppID 730] Loaded workshop items in "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\workshop" (0 installed, 1 needed)
+[2026-11-02 20:51:09] [AppID 730] Updating workshop item details failed with Failure
+
+
+[2026-11-02 20:51:13] Client version: 1792617903
+[2026-11-02 20:51:13] Loading workshop items for 2 installed apps for user [a:1:584212777]:
+[2026-11-02 20:51:13] [AppID 228980] Loaded workshop items in "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\workshop" (0 installed, 0 needed)
+[2026-11-02 20:51:13] [AppID 730] Loaded workshop items in "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\workshop" (0 installed, 1 needed)
+[2026-11-02 20:51:14] [AppID 730] Updating workshop item details failed with Failure
+
+
+[2026-11-02 20:51:14] [AppID 730] Updating workshop item details failed with Failure
+
+
+[2026-11-02 20:51:18] Client version: 1792617903
+[2026-11-02 20:51:18] Loading workshop items for 2 installed apps for user [a:1:2554877202]:
+[2026-11-02 20:51:18] [AppID 228980] Loaded workshop items in "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\workshop" (0 installed, 0 needed)
+[2026-11-02 20:51:18] [AppID 730] Loaded workshop items in "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\workshop" (0 installed, 1 needed)
+[2026-11-02 20:51:19] [AppID 730] Updating workshop item details failed with Failure

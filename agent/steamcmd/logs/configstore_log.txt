@@ -597,3 +597,186 @@
 [2026-10-30 17:06:40] Loaded store 'userlocal' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\userdata\1188050218\config\localconfig.vdf' successfully
 [2026-10-30 17:06:41] Flushed store 'install' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf'
 [2026-10-30 17:06:42] Flushed store 'userlocal' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\userdata\1188050218\config\localconfig.vdf'
+
+
+[2026-11-02 20:01:41] Client version: 1792617903
+[2026-11-02 20:01:41] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:01:41] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:01:41] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:01:41] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:01:42] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:01:44] Loaded store 'userlocal' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\userdata\anonymous\config\localconfig.vdf' successfully
+[2026-11-02 20:01:45] Flushed store 'install' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf'
+[2026-11-02 20:01:47] Flushed store 'userlocal' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\userdata\anonymous\config\localconfig.vdf'
+
+
+[2026-11-02 20:01:49] Client version: 1792617903
+[2026-11-02 20:01:49] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:01:49] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:01:49] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:01:49] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:01:50] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:01:51] Loaded store 'userlocal' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\userdata\anonymous\config\localconfig.vdf' successfully
+[2026-11-02 20:01:53] Flushed store 'userlocal' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\userdata\anonymous\config\localconfig.vdf'
+
+
+[2026-11-02 20:01:57] Client version: 1792617903
+[2026-11-02 20:01:57] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:01:57] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:01:57] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:01:57] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:01:57] Loaded store 'machineuser' from 'C:\Users\Comp9\AppData\Local\Steam\local.vdf' successfully
+[2026-11-02 20:01:57] Loaded store 'userlocal' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\userdata\1188050218\config\localconfig.vdf' successfully
+[2026-11-02 20:01:57] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:01:58] Flushed store 'install' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf'
+[2026-11-02 20:02:01] Flushed store 'install' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf'
+[2026-11-02 20:02:02] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:02:02] Loaded store 'userlocal' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\userdata\1188050218\config\localconfig.vdf' successfully
+[2026-11-02 20:02:02] Flushed store 'install' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf'
+[2026-11-02 20:02:03] Flushed store 'userlocal' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\userdata\1188050218\config\localconfig.vdf'
+[2026-11-02 20:02:03] Flushed store 'userlocal' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\userdata\1188050218\config\localconfig.vdf'
+[2026-11-02 20:02:04] Flushed store 'userlocal' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\userdata\1188050218\config\localconfig.vdf'
+[2026-11-02 20:02:05] Flushed store 'userlocal' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\userdata\1188050218\config\localconfig.vdf'
+[2026-11-02 20:02:05] Flushed store 'install' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf'
+[2026-11-02 20:02:05] Flushed store 'userlocal' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\userdata\1188050218\config\localconfig.vdf'
+[2026-11-02 20:02:06] Flushed store 'userlocal' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\userdata\1188050218\config\localconfig.vdf'
+[2026-11-02 20:02:06] Flushed store 'install' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf'
+[2026-11-02 20:02:07] Flushed store 'install' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf'
+[2026-11-02 20:02:08] Flushed store 'userlocal' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\userdata\1188050218\config\localconfig.vdf'
+[2026-11-02 20:02:11] Flushed store 'userlocal' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\userdata\1188050218\config\localconfig.vdf'
+[2026-11-02 20:02:31] Flushed store 'userlocal' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\userdata\1188050218\config\localconfig.vdf'
+[2026-11-02 20:02:32] Flushed store 'userlocal' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\userdata\1188050218\config\localconfig.vdf'
+[2026-11-02 20:02:39] Flushed store 'install' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf'
+[2026-11-02 20:03:05] Flushed store 'userlocal' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\userdata\1188050218\config\localconfig.vdf'
+[2026-11-02 20:03:06] Flushed store 'userlocal' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\userdata\1188050218\config\localconfig.vdf'
+[2026-11-02 20:03:09] Flushed store 'install' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf'
+
+
+[2026-11-02 20:08:31] Client version: 1792617903
+[2026-11-02 20:08:31] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:08:31] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:08:31] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:08:31] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:08:32] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:08:33] Loaded store 'userlocal' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\userdata\anonymous\config\localconfig.vdf' successfully
+[2026-11-02 20:08:33] Flushed store 'install' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf'
+[2026-11-02 20:08:34] Flushed store 'userlocal' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\userdata\anonymous\config\localconfig.vdf'
+
+
+[2026-11-02 20:08:36] Client version: 1792617903
+[2026-11-02 20:08:36] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:08:36] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:08:36] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:08:36] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:08:37] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:08:38] Flushed store 'install' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf'
+[2026-11-02 20:08:38] Loaded store 'userlocal' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\userdata\anonymous\config\localconfig.vdf' successfully
+[2026-11-02 20:08:39] Flushed store 'userlocal' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\userdata\anonymous\config\localconfig.vdf'
+
+
+[2026-11-02 20:08:40] Loaded store 'userlocal' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\userdata\anonymous\config\localconfig.vdf' successfully
+[2026-11-02 20:08:40] Flushed store 'install' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf'
+
+
+[2026-11-02 20:08:42] Client version: 1792617903
+[2026-11-02 20:08:42] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:08:42] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:08:42] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:08:42] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:08:43] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:08:44] Flushed store 'install' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf'
+[2026-11-02 20:08:44] Loaded store 'userlocal' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\userdata\anonymous\config\localconfig.vdf' successfully
+[2026-11-02 20:08:45] Flushed store 'userlocal' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\userdata\anonymous\config\localconfig.vdf'
+
+
+[2026-11-02 20:08:45] Flushed store 'install' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf'
+[2026-11-02 20:08:45] Loaded store 'userlocal' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\userdata\anonymous\config\localconfig.vdf' successfully
+
+
+[2026-11-02 20:08:47] Client version: 1792617903
+[2026-11-02 20:08:47] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:08:47] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:08:47] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:08:47] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:08:48] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:08:49] Loaded store 'userlocal' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\userdata\anonymous\config\localconfig.vdf' successfully
+[2026-11-02 20:08:49] Flushed store 'install' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf'
+[2026-11-02 20:08:50] Flushed store 'userlocal' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\userdata\anonymous\config\localconfig.vdf'
+
+
+[2026-11-02 20:49:11] Client version: 1792617903
+[2026-11-02 20:49:11] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:49:11] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:49:11] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:49:11] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:49:11] Loaded store 'machineuser' from 'C:\Users\Comp9\AppData\Local\Steam\local.vdf' successfully
+[2026-11-02 20:49:11] Loaded store 'userlocal' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\userdata\1188050218\config\localconfig.vdf' successfully
+[2026-11-02 20:49:11] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:49:12] Flushed store 'install' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf'
+[2026-11-02 20:49:15] Flushed store 'install' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf'
+[2026-11-02 20:49:15] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:49:15] Loaded store 'userlocal' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\userdata\1188050218\config\localconfig.vdf' successfully
+[2026-11-02 20:49:16] Flushed store 'install' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf'
+[2026-11-02 20:49:17] Flushed store 'userlocal' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\userdata\1188050218\config\localconfig.vdf'
+[2026-11-02 20:49:19] Flushed store 'userlocal' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\userdata\1188050218\config\localconfig.vdf'
+[2026-11-02 20:49:20] Flushed store 'userlocal' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\userdata\1188050218\config\localconfig.vdf'
+[2026-11-02 20:49:21] Flushed store 'userlocal' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\userdata\1188050218\config\localconfig.vdf'
+[2026-11-02 20:49:25] Flushed store 'userlocal' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\userdata\1188050218\config\localconfig.vdf'
+[2026-11-02 20:49:39] Flushed store 'userlocal' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\userdata\1188050218\config\localconfig.vdf'
+[2026-11-02 20:49:43] Flushed store 'userlocal' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\userdata\1188050218\config\localconfig.vdf'
+[2026-11-02 20:49:45] Flushed store 'userlocal' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\userdata\1188050218\config\localconfig.vdf'
+[2026-11-02 20:49:46] Flushed store 'userlocal' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\userdata\1188050218\config\localconfig.vdf'
+[2026-11-02 20:49:47] Flushed store 'userlocal' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\userdata\1188050218\config\localconfig.vdf'
+[2026-11-02 20:49:48] Flushed store 'userlocal' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\userdata\1188050218\config\localconfig.vdf'
+[2026-11-02 20:49:50] Flushed store 'userlocal' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\userdata\1188050218\config\localconfig.vdf'
+[2026-11-02 20:49:52] Flushed store 'install' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf'
+[2026-11-02 20:49:52] Flushed store 'userlocal' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\userdata\1188050218\config\localconfig.vdf'
+[2026-11-02 20:49:58] Flushed store 'userlocal' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\userdata\1188050218\config\localconfig.vdf'
+[2026-11-02 20:49:59] Flushed store 'userlocal' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\userdata\1188050218\config\localconfig.vdf'
+
+
+[2026-11-02 20:51:00] Client version: 1792617903
+[2026-11-02 20:51:00] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:51:00] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:51:00] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:51:00] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:51:01] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:51:02] Flushed store 'install' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf'
+[2026-11-02 20:51:02] Loaded store 'userlocal' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\userdata\anonymous\config\localconfig.vdf' successfully
+[2026-11-02 20:51:04] Flushed store 'userlocal' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\userdata\anonymous\config\localconfig.vdf'
+
+
+[2026-11-02 20:51:05] Client version: 1792617903
+[2026-11-02 20:51:05] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:51:05] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:51:05] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:51:06] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:51:07] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:51:08] Loaded store 'userlocal' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\userdata\anonymous\config\localconfig.vdf' successfully
+[2026-11-02 20:51:08] Flushed store 'install' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf'
+[2026-11-02 20:51:09] Flushed store 'userlocal' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\userdata\anonymous\config\localconfig.vdf'
+
+
+[2026-11-02 20:51:10] Client version: 1792617903
+[2026-11-02 20:51:10] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:51:11] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:51:11] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:51:11] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:51:12] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:51:13] Loaded store 'userlocal' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\userdata\anonymous\config\localconfig.vdf' successfully
+[2026-11-02 20:51:13] Flushed store 'install' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf'
+[2026-11-02 20:51:14] Flushed store 'userlocal' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\userdata\anonymous\config\localconfig.vdf'
+
+
+[2026-11-02 20:51:14] Flushed store 'userlocal' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\userdata\anonymous\config\localconfig.vdf'
+
+
+[2026-11-02 20:51:16] Client version: 1792617903
+[2026-11-02 20:51:16] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:51:16] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:51:16] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:51:16] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:51:17] Loaded store 'install' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf' successfully
+[2026-11-02 20:51:18] Flushed store 'install' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\config\config.vdf'
+[2026-11-02 20:51:18] Loaded store 'userlocal' from 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\userdata\anonymous\config\localconfig.vdf' successfully
+[2026-11-02 20:51:19] Flushed store 'userlocal' to 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd\userdata\anonymous\config\localconfig.vdf'

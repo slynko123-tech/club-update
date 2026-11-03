@@ -25,15 +25,31 @@ function createWindow() {
       nodeIntegration: false,
       contextIsolation: true,
       preload: preloadPath,
+      devTools: true, // 👈 ВКЛЮЧАЕМ DEVTOOLS
     },
+  });
+
+  // 👇 ДОБАВЛЯЕМ ГОРЯЧУЮ КЛАВИШУ ДЛЯ DEVTOOLS
+  mainWindow.webContents.on('before-input-event', (event, input) => {
+    if (input.key === 'F12') {
+      mainWindow.webContents.toggleDevTools();
+    }
   });
 
   const serverPath = path.join(__dirname, 'server', 'index.js');
   serverProcess = fork(serverPath);
 
+  // Слушаем готовность сервера вместо таймаута
+  serverProcess.on('message', (msg) => {
+    if (msg === 'server-ready') {
+      mainWindow.loadURL('http://localhost:3000');
+    }
+  });
+
+  // Fallback на случай если сообщение не придет
   setTimeout(() => {
     mainWindow.loadURL('http://localhost:3000');
-  }, 2000);
+  }, 3000);
 
   mainWindow.on('closed', () => {
     mainWindow = null;
@@ -48,6 +64,12 @@ ipcMain.on('window-maximize', () => {
     if (mainWindow) {
         if (mainWindow.isMaximized()) mainWindow.unmaximize();
         else mainWindow.maximize();
+    }
+});
+ipcMain.on('window-focus', () => {
+    if (mainWindow) {
+        mainWindow.focus();
+        mainWindow.show();
     }
 });
 

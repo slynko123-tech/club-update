@@ -505,3 +505,179 @@
 [2026-10-30 17:06:42] RequestAppInfoUpdate: AppIDs 228980,70,10
 [2026-10-30 17:06:42] Requesting 3 apps, 0 packages (meta data, 1024 prev attempts, expected 0 KB)
 [2026-10-30 17:06:42] UpdatesJob: finished OK, apps updated 0 (0 KB), packages updated 0 (0 KB)
+
+
+[2026-11-02 20:01:41] Client version: 1792617903
+[2026-11-02 20:01:41] ThreadedReadFromDisk: loading appinfo cache from: C:\Users\Comp9\Desktop\club-update\agent\steamcmd/appcache/appinfo.vdf
+[2026-11-02 20:01:41] ThreadedReadFromDisk: header version: 0x7564429
+[2026-11-02 20:01:41] ThreadedReadFromDisk: apps updated: 1031
+[2026-11-02 20:01:41] CAppInfoCacheReadFromDiskThread took 45 milliseconds to initialize
+[2026-11-02 20:01:44] RequestAppInfoUpdate: AppIDs 7
+[2026-11-02 20:01:45] Packages changed: force all
+[2026-11-02 20:01:45] Apps changed: force all
+[2026-11-02 20:01:45] Change number 40422054->40516337, apps: 0/0, packages: 0/0
+[2026-11-02 20:01:45] Requesting 1031 apps, 87 packages (meta data, 1024 prev attempts, expected 52 KB)
+[2026-11-02 20:01:46] Requested 69 app access tokens, 0 received, 69 denied
+[2026-11-02 20:01:47] Downloaded 84 apps via HTTP, 759 KB (203 KB compressed)
+[2026-11-02 20:01:47] Requesting 2 apps, 0 packages (full data, 1024 prev attempts, expected 2 KB)
+[2026-11-02 20:01:47] UpdatesJob: finished OK, apps updated 86 (761 KB), packages updated 0 (0 KB)
+[2026-11-02 20:01:47] ThreadedWriteToDisk: writing appinfo cache to: C:\Users\Comp9\Desktop\club-update\agent\steamcmd/appcache/appinfo.vdf
+[2026-11-02 20:01:47] App cache write succeeded C:\Users\Comp9\Desktop\club-update\agent\steamcmd/appcache/appinfo.vdf (1031 apps, 3090 KB) in 56 ms
+
+
+[2026-11-02 20:01:49] Client version: 1792617903
+[2026-11-02 20:01:49] ThreadedReadFromDisk: loading appinfo cache from: C:\Users\Comp9\Desktop\club-update\agent\steamcmd/appcache/appinfo.vdf
+[2026-11-02 20:01:49] ThreadedReadFromDisk: header version: 0x7564429
+[2026-11-02 20:01:49] ThreadedReadFromDisk: apps updated: 1031
+[2026-11-02 20:01:49] CAppInfoCacheReadFromDiskThread took 44 milliseconds to initialize
+[2026-11-02 20:01:51] RequestAppInfoUpdate: AppIDs 7
+[2026-11-02 20:01:52] Change number 40516337->40516340, apps: 0/3, packages: 0/0
+[2026-11-02 20:01:52] Requesting 70 apps, 0 packages (meta data, 1024 prev attempts, expected 3 KB)
+[2026-11-02 20:01:53] Requested 69 app access tokens, 0 received, 69 denied
+[2026-11-02 20:01:53] UpdatesJob: finished OK, apps updated 0 (0 KB), packages updated 0 (0 KB)
+
+
+[2026-11-02 20:01:57] Client version: 1792617903
+[2026-11-02 20:01:57] ThreadedReadFromDisk: loading appinfo cache from: C:\Users\Comp9\Desktop\club-update\agent\steamcmd/appcache/appinfo.vdf
+[2026-11-02 20:01:57] ThreadedReadFromDisk: header version: 0x7564429
+[2026-11-02 20:01:57] ThreadedReadFromDisk: apps updated: 1031
+[2026-11-02 20:01:57] CAppInfoCacheReadFromDiskThread took 44 milliseconds to initialize
+[2026-11-02 20:02:02] RequestAppInfoUpdate: AppIDs 7
+[2026-11-02 20:02:02] Packages changed: force all
+[2026-11-02 20:02:02] Apps changed: force all
+[2026-11-02 20:02:02] Change number 40424837->40516351, apps: 0/0, packages: 0/0
+[2026-11-02 20:02:02] Requesting 1031 apps, 87 packages (meta data, 1024 prev attempts, expected 52 KB)
+[2026-11-02 20:02:03] Requested 69 app access tokens, 0 received, 69 denied
+[2026-11-02 20:02:03] UpdatesJob: finished OK, apps updated 0 (0 KB), packages updated 0 (0 KB)
+[2026-11-02 20:02:04] RequestAppInfoUpdate: AppIDs 240
+[2026-11-02 20:02:04] Requesting 1 apps, 0 packages (meta data, 1024 prev attempts, expected 0 KB)
+[2026-11-02 20:02:04] UpdatesJob: finished OK, apps updated 0 (0 KB), packages updated 0 (0 KB)
+
+
+[2026-11-02 20:08:31] Client version: 1792617903
+[2026-11-02 20:08:31] ThreadedReadFromDisk: loading appinfo cache from: C:\Users\Comp9\Desktop\club-update\agent\steamcmd/appcache/appinfo.vdf
+[2026-11-02 20:08:31] ThreadedReadFromDisk: header version: 0x7564429
+[2026-11-02 20:08:31] ThreadedReadFromDisk: apps updated: 1031
+[2026-11-02 20:08:31] CAppInfoCacheReadFromDiskThread took 39 milliseconds to initialize
+[2026-11-02 20:08:33] RequestAppInfoUpdate: AppIDs 7
+[2026-11-02 20:08:33] Apps changed: 359550=40516528,
+[2026-11-02 20:08:33] Change number 40516340->40516611, apps: 1/177, packages: 0/41
+[2026-11-02 20:08:33] Requesting 71 apps, 0 packages (meta data, 1024 prev attempts, expected 3 KB)
+[2026-11-02 20:08:34] Requested 69 app access tokens, 0 received, 69 denied
+[2026-11-02 20:08:34] UpdatesJob: finished OK, apps updated 0 (0 KB), packages updated 0 (0 KB)
+
+
+[2026-11-02 20:08:36] Client version: 1792617903
+[2026-11-02 20:08:36] ThreadedReadFromDisk: loading appinfo cache from: C:\Users\Comp9\Desktop\club-update\agent\steamcmd/appcache/appinfo.vdf
+[2026-11-02 20:08:36] ThreadedReadFromDisk: header version: 0x7564429
+[2026-11-02 20:08:36] ThreadedReadFromDisk: apps updated: 1031
+[2026-11-02 20:08:36] CAppInfoCacheReadFromDiskThread took 46 milliseconds to initialize
+[2026-11-02 20:08:38] RequestAppInfoUpdate: AppIDs 7
+[2026-11-02 20:08:38] Change number 40516611->40516614, apps: 0/3, packages: 0/0
+[2026-11-02 20:08:38] Requesting 70 apps, 0 packages (meta data, 1024 prev attempts, expected 3 KB)
+[2026-11-02 20:08:39] Requested 69 app access tokens, 0 received, 69 denied
+[2026-11-02 20:08:39] UpdatesJob: finished OK, apps updated 0 (0 KB), packages updated 0 (0 KB)
+
+
+[2026-11-02 20:08:40] RequestAppInfoUpdate: AppIDs 7
+[2026-11-02 20:08:40] Requesting 70 apps, 0 packages (meta data, 1024 prev attempts, expected 3 KB)
+[2026-11-02 20:08:41] Requested 69 app access tokens, 0 received, 69 denied
+[2026-11-02 20:08:41] UpdatesJob: finished OK, apps updated 0 (0 KB), packages updated 0 (0 KB)
+
+
+[2026-11-02 20:08:42] Client version: 1792617903
+[2026-11-02 20:08:42] ThreadedReadFromDisk: loading appinfo cache from: C:\Users\Comp9\Desktop\club-update\agent\steamcmd/appcache/appinfo.vdf
+[2026-11-02 20:08:42] ThreadedReadFromDisk: header version: 0x7564429
+[2026-11-02 20:08:42] ThreadedReadFromDisk: apps updated: 1031
+[2026-11-02 20:08:42] CAppInfoCacheReadFromDiskThread took 56 milliseconds to initialize
+[2026-11-02 20:08:44] RequestAppInfoUpdate: AppIDs 7
+[2026-11-02 20:08:44] Change number 40516614->40516616, apps: 0/2, packages: 0/0
+[2026-11-02 20:08:44] Requesting 70 apps, 0 packages (meta data, 1024 prev attempts, expected 3 KB)
+[2026-11-02 20:08:45] Requested 69 app access tokens, 0 received, 69 denied
+[2026-11-02 20:08:45] UpdatesJob: finished OK, apps updated 0 (0 KB), packages updated 0 (0 KB)
+
+
+[2026-11-02 20:08:45] RequestAppInfoUpdate: AppIDs 7
+[2026-11-02 20:08:46] Requesting 70 apps, 0 packages (meta data, 1024 prev attempts, expected 3 KB)
+[2026-11-02 20:08:46] Requested 69 app access tokens, 0 received, 69 denied
+[2026-11-02 20:08:46] UpdatesJob: finished OK, apps updated 0 (0 KB), packages updated 0 (0 KB)
+
+
+[2026-11-02 20:08:47] Client version: 1792617903
+[2026-11-02 20:08:47] ThreadedReadFromDisk: loading appinfo cache from: C:\Users\Comp9\Desktop\club-update\agent\steamcmd/appcache/appinfo.vdf
+[2026-11-02 20:08:47] ThreadedReadFromDisk: header version: 0x7564429
+[2026-11-02 20:08:47] ThreadedReadFromDisk: apps updated: 1031
+[2026-11-02 20:08:47] CAppInfoCacheReadFromDiskThread took 51 milliseconds to initialize
+[2026-11-02 20:08:49] RequestAppInfoUpdate: AppIDs 7
+[2026-11-02 20:08:49] Change number 40516616->40516620, apps: 0/4, packages: 0/0
+[2026-11-02 20:08:50] Requesting 70 apps, 0 packages (meta data, 1024 prev attempts, expected 3 KB)
+[2026-11-02 20:08:50] Requested 69 app access tokens, 0 received, 69 denied
+[2026-11-02 20:08:50] UpdatesJob: finished OK, apps updated 0 (0 KB), packages updated 0 (0 KB)
+
+
+[2026-11-02 20:49:11] Client version: 1792617903
+[2026-11-02 20:49:11] ThreadedReadFromDisk: loading appinfo cache from: C:\Users\Comp9\Desktop\club-update\agent\steamcmd/appcache/appinfo.vdf
+[2026-11-02 20:49:11] ThreadedReadFromDisk: header version: 0x7564429
+[2026-11-02 20:49:11] ThreadedReadFromDisk: apps updated: 1031
+[2026-11-02 20:49:11] CAppInfoCacheReadFromDiskThread took 39 milliseconds to initialize
+[2026-11-02 20:49:16] RequestAppInfoUpdate: AppIDs 7
+[2026-11-02 20:49:16] Apps changed: 700580=40517983,4427310=40517860,17585=40517777,17580=40517766,1493710=40517666,108600=40517142,2635410=40516829,589290=40516828,251810=40516736,1050280=40516655,359550=40516528,
+[2026-11-02 20:49:16] Change number 40516351->40518057, apps: 11/1087, packages: 0/183
+[2026-11-02 20:49:16] Requesting 81 apps, 0 packages (meta data, 1024 prev attempts, expected 3 KB)
+[2026-11-02 20:49:17] Requested 69 app access tokens, 0 received, 69 denied
+[2026-11-02 20:49:18] Downloaded 5 apps via HTTP, 25 KB (7 KB compressed)
+[2026-11-02 20:49:18] Requesting 1 apps, 0 packages (full data, 1024 prev attempts, expected 1 KB)
+[2026-11-02 20:49:18] UpdatesJob: finished OK, apps updated 6 (27 KB), packages updated 0 (0 KB)
+[2026-11-02 20:49:18] RequestAppInfoUpdate: AppIDs 228980,70,10
+[2026-11-02 20:49:18] Requesting 3 apps, 0 packages (meta data, 1024 prev attempts, expected 0 KB)
+[2026-11-02 20:49:19] UpdatesJob: finished OK, apps updated 0 (0 KB), packages updated 0 (0 KB)
+[2026-11-02 20:49:23] ThreadedWriteToDisk: writing appinfo cache to: C:\Users\Comp9\Desktop\club-update\agent\steamcmd/appcache/appinfo.vdf
+[2026-11-02 20:49:23] App cache write succeeded C:\Users\Comp9\Desktop\club-update\agent\steamcmd/appcache/appinfo.vdf (1031 apps, 3090 KB) in 50 ms
+
+
+[2026-11-02 20:51:00] Client version: 1792617903
+[2026-11-02 20:51:00] ThreadedReadFromDisk: loading appinfo cache from: C:\Users\Comp9\Desktop\club-update\agent\steamcmd/appcache/appinfo.vdf
+[2026-11-02 20:51:00] ThreadedReadFromDisk: header version: 0x7564429
+[2026-11-02 20:51:00] ThreadedReadFromDisk: apps updated: 1031
+[2026-11-02 20:51:00] CAppInfoCacheReadFromDiskThread took 39 milliseconds to initialize
+[2026-11-02 20:51:02] RequestAppInfoUpdate: AppIDs 7
+[2026-11-02 20:51:03] Change number 40516620->40518120, apps: 0/972, packages: 0/154
+[2026-11-02 20:51:03] Requesting 70 apps, 0 packages (meta data, 1024 prev attempts, expected 3 KB)
+[2026-11-02 20:51:04] Requested 69 app access tokens, 0 received, 69 denied
+[2026-11-02 20:51:04] UpdatesJob: finished OK, apps updated 0 (0 KB), packages updated 0 (0 KB)
+
+
+[2026-11-02 20:51:05] Client version: 1792617903
+[2026-11-02 20:51:05] ThreadedReadFromDisk: loading appinfo cache from: C:\Users\Comp9\Desktop\club-update\agent\steamcmd/appcache/appinfo.vdf
+[2026-11-02 20:51:05] ThreadedReadFromDisk: header version: 0x7564429
+[2026-11-02 20:51:05] ThreadedReadFromDisk: apps updated: 1031
+[2026-11-02 20:51:05] CAppInfoCacheReadFromDiskThread took 51 milliseconds to initialize
+[2026-11-02 20:51:08] RequestAppInfoUpdate: AppIDs 7
+[2026-11-02 20:51:08] Change number 40518120->40518123, apps: 0/3, packages: 0/0
+[2026-11-02 20:51:08] Requesting 70 apps, 0 packages (meta data, 1024 prev attempts, expected 3 KB)
+[2026-11-02 20:51:09] Requested 69 app access tokens, 0 received, 69 denied
+[2026-11-02 20:51:09] UpdatesJob: finished OK, apps updated 0 (0 KB), packages updated 0 (0 KB)
+
+
+[2026-11-02 20:51:10] Client version: 1792617903
+[2026-11-02 20:51:10] ThreadedReadFromDisk: loading appinfo cache from: C:\Users\Comp9\Desktop\club-update\agent\steamcmd/appcache/appinfo.vdf
+[2026-11-02 20:51:10] ThreadedReadFromDisk: header version: 0x7564429
+[2026-11-02 20:51:11] ThreadedReadFromDisk: apps updated: 1031
+[2026-11-02 20:51:11] CAppInfoCacheReadFromDiskThread took 39 milliseconds to initialize
+[2026-11-02 20:51:13] RequestAppInfoUpdate: AppIDs 7
+[2026-11-02 20:51:13] Change number 40518123->40518129, apps: 0/4, packages: 0/0
+[2026-11-02 20:51:13] Requesting 70 apps, 0 packages (meta data, 1024 prev attempts, expected 3 KB)
+[2026-11-02 20:51:14] Requested 69 app access tokens, 0 received, 69 denied
+[2026-11-02 20:51:14] UpdatesJob: finished OK, apps updated 0 (0 KB), packages updated 0 (0 KB)
+
+
+[2026-11-02 20:51:16] Client version: 1792617903
+[2026-11-02 20:51:16] ThreadedReadFromDisk: loading appinfo cache from: C:\Users\Comp9\Desktop\club-update\agent\steamcmd/appcache/appinfo.vdf
+[2026-11-02 20:51:16] ThreadedReadFromDisk: header version: 0x7564429
+[2026-11-02 20:51:16] ThreadedReadFromDisk: apps updated: 1031
+[2026-11-02 20:51:16] CAppInfoCacheReadFromDiskThread took 49 milliseconds to initialize
+[2026-11-02 20:51:18] RequestAppInfoUpdate: AppIDs 7
+[2026-11-02 20:51:19] Change number 40518129->40518131, apps: 0/1, packages: 0/0
+[2026-11-02 20:51:19] Requesting 70 apps, 0 packages (meta data, 1024 prev attempts, expected 3 KB)
+[2026-11-02 20:51:19] Requested 69 app access tokens, 0 received, 69 denied
+[2026-11-02 20:51:19] UpdatesJob: finished OK, apps updated 0 (0 KB), packages updated 0 (0 KB)

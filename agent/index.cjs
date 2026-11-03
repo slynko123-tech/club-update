@@ -5,7 +5,7 @@ const fs = require('fs');
 
 // 👇 НАСТРОЙКИ ЯНДЕКС.ДИСКА
 const YANDEX_TOKEN = 'y0__wgBEISkm6wFGNuWAyDC7vTLGWU0F0dbBxnmvFEVZmDGsnI2nRqG';
-const AGENT_VERSION = '1.0.9'; // 👈 Версия агента
+const AGENT_VERSION = '1.1.0'; // 👈 Версия агента
 
 // 👇 ЛОГИ
 let agentLogs = [];

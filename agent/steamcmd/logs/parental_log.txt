@@ -1147,3 +1147,51 @@
 [2026-10-30 17:06:41] 		Friends
 [2026-10-30 17:06:41] 		Library
 [2026-10-30 17:06:41] 		Test
+
+
+[2026-11-02 20:02:02] Client version: 1792617903
+[2026-11-02 20:02:02] Setting parental settings for 1188050218, account flags are 10304085
+[2026-11-02 20:02:02] Settings dump:
+[2026-11-02 20:02:02] 	Account ID: 1188050218
+[2026-11-02 20:02:02] 	Enabled: true
+[2026-11-02 20:02:02] 	Base list: 0 (Allow all games)
+[2026-11-02 20:02:02] 	No custom list
+[2026-11-02 20:02:02] 	Enabled features (1810):
+[2026-11-02 20:02:02] 		Friends
+[2026-11-02 20:02:02] 		Library
+[2026-11-02 20:02:02] 		Test
+[2026-11-02 20:02:02] Enabling parental settings for 1188050218, account flags are 10304085
+[2026-11-02 20:02:02] Validating parental settings
+[2026-11-02 20:02:02] Settings dump:
+[2026-11-02 20:02:02] 	Account ID: 1188050218
+[2026-11-02 20:02:02] 	Enabled: true
+[2026-11-02 20:02:02] 	Base list: 0 (Allow all games)
+[2026-11-02 20:02:02] 	No custom list
+[2026-11-02 20:02:02] 	Enabled features (1810):
+[2026-11-02 20:02:02] 		Friends
+[2026-11-02 20:02:02] 		Library
+[2026-11-02 20:02:02] 		Test
+
+
+[2026-11-02 20:49:16] Client version: 1792617903
+[2026-11-02 20:49:16] Setting parental settings for 1188050218, account flags are 10304085
+[2026-11-02 20:49:16] Settings dump:
+[2026-11-02 20:49:16] 	Account ID: 1188050218
+[2026-11-02 20:49:16] 	Enabled: true
+[2026-11-02 20:49:16] 	Base list: 0 (Allow all games)
+[2026-11-02 20:49:16] 	No custom list
+[2026-11-02 20:49:16] 	Enabled features (1810):
+[2026-11-02 20:49:16] 		Friends
+[2026-11-02 20:49:16] 		Library
+[2026-11-02 20:49:16] 		Test
+[2026-11-02 20:49:16] Enabling parental settings for 1188050218, account flags are 10304085
+[2026-11-02 20:49:16] Validating parental settings
+[2026-11-02 20:49:16] Settings dump:
+[2026-11-02 20:49:16] 	Account ID: 1188050218
+[2026-11-02 20:49:16] 	Enabled: true
+[2026-11-02 20:49:16] 	Base list: 0 (Allow all games)
+[2026-11-02 20:49:16] 	No custom list
+[2026-11-02 20:49:16] 	Enabled features (1810):
+[2026-11-02 20:49:16] 		Friends
+[2026-11-02 20:49:16] 		Library
+[2026-11-02 20:49:16] 		Test

@@ -1619,3 +1619,309 @@
 [2026-10-30 17:06:35] Client version: 1792617903
 [2026-10-30 17:06:35] Loaded 4 apps from install folder "d:\steamcmd_library\steamapps\appmanifest_*.acf".
 [2026-10-30 17:06:35] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-11-02 20:01:45] Client version: 1792617903
+[2026-11-02 20:01:45] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-11-02 20:01:45] Loaded 2 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-11-02 20:01:45] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-11-02 20:01:51] Client version: 1792617903
+[2026-11-02 20:01:51] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-11-02 20:01:51] Loaded 2 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-11-02 20:01:51] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-11-02 20:01:57] Client version: 1792617903
+[2026-11-02 20:01:57] Loaded 6 apps from install folder "d:\steamlibrary\steamapps\appmanifest_*.acf".
+[2026-11-02 20:01:57] AppID 228980 state changed : Update Required,Shared Only,
+[2026-11-02 20:01:57] AppID 228980 state changed : Update Required,
+[2026-11-02 20:01:57] Triggered async write of Steam library folders configuration (1 libraries).
+[2026-11-02 20:02:04] AppID 240 state changed : Update Required,
+[2026-11-02 20:02:04] AppID 240 scheduler update : Priority First, not played for 15 seconds, update disabled for 0 seconds
+[2026-11-02 20:02:04] AppID 240 state changed : Update Required,Update Queued,
+[2026-11-02 20:02:04] AppID 240 scheduler update : Priority First, not played for 15 seconds, update disabled for 0 seconds
+[2026-11-02 20:02:04] AppID 730 state changed : Update Required,Fully Installed,
+[2026-11-02 20:02:04] AppID 730 config changed : updated depots 732,731,735,2347770,2347771,2347774
+[2026-11-02 20:02:04] AppID 240 state changed : Update Required,Update Queued,Update Running,
+[2026-11-02 20:02:04] AppID 240 App update changed : Running Update,
+[2026-11-02 20:02:04] AppID 240 App update changed : Running Update,Reconfiguring,
+[2026-11-02 20:02:06] Got 30 download sources and 0 caching proxies via ContentServerDirectoryService::BYieldingGetServersForSteamPipe (CellID 68 / Launcher 3)
+[2026-11-02 20:02:06] Moving to source priority class '6'
+[2026-11-02 20:02:06] Created download interface of type 'CDN' (2) to host fastly.cdn.steampipe.steamcontent.com (fastly.cdn.steampipe.steamcontent.com)
+[2026-11-02 20:02:06] Created download interface of type 'CDN' (2) to host edgenext.cdn.steampipe.steamcontent.com (edgenext.cdn.steampipe.steamcontent.com)
+[2026-11-02 20:02:06] Created download interface of type 'SteamCache' (7) to host cache13-fra2.steamcontent.com (cache13-fra2.steamcontent.com)
+[2026-11-02 20:02:06] Created download interface of type 'SteamCache' (7) to host cache15-fra2.steamcontent.com (cache15-fra2.steamcontent.com)
+[2026-11-02 20:02:06] Created download interface of type 'SteamCache' (7) to host cache3-fra2.steamcontent.com (cache3-fra2.steamcontent.com)
+[2026-11-02 20:02:06] Created download interface of type 'SteamCache' (7) to host cache9-fra2.steamcontent.com (cache9-fra2.steamcontent.com)
+[2026-11-02 20:02:06] Created download interface of type 'SteamCache' (7) to host cache7-fra2.steamcontent.com (cache7-fra2.steamcontent.com)
+[2026-11-02 20:02:06] Created download interface of type 'SteamCache' (7) to host cache1-fra2.steamcontent.com (cache1-fra2.steamcontent.com)
+[2026-11-02 20:02:06] HTTP (CDN,31) - fastly.cdn.steampipe.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: fastly.cdn.steampipe.steamcontent.com): AuthenticateDepotID (241) - Success!
+[2026-11-02 20:02:06] HTTP/2 available
+[2026-11-02 20:02:06] Created ipv4-only http client
+[2026-11-02 20:02:08] HTTPS (SteamCache,247) - cache7-fra2.steamcontent.com (155.133.226.40:443 / 155.133.226.40:443, host: cache7-fra2.steamcontent.com): Negotiated HTTP/2
+[2026-11-02 20:02:08] HTTP/2 (SteamCache,247) - cache7-fra2.steamcontent.com (155.133.226.40:443 / 155.133.226.40:443, host: cache7-fra2.steamcontent.com): cache7-fra2.steamcontent.com/depot/240/manifest/8533645887610833256/5/1744616732875105571 - manifest request received 200 (OK) HTTP response
+[2026-11-02 20:02:08] HTTPS (CDN,31) - fastly.cdn.steampipe.steamcontent.com (199.232.215.82:443 / 199.232.215.82:443, host: fastly.cdn.steampipe.steamcontent.com): fastly.cdn.steampipe.steamcontent.com/depot/241/manifest/6505320509489453551/5/4622648429583536996 - manifest request received 200 (OK) HTTP response
+[2026-11-02 20:02:08] HTTPS (SteamCache,250) - cache1-fra2.steamcontent.com (155.133.226.6:443 / 155.133.226.6:443, host: cache1-fra2.steamcontent.com): Negotiated HTTP/2
+[2026-11-02 20:02:08] HTTP/2 (SteamCache,250) - cache1-fra2.steamcontent.com (155.133.226.6:443 / 155.133.226.6:443, host: cache1-fra2.steamcontent.com): cache1-fra2.steamcontent.com/depot/232331/manifest/8754485147351195844/5/5522798511344876874 - manifest request received 200 (OK) HTTP response
+[2026-11-02 20:02:08] AppID 240 App update changed : Running Update,
+[2026-11-02 20:02:08] AppID 240 App update changed : Running Update,Verifying Installed,
+[2026-11-02 20:02:08] AppID 240 App update changed : Running Update,
+[2026-11-02 20:02:09] AppID 240 App update changed : Running Update,Preallocating,
+[2026-11-02 20:02:09] AppID 240 preallocated 319 files (4632 MB) 
+[2026-11-02 20:02:09] AppID 240 App update changed : Running Update,
+[2026-11-02 20:02:09] AppID 240 update started : download 0/2737844416, store 0/0, reuse 0/0, delta 0/0, stage 0/4888872627 
+[2026-11-02 20:02:09] AppID 240 state changed : Update Required,Update Queued,Update Running,Update Started,
+[2026-11-02 20:02:09] AppID 240 App update changed : Running Update,Downloading,Staging,
+[2026-11-02 20:02:09] Downloading 5369 chunks for depot 241 (6505320509489453551)
+[2026-11-02 20:02:10] HTTP (CDN,29) - edgenext.cdn.steampipe.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: edgenext.cdn.steampipe.steamcontent.com): AuthenticateDepotID (241) - Success!
+[2026-11-02 20:02:10] HTTPS (SteamCache,238) - cache13-fra2.steamcontent.com (155.133.226.5:443 / 155.133.226.5:443, host: cache13-fra2.steamcontent.com): Negotiated HTTP/2
+[2026-11-02 20:02:10] HTTPS (SteamCache,150) - cache9-fra2.steamcontent.com (155.133.226.4:443 / 155.133.226.4:443, host: cache9-fra2.steamcontent.com): Negotiated HTTP/2
+[2026-11-02 20:02:10] HTTPS (SteamCache,475) - cache15-fra2.steamcontent.com (155.133.226.38:443 / 155.133.226.38:443, host: cache15-fra2.steamcontent.com): Negotiated HTTP/2
+[2026-11-02 20:02:11] HTTPS (SteamCache,153) - cache3-fra2.steamcontent.com (155.133.226.39:443 / 155.133.226.39:443, host: cache3-fra2.steamcontent.com): Negotiated HTTP/2
+[2026-11-02 20:02:20] Increasing target number of download connections to 9 (rate was 0.000, now 239.191)
+[2026-11-02 20:02:20] Created download interface of type 'SteamCache' (7) to host cache11-fra2.steamcontent.com (cache11-fra2.steamcontent.com)
+[2026-11-02 20:02:21] HTTPS (SteamCache,481) - cache11-fra2.steamcontent.com (155.133.226.37:443 / 155.133.226.37:443, host: cache11-fra2.steamcontent.com): Negotiated HTTP/2
+[2026-11-02 20:02:30] AppID 730 state changed : Update Required,Fully Installed,Prefetching Info,
+[2026-11-02 20:02:31] HTTP (CDN,29) - edgenext.cdn.steampipe.steamcontent.com (154.92.28.237:80 / 154.92.28.237:80, host: edgenext.cdn.steampipe.steamcontent.com): AuthenticateDepotID (731) - Success!
+[2026-11-02 20:02:31] HTTPS (CDN,31) - fastly.cdn.steampipe.steamcontent.com (199.232.215.82:443 / 199.232.215.82:443, host: fastly.cdn.steampipe.steamcontent.com): AuthenticateDepotID (2347770) - Success!
+[2026-11-02 20:02:32] HTTP (CDN,29) - edgenext.cdn.steampipe.steamcontent.com (154.92.28.237:80 / 154.92.28.237:80, host: edgenext.cdn.steampipe.steamcontent.com): edgenext.cdn.steampipe.steamcontent.com/depot/731/manifest/3579580227224146060/5/12708092950496693685 - manifest request received 200 (OK) HTTP response
+[2026-11-02 20:02:32] Increasing target number of download connections to 10 (rate was 239.191, now 407.423)
+[2026-11-02 20:02:32] Created download interface of type 'SteamCache' (7) to host cache5-fra2.steamcontent.com (cache5-fra2.steamcontent.com)
+[2026-11-02 20:02:34] HTTPS (SteamCache,155) - cache5-fra2.steamcontent.com (155.133.226.7:443 / 155.133.226.7:443, host: cache5-fra2.steamcontent.com): Negotiated HTTP/2
+[2026-11-02 20:02:37] HTTP/2 (SteamCache,238) - cache13-fra2.steamcontent.com (155.133.226.5:443 / 155.133.226.5:443, host: cache13-fra2.steamcontent.com): cache13-fra2.steamcontent.com/depot/2347771/manifest/4494425425081083634/5/3674199141967175469 - manifest request received 200 (OK) HTTP response
+[2026-11-02 20:02:37] HTTP/2 (SteamCache,150) - cache9-fra2.steamcontent.com (155.133.226.4:443 / 155.133.226.4:443, host: cache9-fra2.steamcontent.com): cache9-fra2.steamcontent.com/depot/735/manifest/5004729745720806412/5/2015379796079401905 - manifest request received 200 (OK) HTTP response
+[2026-11-02 20:02:42] HTTPS (CDN,31) - fastly.cdn.steampipe.steamcontent.com (199.232.215.82:443 / 199.232.215.82:443, host: fastly.cdn.steampipe.steamcontent.com): fastly.cdn.steampipe.steamcontent.com/depot/2347770/manifest/6694633556888099985/5/6087669957204497292 - manifest request received 200 (OK) HTTP response
+[2026-11-02 20:02:42] HTTP/2 (SteamCache,481) - cache11-fra2.steamcontent.com (155.133.226.37:443 / 155.133.226.37:443, host: cache11-fra2.steamcontent.com): cache11-fra2.steamcontent.com/depot/732/manifest/4813741465053806363/5/18187907206612126271 - manifest request received 200 (OK) HTTP response
+[2026-11-02 20:02:44] AppID 730 update prefetch canceled : Failed to initialize depot 736, manifest 7762389079851171652 (Missing decryption key) (Missing decryption key)
+[2026-11-02 20:02:44] AppID 730 state changed : Update Required,Fully Installed,
+[2026-11-02 20:02:48] HTTP/2 (SteamCache,155) - cache5-fra2.steamcontent.com (155.133.226.7:443 / 155.133.226.7:443, host: cache5-fra2.steamcontent.com): cache5-fra2.steamcontent.com/depot/732/manifest/4577466991136481399/5/10097942976557719768 - manifest request received 200 (OK) HTTP response
+[2026-11-02 20:02:48] HTTP/2 (SteamCache,155) - cache5-fra2.steamcontent.com (155.133.226.7:443 / 155.133.226.7:443, host: cache5-fra2.steamcontent.com): cache5-fra2.steamcontent.com/depot/735/manifest/991580581070944647/5/7004824962935630542 - manifest request received 200 (OK) HTTP response
+[2026-11-02 20:02:50] HTTP/2 (SteamCache,475) - cache15-fra2.steamcontent.com (155.133.226.38:443 / 155.133.226.38:443, host: cache15-fra2.steamcontent.com): cache15-fra2.steamcontent.com/depot/731/manifest/6536786002765576612/5/9949255556998133513 - manifest request received 200 (OK) HTTP response
+[2026-11-02 20:03:04] Downloading 7 chunks for depot 240 (8533645887610833256)
+[2026-11-02 20:03:04] HTTPS (CDN,31) - fastly.cdn.steampipe.steamcontent.com (199.232.215.82:443 / 199.232.215.82:443, host: fastly.cdn.steampipe.steamcontent.com): AuthenticateDepotID (240) - Success!
+[2026-11-02 20:03:04] HTTP (CDN,29) - edgenext.cdn.steampipe.steamcontent.com (154.92.28.237:80 / 154.92.28.237:80, host: edgenext.cdn.steampipe.steamcontent.com): AuthenticateDepotID (240) - Success!
+[2026-11-02 20:03:05] Downloading 479 chunks for depot 232331 (8754485147351195844)
+[2026-11-02 20:03:05] HTTPS (CDN,31) - fastly.cdn.steampipe.steamcontent.com (199.232.215.82:443 / 199.232.215.82:443, host: fastly.cdn.steampipe.steamcontent.com): AuthenticateDepotID (232331) - Success!
+[2026-11-02 20:03:05] HTTP (CDN,29) - edgenext.cdn.steampipe.steamcontent.com (154.92.28.237:80 / 154.92.28.237:80, host: edgenext.cdn.steampipe.steamcontent.com): AuthenticateDepotID (232331) - Success!
+[2026-11-02 20:03:09] AppID 240 App update changed : Running Update,
+[2026-11-02 20:03:09] AppID 240 App update changed : Running Update,Verifying Staged,
+[2026-11-02 20:03:13] Verified 2049 MB in 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd', clean bytes tally is now 2049 MB
+[2026-11-02 20:03:13] Triggered async write of Steam library folders configuration (1 libraries).
+[2026-11-02 20:03:13] AppID 240 App update changed : Running Update,
+[2026-11-02 20:03:13] AppID 240 App update changed : Running Update,Committing,
+[2026-11-02 20:03:13] AppID 240 starting commit from "d:\steamlibrary\steamapps\downloading\240" to "d:\steamlibrary" : 1416 updated, 0 moved, 0 deleted files
+[2026-11-02 20:03:14] AppID 240 state changed : Fully Installed,Update Queued,Update Running,
+[2026-11-02 20:03:14] AppID 240 finished update, 3 mounted depots (BuildID 25338318) : 241 (6505320509489453551),240 (8533645887610833256),232331 (8754485147351195844),
+[2026-11-02 20:03:14] AppID 240 App update changed : Running Update,
+[2026-11-02 20:03:14] AppID 240 App update changed : None
+[2026-11-02 20:03:14] AppID 240 state changed : Fully Installed,Update Queued,
+[2026-11-02 20:03:14] AppID 240 state changed : Fully Installed,
+[2026-11-02 20:03:14] AppID 240 scheduler finished : removed from schedule (result No Error, state 0xc) 
+[2026-11-02 20:03:15] HTTP/2 (SteamCache,155) - cache5-fra2.steamcontent.com (155.133.226.7:443 / 155.133.226.7:443, host: cache5-fra2.steamcontent.com): Closing connection
+[2026-11-02 20:03:15] HTTP/2 (SteamCache,481) - cache11-fra2.steamcontent.com (155.133.226.37:443 / 155.133.226.37:443, host: cache11-fra2.steamcontent.com): Closing connection
+[2026-11-02 20:03:15] HTTP/2 (SteamCache,250) - cache1-fra2.steamcontent.com (155.133.226.6:443 / 155.133.226.6:443, host: cache1-fra2.steamcontent.com): Closing connection
+[2026-11-02 20:03:15] HTTP/2 (SteamCache,247) - cache7-fra2.steamcontent.com (155.133.226.40:443 / 155.133.226.40:443, host: cache7-fra2.steamcontent.com): Closing connection
+[2026-11-02 20:03:15] HTTP/2 (SteamCache,150) - cache9-fra2.steamcontent.com (155.133.226.4:443 / 155.133.226.4:443, host: cache9-fra2.steamcontent.com): Closing connection
+[2026-11-02 20:03:15] HTTP/2 (SteamCache,153) - cache3-fra2.steamcontent.com (155.133.226.39:443 / 155.133.226.39:443, host: cache3-fra2.steamcontent.com): Closing connection
+[2026-11-02 20:03:15] HTTP/2 (SteamCache,475) - cache15-fra2.steamcontent.com (155.133.226.38:443 / 155.133.226.38:443, host: cache15-fra2.steamcontent.com): Closing connection
+[2026-11-02 20:03:15] HTTP/2 (SteamCache,238) - cache13-fra2.steamcontent.com (155.133.226.5:443 / 155.133.226.5:443, host: cache13-fra2.steamcontent.com): Closing connection
+[2026-11-02 20:03:15] HTTP (CDN,29) - edgenext.cdn.steampipe.steamcontent.com (154.92.28.237:80 / 154.92.28.237:80, host: edgenext.cdn.steampipe.steamcontent.com): Closing connection
+[2026-11-02 20:03:15] HTTPS (CDN,31) - fastly.cdn.steampipe.steamcontent.com (199.232.215.82:443 / 199.232.215.82:443, host: fastly.cdn.steampipe.steamcontent.com): Closing connection
+
+
+[2026-11-02 20:08:33] Client version: 1792617903
+[2026-11-02 20:08:33] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-11-02 20:08:33] Loaded 2 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-11-02 20:08:33] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-11-02 20:08:38] Client version: 1792617903
+[2026-11-02 20:08:38] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-11-02 20:08:38] Loaded 2 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-11-02 20:08:38] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-11-02 20:08:40] Client version: 1792617903
+[2026-11-02 20:08:40] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-11-02 20:08:40] Loaded 2 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-11-02 20:08:40] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-11-02 20:08:44] Client version: 1792617903
+[2026-11-02 20:08:44] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-11-02 20:08:44] Loaded 2 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-11-02 20:08:44] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-11-02 20:08:45] Client version: 1792617903
+[2026-11-02 20:08:45] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-11-02 20:08:45] Loaded 2 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-11-02 20:08:45] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-11-02 20:08:49] Client version: 1792617903
+[2026-11-02 20:08:49] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-11-02 20:08:49] Loaded 2 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-11-02 20:08:49] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-11-02 20:49:11] Client version: 1792617903
+[2026-11-02 20:49:11] Loaded 8 apps from install folder "d:\steamlibrary\steamapps\appmanifest_*.acf".
+[2026-11-02 20:49:11] Triggered async write of Steam library folders configuration (1 libraries).
+[2026-11-02 20:49:19] AppID 10 state changed : Update Required,
+[2026-11-02 20:49:19] Dependency added: parent 228980, child 10, depot 228988
+[2026-11-02 20:49:19] AppID 70 state changed : Update Required,Shared Only,
+[2026-11-02 20:49:19] Dependency added: parent 70, child 10, depot 1
+[2026-11-02 20:49:19] Dependency added: parent 70, child 10, depot 3
+[2026-11-02 20:49:19] Dependency added: parent 70, child 10, depot 2
+[2026-11-02 20:49:19] AppID 10 scheduler update : Priority First, not played for 15 seconds, update disabled for 0 seconds
+[2026-11-02 20:49:19] AppID 10 state changed : Update Required,Update Queued,
+[2026-11-02 20:49:19] AppID 10 scheduler update : Priority First, not played for 15 seconds, update disabled for 0 seconds
+[2026-11-02 20:49:19] AppID 10 state changed : Update Required,Update Queued,Update Running,
+[2026-11-02 20:49:19] AppID 228980 state changed : Update Required,Update Running,
+[2026-11-02 20:49:19] AppID 70 state changed : Update Required,Shared Only,Update Running,
+[2026-11-02 20:49:19] AppID 10 App update changed : Running Update,
+[2026-11-02 20:49:19] AppID 10 App update changed : Running Update,Reconfiguring,
+[2026-11-02 20:49:20] Got 37 download sources and 0 caching proxies via ContentServerDirectoryService::BYieldingGetServersForSteamPipe (CellID 68 / Launcher 3)
+[2026-11-02 20:49:20] Moving to source priority class '7'
+[2026-11-02 20:49:20] Created download interface of type 'CDN' (2) to host fastly.cdn.steampipe.steamcontent.com (fastly.cdn.steampipe.steamcontent.com)
+[2026-11-02 20:49:20] Created download interface of type 'SteamCache' (7) to host cache3-sto2.steamcontent.com (cache3-sto2.steamcontent.com)
+[2026-11-02 20:49:20] Created download interface of type 'SteamCache' (7) to host cache5-sto2.steamcontent.com (cache5-sto2.steamcontent.com)
+[2026-11-02 20:49:20] Created download interface of type 'SteamCache' (7) to host cache1-sto2.steamcontent.com (cache1-sto2.steamcontent.com)
+[2026-11-02 20:49:20] Created download interface of type 'SteamCache' (7) to host cache6-sto2.steamcontent.com (cache6-sto2.steamcontent.com)
+[2026-11-02 20:49:20] Created download interface of type 'SteamCache' (7) to host cache3-sto1.steamcontent.com (cache3-sto1.steamcontent.com)
+[2026-11-02 20:49:20] Created download interface of type 'SteamCache' (7) to host cache7-sto1.steamcontent.com (cache7-sto1.steamcontent.com)
+[2026-11-02 20:49:20] Created download interface of type 'SteamCache' (7) to host cache9-sto1.steamcontent.com (cache9-sto1.steamcontent.com)
+[2026-11-02 20:49:20] HTTP (CDN,31) - fastly.cdn.steampipe.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: fastly.cdn.steampipe.steamcontent.com): AuthenticateDepotID (228983) - Success!
+[2026-11-02 20:49:20] HTTP/2 available
+[2026-11-02 20:49:20] Created ipv4-only http client
+[2026-11-02 20:49:21] HTTPS (CDN,31) - fastly.cdn.steampipe.steamcontent.com (199.232.211.82:443 / 199.232.211.82:443, host: fastly.cdn.steampipe.steamcontent.com): fastly.cdn.steampipe.steamcontent.com/depot/228983/manifest/8124929965194586177/5/5576700893317621435 - manifest request received 200 (OK) HTTP response
+[2026-11-02 20:49:22] HTTPS (SteamCache,191) - cache6-sto2.steamcontent.com (155.133.252.26:443 / 155.133.252.26:443, host: cache6-sto2.steamcontent.com): Negotiated HTTP/2
+[2026-11-02 20:49:22] HTTP/2 (SteamCache,191) - cache6-sto2.steamcontent.com (155.133.252.26:443 / 155.133.252.26:443, host: cache6-sto2.steamcontent.com): cache6-sto2.steamcontent.com/depot/228985/manifest/3966345552745568756/5/16496040210009377634 - manifest request received 200 (OK) HTTP response
+[2026-11-02 20:49:22] HTTPS (SteamCache,192) - cache7-sto1.steamcontent.com (162.254.198.5:443 / 162.254.198.5:443, host: cache7-sto1.steamcontent.com): Negotiated HTTP/2
+[2026-11-02 20:49:22] HTTP/2 (SteamCache,192) - cache7-sto1.steamcontent.com (162.254.198.5:443 / 162.254.198.5:443, host: cache7-sto1.steamcontent.com): cache7-sto1.steamcontent.com/depot/228986/manifest/8782296191957114623/5/8119883190237944727 - manifest request received 200 (OK) HTTP response
+[2026-11-02 20:49:22] HTTP/2 (SteamCache,192) - cache7-sto1.steamcontent.com (162.254.198.5:443 / 162.254.198.5:443, host: cache7-sto1.steamcontent.com): cache7-sto1.steamcontent.com/depot/228987/manifest/4302102680580581867/5/17941866953367965477 - manifest request received 200 (OK) HTTP response
+[2026-11-02 20:49:23] HTTPS (SteamCache,265) - cache9-sto1.steamcontent.com (162.254.198.8:443 / 162.254.198.8:443, host: cache9-sto1.steamcontent.com): Negotiated HTTP/2
+[2026-11-02 20:49:23] HTTPS (SteamCache,64) - cache3-sto2.steamcontent.com (155.133.252.6:443 / 155.133.252.6:443, host: cache3-sto2.steamcontent.com): Negotiated HTTP/2
+[2026-11-02 20:49:23] HTTP/2 (SteamCache,64) - cache3-sto2.steamcontent.com (155.133.252.6:443 / 155.133.252.6:443, host: cache3-sto2.steamcontent.com): cache3-sto2.steamcontent.com/depot/229002/manifest/7260605429366465749/5/10866343931185958720 - manifest request received 200 (OK) HTTP response
+[2026-11-02 20:49:23] HTTP/2 (SteamCache,265) - cache9-sto1.steamcontent.com (162.254.198.8:443 / 162.254.198.8:443, host: cache9-sto1.steamcontent.com): cache9-sto1.steamcontent.com/depot/229001/manifest/4049573910112143457/5/6016020574979265777 - manifest request received 200 (OK) HTTP response
+[2026-11-02 20:49:23] AppID 10 App update changed : Running Update,
+[2026-11-02 20:49:23] AppID 10 App update changed : Running Update,Verifying Installed,
+[2026-11-02 20:49:23] Validation: full scan in "d:\steamlibrary" found 13/4351 matching files (28.01 KB/564.11 MB) in 0 seconds).
+[2026-11-02 20:49:23] AppID 10 App update changed : Running Update,
+[2026-11-02 20:49:23] Found 13 pre-existing matching files for depot 3 (28006 bytes)
+[2026-11-02 20:49:23] AppID 10 App update changed : Running Update,Preallocating,
+[2026-11-02 20:49:23] AppID 70 preallocated 246 files (403 MB) 
+[2026-11-02 20:49:23] AppID 228980 preallocated 98 files (533 MB) 
+[2026-11-02 20:49:23] AppID 10 preallocated 152 files (245 MB) 
+[2026-11-02 20:49:23] AppID 10 App update changed : Running Update,
+[2026-11-02 20:49:23] AppID 70 update started : download 8912/284086896, store 0/0, reuse 0/0, delta 0/0, stage 28006/564107850 
+[2026-11-02 20:49:23] AppID 70 state changed : Update Required,Shared Only,Update Running,Update Started,
+[2026-11-02 20:49:23] AppID 228980 update started : download 0/544991536, store 0/0, reuse 0/0, delta 0/0, stage 0/568621930 
+[2026-11-02 20:49:23] AppID 228980 state changed : Update Required,Update Running,Update Started,
+[2026-11-02 20:49:24] AppID 10 update started : download 0/164387024, store 0/0, reuse 0/0, delta 0/0, stage 0/318799907 
+[2026-11-02 20:49:24] AppID 10 state changed : Update Required,Update Queued,Update Running,Update Started,
+[2026-11-02 20:49:24] AppID 10 App update changed : Running Update,Downloading,Staging,
+[2026-11-02 20:49:24] Downloading 4341 chunks for depot 1 (2667117727132184734)
+[2026-11-02 20:49:24] HTTPS (CDN,31) - fastly.cdn.steampipe.steamcontent.com (199.232.211.82:443 / 199.232.211.82:443, host: fastly.cdn.steampipe.steamcontent.com): AuthenticateDepotID (1) - Success!
+[2026-11-02 20:49:25] HTTPS (SteamCache,197) - cache3-sto1.steamcontent.com (162.254.198.17:443 / 162.254.198.17:443, host: cache3-sto1.steamcontent.com): Negotiated HTTP/2
+[2026-11-02 20:49:25] HTTPS (SteamCache,319) - cache5-sto2.steamcontent.com (155.133.252.20:443 / 155.133.252.20:443, host: cache5-sto2.steamcontent.com): Negotiated HTTP/2
+[2026-11-02 20:49:25] HTTPS (SteamCache,199) - cache1-sto2.steamcontent.com (155.133.252.4:443 / 155.133.252.4:443, host: cache1-sto2.steamcontent.com): Negotiated HTTP/2
+[2026-11-02 20:49:38] Downloading 76 chunks for depot 3 (6081070194444336449)
+[2026-11-02 20:49:38] Downloading 69 chunks for depot 2 (724247850320422500)
+[2026-11-02 20:49:39] HTTPS (CDN,31) - fastly.cdn.steampipe.steamcontent.com (199.232.211.82:443 / 199.232.211.82:443, host: fastly.cdn.steampipe.steamcontent.com): AuthenticateDepotID (2) - Success!
+[2026-11-02 20:49:39] Increasing target number of download connections to 9 (rate was 0.000, now 73.171)
+[2026-11-02 20:49:39] Created download interface of type 'SteamCache' (7) to host cache5-sto1.steamcontent.com (cache5-sto1.steamcontent.com)
+[2026-11-02 20:49:41] AppID 10 App update changed : Running Update,
+[2026-11-02 20:49:41] AppID 10 App update changed : Running Update,Downloading,Staging,
+[2026-11-02 20:49:41] Downloading 20 chunks for depot 228983 (8124929965194586177)
+[2026-11-02 20:49:42] Downloading 17 chunks for depot 228985 (3966345552745568756)
+[2026-11-02 20:49:43] HTTPS (CDN,31) - fastly.cdn.steampipe.steamcontent.com (199.232.211.82:443 / 199.232.211.82:443, host: fastly.cdn.steampipe.steamcontent.com): AuthenticateDepotID (228985) - Success!
+[2026-11-02 20:49:43] HTTPS (SteamCache,201) - cache5-sto1.steamcontent.com (162.254.198.15:443 / 162.254.198.15:443, host: cache5-sto1.steamcontent.com): Negotiated HTTP/2
+[2026-11-02 20:49:44] Downloading 28 chunks for depot 228986 (8782296191957114623)
+[2026-11-02 20:49:45] HTTPS (CDN,31) - fastly.cdn.steampipe.steamcontent.com (199.232.211.82:443 / 199.232.211.82:443, host: fastly.cdn.steampipe.steamcontent.com): AuthenticateDepotID (228986) - Success!
+[2026-11-02 20:49:45] Downloading 26 chunks for depot 228987 (4302102680580581867)
+[2026-11-02 20:49:46] HTTPS (CDN,31) - fastly.cdn.steampipe.steamcontent.com (199.232.211.82:443 / 199.232.211.82:443, host: fastly.cdn.steampipe.steamcontent.com): AuthenticateDepotID (228987) - Success!
+[2026-11-02 20:49:47] Downloading 26 chunks for depot 228988 (6645201662696499616)
+[2026-11-02 20:49:47] HTTPS (CDN,31) - fastly.cdn.steampipe.steamcontent.com (199.232.211.82:443 / 199.232.211.82:443, host: fastly.cdn.steampipe.steamcontent.com): AuthenticateDepotID (228988) - Success!
+[2026-11-02 20:49:48] Downloading 28 chunks for depot 228989 (5753583882400741046)
+[2026-11-02 20:49:48] HTTPS (CDN,31) - fastly.cdn.steampipe.steamcontent.com (199.232.211.82:443 / 199.232.211.82:443, host: fastly.cdn.steampipe.steamcontent.com): AuthenticateDepotID (228989) - Success!
+[2026-11-02 20:49:49] Downloading 203 chunks for depot 228990 (1829726630299308803)
+[2026-11-02 20:49:49] HTTPS (CDN,31) - fastly.cdn.steampipe.steamcontent.com (199.232.211.82:443 / 199.232.211.82:443, host: fastly.cdn.steampipe.steamcontent.com): AuthenticateDepotID (228990) - Success!
+[2026-11-02 20:49:51] Downloading 257 chunks for depot 229001 (4049573910112143457)
+[2026-11-02 20:49:51] HTTPS (CDN,31) - fastly.cdn.steampipe.steamcontent.com (199.232.211.82:443 / 199.232.211.82:443, host: fastly.cdn.steampipe.steamcontent.com): AuthenticateDepotID (229001) - Success!
+[2026-11-02 20:49:51] Increasing target number of download connections to 10 (rate was 73.171, now 165.508)
+[2026-11-02 20:49:51] Created download interface of type 'SteamCache' (7) to host cache10-ams1.steamcontent.com (cache10-ams1.steamcontent.com)
+[2026-11-02 20:49:52] HTTPS (SteamCache,401) - cache10-ams1.steamcontent.com (155.133.248.5:443 / 155.133.248.5:443, host: cache10-ams1.steamcontent.com): Negotiated HTTP/2
+[2026-11-02 20:49:57] Downloading 51 chunks for depot 229002 (7260605429366465749)
+[2026-11-02 20:49:57] HTTPS (CDN,31) - fastly.cdn.steampipe.steamcontent.com (199.232.211.82:443 / 199.232.211.82:443, host: fastly.cdn.steampipe.steamcontent.com): AuthenticateDepotID (229002) - Success!
+[2026-11-02 20:49:58] AppID 10 App update changed : Running Update,
+[2026-11-02 20:49:58] AppID 10 App update changed : Running Update,Downloading,Staging,
+[2026-11-02 20:49:58] Downloading 1249 chunks for depot 11 (3018093494972814332)
+[2026-11-02 20:49:59] HTTPS (CDN,31) - fastly.cdn.steampipe.steamcontent.com (199.232.211.82:443 / 199.232.211.82:443, host: fastly.cdn.steampipe.steamcontent.com): AuthenticateDepotID (11) - Success!
+[2026-11-02 20:50:02] Downloading 71 chunks for depot 95 (7685864384078520360)
+[2026-11-02 20:50:03] AppID 10 App update changed : Running Update,
+[2026-11-02 20:50:03] AppID 10 App update changed : Running Update,Verifying Staged,
+[2026-11-02 20:50:04] Increasing target number of download connections to 11 (rate was 165.508, now 232.054)
+[2026-11-02 20:50:04] Created download interface of type 'SteamCache' (7) to host cache12-ams1.steamcontent.com (cache12-ams1.steamcontent.com)
+[2026-11-02 20:50:06] Verified 537 MB in 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd', clean bytes tally is now 537 MB
+[2026-11-02 20:50:06] Triggered async write of Steam library folders configuration (1 libraries).
+[2026-11-02 20:50:08] Verified 542 MB in 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd', clean bytes tally is now 1080 MB
+[2026-11-02 20:50:08] Triggered async write of Steam library folders configuration (1 libraries).
+[2026-11-02 20:50:09] Verified 304 MB in 'C:\Users\Comp9\Desktop\club-update\agent\steamcmd', clean bytes tally is now 1384 MB
+[2026-11-02 20:50:09] Triggered async write of Steam library folders configuration (1 libraries).
+[2026-11-02 20:50:09] AppID 10 App update changed : Running Update,
+[2026-11-02 20:50:09] AppID 10 App update changed : Running Update,Committing,
+[2026-11-02 20:50:09] AppID 70 starting commit from "d:\steamlibrary\steamapps\downloading\70" to "d:\steamlibrary" : 4445 updated, 0 moved, 0 deleted files
+[2026-11-02 20:50:10] AppID 70 state changed : Fully Installed,Shared Only,Update Running,
+[2026-11-02 20:50:10] AppID 70 finished update, 3 mounted depots (BuildID 15961492) : 1 (2667117727132184734),3 (6081070194444336449),2 (724247850320422500),
+[2026-11-02 20:50:10] AppID 228980 starting commit from "d:\steamlibrary\steamapps\downloading\228980" to "d:\steamlibrary" : 192 updated, 0 moved, 0 deleted files
+[2026-11-02 20:50:10] AppID 228980 state changed : Fully Installed,Update Running,
+[2026-11-02 20:50:10] AppID 228980 finished update, 9 mounted depots (BuildID 24098430) : 228983 (8124929965194586177),228985 (3966345552745568756),228986 (8782296191957114623),228987 (4302102680580581867),228988 (6645201662696499616),228989 (5753583882400741046),228990 (1829726630299308803),229001 (4049573910112143457),229002 (7260605429366465749),
+[2026-11-02 20:50:10] AppID 10 starting commit from "d:\steamlibrary\steamapps\downloading\10" to "d:\steamlibrary" : 1299 updated, 0 moved, 0 deleted files
+[2026-11-02 20:50:11] AppID 10 state changed : Fully Installed,Update Queued,Update Running,
+[2026-11-02 20:50:11] AppID 10 finished update, 2 mounted depots (BuildID 12934623) : 11 (3018093494972814332),95 (7685864384078520360),
+[2026-11-02 20:50:11] AppID 10 App update changed : Running Update,
+[2026-11-02 20:50:11] AppID 10 App update changed : None
+[2026-11-02 20:50:11] AppID 70 state changed : Fully Installed,Shared Only,
+[2026-11-02 20:50:11] AppID 228980 state changed : Fully Installed,
+[2026-11-02 20:50:11] AppID 10 state changed : Fully Installed,Update Queued,
+[2026-11-02 20:50:11] AppID 10 state changed : Fully Installed,
+[2026-11-02 20:50:11] AppID 10 scheduler finished : removed from schedule (result No Error, state 0xc) 
+[2026-11-02 20:50:11] HTTP (SteamCache,403) - cache12-ams1.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: cache12-ams1.steamcontent.com): Closing connection
+[2026-11-02 20:50:11] HTTP/2 (SteamCache,401) - cache10-ams1.steamcontent.com (155.133.248.5:443 / 155.133.248.5:443, host: cache10-ams1.steamcontent.com): Closing connection
+[2026-11-02 20:50:11] HTTP/2 (SteamCache,201) - cache5-sto1.steamcontent.com (162.254.198.15:443 / 162.254.198.15:443, host: cache5-sto1.steamcontent.com): Closing connection
+[2026-11-02 20:50:11] HTTP/2 (SteamCache,265) - cache9-sto1.steamcontent.com (162.254.198.8:443 / 162.254.198.8:443, host: cache9-sto1.steamcontent.com): Closing connection
+[2026-11-02 20:50:11] HTTP/2 (SteamCache,192) - cache7-sto1.steamcontent.com (162.254.198.5:443 / 162.254.198.5:443, host: cache7-sto1.steamcontent.com): Closing connection
+[2026-11-02 20:50:11] HTTP/2 (SteamCache,197) - cache3-sto1.steamcontent.com (162.254.198.17:443 / 162.254.198.17:443, host: cache3-sto1.steamcontent.com): Closing connection
+[2026-11-02 20:50:11] HTTP/2 (SteamCache,191) - cache6-sto2.steamcontent.com (155.133.252.26:443 / 155.133.252.26:443, host: cache6-sto2.steamcontent.com): Closing connection
+[2026-11-02 20:50:11] HTTP/2 (SteamCache,199) - cache1-sto2.steamcontent.com (155.133.252.4:443 / 155.133.252.4:443, host: cache1-sto2.steamcontent.com): Closing connection
+[2026-11-02 20:50:11] HTTP/2 (SteamCache,319) - cache5-sto2.steamcontent.com (155.133.252.20:443 / 155.133.252.20:443, host: cache5-sto2.steamcontent.com): Closing connection
+[2026-11-02 20:50:11] HTTP/2 (SteamCache,64) - cache3-sto2.steamcontent.com (155.133.252.6:443 / 155.133.252.6:443, host: cache3-sto2.steamcontent.com): Closing connection
+[2026-11-02 20:50:11] HTTPS (CDN,31) - fastly.cdn.steampipe.steamcontent.com (199.232.211.82:443 / 199.232.211.82:443, host: fastly.cdn.steampipe.steamcontent.com): Closing connection
+
+
+[2026-11-02 20:51:03] Client version: 1792617903
+[2026-11-02 20:51:03] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-11-02 20:51:03] Loaded 2 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-11-02 20:51:03] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-11-02 20:51:08] Client version: 1792617903
+[2026-11-02 20:51:08] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-11-02 20:51:08] Loaded 2 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-11-02 20:51:08] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-11-02 20:51:13] Client version: 1792617903
+[2026-11-02 20:51:13] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-11-02 20:51:13] Loaded 2 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-11-02 20:51:13] Triggered async write of Steam library folders configuration (1 libraries).
+
+
+[2026-11-02 20:51:18] Client version: 1792617903
+[2026-11-02 20:51:18] Loaded Steam library folders configuration: C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\libraryfolders.vdf
+[2026-11-02 20:51:18] Loaded 2 apps from install folder "C:\Users\Comp9\Desktop\club-update\agent\steamcmd\steamapps\appmanifest_*.acf".
+[2026-11-02 20:51:18] Triggered async write of Steam library folders configuration (1 libraries).

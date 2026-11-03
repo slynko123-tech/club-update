@@ -6,14 +6,12 @@
 		"label"		""
 		"contentid"		"406463749039379307"
 		"totalsize"		"999108370432"
-		"update_clean_bytes_tally"		"0"
-		"time_last_update_verified"		"0"
+		"update_clean_bytes_tally"		"1451529687"
+		"time_last_update_verified"		"1793641809"
 		"apps"
 		{
-			"10"		"318799907"
-			"70"		"564107850"
-			"228980"		"157818239"
-			"236390"		"93167608073"
+			"730"		"0"
+			"228980"		"0"
 		}
 	}
 }

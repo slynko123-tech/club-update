@@ -1,0 +1,20 @@
+
+> club-update@1.0.9 start
+> electron .
+
+
+✅ Сервер запущен на http://localhost:3000
+🌐 Твой локальный IP: 10.233.86.1
+--- [UPDATE] Проверка обновлений... ---
+C:\Users\Comp9\Desktop\club-update\server\index.js:126
+    for (const club of clubs) {
+                       ^
+
+ReferenceError: clubs is not defined
+    at Timeout._onTimeout (C:\Users\Comp9\Desktop\club-update\server\index.js:126:24)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+
+Node.js v20.14.0
+Ошибка API Яндекс.Диска: 404
+[UPDATE] Не удалось получить ссылку на latest.json.

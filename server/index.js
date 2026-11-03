@@ -37,19 +37,7 @@ udpServer.on('message', (msg, rinfo) => {
 });
 udpServer.bind(UDP_PORT);
 
-const clubs = [
-  { id: 'club1', name: 'Староминская', companyId: '2165', phone: '79615203076', password: 'DeeMas1k!' },
-  { id: 'club2', name: 'Каневская', companyId: '2166', phone: '79615203076', password: 'DeeMas1k!' },
-  { id: 'club3', name: 'Ейск', companyId: '2168', phone: '79615203076', password: 'DeeMas1k!' },
-  { id: 'club4', name: 'Ленинградская', companyId: '2169', phone: '79615203076', password: 'DeeMas1k!' },
-  { id: 'club5', name: 'Кущевская', companyId: '2484', phone: '79615203076', password: 'DeeMas1k!' },
-  { id: 'club6', name: 'Приморско-Ахтарск', companyId: '2914', phone: '79615203076', password: 'DeeMas1k!' },
-  { id: 'club7', name: 'Красных Партизан', companyId: '3134', phone: '79615203076', password: 'DeeMas1k!' },
-  { id: 'club8', name: 'Усть-Лабиск', companyId: '3928', phone: '79615203076', password: 'DeeMas1k!' },
-  { id: 'club9', name: 'Репина', companyId: '5073', phone: '79615203076', password: 'DeeMas1k!' },
-  { id: 'club10', name: 'Беличенко', companyId: '6038', phone: '79615203076', password: 'DeeMas1k!' },
-  { id: 'club11', name: 'Красная', companyId: '7053', phone: '79615203076', password: 'DeeMas1k!' },
-];
+// 👇 УБРАЛИ ЗАХАРДКОЖЕННЫЙ МАССИВ КЛУБОВ
 
 const GAMES = [
   { appId: '730', name: 'CS 2' },
@@ -133,17 +121,60 @@ async function fetchHostsFromSmartShell(club) {
     return hostsData.data?.hostsOverview || [];
 }
 
-// Оптимизированное обновление - только если есть активные подключения
+// 👇 Обновление хостов каждые 10 секунд (только для настроенного клуба)
 setInterval(async () => {
-    for (const club of clubs) {
-        try {
-            const hosts = await fetchHostsFromSmartShell(club);
-            hostsCache[club.id] = { data: hosts, lastUpdate: Date.now() };
-        } catch (error) {}
-    }
-}, 5000); // Уменьшен интервал до 5 секунд для более частого обновления
+    const config = getConfig();
+    if (!config.setupCompleted) return; // Если клуб не настроен — пропускаем
 
-app.get('/api/clubs', (req, res) => res.json(clubs.map(c => ({ id: c.id, name: c.name }))));
+    const clubId = config.credentials.companyId;
+    const clubData = {
+        id: clubId,
+        name: config.clubName,
+        companyId: config.credentials.companyId,
+        phone: config.credentials.phone,
+        password: config.credentials.password
+    };
+
+    try {
+        const hosts = await fetchHostsFromSmartShell(clubData);
+        hostsCache[clubId] = { data: hosts, lastUpdate: Date.now() };
+    } catch (error) {
+        console.error('❌ Ошибка обновления хостов:', error.message);
+    }
+}, 10000); // 👈 10 секунд
+
+// 👇 НОВОЕ: Обновление токена раз в час
+setInterval(async () => {
+    const config = getConfig();
+    if (!config.setupCompleted) return;
+
+    const clubId = config.credentials.companyId;
+    const clubData = {
+        id: clubId,
+        companyId: config.credentials.companyId,
+        phone: config.credentials.phone,
+        password: config.credentials.password
+    };
+
+    try {
+        console.log('🔄 Обновление токена для клуба:', clubId);
+        const token = await getValidToken(clubData);
+        console.log('✅ Токен обновлен успешно');
+    } catch (error) {
+        console.error('❌ Ошибка обновления токена:', error.message);
+    }
+}, 3600000); // 👈 1 час (60 * 60 * 1000)
+
+app.get('/api/clubs', (req, res) => {
+    const config = getConfig();
+    if (!config.setupCompleted) {
+        return res.json([]);
+    }
+    return res.json([{
+        id: config.credentials.companyId,
+        name: config.clubName
+    }]);
+});
 app.get('/api/games', (req, res) => res.json(GAMES));
 app.get('/api/history', (req, res) => res.json(taskHistory));
 
@@ -162,6 +193,8 @@ app.get('/api/config', (req, res) => {
 app.post('/api/config/setup', async (req, res) => {
     const { clubName, phone, password, companyId } = req.body;
 
+    console.log('📝 Настройка клуба:', { clubName, phone: phone.substring(0, 5) + '***', companyId });
+
     if (!clubName || !phone || !password || !companyId) {
         return res.status(400).json({ error: 'Все поля обязательны' });
     }
@@ -177,8 +210,10 @@ app.post('/api/config/setup', async (req, res) => {
         });
 
         const loginData = await loginResponse.json();
+        console.log('📡 Ответ SmartShell:', loginData);
 
         if (loginData.errors || !loginData.data?.login?.access_token) {
+            console.log('❌ Ошибка авторизации SmartShell:', loginData.errors);
             return res.status(401).json({ error: 'Неверные данные SmartShell. Проверьте телефон, пароль и ID компании.' });
         }
 
@@ -208,20 +243,64 @@ app.post('/api/config/setup', async (req, res) => {
     }
 });
 
+// 👇 НОВОЕ: Выход из клуба
+app.post('/api/config/logout', (req, res) => {
+    console.log('🚪 Выход из клуба');
+
+    const config = getConfig();
+    const clubId = config.club;
+
+    // Очищаем конфиг
+    updateConfig({
+        setupCompleted: false,
+        club: '',
+        clubName: '',
+        credentials: {
+            phone: '',
+            password: '',
+            companyId: ''
+        },
+        lastTokenRefresh: 0
+    });
+
+    // Очищаем кеш токенов и хостов
+    if (clubId) {
+        delete tokensCache[clubId];
+        delete hostsCache[clubId];
+    }
+
+    res.json({ success: true, message: 'Выход выполнен успешно' });
+});
+
 app.get('/api/version', (req, res) => {
     res.json({ version: packageJson.version });
 });
 
 app.get('/api/pcs', async (req, res) => {
-  const clubId = req.query.clubId;
-  const club = clubs.find(c => c.id === clubId);
-  if (!club) return res.status(404).json({ error: 'Клуб не найден' });
+  // 👇 НОВАЯ ЛОГИКА: берем данные из конфига
+  const config = getConfig();
+
+  if (!config.setupCompleted) {
+    return res.status(401).json({ error: 'Клуб не настроен. Введите данные в настройках.' });
+  }
+
+  const clubId = config.club;
+  const clubData = {
+    id: clubId,
+    name: config.clubName,
+    companyId: config.credentials.companyId,
+    phone: config.credentials.phone,
+    password: config.credentials.password
+  };
 
   if (!hostsCache[clubId]) {
       try {
-          const hosts = await fetchHostsFromSmartShell(club);
+          const hosts = await fetchHostsFromSmartShell(clubData);
           hostsCache[clubId] = { data: hosts, lastUpdate: Date.now() };
-      } catch (e) { return res.status(500).json({ error: 'Ошибка SmartShell' }); }
+      } catch (e) {
+          console.error('❌ Ошибка загрузки хостов:', e.message);
+          return res.status(500).json({ error: 'Ошибка SmartShell' });
+      }
   }
 
   try {
@@ -248,14 +327,14 @@ app.get('/api/pcs', async (req, res) => {
       }
 
       const pcName = host.alias || `ПК-${host.id}`;
-      let diskDataFromAgent = '—'; let steamDataFromAgent = 'Проверить'; 
-      let installedGamesData = []; 
+      let diskDataFromAgent = '—'; let steamDataFromAgent = 'Проверить';
+      let installedGamesData = [];
       let agentQueue = [];
       let agentLogs = [];
       let workshopSize = '—';
-      let agentVersion = '—'; 
-      let gameUpdateStatus = {}; // 👈 СЮДА ПРИНИМАЕМ
-      
+      let agentVersion = '—';
+      let gameUpdateStatus = {};
+
       if (host.ip_addr && agentsData[host.ip_addr]) {
           diskDataFromAgent = agentsData[host.ip_addr].disks;
           steamDataFromAgent = agentsData[host.ip_addr].steam;
@@ -263,23 +342,26 @@ app.get('/api/pcs', async (req, res) => {
           agentQueue = agentsData[host.ip_addr].queue || [];
           agentLogs = agentsData[host.ip_addr].logs || [];
           workshopSize = agentsData[host.ip_addr].workshopSize || '—';
-          agentVersion = agentsData[host.ip_addr].agentVersion || '—'; 
-          gameUpdateStatus = agentsData[host.ip_addr].gameUpdateStatus || {}; // 👈 И ОТПРАВЛЯЕМ
+          agentVersion = agentsData[host.ip_addr].agentVersion || '—';
+          gameUpdateStatus = agentsData[host.ip_addr].gameUpdateStatus || {};
       }
-      return { 
-        id: pcName, status, statusColor, disk: diskDataFromAgent, 
+      return {
+        id: pcName, status, statusColor, disk: diskDataFromAgent,
         update: steamDataFromAgent, ip: host.ip_addr,
         installedGamesData: installedGamesData,
-        queue: agentQueue, 
+        queue: agentQueue,
         logs: agentLogs,
         workshopSize: workshopSize,
-        agentVersion: agentVersion, 
-        gameUpdateStatus: gameUpdateStatus, // 👈
+        agentVersion: agentVersion,
+        gameUpdateStatus: gameUpdateStatus,
         updateColor: steamDataFromAgent.includes('✅') ? 'text-green-500' : (steamDataFromAgent.includes('⏳') || steamDataFromAgent.includes('🗑️') || steamDataFromAgent.includes('🔄') ? 'text-yellow-500' : 'text-club-accent')
       };
     });
     res.json(formattedPcs);
-  } catch (error) { res.status(500).json({ error: 'Ошибка сервера' }); }
+  } catch (error) {
+    console.error('❌ Ошибка форматирования ПК:', error);
+    res.status(500).json({ error: 'Ошибка сервера' });
+  }
 });
 
 app.post('/api/agent/report', (req, res) => {
@@ -327,9 +409,12 @@ app.post('/api/command', (req, res) => {
 });
 
 app.post('/api/update_all_free', async (req, res) => {
-    const { clubId, games, customAuth } = req.body;
-    const club = clubs.find(c => c.id === clubId);
-    if (!club) return res.status(404).json({ error: 'Клуб не найден' });
+    const { games, customAuth } = req.body;
+    const config = getConfig();
+    if (!config.setupCompleted) {
+        return res.status(401).json({ error: 'Клуб не настроен' });
+    }
+    const clubId = config.credentials.companyId;
     try {
         const hosts = hostsCache[clubId]?.data || [];
         let updatedCount = 0;
@@ -346,9 +431,11 @@ app.post('/api/update_all_free', async (req, res) => {
 });
 
 app.post('/api/clear_workshop_all_free', async (req, res) => {
-    const { clubId } = req.body;
-    const club = clubs.find(c => c.id === clubId);
-    if (!club) return res.status(404).json({ error: 'Клуб не найден' });
+    const config = getConfig();
+    if (!config.setupCompleted) {
+        return res.status(401).json({ error: 'Клуб не настроен' });
+    }
+    const clubId = config.credentials.companyId;
     try {
         const hosts = hostsCache[clubId]?.data || [];
         let clearedCount = 0;
@@ -365,9 +452,11 @@ app.post('/api/clear_workshop_all_free', async (req, res) => {
 });
 
 app.post('/api/update_agents_all', async (req, res) => {
-    const { clubId } = req.body;
-    const club = clubs.find(c => c.id === clubId);
-    if (!club) return res.status(404).json({ error: 'Клуб не найден' });
+    const config = getConfig();
+    if (!config.setupCompleted) {
+        return res.status(401).json({ error: 'Клуб не настроен' });
+    }
+    const clubId = config.credentials.companyId;
     try {
         const hosts = hostsCache[clubId]?.data || [];
         let count = 0;
@@ -394,17 +483,21 @@ app.get('/api/command/:ip', (req, res) => {
 });
 
 cron.schedule('0 6 * * *', async () => {
-    for (const club of clubs) {
-        try {
-            const hosts = hostsCache[club.id]?.data || [];
-            hosts.forEach(host => {
-                const hasActiveSession = host.client_sessions && host.client_sessions.some(s => !s.finished_at);
-                if (host.online && !host.in_service && host.ip_addr && !hasActiveSession) {
-                    if (!commandsQueue[host.ip_addr]) commandsQueue[host.ip_addr] = [];
-                    commandsQueue[host.ip_addr].push({ action: 'update_all', games: GAMES });
-                }
-            });
-        } catch (error) {}
+    const config = getConfig();
+    if (!config.setupCompleted) return; // Если клуб не настроен — пропускаем
+
+    const clubId = config.credentials.companyId;
+    try {
+        const hosts = hostsCache[clubId]?.data || [];
+        hosts.forEach(host => {
+            const hasActiveSession = host.client_sessions && host.client_sessions.some(s => !s.finished_at);
+            if (host.online && !host.in_service && host.ip_addr && !hasActiveSession) {
+                if (!commandsQueue[host.ip_addr]) commandsQueue[host.ip_addr] = [];
+                commandsQueue[host.ip_addr].push({ action: 'update_all', games: GAMES });
+            }
+        });
+    } catch (error) {
+        console.error('❌ Ошибка cron задачи:', error.message);
     }
 });
 
