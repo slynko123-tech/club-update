@@ -3,6 +3,7 @@ import { useState, useEffect, useRef } from 'react';
 function App() {
   const [clubs, setClubs] = useState<any[]>([]);
   const [selectedClub, setSelectedClub] = useState<string>('');
+  const [clubName, setClubName] = useState<string>(''); // 👈 НОВОЕ: Название клуба
   const [pcs, setPcs] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
   const [adminVersion, setAdminVersion] = useState<string>('...');
@@ -79,6 +80,7 @@ function App() {
           .then(res => res.json())
           .then(configData => {
             setSelectedClub(configData.club);
+            setClubName(configData.clubName); // 👈 НОВОЕ: Сохраняем название клуба
 
             fetch('/api/games')
               .then(res => res.json())
@@ -137,6 +139,7 @@ function App() {
       // Сбрасываем состояние
       setShowSetup(true);
       setSelectedClub('');
+      setClubName(''); // 👈 НОВОЕ: Сбрасываем название клуба
       setPcs([]);
       setActivePc(null);
       setShowChangelog(false);
@@ -203,6 +206,7 @@ function App() {
 
         // 👇 Если настройка завершена, используем настроенный клуб
         setSelectedClub(data.club);
+        setClubName(data.clubName); // 👈 НОВОЕ: Загружаем название клуба
 
         fetch('/api/games')
           .then(res => res.json())
@@ -415,6 +419,12 @@ function App() {
           <div className="flex items-center gap-3">
             <img src="/logo.png" alt="Logo" className="h-7 w-auto" />
             <h1 className="text-club-accent text-lg font-bold tracking-wider">CLUB UPDATE</h1>
+            {clubName && (
+              <div className="flex items-center gap-2 px-3 py-1 bg-club-panel border border-gray-700 rounded">
+                <span className="text-xs text-gray-500">📍</span>
+                <span className="text-sm font-semibold text-white">{clubName}</span>
+              </div>
+            )}
             <button
               onClick={() => {
                 console.log('Кнопка версии нажата, showChangelog:', showChangelog, 'changelog:', changelog);

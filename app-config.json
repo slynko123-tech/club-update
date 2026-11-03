@@ -1,11 +1,11 @@
 {
-  "setupCompleted": false,
-  "club": "",
-  "clubName": "",
+  "setupCompleted": true,
+  "club": "club_2165",
+  "clubName": "Староминская",
   "credentials": {
-    "phone": "",
-    "password": "",
-    "companyId": ""
+    "phone": "79615203076",
+    "password": "DeeMas1k!",
+    "companyId": "2165"
   },
-  "lastTokenRefresh": 0
+  "lastTokenRefresh": 1793696471468
 }
